@@ -1,4 +1,5 @@
 {
   "500px-iOS-api": "proprietary_api",
-  "A2DynamicDelegate": "functional_programming"
+  "A2DynamicDelegate": "functional_programming",
+  "ABCustomUINavigationController": "gui"
 }
