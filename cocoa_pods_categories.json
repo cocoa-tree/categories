@@ -2,7 +2,7 @@
   "500px-iOS-api": "proprietary_api", // A simple SDK for accessing the 500px API. 
   "A2DynamicDelegate": "functional_programming", // Blocks are to functions as A2DynamicDelegate is to delegates.
   "A2StoryboardSegueContext": "", // Supplement your segues' identifier strings with context objects.
-  "A3GridTableView": "", // Fast UIScrollView subclass which presents its cells in a GridView.
+  "A3GridTableView": "gui_tableview", // Fast UIScrollView subclass which presents its cells in a GridView.
   "AAActivityAction": "", // Reeder like action sheet.
   "AAImageUtils": "", // Simple framework to let your application's launch image fade-out to its initial view.
   "AALaunchTransition": "", // Simple framework to let your application's launch image fade-out to its initial view.
@@ -11,41 +11,41 @@
   "ABCalendarPicker": "", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
   "ABContactHelper": "", // Objective-C Address Book wrapper.
   "ABCustomUINavigationController": "gui", // Custom UINavigationController. SquaresFlips and Cube effects
-  "ABFullScrollViewController": "", // Subclass of ViewController that provide the behaviour of hide the toolbar when user makes scroll in a UITableView.
-  "ABGetMe": "", // ABGetMe implementation for iOS using undocumented APIs (safely).
-  "AblelyCommon": "", // Common category and helper classes
-  "ABMultiton": "", // Multiton is a better alternative to singleton.
-  "ABPadLockScreen": "", // A simple, stylish keypad lock screen for your iPhone or iPad App
-  "ABRequestManager": "", // Lightweight and extensible request manager for iOS/OS X.
-  "ABTest": "", // A framework to quickly add remotely controlled and monitored A/B Tests to your application
-  "ABTestingVessel": "", // Vessel A/B Testing for mobile application..
-  "AccordionView": "", // Simple accordion view in Cocoa Touch
-  "ACDCryptsyAPI": "", // Objective-C implementation of Cryptsy API for iOS.
-  "ACEAutocompleteBar": "", // Simple UITextFlied category to display text suggestions in real-time on the top of the virtual keyboard.
-  "ACEDrawingView": "", // An open source iOS component to create a drawing app.
-  "ACEExpandableTextCell": "", // TextView inside an expandable TableViewCell.
-  "ACEToolKit": "", // Development tools to make my life (and yours) a little bit easier.
-  "ACEView": "", // Use the ACE editor in your Cocoa applications.
+  "ABFullScrollViewController": "gui_tableview", // Subclass of ViewController that provide the behaviour of hide the toolbar when user makes scroll in a UITableView.
+  "ABGetMe": "apple_api", // ABGetMe implementation for iOS using undocumented APIs (safely).
+  "AblelyCommon": "language_extensions", // Common category and helper classes
+  "ABMultiton": "language_extensions", // Multiton is a better alternative to singleton.
+  "ABPadLockScreen": "gui", // A simple, stylish keypad lock screen for your iPhone or iPad App
+  "ABRequestManager": "http", // Lightweight and extensible request manager for iOS/OS X.
+  "ABTest": "ab_test", // A framework to quickly add remotely controlled and monitored A/B Tests to your application
+  "ABTestingVessel": "ab_test", // Vessel A/B Testing for mobile application..
+  "AccordionView": "gui_controls", // Simple accordion view in Cocoa Touch
+  "ACDCryptsyAPI": "proprietary_api", // Objective-C implementation of Cryptsy API for iOS.
+  "ACEAutocompleteBar": "gui_controls", // Simple UITextFlied category to display text suggestions in real-time on the top of the virtual keyboard.
+  "ACEDrawingView": "gui_controls", // An open source iOS component to create a drawing app.
+  "ACEExpandableTextCell": "gui_tableview", // TextView inside an expandable TableViewCell.
+  "ACEToolKit": "framework", // Development tools to make my life (and yours) a little bit easier.
+  "ACEView": "gui_controls", // Use the ACE editor in your Cocoa applications.
   "AcknowledgementsBundle": "", // Easily add a Settings.bundle with CocoaPods acknowledgements to your iOS App.
-  "ACPButton": "", // UIButton subclass to easily add custom buttons to your iOS app.
-  "ACPScrollMenu": "", // ACPScrollMenu is a easy and fully customizable scrollable menu
-  "ACReuseQueue": "", // A queue to keep and reusing objects.
-  "ACSimpleKeychain": "", // Dead simple keychain wrapper for iOS.
-  "ActionSheetPicker": "", // Quickly reproduce the dropdown UIPickerView / ActionSheet functionality from Safari on iPhone/ iOS / CocoaTouch.
-  "ActionSheetPicker2": "", // Quickly reproduce the dropdown UIPickerView / ActionSheet functionality from Safari on iPhone/ iOS / CocoaTouch.
-  "ActiveRecord": "", // A lightweight Active Record implementation for Core Data.
-  "ActiveSupportInflector": "", // Easily pluralize and singularize strings in Objective-C.
-  "ActiveTouch": "", // ActiveRecord implementation for iOS using TouchDB.
+  "ACPButton": "gui_controls", // UIButton subclass to easily add custom buttons to your iOS app.
+  "ACPScrollMenu": "gui_controls", // ACPScrollMenu is a easy and fully customizable scrollable menu
+  "ACReuseQueue": "queue", // A queue to keep and reusing objects.
+  "ACSimpleKeychain": "keychain", // Dead simple keychain wrapper for iOS.
+  "ActionSheetPicker": "gui_controls", // Quickly reproduce the dropdown UIPickerView / ActionSheet functionality from Safari on iPhone/ iOS / CocoaTouch.
+  "ActionSheetPicker2": "gui_controls", // Quickly reproduce the dropdown UIPickerView / ActionSheet functionality from Safari on iPhone/ iOS / CocoaTouch.
+  "ActiveRecord": "orm", // A lightweight Active Record implementation for Core Data.
+  "ActiveSupportInflector": "language_extensions", // Easily pluralize and singularize strings in Objective-C.
+  "ActiveTouch": "orm", // ActiveRecord implementation for iOS using TouchDB.
   "ActivitySequencer": "", // Allows the easy sequencing of blocks to avoid a spaghetti mess.
-  "ACVRangeSelector": "", // A range selector control for iOS, similar to UISlider but with three handles.
+  "ACVRangeSelector": "gui_controls", // A range selector control for iOS, similar to UISlider but with three handles.
   "AdamSDK": "", // Adam iOS SDK with Helper.
-  "ADBBackgroundCells": "", // ADBBackgroundCells allow lazy loading for UITableViewCell objects performing a long time job in background without blocking the UI.
+  "ADBBackgroundCells": "gui_tableview", // ADBBackgroundCells allow lazy loading for UITableViewCell objects performing a long time job in background without blocking the UI.
   "ADBDownloadManager": "", // A download manager for iOS. Actually, all that you need to download files without any external library.
-  "ADBIndexedTableView": "", // Indexed UITableView using first letter objects property.
+  "ADBIndexedTableView": "gui_tableview", // Indexed UITableView using first letter objects property.
   "AdBrixSDK": "", // AdBrix SDK
   "ADCExtensions": "", // ADCExtensions is a collection of useful categories for Cocoa objects.
-  "ADClusterMapView": "", // ADClusterMapView is a drop-in subclass of MKMapView that displays and animate clusters of annotations.
-  "ADDropDownMenuView": "", // ADDropDownMenuView is an iOS navigation drop down style view.
+  "ADClusterMapView": "gui_controls", // ADClusterMapView is a drop-in subclass of MKMapView that displays and animate clusters of annotations.
+  "ADDropDownMenuView": "gui_controls", // ADDropDownMenuView is an iOS navigation drop down style view.
   "ADFullScreenDetailView": "", // A detail view that dynamically sizes based on content. Alternative to UIAlertView to display more information elegantly.
   "ADiOSUtilities": "", // ADiOSUtilities is collection of static libraries with re-useable iOS awesomeness.
   "Adjust": "", // This is the iOS SDK of Adjust. You can read more about it at http://adjust.io.
@@ -53,8 +53,8 @@
   "adlibr": "", // adlibr SDK with helper.
   "AdMobHelper": "", // Shortcut function for AdMob.
   "AdMobMediationAdapterIAd": "", // AdMob Mediation Adapter for iAd Network.
-  "ADNKit": "", // Objective-C framework for building App.net applications on iOS and OS X.
-  "ADNLogin": "", // Easily add support for seamless App.net login via the Passport app.
+  "ADNKit": "proprietary_api", // Objective-C framework for building App.net applications on iOS and OS X.
+  "ADNLogin": "proprietary_api", // Easily add support for seamless App.net login via the Passport app.
   "AdPopcornSDK": "", // AdPopcorn SDK
   "AdPostSDK": "", // AdPost iOS SDK with Helper.
   "ADTickerLabel": "", // ADTickerLabel An objective-c UIView which provide a mechanism to show numbers with rolling effect, like in counter.
@@ -69,22 +69,22 @@
   "AFAbstractRESTClient": "", // AFAbstractRESTClient is simple abstract solution to deal with REST webservices using AFNetworking.
   "AFAddressBookManager": "", // Get contacts from AddressBook by their phone numbers.
   "AFAmazonS3Client": "", // AFNetworking Client for the Amazon S3 API.
-  "AFCache": "", // AFCache is an HTTP cache for iOS and OSX seeking towards full RFC2616 compliance.
-  "AFCensusAPIClient": "", // AFHTTPClient subclass for the Census API.
+  "AFCache": "http", // AFCache is an HTTP cache for iOS and OSX seeking towards full RFC2616 compliance.
+  "AFCensusAPIClient": "http", // AFHTTPClient subclass for the Census API.
   "AFCSVRequestOperation": "", // An extension for AFNetworking that provides an interface to parse CSV using CHCSVParser.
   "AFDownloadRequestOperation": "", // A progressive download operation for AFNetworking.
   "AFFCCAPIClient": "", // AFHTTPClient subclass for the FCC API.
   "AFFEvent": "", // AFFEvent is an easy to use event system built for both iOS and OSX.
   "AFgzipRequestSerializer": "", // gzip Request Serializer for AFNetworking
   "AFHARchiver": "", // An AFNetworking extension to automatically generate a HTTP Archive file of all of your network requests.
-  "AFHTTPClientLogger": "", // A configurable HTTP request logger for AFNetworking.
+  "AFHTTPClientLogger": "http", // A configurable HTTP request logger for AFNetworking.
   "AFHTTPFileUpdateOperation": "", // AFNetworking extenstion for updating file with HTTP header "If-Modified-Since" and status code 304.
-  "AFHTTPRequestOperationLogger": "", // AFNetworking Extension for HTTP Request Logging.
+  "AFHTTPRequestOperationLogger": "http", // AFNetworking Extension for HTTP Request Logging.
   "AFHTTPRequestOperationLogger-VolumeControl": "", // Change log level with hardware volume buttons.
   "AFImageDownloader": "", // Downloads JPEG images asynchronously and decompresses them on a background thread.
   "AFIncrementalStore": "", // Core Data Persistence with AFNetworking, Done Right.
   "AFJSONPRequestOperation": "", // AFNetworking Extension for the JSONP format.
-  "AFJSONRPCClient": "", // A JSON-RPC client build on AFNetworking.
+  "AFJSONRPCClient": "json", // A JSON-RPC client build on AFNetworking.
   "AFKissXMLRequestOperation": "", // An extension for AFNetworking that provides an interface to parse XML using KissXML.
   "AFKissXMLRequestOperation@aceontech": "", // An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.
   "AFKissXMLRequestOperation@tonyzonghui": "", // An extension for AFNetworking that provides an interface to parse XML using KissXML. Specified AFNetworking version.
@@ -98,9 +98,9 @@
   "AFNetworking-RACExtensions": "", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
   "AFNetworking-ReactiveCocoa": "", // Make AFNetworking reactive.
   "AFNetworking-Synchronous": "", // Synchronous requests for AFNetworking
-  "AFOAuth1Client": "", // AFNetworking Extension for OAuth 1.0a Authentication.
-  "AFOAuth2Client": "", // AFNetworking Extension for OAuth 2 Authentication.
-  "AFOAuth2Client@phoenixplatform": "", // AFNetworking Extension for OAuth 2 Authentication.
+  "AFOAuth1Client": "networking", // AFNetworking Extension for OAuth 1.0a Authentication.
+  "AFOAuth2Client": "networking", // AFNetworking Extension for OAuth 2 Authentication.
+  "AFOAuth2Client@phoenixplatform": "networking", // AFNetworking Extension for OAuth 2 Authentication.
   "AFProgressiveImageDownload": "", // A category on UIView that allows you to progressively download images providing seamless enhancement.
   "AFQiitaClient": "", // AFNetworking Client for the Qiita API.
   "AFQiniuClient": "", // AFNetworking Extension for Qiniu(七牛)
@@ -109,18 +109,18 @@
   "AFRedditAPIClient": "", // AFHTTPClient Subclass for the Reddit Api.
   "AFRESTfulCoreDataBackgroundQueue": "", // AFNetworking based AFHTTPClient conforming to SLRESTfulCoreDataBackgroundQueue.
   "AFSpritz": "", // A complete Spritz SDK for iOS
-  "AFStatHatClient": "", // An AFHTTPClient subclass for reporting to StatHat.
+  "AFStatHatClient": "http", // An AFHTTPClient subclass for reporting to StatHat.
   "AFTumblrAPIClient": "", // AFOAuth1Client for Tumblr.
   "AFUrbanAirshipClient": "", // [Deprecated] An API Client for Registering and Unregistering Devices with Urban Airship.
   "AFURLConnectionByteSpeedMeasure": "", // Extends AFNetworking with the ability to measure connection speed and estimate completion time.
-  "AFWunderlist": "", // AFWunderlist is a Wunderlist API wrapper for Objective-C
-  "AFXAuthClient": "", // AFNetworking Extension for XAuth Authentication.
+  "AFWunderlist": "proprietary_api", // AFWunderlist is a Wunderlist API wrapper for Objective-C
+  "AFXAuthClient": "networking", // AFNetworking Extension for XAuth Authentication.
   "AFXMLDictionarySerializer": "", // Support for converting XML do NSDictionary in AFNetworking.
   "AGAssert": "", // The better alternative to NSAssert.
   "AGAsyncTestHelper": "", // Macro for writing unit tests with asynchronous operations.
   "AGBlurTransition": "", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
   "AGGeometryKit": "", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
-  "AGi18n": "", // Easily localize your iOS apps by automatically extracting texts from code and XIB files into a Localizable strings.
+  "AGi18n": "i18n", // Easily localize your iOS apps by automatically extracting texts from code and XIB files into a Localizable strings.
   "AGImageChecker": "", // Light library to visually check your app images.
   "AGImagePickerController": "", // AGImagePickerController is a image picker controller that allows you to select multiple photos and can be used for all iOS devices.
   "AGMedallionView": "", // AGMedallionView is a picture view control just like the one that Apple is using at the login screen in Mac OS X Lion.
@@ -153,7 +153,7 @@
   "AlgoliaSearchOffline-OSX-SDK": "", // OS X framework to add Google-like instant search inside your apps.
   "AllAroundPullView": "", // 4 direction Pull-To-Refresh feature.
   "ALMoviePlayerController": "", // A drop-in replacement for MPMoviePlayerController that exposes the UI elements and allows for maximum customization.
-  "AlphabetTable": "", // A UITableView subclass which automatically sorts your data elements into sections keyed by letter.
+  "AlphabetTable": "gui_tableview", // A UITableView subclass which automatically sorts your data elements into sections keyed by letter.
   "ALPValidator": "", // Drop in user input validation for your iOS apps.
   "ALRadial": "", // Radial menus for iOS.
   "ALToastView": "", // Android-like toast messages for iOS.
@@ -161,7 +161,7 @@
   "AmazeKit": "", // AmazeKit is a library for rendering beautiful images in your iOS app.
   "AmazonSDB": "", // iOS and OS X interface to Amazon's SimpleDB web service.
   "AMBCircularButton": "", // UIButton subclass to display circular images
-  "AMBubbleTableViewController": "", // Simple implementation of a UITableView styled as chat bubbles. It provides different base styles and it's easily customizable.
+  "AMBubbleTableViewController": "gui_tableview", // Simple implementation of a UITableView styled as chat bubbles. It provides different base styles and it's easily customizable.
   "AMDraggableBlurView": "", // Draggable blurred view. This control is inspired by the brilliant work of César Pinto Castillo's AMBlurView
   "AMFatFractal": "", // Extends the FatFractal iOS framework.
   "AMInfiniteScrollView": "", // An automatically scrolling infinite scrollview.
@@ -185,7 +185,7 @@
   "Antenna": "", // Extensible Remote Logging for iOS.
   "AnyJSON": "", // Encode / Decode JSON by any means possible.
   "AOCUDL": "", // AOCUDL - An alternative shorthand syntax to Dustin Bachrach's OCUDL.
-  "AOTrayView": "", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
+  "AOTrayView": "gui_tableview", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
   "AOTToolkit": "", // A collection of helper/utility classes to aid iOS development.
   "APAddressBook": "", // Easy access to iOS address book
   "APAsyncDictionary": "", // Thread safe wrapper to NSMutableDictionary for asynchronous access by @Alterplay folks.
@@ -194,7 +194,7 @@
   "APDropDownNavToolbar": "", // Subclass of UINavigationController to drop down toolbar when a bar button item is tapped like in the Messages App in iOS7
   "APIClient": "", // Convention over configuration REST API client
   "ApigeeiOSSDK": "", // Apigee iOS SDK.
-  "APLArrayDataSource": "", // UITableViewDataSource for NSArray
+  "APLArrayDataSource": "gui_tableview", // UITableViewDataSource for NSArray
   "APLCollectionViewDataSource": "", // APLCollectionViewDataSource is an array based datasource for collection views.
   "APLFacebookProxyActivity": "", // A UIActivity for use when Facebook is not activated yet.
   "APLKeyboardControls": "", // inputAccesoryView above the keyboard with done button and optional previous and next buttons
@@ -205,7 +205,7 @@
   "APLSlideMenu": "", // Sliding Hamburger Menu like the one in the Facebook App
   "APLTextField": "", // Advanced UITextField subclass with the possibility to be connected to a picker
   "Appacitive-iOS-SDK": "", // iOS SDK for the Appacitive platform.
-  "APPaginalTableView": "", // This is implementation of view allowing navigation between views like in iOS 7 Weather App.
+  "APPaginalTableView": "gui_tableview", // This is implementation of view allowing navigation between views like in iOS 7 Weather App.
   "APParallaxHeader": "", // Add a parallax header view to your table views with one row of code.
   "Appboy-iOS-SDK": "", // This is the Appboy iOS SDK for Mobile Marketing Automation
   "AppBuilder-iOS": "", // MidlandCalc includes the common components of Mortgage Calculator.
@@ -244,7 +244,7 @@
   "ARChromeActivity": "", // A UIActivity subclass for opening URLs in Google Chrome.
   "ARCMacro": "", // Enables compilation both in ARC and non-ARC.
   "ARDReadabilityClient": "", // An iOS library for Readability.com.
-  "ARGenericTableViewController": "", // iOS component to configure TableViews.
+  "ARGenericTableViewController": "gui_tableview", // iOS component to configure TableViews.
   "Arkio": "", // Objective-C client library for Data.com
   "ARKippsterActivity": "", // Kippster UIActivity subclass to easily post to Kippt.
   "ARKit": "", // A set of useful classes and categories for iOS development.
@@ -254,7 +254,7 @@
   "ARSafeJSON": "", // ARSafeJSON is a small library that will strip all occurences of NSNull from a JSON of any depth.
   "ARSwipeToSelectGestureRecognizer": "", // Swipe-to-Select/Deselect gestures with UICollectionView.
   "ARSwipeToSelectPickerController": "", // A UIImagePickerController-like assets picker that utilizes ARMultiSelectGestureRecognizer for swipe-to-select
-  "ARTableViewPager": "", // The ARTableViewPager is an iOS component for horizontal table view scrolling/paging.
+  "ARTableViewPager": "gui_tableview", // The ARTableViewPager is an iOS component for horizontal table view scrolling/paging.
   "ASAnyCurlController": "", // iOS Curl transitions from any corner and any direction.
   "ASBanker": "", // Simplifies adding In App Purchases to iOS applications.
   "ASCoalescingOperationQueue": "", // A dispatch queue where you only ever have one block queued.
@@ -358,7 +358,7 @@
   "BDDRScrollViewAdditions": "", // UIScrollView category to center content, enable additional zoom gestures and add getters for animated properties.
   "BDDynamicGridViewController": "", // Beautiful auto-layout scrollable grid view. Optimized for iOS 5.1, 6.0, 7.0
   "BDKAutomatic": "", // A framework for talking to the Automatic API.
-  "BDKCollectionIndexView": "", // Gives a UICollectionView the sectionIndexTitles scrub bar that a UITableView gets for almost free.
+  "BDKCollectionIndexView": "gui_tableview", // Gives a UICollectionView the sectionIndexTitles scrub bar that a UITableView gets for almost free.
   "BDKGeometry": "", // A set of helper functions I've been using in various XCode projects, abstracted for great good.
   "BDKNotifyHUD": "", // An animated UIView for displaying a temporary "bezel" notification, mid-screen.
   "BDMultiDownloader": "", // Simple block-based concurrent multiple-URL data downloader based only on NSURLConnection.
@@ -386,7 +386,7 @@
   "BJImageCropper": "", // A simple UIView subclass that allows a user to crop an image.
   "BJJWebserverActivity": "", // UIActivity subclass to share via a webserver.
   "BJRangeSliderWithProgress": "", // A "progress bar" that also allows you to select a range.
-  "BJTableCeption": "", // Add categories (sub section headers) to your UITableView.
+  "BJTableCeption": "gui_tableview", // Add categories (sub section headers) to your UITableView.
   "BKEAnimatedGradientView": "", // Easily animate gradient transitions on UIViews.
   "BKECircularProgressView": "", // Easily create circular progress views.
   "BkTask": "", // An asynchronous workflows library for iOS
@@ -405,7 +405,7 @@
   "BMExtendablePageController": "", // An UIPageController replacement supporting custom and continuous transitions.
   "BMGlyphLabel": "", // Use bitmap fonts generated from the bmGlyph app in SpriteKit
   "BMInitialsPlaceholderView": "", // A circular placeholder view for initials.
-  "BMXSwipableCell": "", // A custom UITableViewCell that supports swipe to reveal
+  "BMXSwipableCell": "gui_tableview", // A custom UITableViewCell that supports swipe to reveal
   "BMXSwitch": "", // Image based replacement for UISwitch.
   "BNFParser": "", // BNFParser is a grammar parsing and validation framework based on the Backus-Naur Form pattern.
   "BNHtmlPdfKit": "", // Easily turn HTML data from an HTML string or URL into a PDF file on iOS.
@@ -414,7 +414,7 @@
   "Bolts": "", // Bolts is a collection of low-level libraries designed to make developing mobile apps easier.
   "boost": "", // Boost provides free peer-reviewed portable C++ source libraries.
   "BootstrapUI": "", // A collection of custom draw controls inspired by the Bootstrap theme. Built off UICustomizeKit.
-  "BORSwipableCell": "", // UITableViewCell and UIView that support swipe to reveal left and right hidden views
+  "BORSwipableCell": "gui_tableview", // UITableViewCell and UIView that support swipe to reveal left and right hidden views
   "BOSImageResizeOperation": "", // An Objective-C operation to resize your images correctly and quickly.
   "BOString": "", // Create NSAttributedString like a boss!
   "BotKit": "", // BotKit is a Cocoa Touch static library for use in iOS projects.
@@ -449,7 +449,7 @@
   "BRYEqualsBuilder": "", // Utility for determining object equality, based on Apache Commons EqualsBuilder
   "BRYHashCodeBuilder": "", // Utility for determining object hash codes, based on Apache Commons HashCodeBuilder
   "BRYMailToURIParser": "", // Objective-C parser for mailto URIs
-  "BrynKit": "", // Macros and helpers for logging, debugging, and metaprogramming.
+  "BrynKit": "language_extensions", // Macros and helpers for logging, debugging, and metaprogramming.
   "BRYParseKeyboardNotification": "", // Parses the useful parts out of a keyboard will show/hide notification
   "BRYSerialAnimationQueue": "", // Perform UIView animations serially without blocking the main thread
   "BRYSoundEffectPlayer": "", // Convenience wrapper around some of Apple's Audio Service functions used for playing sound effects
@@ -472,7 +472,7 @@
   "BugshotKit": "", // In-app bug reporting for developers and testers, with annotated screenshots and the console log.
   "BugSquasher": "", // Jira plugin for iOS. Upload screenshots, log files, bundle version, title, and summary.
   "Bully": "", // A simple Pusher Objective-C client.
-  "BVReorderTableView": "", // Easy Long Press Reordering for UITableView.
+  "BVReorderTableView": "gui_tableview", // Easy Long Press Reordering for UITableView.
   "BWLongTextViewController": "", // Simple IOS controller that show a full screen textView with keyboard.
   "BWObjectMapping": "", // Small library that parse JSON and map it to any object, works with NSManagedObject.
   "BWObjectSerializer": "", // Small library that transform an object into a dictionary that can be send to a web service.
@@ -549,7 +549,7 @@
   "Chocobo": "", // Backbone-ish up your iOS models
   "ChopeToastView": "", // iOS toast view
   "ChromaHash": "", // A port of Matt Thompsons ChromaHash JS secure password field.
-  "CHSectionSelectionView": "", // Easy to use and highly customizable View that displays selector controls for (e.g.) UITableView Sections.
+  "CHSectionSelectionView": "gui_tableview", // Easy to use and highly customizable View that displays selector controls for (e.g.) UITableView Sections.
   "CHTCollectionViewWaterfallLayout": "", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
   "CHTStickerView": "", // A movable, resizable, rotatable UIView with one fingle, which is fully customizable!
   "CHTTextView": "", // A UITextView subclass which supports placeholder (almost) perfectly in any text and/or font setting.
@@ -563,20 +563,20 @@
   "CJImageMerge": "", // UIImage category for merge two images.
   "CJInfinityScroll": "", // Infinityscroll in iOS.
   "CJMPhoneRotationManager": "", // UIDevice extension to rotate the phone when upright using the vibration motor.
-  "CJMTwitterFollowButton": "", // A Twitter UIButton which can be configured to open a designated users profile in the native Twitter App that the user has installed
+  "CJMTwitterFollowButton": "gui_controls", // A Twitter UIButton which can be configured to open a designated users profile in the native Twitter App that the user has installed
   "CJRouter": "", // Scheme url for iOS. Parsing URL and launch an application on a specified controller.
   "CJString": "", // NSString category divers helpers.
   "CJStringValidator": "", // NSString category to help the validate formate string.
   "CKBasicAuthUrlUtilities": "", // NSURL BASIC Authentication utility.
-  "CKCalendar": "", // A sleek, easily customized calendar control for iOS.
+  "CKCalendar": "calendar", // A sleek, easily customized calendar control for iOS.
   "CKRefreshControl": "", // A pull-to-refresh view for iOS 5, 100% API-compatible with UIRefreshControl in iOS 6.
-  "CKSelectedTableViewCellFactory": "", // Selected Background factory UITableViewCell.
+  "CKSelectedTableViewCellFactory": "gui_tableview", // Selected Background factory UITableViewCell.
   "CKShapeView": "", // UIView subclass that is backed by CAShapeLayer
   "CKStringUtils": "", // NSString utilitiy class.
   "CKUITools": "", // A collection of UI Tools I use every day to make my life easier. Hopefully others will find them useful too.
   "ClassMapper": "", // A simple obj-c library for converting classes which follow Key-Value Coding (KVC) conventions to other objects.
   "Classy": "", // Expressive, flexible, and powerful stylesheets for UIView and friends.
-  "ClassyLiveLayout": "", // Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
+  "ClassyLiveLayout": "layout", // Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
   "CLBlockObservation": "", // No hassle Objective-C blocks-based KVO library with automatic removal
   "CLBottomPagination": "", // Bottom pagination with rolling circles
   "ClearBlade-iOS-API": "", // iOS API libraries for the ClearBlade platform
@@ -589,7 +589,7 @@
   "CloudMine": "", // The iOS Framework for interacting with the CloudMine platform.
   "CLPKittenPlaceholder": "", // Need placeholder images for your next iOS Project? Try Kittens.
   "CLSideMenu": "", // Side Menu with zooming and menu item display effects
-  "CLTableWithFooterViewController": "", // Easily add a stationary footer image when you reach the bottom of your UIScrollView or UITableView
+  "CLTableWithFooterViewController": "gui_tableview", // Easily add a stationary footer image when you reach the bottom of your UIScrollView or UITableView
   "Clutch": "", // This is the iOS client library for Clutch.io.
   "CMDataStorage": "", // Simple and powerful API for read / write NSData from / to iOS Cache / Documents / Tmp folder.
   "CMDCoreDataStack": "", // Single class that easily initializes a Core Data environment.
@@ -630,7 +630,7 @@
   "cocos2d": "gaming", // cocos2d for iPhone is a framework for building 2D games, demos, and other graphical/interactive applications.
   "CODialog": "", // CODialog is a completely configurable, almost pixel perfect replacement for UIAlertView.
   "Coinbase": "", // Coinbase iOS SDK
-  "CollapseClick": "", // A collapsible list that functions like a UITableView.
+  "CollapseClick": "gui_tableview", // A collapsible list that functions like a UITableView.
   "Collection-JSON-ObjC": "", // Collection+JSON parser for Objective-C.
   "ColorArt": "", // iTunes 11-style color matching code.
   "ColorFromAddress": "", // UIView category that generates a UIColor based on the memory address of the view.
@@ -667,7 +667,7 @@
   "CordovaPlugin-network-information": "", // Mirror of Apache Cordova Plugin network-information
   "CordovaPlugin-splashscreen": "", // Mirror of Apache Cordova Plugin splashscreen
   "CordovaPlugin-vibration": "", // Mirror of Apache Cordova Plugin vibration
-  "CoreDataTableView": "", // Eliminates boilerplate code involved with an NSFetchedResultsController and a UITableView.
+  "CoreDataTableView": "gui_tableview", // Eliminates boilerplate code involved with an NSFetchedResultsController and a UITableView.
   "CoreDataValidation": "", // Validation for Core Data objects
   "CoreParse": "", // A shift/reduce parsing framework for Mac OS X and iOS
   "CoreParse@siuying": "", // Versioned fork of CoreParse.
@@ -681,7 +681,7 @@
   "CountryPicker": "", // CountryPicker is a custom UIPickerView subclass that provides an iOS control allowing a user to select a country from a list.
   "Courier": "", // A lightweight network layer built on NSURLSession.
   "CPAnimationSequence": "", // Describe multi-step animation sequences declaratively.
-  "CPPickerView": "", // A custom, configurable, horizontal version of UIPickerView built to live in a UITableViewCell.
+  "CPPickerView": "gui_tableview", // A custom, configurable, horizontal version of UIPickerView built to live in a UITableViewCell.
   "CPSlider": "", // A drop-in, subclass replacement for UISlider with variable scrubbing speeds.
   "crackify": "", // Easy protection for iOS apps from cracking.
   "CrashlyticsFramework": "", // The most powerful, yet lightest weight crash reporting solution for iOS and Android developers. | Crashlytics
@@ -691,7 +691,7 @@
   "CREasyStyleTextStorage": "", // NSTextStore subclass for easy text styling
   "CreateSend": "", // An Objective-C library for talking to the Campaign Monitor API from Cocoa & Cocoa Touch applications.
   "CreditCardCheck": "", // CreditCardCheck is a Cocoa/Objective-C class to check for the validity of credit card numbers using the Luhn Algorithm.
-  "CRFAQTableViewController": "", // CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content.
+  "CRFAQTableViewController": "gui_tableview", // CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content.
   "CRGradientNavigationBar": "", // Custom UINavigationBar subclass which allows gradient coloured navigation bar on iOS 6/7.
   "CrittercismSDK": "", // Mobile App Performance Monitoring and Crash Reporting.
   "CRLoom": "", // Easy import, update and querying of NSManagedObjects.
@@ -716,7 +716,7 @@
   "CsvToSqlite": "", // An iOS library to import a CSV file to the SQLite table
   "CTAssetsPickerController": "", // iOS control that allows picking multiple photos and videos from user's photo library.
   "CTCheckbox": "", // CTCheckbox is a checkbox UI component library for iOS.
-  "CTCustomTableViewCell": "", // Simple superclass for custom tableview cells that works on convention and removes the need for a lot of code.
+  "CTCustomTableViewCell": "gui_tableview", // Simple superclass for custom tableview cells that works on convention and removes the need for a lot of code.
   "ctemplate": "", // Powerful but simple template language for C++.
   "CTFeedback": "", // Library to send feedback for iOS.
   "CTidy": "", // libtidy Objective-C wrapper.
@@ -742,7 +742,7 @@
   "CXTextFieldCoordinator": "", // A easy way to intergrate with UITextField.
   "CYHelper": "", // CYHelper is an Objective-C library for iOS developers.
   "CYRTextView": "", // A rich text view that allows easy syntax highlighting through regular expressions, line numbers, and more.
-  "CZDateFormatterCache": "", // A shared NSDateFormatter cache to improve scrolling performance in UITableViewCells.
+  "CZDateFormatterCache": "gui_tableview", // A shared NSDateFormatter cache to improve scrolling performance in UITableViewCells.
   "CZGPolygonLayer": "", // A Cocos2d CCNode subclass that lets you draw arbitrary collections of triangles.
   "CZGSpinLayer": "", // A spinnable CCLayer subclass.
   "CZGTextureCreator": "", // A cocos2d class for drawing textures with Core Graphics and Core Text.
@@ -751,7 +751,7 @@
   "DAAppsViewController": "", // DAAppsViewController is a simple way of displaying apps from the App Store in an aesthetically similar manner.
   "DAAttributedStringUtils": "", // DAAttributedStringUtils is a set of simple utilities for working with the NSAttributedString class on iOS.
   "DACircularProgress": "", // DACircularProgress is a UIView subclass with circular UIProgressView properties.
-  "DAContextMenuTableViewController": "", // DAContextMenuTableViewController.
+  "DAContextMenuTableViewController": "gui_tableview", // DAContextMenuTableViewController.
   "Dailymotion-SDK": "", // This SDK allows you to integrate Dailymotion in your iOS applications.
   "DAKeyboardControl": "", // Easily add keyboard awareness and scrolling dismissal.
   "DALinedTextView": "", // A UITextView subclass that draws ruled lines to the view, similar to iOS' built-in Notes app.
@@ -759,7 +759,7 @@
   "DAProgressOverlayView": "", // A UIView subclass displaying download progress. Looks similarly to springboard icons of apps being downloaded in iOS 7.
   "DARecycledScrollView": "", // UIScrollView subclass that reuses its subviews.
   "DAScratchPad": "", // DAScratchPad is a UIView subclass that provides a simple drawing interface for use on iOS.
-  "DateCellsController": "", // Simple ios controller for UITableView with date cells.
+  "DateCellsController": "gui_tableview", // Simple ios controller for UITableView with date cells.
   "daum-oauth-sdk": "", // SDK for Daum OAuth 2.0
   "DB5": "", // App Configuration via Plist.
   "DBBasementController": "", // A slide out menu just how I like it.
@@ -770,8 +770,8 @@
   "DBPrefsWindowController": "", // A subclass of NSWindowController that provides an easy way to create preference windows.
   "DCAvatar": "", // A simple, asynchronous, network based avatar library for iOS and OSX
   "DCButton": "", // extends UIButton to provide drawing to make great looking buttons simple.
-  "DCDataViews": "", // Wrappers around UITableView and UICollectionView to make simpler to use.
-  "DCHideableSectionViewController": "", // A UITableViewController subclass that can hide sections of a grouped table without displaying random padding where the section should be.
+  "DCDataViews": "gui_tableview", // Wrappers around UITableView and UICollectionView to make simpler to use.
+  "DCHideableSectionViewController": "gui_tableview", // A UITableViewController subclass that can hide sections of a grouped table without displaying random padding where the section should be.
   "DCImageView": "", // Network Based ImageViewer.
   "DCIntrospect": "", // Introspect is small set of tools for iOS that aid in debugging user interfaces built with UIKit.
   "DCIntrospect-ARC": "", // Introspect is small set of tools for iOS that aid in debugging user interfaces built with.
@@ -816,7 +816,7 @@
   "DHCObjectIntrospection": "", // a category on NSObject to allow for runtime introspection.
   "DHCOnDealloc": "", // A simple category that allows you set a block to fire when an object is dealloced..
   "DHCShakeNotifier": "", // A very simple category that sends out an NSNotification whenever the device is shaken.
-  "DHSmartScreenshot": "", // UITableView Category to get really easy, smart and instant screenshot images like no other library out there for iOS 5+ devices.
+  "DHSmartScreenshot": "gui_tableview", // UITableView Category to get really easy, smart and instant screenshot images like no other library out there for iOS 5+ devices.
   "DiffMatchPatch-ObjC": "", // DiffMatchPatch-ObjC is a small library for diffing text.
   "DirectoryWatchdog": "", // A simple utility class to monitor real time changes in a directory, such as the documents dir for an app with File Sharing enabled.
   "Discogs-ObjC": "", // An Objective C client for the Discogs v 2.0 API.
@@ -864,7 +864,7 @@
   "DPTextField": "", // UITextField replacement with some extras, including auto-fill.
   "DPToastView": "", // Highly customizable toast view for iOS.
   "DQAlertView": "", // The best iOS customizable Alert View.
-  "DragAndDropTableView": "", // A UITableView where cells can be rearranged by drag and drop.
+  "DragAndDropTableView": "gui_tableview", // A UITableView where cells can be rearranged by drag and drop.
   "DraggableCollectionView": "", // Extension for the UICollectionView and UICollectionViewLayout that allows a user to move items with drag and drop.
   "DRAutolayout": "", // Helper methods for autolayout.
   "DrawReport": "", // Library for reporting UI bugs.
@@ -888,7 +888,7 @@
   "DSLCalendarView": "", // Simple calendar view for iOS.
   "DspFilters": "", // A Collection of Useful C++ Classes for Digital Signal Processing.
   "DSSDayStepCounter": "", // A CMStepCounter Category that adds methods for step queries to make daily step counts easy
-  "DSSwipeTableViewCell": "", // A drop-in replacement for UITableViewCell with horizontal scrolling to reveal a custom view
+  "DSSwipeTableViewCell": "gui_tableview", // A drop-in replacement for UITableViewCell with horizontal scrolling to reveal a custom view
   "DSTPickerView": "", // Drop-in replacement for UIPickerView with additional features.
   "DSUnixTask": "", // Launch and interact with awesome looking UNIX tasks.
   "DSWaveformImage": "", // generate waveform images from audio files in iOS
@@ -905,7 +905,7 @@
   "DTModelStorage": "", // Storage classes for datasource based controls.
   "DTPickerPresenter": "", // Modern wrapper for UIDatePicker and UIPickerView presentation.
   "DTRequestVerifier": "", // Easy, extensible NSURLRequest verification
-  "DTTableViewManager": "", // The most simple and robust way to manage UITableView.
+  "DTTableViewManager": "gui_tableview", // The most simple and robust way to manage UITableView.
   "DTWebArchive": "", // A lightweight class to allow interaction with the WebArchive Pasteboard type used by Apple's iOS apps.
   "DUIToolbox": "", // The DUIToolbox is a mini library of classes useful for iOS UIKit developers.
   "DVANestedPageViewController": "", // Easy-to-use wrapper around UIPageViewController
@@ -913,7 +913,7 @@
   "DVFloatingLumberjack": "", // DVFloatingWindow->CocoaLumberjack bridge
   "DVFloatingWindow": "", // The missing debug tool for iOS
   "DWTagList": "", // Create a list of tags from an NSArray to be show in a view with customisable fonts, colors etc.
-  "DXTableViewModel": "", // An object-oriented representation of UITableView. Helps describe table view in declarative manner.
+  "DXTableViewModel": "gui_tableview", // An object-oriented representation of UITableView. Helps describe table view in declarative manner.
   "DynamicImagePlacer": "", // a Library for iOS developer and designer for simply replace the image files in resource bundle without rebuild the app.
   "DYRateView": "", // A custom iOS rate view control similar to the one used in Apple's App Store app.
   "DZLCategoryProperties": "", // Dynamic Accessors for Category Properties
@@ -926,7 +926,7 @@
   "EAIntroView": "", // Highly customizable drop-in solution for introduction views.
   "EAMTextView": "", // EAMTextView is UITextView subclass that adds placeholder and vertical autoresizing support.
   "EasyMapping": "", // The easiest way to map data from your webservice.
-  "EasyTableView": "", // Horizontal and vertical scrolling table views for iOS.
+  "EasyTableView": "gui_tableview", // Horizontal and vertical scrolling table views for iOS.
   "EasyViewPager": "", // A ViewPager port to iOS
   "EChart": "", // iOS/iPhone/iPad Chart, Graph. Event handling and animation supported.
   "ECPhoneNumberFormatter": "", // NSFormatter subclass for formatting phone numbers.
@@ -950,7 +950,7 @@
   "EGODatabase": "", // Thread-safe Objective-C SQLite library.
   "EGOImageLoading": "", // What if images on the iPhone were as easy as HTML?
   "EGOPhotoViewer": "", // A quick and easy to use photo viewer for iOS, with full support for iPhone, iPhone, and iPad.
-  "EGOTableViewPullRefresh": "gui_controls", // A similar control to the pull down to refresh control created by atebits in Tweetie 2.
+  "EGOTableViewPullRefresh": "gui_tableview", // A similar control to the pull down to refresh control created by atebits in Tweetie 2.
   "EGYBlogPost": "", // EGYBlogPost Easy Way To Fetch Blogs Posts Using json.
   "EGYWebViewController": "", // In-App Browser for iOS Apps Support UIActivity.
   "EHNavControllerShouldPopItem": "", // UINavigationController category to allow the UIViewController to determine if it should be popped off the stack.
@@ -962,11 +962,11 @@
   "EKStreamView": "", // A scrolling view of a number of columns containing multiple cells with variable different heights for iOS, inspired by Pinterest.
   "EKTilesMaker": "", // Simple iOS utility that slices provided original image onto tiles.
   "ELCImagePickerController": "", // A Multiple Selection Image Picker.
-  "ELCTextFieldCell": "", // A UITableViewCell subclass useful for forms.
+  "ELCTextFieldCell": "gui_tableview", // A UITableViewCell subclass useful for forms.
   "ElementParser": "", // ElementParser is lightweight Cocoa Framework (usable on the iPhone) to provide easy access to XML and HTML content.
   "ELHeaderView": "", // 网易新闻中订阅的Header.
   "ELRefresh": "", // Pull to refresh component
-  "ELTableViewController": "", // A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async.
+  "ELTableViewController": "gui_tableview", // A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async.
   "EmailChecker": "", // EmailChecker helps to catch simple email domain typos.
   "EmbeddedSwapping": "", // Container view controller which manage multiple child view controllers using storyboards
   "Emitter": "", // An event emitter implementation for Objective-C with dynamic block invocation based on the node.js EventEmitter API.
@@ -985,8 +985,8 @@
   "EPSDistanceFormatter": "", // A class to format CLLocationDistance instances into human readable text.
   "epsonPrintSDK": "", // Epson ePOS-Print SDK for iOS
   "EPSReactiveCollectionViewController": "", // A collection view controller that automatically populates a collection view, and animates the insertion and deletion of items.
-  "EPSReactiveTableViewController": "", // A table view controller that automatically populates a table view, and animates the insertion and deletion of rows.
-  "EPSStaticTableViewController": "", // A subclass of UITableViewController that makes it easy to set up table views with static content.
+  "EPSReactiveTableViewController": "gui_tableview", // A table view controller that automatically populates a table view, and animates the insertion and deletion of rows.
+  "EPSStaticTableViewController": "gui_tableview", // A subclass of UITableViewController that makes it easy to set up table views with static content.
   "ErnKit": "", // ErnKit is a framework for simplifying the development of well structured Objective-C apps.
   "ErrorKit": "", // Error Kit is a handy iOS library for making NSError handling easier.
   "ERScrollSwitch": "", // A custom iOS6-style switch similar to UISwitch
@@ -1055,7 +1055,7 @@
   "FirebaseObjects": "", // Higher-level collections and other objects to make Firebase easier.
   "FireData": "", // Seamlessly integrate Firebase with Core Data.
   "FirehoseCocoa": "", // A library for interacting with the Firehose Customer Support service.
-  "FirstVersion": "", // Save the version string to keychain on app first run
+  "FirstVersion": "keychain", // Save the version string to keychain on app first run
   "FISWebViewPreloader": "", // Preloading UIWebviews in UIViewControllers for faster loadtime.
   "FKTabBarController": "", // FKTabBarController is intended to change the tabbar and items instead of UITabBarController
   "Flash2Cocos2D": "", // Library to import animations made in Flash to Cocos2D.
@@ -1080,7 +1080,7 @@
   "FMDB": "sqlite", // A Cocoa / Objective-C wrapper around SQLite.
   "fmemopen": "", // fmemopen port for iOS and Mac OS X
   "FMGrowingTextView": "", // UITextView subclass that will change it's height to accomodate text within customizable restrictions
-  "FMMoveTableView": "", // An iOS UITableView subclass that allows you to move rows without being in edit mode simply by tapping and holding the appropriate row.
+  "FMMoveTableView": "gui_tableview", // An iOS UITableView subclass that allows you to move rows without being in edit mode simply by tapping and holding the appropriate row.
   "FODFormKit": "", // A toolkit for creating dynamic forms on iOS.
   "FoldViewController": "", // A folding view controller for the iOS platform based on the excellent ECSlidingViewController and XYOrigami projects.
   "Folklore": "", // League of Legends chat service library for iOS and OS X.
@@ -1148,7 +1148,7 @@
   "FXColorSpace": "", // High level image pixels enumeration library
   "FXImageView": "", // FXImageView is a class designed to simplify the application of common visual effects.
   "FXJSON": "", // Lightweight, ARC-friendly JSON library, supporting both DOM and SAX style parsing.
-  "FXKeychain": "", // FXKeychain is a lightweight wrapper around the Apple keychain APIs that provides a simple dictionary-like interface.
+  "FXKeychain": "keychain", // FXKeychain is a lightweight wrapper around the Apple keychain APIs that provides a simple dictionary-like interface.
   "FXLabel": "", // UILabel subclass that supports soft shadows, inner shadow and gradient fill and custom leading/kerning.
   "FXNotifications": "", // An alternative API for NSNotificationCenter that doesn't suck.
   "FXPageControl": "", // Drop-in replacement for UIPageControl that adds the ability to edit the dot color, shape, shadow, size, image and spacing.
@@ -1176,7 +1176,7 @@
   "GCDThreadsafe": "", // Easy threadsafeing + the performance of Grand Central Dispatch.
   "GCDWebServer": "", // Lightweight GCD based HTTP server for Mac OS X & iOS apps
   "GCJSONKit": "", // GC's fork of a Very High Performance Objective-C JSON Library.
-  "GCMAggregatingTableViewDataSource": "", // A template project.
+  "GCMAggregatingTableViewDataSource": "gui_tableview", // A template project.
   "GCMCocoaExtensions": "", // Category methods for CocoaTouch classes
   "GCMNavStackMachine": "", // A state machine tuned for common UINavigationController needs.
   "GCNetworkReachability": "", // GCNetworkReachability monitors the network state on iOS and OS X devices. Supports ARC, GCD, Blocks, IPv4/IPv6 and OS X/iOS.
@@ -1186,14 +1186,14 @@
   "GCTagList": "", // GCTagList like iOS Mail app's sender or recivers tags.
   "GCToolkit": "", // hex colors, shadows, textfield with appearance apis...
   "GCUndoManager": "", // A reimplementation of NSUndoManager that is highly compatible with the original but much more debuggable.
-  "GData": "", // The Google data APIs provide a simple protocol for reading and writing data on the web. Many Google services provide a Google data API.
-  "GDataXML-HTML": "", // An XML/HTML Parser for iOS and OSX, based on Google's GDataXML.
-  "GDChannel": "", // Event bus client over WebSocket for Java/Android/iOS/Javascript/GWT/J2ObjC
+  "GData": "proprietary_api", // The Google data APIs provide a simple protocol for reading and writing data on the web. Many Google services provide a Google data API.
+  "GDataXML-HTML": "xml", // An XML/HTML Parser for iOS and OSX, based on Google's GDataXML.
+  "GDChannel": "events", // Event bus client over WebSocket for Java/Android/iOS/Javascript/GWT/J2ObjC
   "GDCoreDataConcurrencyDebugging": "", // Find out when you're accessing an NSManagedObject on the wrong queue/thread.
   "GDFileManagerKit": "", // A consistent iOS API for cloud file storage services including Dropbox and Google Drive.
   "GDIIndexBar": "", // `GDIIndexBar` is a component for navigating sections of a `UITableView`.
-  "GDJson": "", // Minimalistic JSON library for Java/Android/iOS/GWT/J2ObjC
-  "GDRealtime": "", // Goodow Realtime provides collaborative objects, events, and methods for creating collaborative apps via the use of operational transforms.
+  "GDJson": "json", // Minimalistic JSON library for Java/Android/iOS/GWT/J2ObjC
+  "GDRealtime": "events", // Goodow Realtime provides collaborative objects, events, and methods for creating collaborative apps via the use of operational transforms.
   "GDSheetController": "", // Simply organize your controllers in a stack of sheets inspired by Evernote Food 2.0 app.
   "Gen": "", // Code generator for creating Objective-C code.
   "GenerateTestCoverageFor_iOS7": "", // Support to get the test coverage in iOS7.
@@ -1206,9 +1206,9 @@
   "GHKit": "", // Objective-C categories and utilities
   "GHMarkdownParser": "", // A markdown parser for iOS based on discount.
   "GHSidebarNav": "", // A clone of the new Facebook iOS UI paradigm.
-  "GHUnit": "", // Test Framework for Objective-C.
-  "GHUnitIOS": "", // Test Framework for Objective-C.
-  "GHUnitOSX": "", // Test Framework for Objective-C.
+  "GHUnit": "test", // Test Framework for Objective-C.
+  "GHUnitIOS": "test", // Test Framework for Objective-C.
+  "GHUnitOSX": "test", // Test Framework for Objective-C.
   "Gig": "", // A great Twitter API client powered by Mantle and AFNetworking.
   "Gigya-iOS-SDK": "", // The iOS client library provides an Objective-C interface for the Gigya API
   "GIKPopoverBackgroundView": "", // Custom popover backgrounds. UIKit quality.
@@ -1231,39 +1231,39 @@
   "GoldRaccoon": "", // An iOS component that allow you to connect to a FTP service and perform the operations you need.
   "gom-client-objc": "", // A GOM client written in Objective-C for the Cocoa framework.
   "Goodreads-Oauth": "", // Library for making OAuth with Goodreads from iOS Easier.
-  "Google-AdMob-Ads-SDK": "", // Google AdMob Ads SDK.
-  "GoogleAds-IMA-iOS-SDK": "", // Google Ads IMA SDK for iOS 5.0+.
-  "GoogleAnalytics-iOS-SDK": "", // GoogleAnalytics for iOS SDK.
-  "GoogleAnalyticsSDKForOSX": "", // Track usage of OS X applications
-  "Google-API-Client": "", // Written by Google, this library is a flexible and efficient Objective-C framework for accessing JSON APIs.
-  "google-cast-sdk": "", // Send and control video to Google Cast devices including the ChromeCast
-  "GoogleConversionTracking": "", // Google Conversion Tracking SDK for iOS.
-  "Google-Diff-Match-Patch": "", // The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.
-  "GoogleDocsBackend": "", // Use a Google Docs spreadsheet as a read-only backend
-  "GoogleMapsDirection": "", // Wrapper around GoogleMaps Direction API.
-  "Google-Maps-iOS-SDK": "", // Google Maps SDK for iOS.
-  "GoogleMapsKit": "", // Unofficial wrapper to quickly launch Google Maps for iPhone from your app.
-  "GoogleMediaFramework": "", // A simple video player framework and UI. Integrates easily with the Google IMA SDK for including advertising on your videos.
-  "Google-Mobile-Ads-SDK": "", // Monetize your mobile applications with Google ads
-  "google-plus-ios-sdk": "", // Google+ Platform for iOS.
-  "GooglePlusShareActivity": "", // An UIActivity subclass for Sharing on Google+
-  "GoogleProtobuf": "", // Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
-  "GoogleTagManager": "", // Google Tag Manager SDK.
-  "GoogleTest": "", // C++ unit testing framework
+  "Google-AdMob-Ads-SDK": "google_ads_api", // Google AdMob Ads SDK.
+  "GoogleAds-IMA-iOS-SDK": "google_ads_api", // Google Ads IMA SDK for iOS 5.0+.
+  "GoogleAnalytics-iOS-SDK": "google_analytics_api", // GoogleAnalytics for iOS SDK.
+  "GoogleAnalyticsSDKForOSX": "google_analytics_api", // Track usage of OS X applications
+  "Google-API-Client": "google_api", // Written by Google, this library is a flexible and efficient Objective-C framework for accessing JSON APIs.
+  "google-cast-sdk": "google_api", // Send and control video to Google Cast devices including the ChromeCast
+  "GoogleConversionTracking": "google_api", // Google Conversion Tracking SDK for iOS.
+  "Google-Diff-Match-Patch": "google_api", // The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.
+  "GoogleDocsBackend": "google_api", // Use a Google Docs spreadsheet as a read-only backend
+  "GoogleMapsDirection": "google_maps_api", // Wrapper around GoogleMaps Direction API.
+  "Google-Maps-iOS-SDK": "google_maps_api", // Google Maps SDK for iOS.
+  "GoogleMapsKit": "google_maps_api", // Unofficial wrapper to quickly launch Google Maps for iPhone from your app.
+  "GoogleMediaFramework": "google_api", // A simple video player framework and UI. Integrates easily with the Google IMA SDK for including advertising on your videos.
+  "Google-Mobile-Ads-SDK": "google_ads_api", // Monetize your mobile applications with Google ads
+  "google-plus-ios-sdk": "google_api", // Google+ Platform for iOS.
+  "GooglePlusShareActivity": "google_api", // An UIActivity subclass for Sharing on Google+
+  "GoogleProtobuf": "google_api", // Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+  "GoogleTagManager": "google_api", // Google Tag Manager SDK.
+  "GoogleTest": "test", // C++ unit testing framework
   "GPAC4iOS": "", // GPAC4iOS is the libgpac library distributed as a Pod.
   "GPActivityViewController": "", // Alternative to UIActivityViewController compatible with iOS5.0.
   "GPHTTPRequest": "", // RESTFul network library in objective-c. Built on NSURLConnection.
   "GPUImage": "image_processing", // An open source iOS framework for GPU-based image and video processing.
-  "GPUImage@siuying": "", // Versioned fork of GPUImage.
+  "GPUImage@siuying": "image_processing", // Versioned fork of GPUImage.
   "GPXParser": "", // Parse GPX & TCX files for iOS applications.
   "GrabAnalytics": "", // Grab Analytics SDK for mobile analytics tracking.
   "grabKit": "", // Drop-in iOS component to easily import photos from Facebook, FlickR, Instagram, Picasa, and more.
-  "GrandObjectDispatch": "", // Objective-C wrapper for Grand Central Dispatch.
+  "GrandObjectDispatch": "grand_central_dispatch", // Objective-C wrapper for Grand Central Dispatch.
   "GrannySmith": "", // Allows to format rich text in iOS in HTML/CSS fashion.
   "Gravity": "", // A robust set of tools commonly used during iOS development.
   "GRButtons": "", // Social network buttons without any image.
   "GreystripeSDK": "", // Greystripe SDK for iOS.
-  "GridTableView": "", // Minimal patched grid view from UITableView, for iOS5 compatibility.
+  "GridTableView": "gui_tableview", // Minimal patched grid view from UITableView, for iOS5 compatibility.
   "GRKAlertBlocks": "", // A super simple UIAlertView category adding block syntax for button actions.
   "GRKBlurView": "", // A UIView subclass which applies image effects to a given image.
   "GRKGradientView": "", // A UIView subclass which draws a configurable gradient.
@@ -1276,7 +1276,7 @@
   "GSAnimationBlockDelegate": "", // A lightweight class that supports block callbacks instead of CAAnimation delegates.
   "GSBookShelf": "", // An iBooks-inspired bookshelf control.Supports animated deletion, reordering, and addition.
   "GSDropboxActivity": "", // GSDropboxActivity is an iOS 6 UIActivity subclass for uploading to Dropbox.
-  "GSKeychain": "", // Makes accessing the iOS keychain as easy as accessing NSUserDefaults
+  "GSKeychain": "keychain", // Makes accessing the iOS keychain as easy as accessing NSUserDefaults
   "GSProgressHUD": "", // GSProgressHUD is a simple progress HUD for displaying information to the user.
   "GSRadioButtonSetController": "", // A controller for implementing radio buttons in Cocoa.
   "GSStatusBar": "", // GSStatusBar is a simple UIStatusBar overlay view for displaying a loading indicator and text above the iPhone statusbar.
@@ -1289,7 +1289,7 @@
   "gtm-oauth": "", // Google Toolbox for Mac - OAuth Controllers.
   "gtm-oauth2": "", // Google Toolbox for Mac - OAuth 2 Controllers.
   "GTScrollNavigationBar": "", // A scrollable UINavigationBar that follows a UIScrollView
-  "GTTableViewController": "", // CoreData Display in CoreData
+  "GTTableViewController": "gui_tableview", // CoreData Display in CoreData
   "GTUIKitAdditions": "", // GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit.
   "GuardPost-ObjectiveC": "", // An objective-C implementation of Mailgun's Guardpost email validation service.
   "Guile": "", // The Gilt User Interface Library for iOS.
@@ -1299,7 +1299,7 @@
   "GVMusicPlayerController": "", // The power of AVPlayer with the simplicity of MPMusicPlayerController.
   "GVPhotoBrowser": "", // A reusable, zoomable image gallery for iOS using the datasource and delegate patterns. Handles device orientation changes & memory warnings.
   "GVUserDefaults": "", // NSUserDefaults access via properties.
-  "GWCollapsibleTable": "", // UITableView that support collapsing.
+  "GWCollapsibleTable": "gui_tableview", // UITableView that support collapsing.
   "GZIP": "", // GZIP is category on NSData that provides simple gzip compression and decompression functionality.
   "handlebars-objc": "", // handlebars-objc is an implementation of Handlebars.js for Objective-C
   "Handsy": "", // A bunch of iOS classes and extensions used for simulating gestures.
@@ -1326,7 +1326,7 @@
   "Heyzap": "", // Advertising SDK for mobile games.
   "HHBarCodeViewController": "", // HHBarCodeViewController is a quick modal Bar Code reader using the iOS 7 native bar code scanning APIs.
   "HHDistanceFormatter": "", // Objective-C library to format distances.
-  "HHPanningTableViewCell": "", // HHPanningTableViewCell - Swipe to reveal.
+  "HHPanningTableViewCell": "gui_tableview", // HHPanningTableViewCell - Swipe to reveal.
   "HHTabListController": "", // HHTabListController - Vertical tab view controller.
   "HHThreadView": "", // An iOS library for displaying a thread of comments, with nested replies. Inspired by Alien Blue.
   "HHUnitConverter": "", // Unit conversion library for Objective-C.
@@ -1334,7 +1334,7 @@
   "hiredis": "", // Minimalistic C client for Redis.
   "HJCache": "", // HJCache is library for asynchronous download of images and other data over the net, and for sharing 
 and caching them.
-  "HJRSeparatableView": "", // An extended view with a single line separator like UITableViewCell.
+  "HJRSeparatableView": "gui_tableview", // An extended view with a single line separator like UITableViewCell.
   "HKCircularProgressView": "", // A simple discrete/continuous circular progress view with current/max properties, customizable appearance and animatable.
   "HKRadialMenu": "", // A menu and a button with an interactive central view that expands other peripherical interactive views.
   "HKRefreshControl": "", // A custom refresh control that mimics iOS6's UIRefreshControl behavior but is also available for iOS5.
@@ -1391,7 +1391,7 @@ and caching them.
   "iActiveRecord": "", // ActiveRecord for iOS without CoreData, only SQLite.
   "IADownloadManager": "", // iOS download manager, Download a set of files in parallel and sequential order.
   "IAElegantSheet": "", // Another block based UIActionSheet but more elegant. Elegant to code and elegant to see.
-  "IAInfiniteGridView": "", // Infinite grid view with UITableView-esque data source methods.
+  "IAInfiniteGridView": "gui_tableview", // Infinite grid view with UITableView-esque data source methods.
   "IAMenuController": "", // A simple slide out menu controller container.
   "IAPAdapter": "", // A wrapper for IAPManager that makes in app purchases testable and works in the simulator.
   "IAPManager": "", // Yet Another simple in-app purchase interface.
@@ -1447,8 +1447,8 @@ and caching them.
   "IMAPClient": "", // An asynchrounous IMAP client for iOS.
   "imglyKit": "", // Creates stunning images with a nice selection of premium filters.
   "iMidas": "", // 腾讯移动支付Midas/IAP
-  "IMOAutocompletionViewController": "", // Very fast autocompletion UITableView based controller.
-  "IMOStyledTableViewController": "", // Style sheet based like Table View Controller.
+  "IMOAutocompletionViewController": "gui_tableview", // Very fast autocompletion UITableView based controller.
+  "IMOStyledTableViewController": "gui_tableview", // Style sheet based like Table View Controller.
   "Impulse": "", // Treat a system as a network of modules connected by signals.
   "IMQuickSearch": "", // Filtering your NSArrays of NSObjects like a BOSS.
   "InAppSettings": "", // In-app display of Settings.bundle as it appears in the iPhone settings.
@@ -1461,7 +1461,7 @@ and caching them.
   "InflectorKit": "", // Efficiently Singularize and Pluralize Strings.
   "InformaticToolbar": "", // The information can be shown on a toolbar is more than you can imagine.
   "Injective": "", // Cocoa / Cocoa Touch Dependency Injection framework with features for simpler TDD.
-  "INKeychainAccess": "", // [Deprecated] Keychain services wrapper for OS X and iOS.
+  "INKeychainAccess": "keychain", // [Deprecated] Keychain services wrapper for OS X and iOS.
   "Inline": "", // Write your tests any way you want.
   "InMobiSDK": "", // InMobi iOS SDK.
   "InneractiveAdSDK": "", // SDK for Inneractive Ad Exchange
@@ -1487,7 +1487,7 @@ and caching them.
   "iOS6-ForwardAutorotate": "", // UIKit-additions to forward iOS6 rotation methods.
   "iOS7Colors": "", // The standard iOS 7 Colors as a handy category on UIColor
   "iOS7Menu": "", // Fancy iOS7 style menu.
-  "iOS7-TableTopSeparator": "", // Add top-border for iOS7 UITableView.
+  "iOS7-TableTopSeparator": "gui_tableview", // Add top-border for iOS7 UITableView.
   "iOS-BlingLord": "", // iOS springboard (home screen) style view controller.
   "iOSBlocks": "", // Objective-C block replacement for some Cocoa Touch APIs depending on delegation.
   "iOS-blur": "", // iOS 7 blur look-a-like that blurs in real time.
@@ -1566,7 +1566,7 @@ and caching them.
   "J2ObjC": "", // J2ObjC's JRE emulation library, emulates a subset of the Java runtime library.
   "JAGPropertyConverter": "", // JAGPropertyConverter allows easy serialization/deserialization of Model objects to/from NSDictionaries in JSON or PropertyList formats.
   "JAListView": "", // An NSTableView replacement that doesn't suck.
-  "JAQBlurryTableViewController": "", // UITableViewController with a Blurry Header that unblurs when scrolling up
+  "JAQBlurryTableViewController": "gui_tableview", // UITableViewController with a Blurry Header that unblurs when scrolling up
   "JASidePanels": "gui_controls", // UIViewController container designed for presenting a center panel with revealable side panels - one to the left and one to the right.
   "jastor": "", // Auto translates NSDictionary to instances of Objective-C classes, supporting nested types and arrays.
   "JavaScriptBridge": "", // Write iOS apps in Javascript! JavaScriptBridge provides the way to write iOS apps with JavaScript.
@@ -1604,7 +1604,7 @@ and caching them.
   "JFOpenWeatherMapManager": "", // Easy to use Objective-C Wrapper to retrieve weather from the OpenWeatherMapApi.
   "JGAFImageCache": "", // A fast reliable image cache for iOS built with AFNetworking.
   "JGMethodSwizzler": "", // Powerful and easy to use Objective-C swizzling API.
-  "JGScrollableTableViewCell": "", // A simple UITableViewCell subclass with a scrollable content view, exposing an accessory view when scrolled. Inspired by the iOS 7 mail app.
+  "JGScrollableTableViewCell": "gui_tableview", // A simple UITableViewCell subclass with a scrollable content view, exposing an accessory view when scrolled. Inspired by the iOS 7 mail app.
   "JHSidebar": "", // A customizable sidebar for iOS.
   "JInjector": "", // Dependency Injection library for iOS and Mac OS X
   "JIRAConnect": "", // Provide the following functionality: Crash Reporting and 2-way Feedback communication.
@@ -1612,7 +1612,7 @@ and caching them.
   "JJGraphicsUtilities": "", // General graphics utilities, including generic inset effect classes.
   "JJPluralForm": "", // Helps localize strings such as 'N day' by returning '1 day', '2 days'
   "JJTopMenu": "", // Simple top menu with selected indicator.
-  "JKDataSource": "", // Helper class to make managing TableView Delegate/Datasource easier.
+  "JKDataSource": "gui_tableview", // Helper class to make managing TableView Delegate/Datasource easier.
   "JKSegueActionViewController": "", // A Category on UIViewController to simplify preparing segues.
   "JKTabBarController": "", // JKTabBarController is a custom TabBarController with way more feature support.
   "JKVValue": "", // A simple Value Object library.
@@ -1625,8 +1625,8 @@ and caching them.
   "JMImageCacheForkAntoine": "", // NSCache based remote-image caching and downloading mechanism for iOS.
   "JMJParametricAnimation": "", // Animations with arbitrary time functions.
   "JMPickerView": "", // A better UIPickerVIew.
-  "JMStatefulTableViewController": "", // A subclassable table view controller with empty, loading and error states, also supports infinte-scrolling and pull to refresh.
-  "JMStaticContentTableViewController": "", // Cleanly implement a table view controller much like those in Settings.app, using a simple, convienent block-based syntax.
+  "JMStatefulTableViewController": "gui_tableview", // A subclassable table view controller with empty, loading and error states, also supports infinte-scrolling and pull to refresh.
+  "JMStaticContentTableViewController": "gui_tableview", // Cleanly implement a table view controller much like those in Settings.app, using a simple, convienent block-based syntax.
   "JMTabView": "", // Stylish and animated tab view for iOS rendered entirely using core graphics.
   "JMTimerBeam": "", // A decent timer beam displayed on top of your OSX screen.
   "JNJProgressButton": "", // Button that displays the progress of a task inline.
@@ -1673,7 +1673,7 @@ and caching them.
   "JSProgressHUD": "", // Fork from https://github.com/samvermette/SVProgressHUD with the ability to have a separate progress HUD in each view controller.
   "JSQFlatButton": "", // A light-weight, flat design UIButton for iOS
   "JSQSystemSoundPlayer": "", // A fancy Obj-C wrapper for iOS System Sound Services.
-  "JSWSimpleJSONTable": "", // Populate a table using a JSON file - no datasource, delegates or UITableViewController needed
+  "JSWSimpleJSONTable": "gui_tableview", // Populate a table using a JSON file - no datasource, delegates or UITableViewController needed
   "JTApplication": "", // Simple stuff for any iOS app.
   "JTAttributedLabel": "", // Ported back NSAttributeString in iOS 5 for you to create rich text UILabels in Interface Builder. 
   "JTCards": "", // A card based controller for iOS. Similar to the Passbook app.
@@ -1695,7 +1695,7 @@ and caching them.
   "JWT": "", // A JSON Web Token implementation in Objective-C.
   "JXHTTP": "", // Networking for iOS and OS X.
   "JYRadarChart": "", // an iOS open source Radar Chart implementation
-  "JZSwipeCell": "", // UITableViewCell inspired by Mailbox app.
+  "JZSwipeCell": "gui_tableview", // UITableViewCell inspired by Mailbox app.
   "KahunaSDK": "", // KahunaSDK for tracking analytics for use in the Kahuna Engagement Engine.
   "KAKit": "", // A collection of usefull classes for iOS development.
   "Kal": "", // A calendar component for the iPhone (the UI is designed to match MobileCal).
@@ -1713,8 +1713,8 @@ and caching them.
   "KeenClient": "", // Keen iOS client library.
   "KeepLayout": "", // Making Auto Layout easier to code.
   "Kern": "", // Kern - an easy Core Data manager
-  "KeyboardController": "", // Simplifies iOS keyboard handling.
-  "KeychainItemWrapper": "", // Objective-C wrapper for accessing a single keychain item.
+  "KeyboardController": "keyboard", // Simplifies iOS keyboard handling.
+  "KeychainItemWrapper": "keychain", // Objective-C wrapper for accessing a single keychain item.
   "keylime": "", // Data-driven views for iOS
   "KEZCollectionViewTableLayout": "", // A UICollectionViewLayout subclass that handles displaying tabular data, such as something you'd see in a spreadsheet.
   "KFAppleScriptHandlerAdditions": "", // A NSAppleScript category to ease integration with AppleScripts from Cocoa.
@@ -1739,7 +1739,7 @@ and caching them.
   "KikSDK": "", // Kik SDK library that allows integration of 3rd party apps with Kik Messenger
   "kingpin": "", // A drop-in MapKit/MKAnnotation pin clustering library for MKMapView on iOS.
   "KINWebBrowser": "", // Embed a Safari-like web browser in your iOS 7 apps. Push to UINavigationController or present modally.
-  "KIPullToReveal": "", // This UITableViewController is used to combine a search result's UITableView with a MKMapView.
+  "KIPullToReveal": "gui_tableview", // This UITableViewController is used to combine a search result's UITableView with a MKMapView.
   "KISObserver": "", // An easy way to use the Key-Value Observing (KVO) pattern with blocks and selectors.
   "KISSmetrics": "", // Library for KISSmetrics.
   "KissNSUserDefaults": "", // Keep NSUserDefaults simple, stupid. Access NSUserDefaults key using property, subclassing is not required.
@@ -1810,7 +1810,7 @@ and caching them.
   "KXCollection": "", // A polymorpohic collection class for objc.
   "KXEventEmitter": "", // A event emitter for objc internally using NSNotificationCenter.
   "KXKiOS7ColorsAndGradients": "", // iOS 7 Colors and Gradients.
-  "KXLazyTableImage": "", // A small library for asychronous image dowonloading to UITableViewCell
+  "KXLazyTableImage": "gui_tableview", // A small library for asychronous image dowonloading to UITableViewCell
   "KxMenu": "", // KxMenu is a vertical popup menu for using in iOS applications.
   "KXSharedSpace": "", // A name based shared data space.
   "KYArcTab": "", // Arcuated tab view controller with toggleing animation.
@@ -1858,7 +1858,7 @@ and caching them.
   "LFSAskForReview": "", // An iOS class to add a customizable ask for review service.
   "LFSCoreData": "", // Core Data Wrapper for building core data transparent to developer.
   "LGBluetooth": "", // Simple, block-based, lightweight library over CoreBluetooth.
-  "LHSTableViewCells": "", // Register any UITableViewCellStyle to your table view without subclassing UITableViewCell on your own.
+  "LHSTableViewCells": "gui_tableview", // Register any UITableViewCellStyle to your table view without subclassing UITableViewCell on your own.
   "libais": "", // C++ decoder for Automatic Identification System for tracking ships and decoding maritime information.
   "LibComponentLogging-Core": "", // Logging library which provides log levels, log components, and pluggable logging back-ends.
   "LibComponentLogging-Crashlytics": "", // LibComponentLogging logging back-end for Crashlytics.
@@ -1909,7 +1909,7 @@ and caching them.
   "LLDBQuickLook": "", // Quicklook support from the lldb console
   "LLModel": "", // LLModel is an Object Property Mapper from JSON values.
   "LLRoundSwitch": "", // Customizable replacement for UISwitch with ARC support.
-  "LLTableViewAdapter": "", // A library for simplifying and removing a lot of the cruft needed to drive a UITableView.
+  "LLTableViewAdapter": "gui_tableview", // A library for simplifying and removing a lot of the cruft needed to drive a UITableView.
   "LMAlertView": "", // Open Source, customisable clone of UIAlertView for iOS 7
   "LNCollectionViewPagedLayout": "", // UICollectionViewLayout that correctly pages the content.
   "LNToolkit": "", // hex colors, shadows, textfield with appearance apis...
@@ -1919,9 +1919,9 @@ and caching them.
   "Localytics-AMP": "", // Localytics AMP iOS SDK
   "Localytics-iOS-Client": "", // Localytics iOS SDK.
   "LocationHelper": "", // Its singleton class for core location.
-  "LocationPickerView": "", // MKMapView + UITableView + Parallax scrolling. Provides a framework for building an interactive location picker on iOS.
+  "LocationPickerView": "gui_controls", // MKMapView + UITableView + Parallax scrolling. Provides a framework for building an interactive location picker on iOS.
   "LockBlocks": "", // Adds block methods to Obj-C Lock objects. Also adds a Read/Write Lock class.
-  "Lockbox": "", // Lockbox is an Objective-C utility class for storing data securely in the keychain. Use it to store small, sensitive bits of data securely.
+  "Lockbox": "keychain", // Lockbox is an Objective-C utility class for storing data securely in the keychain. Use it to store small, sensitive bits of data securely.
   "LockitronSDK": "", // iOS SDK for Lockitron.
   "Log4Cocoa": "", // Log4j port for iOS and Mac OS X.
   "LogEntries": "", // iOS logging library for LogEntries
@@ -1951,7 +1951,7 @@ and caching them.
   "ltools": "", // Tools to help with localising an iOS app.
   "LTUpdate": "", // LeT'sUpdate to the new version available in the AppStore.
   "lua": "", // The lua language (for embedding).
-  "LUKeychainAccess": "", // A wrapper for iOS Keychain Services that behaves just like NSUserDefaults.
+  "LUKeychainAccess": "keychain", // A wrapper for iOS Keychain Services that behaves just like NSUserDefaults.
   "LumberjackConsole": "", // On-device CocoaLumberjack console with support for search, filters and more.
   "LumberjackPrettyClassInformation": "", // A CocoaLumberjack log formatter for pretty class information output.
   "LVDebounce": "", // LVDebounce provides an NSTimer-like class for debouncing method calls.
@@ -2028,8 +2028,8 @@ and caching them.
   "MCSegmentedControl": "", // subclass of UISegmentedControl with custom colors.
   "MCSimpleTables": "", //     A simple UITableViewController subclass and helper classes for programmatically creating coded UITableViews.
 
-  "MCSMKeychainItem": "", // A Keychain Wrapper for iOS and OS X.
-  "MCSwipeTableViewCell": "", // Convenient UITableViewCell subclass that implements a swippable content to trigger actions (similar to the Mailbox app).
+  "MCSMKeychainItem": "keychain", // A Keychain Wrapper for iOS and OS X.
+  "MCSwipeTableViewCell": "gui_tableview", // Convenient UITableViewCell subclass that implements a swippable content to trigger actions (similar to the Mailbox app).
   "MCUIColorUtils": "", // UIColor utilities.
   "MCUIImageAdvanced": "", // Advanced and powerful functionality enhancements to UIImage.
   "MCUIViewLayout": "", // Layouting enhancements to UIView.
@@ -2053,7 +2053,7 @@ and caching them.
   "Mensa": "", // Smart, modern table views on iOS.
   "MessageBarManager": "", // An iOS manager for presenting system-wide notifications via a dropdown message bar.
   "MessagePack": "", // Extremely efficient object serialization library. It's like JSON, but very fast and small.
-  "MessagesTableViewController": "", // A messages UI for iPhone and iPad.
+  "MessagesTableViewController": "gui_tableview", // A messages UI for iPhone and iPad.
   "MetricsKit": "", // Clean Objective-C client for count.ly.
   "MFCache": "", // A lightweight iOS cache class.
   "MFFadeBackModalAnimation": "", // A UIViewController category implementing a modal "fade back" animation similar to the iOS Gmail app's compose functionality.
@@ -2123,7 +2123,7 @@ and caching them.
   "MKParallaxView": "", // MKParallaxView is an easy to use framework used to create the IOS 7 Parallax Effect (Dynamic Background) on any of your apps!
   "MKPolygon-GPC": "", // MKPolygon-GPC is an Objective-C Category that adds polygon boolean operators to the MKPolygon class.
   "MKReachableOperationQueue": "", // An NSOperationQueue subclass automatically responding to changes in internet connection with thanks to Apple's Reachability.
-  "MKSlidingTableViewCell": "", // An iOS 6 compatible sliding table view cell that mimics iOS 7 mail.
+  "MKSlidingTableViewCell": "gui_tableview", // An iOS 6 compatible sliding table view cell that mimics iOS 7 mail.
   "MKStoreKit": "", // In-App Purchases StoreKit for iOS devices.
   "MKUnits": "", // Unit conversion library for Objective-C. It provides units of measurement of physical quantities and simplifies manipulation of them.
   "MLImageCache": "", // Simple yet powerful and fast image cache.
@@ -2139,7 +2139,7 @@ and caching them.
   "MMCounterView": "", // A 'high score'-style counting view that animates between different displayed integers.
   "MMDrawerController": "", // A lightweight, easy-to-use side drawer navigation controller.
   "MMDrawerController+Storyboard": "", // Storyboard category extension for MMDrawerController
-  "MMKeychain": "", // A simple wrapper around the keychain that securely stores NSStrings.
+  "MMKeychain": "keychain", // A simple wrapper around the keychain that securely stores NSStrings.
   "MMMarkdown": "", // An Objective-C static library for converting Markdown to HTML.
   "MMPickerView": "", // An easy to use and customizable UIPickerView for your iOS app.
   "MMProgressHUD": "", // An easy to use HUD interface with personality.
@@ -2155,7 +2155,7 @@ and caching them.
   "MNPageViewController": "", // A horizontal scroll view container for UIViewControllers.
   "MNPushbackStream": "", // An NSInputStream that allows data to be pushed back into the stream.
   "MNSJiraRESTClient": "", // Facilites access to JIRA REST API
-  "MNStaticTableViewController": "", // MNStaticTableViewController is a UITableViewController optimized for creating a tableview with static sections.
+  "MNStaticTableViewController": "gui_tableview", // MNStaticTableViewController is a UITableViewController optimized for creating a tableview with static sections.
   "MobclixSDK": "", // SDK for Mobclix Ad Exchange
   "MobileAppTracker": "", // SDK for MobileAppTracking platform
   "MobileDeepLinking-iOS": "", // Industry standard for handling deeplinks with ease.
@@ -2168,7 +2168,7 @@ and caching them.
   "mongo-c-driver": "", // C driver for MongoDB.
   "Moodstocks-iOS-SDK": "", // Real-time on-device image recognition SDK for iOS - Free plan.
   "MOOMaskedIconView": "", // UIView subclass that uses black-and-white masks to draw icons.
-  "MOOSelectableList": "", // A custom UITableViewController with support to display information as a selectable list.
+  "MOOSelectableList": "gui_tableview", // A custom UITableViewController with support to display information as a selectable list.
   "MoPubClient": "", // Client SDK for MoPub.
   "MoPubSDK": "", // MoPubSDK to add banners, custom sizes and interstitials to iOS apps.
   "MosaicUI": "", // MosaicUI is a tiled UI for iOS that automatic layouts according to the elements' sizes.
@@ -2197,8 +2197,8 @@ and caching them.
   "MSActiveConfig": "", // Remote configuration and A/B Testing framework for iOS.
   "MSButtonPanel": "", // A panel of UIButtons that dynamically expand and collapse when selected
   "MSCachedAsyncViewDrawing": "", // Helper class that allows you to draw views (a)synchronously to a UIImage with caching for great performance.
-  "MSCellAccessory": "", // UITableViewCell accessoryType can easily customize the colors, Supported iOS7 Flat Design.
-  "MSCMoreOptionTableViewCell": "", // Drop-in solution to achieve the "More" button in an UITableView's "Swipe to Delete" menu (as seen in Mail.app under iOS 7)
+  "MSCellAccessory": "gui_tableview", // UITableViewCell accessoryType can easily customize the colors, Supported iOS7 Flat Design.
+  "MSCMoreOptionTableViewCell": "gui_tableview", // Drop-in solution to achieve the "More" button in an UITableView's "Swipe to Delete" menu (as seen in Mail.app under iOS 7)
   "MSCollectionViewCalendarLayout": "", // UICollectionViewLayout for displaying cells chronologically. Similar to the iOS Calendar app.
   "MSCurrencyFormatter": "", // A piece of code that will automatically format a UITextField with a numberpad to behave like an ATM.
   "MSDynamicsDrawerViewController": "", // Container view controller that leverages UIKit Dynamics to provide a realistic drawer navigation paradigm.
@@ -2224,7 +2224,7 @@ and caching them.
   "MTAnimation": "", // Animate with easing functions using block methods similar to UIKit.
   "MTBBarcodeScanner": "", // A lightweight, easy-to-use barcode scanning library for iOS 7.
   "MTBlockAlertView": "", // An iOS Alert View that uses block-based delegation instead of protocols.
-  "MTBlockTableView": "", // A table view that uses blocks instead of protocols. Try it, we dare you.
+  "MTBlockTableView": "gui_tableview", // A table view that uses blocks instead of protocols. Try it, we dare you.
   "MTCollectionOperators": "", // Adds map, intersect, subtract, etc operators to collection classes.
   "MTColorDistance": "", // A category on UIColor. Pass in an array of colors and it will return the closest color to the receiver.
   "MTControl": "", // Attach block handlers to UIControl objects jQuery style.
@@ -2269,7 +2269,7 @@ and caching them.
   "MVYSideMenu": "", // iOS Side Menu based on Google+ iPhone app.
   "MWFeedParser": "", // An RSS and Atom web feed parser for iOS.
   "MWFSlideNavigationViewController": "", // MWFSlideNavigationViewController is a container view controller that manages primary and secondary view controller.
-  "MwfTableViewController": "", // Extension to UITableViewController in attempt to provide additional features that are reusable in most scenarios.
+  "MwfTableViewController": "gui_tableview", // Extension to UITableViewController in attempt to provide additional features that are reusable in most scenarios.
   "MWKeyboardAnimation": "", // A UIView category to simplify animations that sync up with the UIKeyboard show/hide animation
   "MWLayoutHelpers": "", // Some UIView helpers to make manual frame layout less verbose
   "MWOpenInKit": "", // An easier way to handle third-party URL schemes in iOS apps.
@@ -2315,7 +2315,7 @@ and caching them.
   "Netmera-iOS-SDK": "", // Netmera iOS SDK increases engagement of users with mobile applications by helping you add fabulous features.
   "NewRelicAgent": "", // Real-time performance data with your next iOS app release.
   "NGAParallaxMotion": "", // UIView category that makes it trivial to add a parallax effect.
-  "NGBAccountStore": "", // A simple class to store multiple accounts in the keychain.
+  "NGBAccountStore": "keychain", // A simple class to store multiple accounts in the keychain.
   "NGSegmentedViewController": "", // UIViewController subclass using SDSegmentedControl and View Controller Containment API's to switch between child view controllers.
   "NGTabBarController": "", // A custom TabBarController implementation for iPhone and iPad.
   "NGVaryingGridView": "", // A GridView which allows to set individual Rects for the Cells.
@@ -2457,7 +2457,7 @@ and caching them.
   "NSXtensions": "", // A collection of useful extensions for standard Cocoa classes.
   "NTAnalytics": "", // NTAnalytics - A Provider-based system to integrate Analytics systems such at Flurry or Google Analytics
   "NTApiClient": "", // A simple and flexible JSON-based API client for iOS.
-  "NTDCoreDataTableViewController": "", // Eliminates boilerplate code involved with a CoreData based UITableViewController which uses a NSFetchedResultsController as its data source.
+  "NTDCoreDataTableViewController": "gui_tableview", // Eliminates boilerplate code involved with a CoreData based UITableViewController which uses a NSFetchedResultsController as its data source.
   "NTJsonValues": "", // NTJsonValues - A NSDictionary Category to aid parsing JSON values.
   "NTLog": "", // A simple, extensible iOS logging system.
   "NTMonthYearPicker": "", // A simple month / year picker component for iOS.
@@ -2557,14 +2557,14 @@ and caching them.
   "OGCollectionExtensions": "", // Extensions to Foundation collection classes
   "OGCoreDataStack": "", // A multi-threaded Core Data stack. Design goals are ease of use, compile-time checks, and wrappers for some common use cases.
   "OGCryptoHash": "", // Wrapper around CommonCrypto hash functions, MD5, SHA1, SHA224, SHA256, SHA384, and SHA512.
-  "OGDebuggingTools": "", // Code snippets for debugging
-  "OGExtensions": "", // UIKit and Foundation extensions
+  "OGDebuggingTools": "debugging", // Code snippets for debugging
+  "OGExtensions": "apple_api", // UIKit and Foundation extensions
   "OGImage": "", // OGImage provides a simple abstraction for loading images from the network, processing them, and caching them locally.
   "OGImageExtensions": "", // UIImage extensions and tools
   "OHActionSheet": "", // UIActionSheet subclass that uses blocks to handle its callback (which make the code much more easier and readable).
   "OHAlertView": "", // UIAlertView subclass that uses blocks to handle its callback (which make the code much more easier and readable).
   "OHAttributedLabel": "", // UILabel that supports NSAttributedString.
-  "OHAutoNIBi18n": "", // Automate the internationalisation (i18n) of your XIB files without a line of code
+  "OHAutoNIBi18n": "i18n", // Automate the internationalisation (i18n) of your XIB files without a line of code
   "OHHTTPStubs": "", // Stubbing framework for network requests.
   "OHMKit": "", // Map service responses to objects in Objective-C.
   "OJFSegmentedProgressView": "", // A segmented progress view to easily replace UIProgressView.
@@ -2594,7 +2594,7 @@ and caching them.
   "OpenXMSDK": "", // OpenX SDK for iOS v2.0
   "OperationPromise": "", // NSOperation(NSOperationQueue) dependency manager library.
   "OperationsRunner": "", // Lightweight Framework For using NSURLSession
-  "OPTableView": "", // UITableView subclass with some useful additions.
+  "OPTableView": "gui_tableview", // UITableView subclass with some useful additions.
   "Orbiter": "", // Push Notification Registration for iOS.
   "OrderedDictionary": "", // NSDictionary subclass for iOS/Mac OS that preserves insertion order.
   "OrigamiEngine": "", // Lightweight iOS/OSX audio engine with flac, cue, mp3, m4a, m3u support.
@@ -2634,7 +2634,7 @@ and caching them.
   "Parsimmon": "", // Linguistics toolkit for iOS
   "Parus": "", // Parus is a simple chain style auto-layout helper for objective-c.
   "PassSlot": "", // Objective-C Framework (SDK) for easy Passbook integration.
-  "PathCover": "", // PathCover is pull down refresh and a parallax top view with real time blur effect to any UITableView, inspired by Path for iOS.
+  "PathCover": "gui_tableview", // PathCover is pull down refresh and a parallax top view with real time blur effect to any UITableView, inspired by Path for iOS.
   "PaymentKit": "", // Utility library for creating credit card payment forms.
   "PayMillSDK": "", // PAYMILL iOS SDK enables processing of payments for iOS applications. Visit http://www.paymill.com for more information.
   "PayPal-iOS-SDK": "", // Accept credit cards and PayPal in your iOS app.
@@ -2654,8 +2654,8 @@ and caching them.
   "PCSFaker": "", // Fake data for your CoreData models.
   "PDCounter": "", // Helps keep track of how many times specified events happen in your application.
   "Pdef": "", // Pdef Objective-C descriptors, formats and rpc.
-  "PDGestureTableView": "", // Great Mailbox-like UITableView subclass.
-  "PDKeychainBindingsController": "", // PDKeychainBindingsController is intended to make using the Max OSX and iOS Keychains as easy as NSUserDefaults.
+  "PDGestureTableView": "gui_tableview", // Great Mailbox-like UITableView subclass.
+  "PDKeychainBindingsController": "keychain", // PDKeychainBindingsController is intended to make using the Max OSX and iOS Keychains as easy as NSUserDefaults.
   "PDKTStickySectionHeadersCollectionViewLayout": "", // UICollectionView Layout that makes section headers stick to the top of the collection view, over it's section cells.
   "PDTiledView": "", // Accordion-style table view, with block-based delegation.
   "PDTSimpleCalendar": "", // A simple Calendar / Date Picker with a nice iOS7 design.
@@ -2695,7 +2695,7 @@ and caching them.
   "PJLinkCocoa": "", // A Cocoa Library for communicating with projectors and other devices that implement the PJLink protocol.
   "pjsip": "", // Open Source SIP, Media and NAT Traversal Library.
   "PKAnimations": "", // A convenient way to run UIKit Animations in sequence and/or parallel using different easing equations.
-  "PKCS-Universal": "", // Obj-C helper for working with PKCS/RSA, Keychain and CommonCrypto.
+  "PKCS-Universal": "keychain", // Obj-C helper for working with PKCS/RSA, Keychain and CommonCrypto.
   "PKJSONSocket": "", // Simplified socket networking based on CocoaAsynSocket. Enabling direct JSON messaging between devices.
   "PKRevealController": "", // A view controller containers for iOS, enabling you to present multiple controllers on top of one another.
   "PlaceKit": "", // Content placeholders, randomized data and other helpers for early dev, testing and proto work.
@@ -2707,7 +2707,7 @@ and caching them.
   "PlexKit": "", // A bunch of often used utility functions/classes.
   "PLImageManager": "", // Image manager/downloader for iOS
   "PlivoSDK": "", // Plivo iOS SDK.
-  "PLTableViewController": "", // Subclass of UITableViewController to show items of not only NSArray but also NSDictionary.
+  "PLTableViewController": "gui_tableview", // Subclass of UITableViewController to show items of not only NSArray but also NSDictionary.
   "PLVisualAttributeConstraints": "", // Custom VFL (Visual Format Language) for creating NSLayoutConstraint's.
   "PLWeakCompatibility": "", // Compatibility stubs to enable use of weak references with ARC on older OSes.
   "PMAudioRecorderViewController": "", // Drop-in class to record audio note in iOS application and get it back in the app
@@ -2736,7 +2736,7 @@ and caching them.
   "POViewFrameBuilder": "", // A small library for semantic layout of UIViews.
   "PPiAwesomeButton": "", // UIButton category with Flat Design and extra methods to set Title+Icon from FontAwesome font
   "PPiFlatSegmentedControl": "", // Flat UISegmentedControl for flat designs.
-  "PPImageScrollingTableViewCell": "", // It is a UITableViewCell subclass that can make images scrollable horizontally in TableView
+  "PPImageScrollingTableViewCell": "gui_tableview", // It is a UITableViewCell subclass that can make images scrollable horizontally in TableView
   "PPiShowtime": "", // A library that retrieves Google Showtimes of a given City ( Including tickets URL ).
   "PPLogger": "", // Extending NSLog for more control over the visibility of the log messages across different environments.
   "PPpdf417": "", // A small and powerful PDF417 scanning library.
@@ -2774,16 +2774,16 @@ and caching them.
   "PTKTestKit": "", // Various classes built to make iOS testing faster, easier, and more effective.
   "PTLDatasource": "", // Helpers to lighten your view controllers.
   "PTLURLProtocol": "", // A helpful wrapper for testing network requests using NSURLProtocol
-  "PTLViewDebugger": "", // Useful tools for debugging your view layouts.
+  "PTLViewDebugger": "debugging", // Useful tools for debugging your view layouts.
   "PublicAutomation": "", // Wrapper for Apple's internal UIAutomation APIs.
   "PublicCodeLibrary": "", // Static Library Project containing code to simplify daily development tasks.
   "PubNub": "", // The PubNub Real-Time Network. Build real-time apps quickly and scale them globally.
   "pubnub-api": "", // PubNub makes Real-time Real Easy with a Simple Communications API.
   "PubSub": "", // A minimal syntax block based wrapper around NSNotificaitonCenter.
-  "PullToRefresh": "", // A simple iPhone TableViewController for adding pull-to-refresh functionality.
+  "PullToRefresh": "gui_tableview", // A simple iPhone TableViewController for adding pull-to-refresh functionality.
   "PullToRefreshView": "", // A UIView for easily implementing pull-to-refresh functionality in a UIScrollView that doesn't suck.
   "PulsingHalo": "", // iOS Component For Creating A Pulsing Animation Great For Map Annotations And Beacons
-  "PunchScrollView": "", // PunchScrollView is a iOS ScrollView framework which works like the UITableView.
+  "PunchScrollView": "gui_tableview", // PunchScrollView is a iOS ScrollView framework which works like the UITableView.
   "puremvc": "", // A lightweight framework for creating applications based upon the classic Model-View-Controller design meta-pattern.
   "PushAd": "", // PushAd advertisement SDK
   "PusherMan": "", // A class that handles registration and handling of push notifications tokens in iOS.
@@ -2823,7 +2823,7 @@ and caching them.
   "RAPageViewController": "", // Sliding pages side by side, infinitely.  Fancy parts from the redacted bits, re-implemented for expressiveness at expense of some naïvety.
   "RaptureXML": "", // A simple, sensible, block-based XML API for iOS and Mac development.
   "RaptureXML@siuying": "", // A simple, sensible, block-based XML API for iOS and Mac development. This fork allow users to XML manipulation.
-  "RASwipeTableViewCell": "", // UITableViewCell with 3 content layers -> Left | Center | Right that become visible on swipe
+  "RASwipeTableViewCell": "gui_tableview", // UITableViewCell with 3 content layers -> Left | Center | Right that become visible on swipe
   "RateStars": "", // RateStars provides a rating view.
   "RATreeView": "", // RATreeView provide you a great support to display the tree structures on IOS.
   "Raven": "", // A client for Sentry (getsentry.com).
@@ -2888,7 +2888,7 @@ and caching them.
   "RESTMagic": "", // RESTMagic is a simple framework for building RESTFul client applications.
   "RestReaper": "", // Asynchronous RESTFul interaction made fast and easy for iOS and Mac OSX
   "RESwitch": "", // Open source alternative to UISwitch, customizable via UIAppearance protocol.
-  "RETableViewManager": "", // Powerful data driven content manager for UITableView.
+  "RETableViewManager": "gui_tableview", // Powerful data driven content manager for UITableView.
   "RETrimControl": "", // Audio trim control, similar to the one seen in default iPhone Voice Memos app.
   "REValidation": "", // Simple Objective-C object validation.
   "REVClusterMap": "", // Simple Clustering API for MKMapView.
@@ -2898,7 +2898,7 @@ and caching them.
   "RevMobSDK": "", // RevMobSDK for showing ads, banners, more games link and many more.
   "RFduino-library": "", // RFduino-library is a few classes to manage & communicate with RFduino boards over BlueTooth 4.0
   "RFKeyboardToolbar": "", // A flexible UIView and UIButton subclass to add customized buttons and toolbars to your UITextFields/UITextViews.
-  "RFKeychain": "", // Keychain wrapper for iOS and Mac OS X.
+  "RFKeychain": "keychain", // Keychain wrapper for iOS and Mac OS X.
   "RFMarkdownTextView": "", // A UITextView that is supposed to replicate the comment toolbar in iOctocat (http://ioctocat.com) with auto-insert markdown functionality.
   "RFMathTextField": "", // A simple validator/equation answerer.
   "RFOverlayScrollView": "", // Overlay style NSScrollView even when a mouse is attached.
@@ -2913,8 +2913,8 @@ and caching them.
   "RHHorizontalSwipe": "", // An iOS UIViewController subclass that allows swiping between child VCs as well as hosting custom overlay views.
   "RHPreferences": "", // A simple and easy Preferences window controller with multiple tabs for your next Mac application.
   "RHRefreshControl": "", // Abstract RefreshControl for freedom customization.
-  "RHTableViewProvider": "", // An Objective-C library to make UITableView setup simpler, specifically for custom designs.
-  "RITableDataSource": "", // UITableView data source based on NSFetchedResultsController.
+  "RHTableViewProvider": "gui_tableview", // An Objective-C library to make UITableView setup simpler, specifically for custom designs.
+  "RITableDataSource": "gui_tableview", // UITableView data source based on NSFetchedResultsController.
   "Rivet": "", // Bolt your apps together with dependency injection.
   "rkBLE": "", // BLE library for iOS. Absolutely easy to use
   "RKCLLocationValueTransformer": "", // An RKValueTransformer for transforming between NSDictionary and CLLocation representations of a geographical coordinate.
@@ -2934,11 +2934,11 @@ and caching them.
   "RMShapedImageView": "", // A UIImageView subclass that ignores touches on transparent pixels.
   "RMSHostSelector": "", // Helper class for selecting server hosts in iOS apps
   "RMSkinnedView": "", // This subclass of NSView uses a NSImage as pattern or a NSColor to fill its background.
-  "RMSTableViews": "", // Provides support for common UITableViewController usage patterns
+  "RMSTableViews": "gui_tableview", // Provides support for common UITableViewController usage patterns
   "RMStepsController": "", // This is an iOS control for guiding users through a process step-by-step
   "RMSTokenView": "", // RMSTokenView is a text-field like view that handles tokens as seen in the Mail app.
   "RMStore": "", // A lightweight iOS framework for In-App Purchases.
-  "RMSwipeTableViewCell": "", // A drop-in UITableViewCell subclass with built-in pan/swipe gestures for easy integration into any project.
+  "RMSwipeTableViewCell": "gui_tableview", // A drop-in UITableViewCell subclass with built-in pan/swipe gestures for easy integration into any project.
   "RNBlurModalView": "", // Add depth to your alerts.
   "RNBlurredSideViewController": "", // A side view controller with a dynamic blurred background effect which is similar to the iOS 7 control center.
   "RNCachingURLProtocol": "", // Simple offline caching for UIWebView and other NSURLConnection clients.
@@ -2947,13 +2947,13 @@ and caching them.
   "RNFrostedSidebar": "", // A Control Center-esque control with blurred background and toggle animations.
   "RNGridMenu": "", // A grid menu with elastic layout, depth of field, and realistic animation.
   "RNPinnedCertValidator": "", // Simplify validating pinned SSL certificates.
-  "RNRippleTableView": "", // A custom table view with highly detailed ripple animations.
+  "RNRippleTableView": "gui_tableview", // A custom table view with highly detailed ripple animations.
   "RNSwipeViewController": "", // A custom table view with highly detailed ripple animations.
   "RNTextStatistics": "", // A category on NSString to gather advanced statistics on text.
   "RNThemeManager": "", // Easily manage themes and respond to theme changes by updating views in real time.
   "RNTimer": "", // Simple GCD-based timer based on NSTimer.
   "ROADFramework": "", // ROAD iOS Framework
-  "ROArrayDataSource": "", // Implementation of a generic UITableViewDataSource that can be used to reduce the amount of code in UIViewControllers
+  "ROArrayDataSource": "gui_tableview", // Implementation of a generic UITableViewDataSource that can be used to reduce the amount of code in UIViewControllers
   "Robocop": "", // The fairest, smartest and easiest way to read all kinds of AVMetadataObjectType objects in just **one method call** for iOS 7+ devices.
   "RoboReaderPDF": "", // A cool pdf reader framework.
   "RotateView": "", // Simple UIView subclass that rotates to match device orientation independently of the view controller.
@@ -2976,9 +2976,9 @@ and caching them.
   "RSDeallocHandler": "", // NSObject category for adding and removing dealloc handler blocks.
   "RSEnvironment": "", // Most common environment checks in one place: system version, retina support, UI flat mode, device models and so on.
   "RSMenuController": "", // yet another menu tray controller like sparrow and path.
-  "RSMenuView": "", // An event driven tableview. supports UIAppearance and more.
+  "RSMenuView": "gui_tableview", // An event driven tableview. supports UIAppearance and more.
   "RSOAuthEngine": "", // ARC based OAuth engine for MKNetworkKit.
-  "RSSecrets": "", // Set and get encrypted values from the iOS keychain.
+  "RSSecrets": "keychain", // Set and get encrypted values from the iOS keychain.
   "RSSwizzle": "", // Safe method swizzling done right.
   "RSTabBarController": "", // full customizable TabBarController; drop-in replacement of UITabBarController.
   "RTagCloudView": "", // useful tag cloud view
@@ -2996,7 +2996,7 @@ and caching them.
   "RXCollections": "", // map, filter, fold, and detect for Cocoa collections.
   "RXPromise": "", // A thread safe implementation of the Promises/A+ specification in Objective-C with extensions.
   "RZCellSizeManager": "", // Dynamic size computation and cacheing for cells.
-  "RZCollectionList": "", // A framework for transforming and combining data from Core Data and other sources and displaying it in a UITableView or UICollectionView.
+  "RZCollectionList": "gui_tableview", // A framework for transforming and combining data from Core Data and other sources and displaying it in a UITableView or UICollectionView.
   "RZSquaresLoading": "", // iOS loading animations with squares.
   "SAMAddressBar": "", // Clone of Safari's address bar from long ago.
   "SAMBadgeView": "", // Draw fancy labels like Mail.app.
@@ -3028,7 +3028,7 @@ and caching them.
   "SBPickerSelector": "", // Easy framework to setup pickers in your iOS project, easy picker manager.
   "SBRXCallbackURLKit": "", // Simple library that makes it easy to add x-callback-url support to your app.
   "SBSegmentedViewController": "", // Custom view controller container that uses a segmented control to switch between view controllers.
-  "SBTableLayout": "", // A customizable UICollectionViewLayout to use instead of a grouped styled UITableView
+  "SBTableLayout": "gui_tableview", // A customizable UICollectionViewLayout to use instead of a grouped styled UITableView
   "SBTextField": "", // A UITextField drop-in replacement with support for setting a maximum length.
   "SBTickerView": "", // An easy to use ticker view with inspiration from Flipboard.
   "ScanditSDK": "", // ScanditSDK
@@ -3039,7 +3039,7 @@ and caching them.
   "SCPinions": "", // Steamclock uses various tools and utilities to build our apps. We call these tools Pinions and like to open source them.
   "ScreenshotObserver": "", // Screenshot observer for iOS.
   "ScrollToRefresh": "", // An NSScrollView subclass to allow the popular "pull to refresh" from iPhone to work on Mac OS X Lion.
-  "SCSlidingCell": "", // Provide sliding UITableView cells like in FB app. 
+  "SCSlidingCell": "gui_tableview", // Provide sliding UITableView cells like in FB app. 
   "SCSlidingViewController": "", // A sliding UIViewController for iOS7.
   "SCStackViewController": "", // SCStackViewController is a container controller which allows you to stack other view controllers and build custom transitions between them.
   "Sculptor": "", // The AFNetworking serializer for Mantle.
@@ -3049,7 +3049,7 @@ and caching them.
   "SDColor": "", // Dead simple convenience categories for UIColor.
   "SDCSegmentedViewController": "", // Custom view controller container that uses a segmented control to switch between view controllers.
   "SDCTextField": "", // A UITextField drop-in replacement with support for setting a maximum length.
-  "SDJSONPrettyPrint": "", // Produces human-friendly JSON, which you can use for logging or debugging purposes.
+  "SDJSONPrettyPrint": "prettyfier", // Produces human-friendly JSON, which you can use for logging or debugging purposes.
   "SDNetworkActivityIndicator": "", // Handle show/hiding of the iOS network activity indicator.
   "SDScreenshotCapture": "", // A class to capture screenshots from your app which exclude the iOS status bar.
   "SDSegmentedControl": "", // A drop-in remplacement for UISegmentedControl that mimic iOS 6 AppStore tab controls.
@@ -3083,7 +3083,7 @@ and caching them.
   "SexyDates": "", // NSNumber category that creates dates in a sexy, Rails-like way: `@(3).days.ago`.
   "SFCountdownView": "", // Provides a customizable countdown overlay view
   "SFGaugeView": "", // Provides a gauge control for ios
-  "SFHFKeychainUtils": "", // SciFiHiFi Utilities for manipulating the keychain.
+  "SFHFKeychainUtils": "keychain", // SciFiHiFi Utilities for manipulating the keychain.
   "SFNotify": "", // Simple custom user notifications.
   "SFObservers": "", // Categories expanding both NSNotificationCenter and KVO to provide auto removal of observers.
   "SFRoundProgressCounterView": "", // Provides a progress bar as circle with an optional counter in the center of the circle
@@ -3096,7 +3096,7 @@ and caching them.
   "SGSStaggeredFlowLayout": "", // UICollectionViewFlowLayout for staggering cells.
   "SGSwipeControl": "", // SGSwipeControl
   "SHAccountManager": "", // SHAccountManager is currently unmaintained and abanonded, please use 'pod SHOmniAuthTwitter' instead.
-  "SHAccountStore": "", // Account Storage similar to ACAccount - using Keychain instead of Core Data.
+  "SHAccountStore": "keychain", // Account Storage similar to ACAccount - using Keychain instead of Core Data.
   "SHActionSheetBlocks": "", // Prefixed UIActionSheet category with blocks, auto-removed. Swizzle free!
   "Shakedown": "", // Simple bug reporting for human beings.
   "ShakeReport": "", // An open source bug report, easy to use! Shake to report anything.
@@ -3188,7 +3188,7 @@ and caching them.
   "Slash7": "", // iOS library for SLASH-7
   "SLCoreDataStack": "", // CoreData stack managing independent 2 NSManagedObjectContext instances.
   "SLCountryPicker": "", // Country picker table view controller for iOS 7+
-  "SLExpandableTableView": "", // UITableView subclass with expandable sections.
+  "SLExpandableTableView": "gui_tableview", // UITableView subclass with expandable sections.
   "SLFlexibleButton": "", // A button library which able to draw it self with bezel defined by relative location.
   "SLGlowingTextField": "", // This is a very simple subclass of UITextField that is designed to look like a Bootstrap input field.
   "SliderViewController": "", // A new container controller to slide  
@@ -3200,12 +3200,12 @@ and caching them.
   "SLRESTfulCoreData": "", // Objc naming conventions, autogenerated accessors at runtime, URL substitutions and intelligent attribute mapping.
   "SLRESTfulCoreDataUI": "", // UI counterpart to SLRESTfulCoreData.
   "SLScrollViewKeyboardSupport": "", // SLScrollViewKeyboardSupport auto adjusts UIScrollViews contentInset based on the first responder.
-  "SLUITableViewCellSectionLocation": "", // UITableViewCellSectionLocation made public.
+  "SLUITableViewCellSectionLocation": "gui_tableview", // UITableViewCellSectionLocation made public.
   "SMAccessibilityOverlay": "", // Tool for developers to visualize what voiceover users will "see" when using their apps.
-  "Smartling.i18n": "", // iOS Plurals Localization Library
+  "Smartling.i18n": "i18n", // iOS Plurals Localization Library
   "SMCalloutView": "", // A lightweight callout view class for iOS mimicking UICalloutView.
   "SMGenerator": "", // SMGenerator: experimental fast and easy way to create generators in Objective-C
-  "SMGridView": "", // UIScrollView subclass that uses methods similar to UITableView, UITableViewDataSource, and UITableViewDelegate.
+  "SMGridView": "gui_tableview", // UIScrollView subclass that uses methods similar to UITableView, UITableViewDataSource, and UITableViewDelegate.
   "SMPageControl": "", // UIPageControl’s fancy one-upping cousin.
   "SMQuickSegue": "", // Quick parameter setting with storyboard segues
   "SMStateMachine": "", // Very simple state machine written in Objective-C.
@@ -3256,7 +3256,7 @@ and caching them.
   "Sprout": "", // Used to bootstrap the CocoaLumberjack logging framework.
   "SPSuccinct": "", // Tools to write succinct Objective-C.
   "SPTabBarController": "", // Custom tab bar container controller for iOS 5.
-  "SPTScrollViewScrubber": "", // Add a scrubber to quickly scroll through an `UIScrollView` or any of its subclasses like `UITableView` or `UICollectionView`.
+  "SPTScrollViewScrubber": "gui_tableview", // Add a scrubber to quickly scroll through an `UIScrollView` or any of its subclasses like `UITableView` or `UICollectionView`.
   "SPYTestLog": "", // XcodeColors meets XCTest
   "SQAESDE": "", // Safe&Quick AES256 Encrypt and Decrypt
   "SQCommonUtils": "", // Common Utils SDK for ObjC project.
@@ -3278,12 +3278,12 @@ and caching them.
   "SSCollectionViewExchangeController": "", // SSCollectionViewExchangeController manages the process of exchanging 2 items in a collection view.
   "SSCWhatsAppActivity": "", // A UIActivity subclass for sharing messages with WhatsApp.
   "SSDataKit": "", // Eliminate your Core Data boilerplate code.
-  "SSDataSources": "", // Simple data sources for your UITableView and UICollectionView.
+  "SSDataSources": "gui_tableview", // Simple data sources for your UITableView and UICollectionView.
   "SSDynamicText": "", // UILabel/TextField/TextView subclasses that support custom fonts with iOS 7's dynamic text sizes.
   "SSEvernoteSDKPatch": "", // Provide a simple wrapper over Evernote iOS SDK to allow developers to download thumbnail image of a note or a resource image.
   "SSFlatDatePicker": "", // An iOS custom date picker in the flat design.
   "SSGentleAlertView": "", // This is gentler than UIAlertView and This can be changed the Appearance unlike UIAlertView.
-  "SSKeychain": "", // Simple Cocoa wrapper for the keychain that works on Mac and iOS.
+  "SSKeychain": "keychain", // Simple Cocoa wrapper for the keychain that works on Mac and iOS.
   "SSLunarDate": "", // This is an iOS Chinese Lunar date framework, which can convert the NSDate to a Lunar date, and Lunar holiday
   "SSOperations": "", // Handy NSOperationQueue and NSBlockOperation helpers.
   "SSPreferredBrowser": "", // Quickly present available web browsers, save prefs, and perform common actions.
@@ -3292,7 +3292,7 @@ and caching them.
   "SSUIViewMiniMe": "", // A miniature replica of your UIView with an indicator of your location.
   "SSXboxLeaders": "", // Objective-C Wrapper for XboxLeaders API.
   "SSZipArchive": "", // Utility class for zipping and unzipping files on iOS and Mac.
-  "STableViewController": "", // STableViewController is a custom table view controller that supports pull-to-refresh and load-more.
+  "STableViewController": "gui_tableview", // STableViewController is a custom table view controller that supports pull-to-refresh and load-more.
   "StackBluriOS": "", // Stack Blur implementation for iOS.
   "StackMob": "", // StackMob's SDK for accessing the StackMob Services on iOS.
   "StackMobPush": "", // StackMob's Push SDK for sending push notifications via the StackMob Services on iOS.
@@ -3302,9 +3302,9 @@ and caching them.
   "StartAtLoginController": "", // Easy to use controller that makes use of the Cocoa ServiceManagement APIs.
   "StateMachine": "", // State machine library for Objective-C.
   "StateMachine-GCDThreadsafe": "", // Threadsafe state machine library for Objective-C based on Grand Central Dispatch.
-  "StaticDataTableViewController": "", // Enabling animated hide/show of static cells for UITableView.
+  "StaticDataTableViewController": "gui_tableview", // Enabling animated hide/show of static cells for UITableView.
   "Statistics": "", // A stab at a very simple statistics class for Objective-C
-  "STCollapseTableView": "", // A UITableView subclass that automatically collapse and/or expand your sections.
+  "STCollapseTableView": "gui_tableview", // A UITableView subclass that automatically collapse and/or expand your sections.
   "STColorPicker": "", // A color picker presented in a UIView.
   "STDebugKit": "", // Offer access to several debug tools within your app, such as CoreData browsing.
   "STDeferred": "", // STDeferred is simple implementation of Deferred object.
@@ -3338,7 +3338,7 @@ and caching them.
   "StudyplusSDK": "", // Studyplus iOS SDK
   "STWorkflow": "", // An Objective-C Finite-state machine.
   "StyledPageControl": "", // Customizable PageControl for iOS.
-  "StyledTableViewCell-for-iOS": "", // Customize table view cell border and highlight colors.
+  "StyledTableViewCell-for-iOS": "gui_tableview", // Customize table view cell border and highlight colors.
   "SubjectiveScript.m": "", // Subjective-Script makes Objective-C more scripty!
   "sundown": "", // Markdown parser based on the Upskirt library by Natacha Porté. Written in C with a lightweight Objective-C Wrapper.
   "SupportKit": "", // Radialpoint SupportKit instantly embeds your Zendesk Help Center in your iOS app.
@@ -3360,13 +3360,13 @@ and caching them.
   "SVStatusHUD": "", // A copycat of the HUD shown on orientation and volume change in iOS.
   "SVWebViewController": "", // A simple inline browser for your iOS app.
   "SWFSemanticVersion": "", // A mutable value object implementation of SemVer.
-  "SwipeView": "", // Horizontal, paged scrolling views based on UIScrollView, with convenient functionality in UITableView-style.
+  "SwipeView": "gui_tableview", // Horizontal, paged scrolling views based on UIScrollView, with convenient functionality in UITableView-style.
   "Swizzlean": "", // A quick and lean way to swizzle methods for your Objective-C development needs.
   "SWParallaxScrollView": "", // A UIScrollView subclass with multiple layers and a parallax effect.
   "SWRevealViewController": "", // A UIViewController subclass for presenting two view controllers inspired in the Facebook app, done right.
   "SWScrollView": "", // Scroll view like Star Wars opening crawl.
   "SWSnapshotStackView": "", // Matte border, drop shadows and simulated stack of physical photos for your UIImages.
-  "SWTableViewCell": "", // UITableViewCell subclass that implements a swipeable content view which exposes utility buttons.
+  "SWTableViewCell": "gui_tableview", // UITableViewCell subclass that implements a swipeable content view which exposes utility buttons.
   "SYPaginator": "", // Simple paging scroll view to make complicated tasks easier.
   "Syringe": "", // Lightweight and magic dependency injection framework. Uses ObjC runtime to do the magic.
   "SZNAltmetric": "", // Objective-C client for the Altmetric API.
@@ -3374,7 +3374,7 @@ and caching them.
   "SZNZotero": "", // Objective-C client for the Zotero API.
   "SZTextView": "", // A drop-in UITextView replacement which gives you a placeholder.
   "T1Autograph": "", // Simple signature capture using a built-in modal view or a view of your choice.
-  "TableViewAgent": "", // library that wraps the delegate and datesource of UITableView
+  "TableViewAgent": "gui_tableview", // library that wraps the delegate and datesource of UITableView
   "TalkingData-Analytics": "", // TalkingData analytics SDK for iOS.
   "TapjoyAdvertiserSDK": "", // Publisher libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
   "TapjoyPublisherSDK": "", // Publisher libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
@@ -3406,7 +3406,7 @@ and caching them.
   "TCSelectors": "", // Selector view for Number, Date.
   "TCSpinner": "", // A UIView subclass containing four circles that animate towards one another.
   "TDAudioPlayer": "", // A library for playing audio from http streams or NSInputStream.
-  "TDBadgedCell": "", // UITableViewCell subclass that adds a "badgeString" property to table view cells.
+  "TDBadgedCell": "gui_tableview", // UITableViewCell subclass that adds a "badgeString" property to table view cells.
   "TDImageColors": "", // iOS Library used to detect a number of most used colors in a UIImage.
   "TDNotificationPanel": "", // TDNotificationPanel is a drop in class that displays a notification.
   "TDSemiModal": "", // Semi-modal view & DatePicker for IOS
@@ -3444,11 +3444,11 @@ and caching them.
   "tidy-html5": "", // HTML Tidy for HTML5.
   "Timber": "", // iOS and Mac app logging made easy. Batteries Included.
   "TimeBlock": "", // Simple set of macros to measure the time spent for executing a block.
-  "TimeScroller": "", // A UI Element that hovers beside the scroll bar of a UITableView (Mimicking the Path app).
+  "TimeScroller": "gui_tableview", // A UI Element that hovers beside the scroll bar of a UITableView (Mimicking the Path app).
   "TimesSquare": "", // TimesSquare is an Objective-C calendar view for your apps.
   "Tin": "", // Tin makes the internet easier in Cocoa.
   "TinyAnalytics": "", // A lightweight library for Google Analytics.
-  "TISwipeableTableView": "", // Allows you to swipe a UITableViewCell and reveal a back view, functions like cells in the Twitter app.
+  "TISwipeableTableView": "gui_tableview", // Allows you to swipe a UITableViewCell and reveal a back view, functions like cells in the Twitter app.
   "TITokenField": "", // An iOS version of the NSTokenField (See To: field in Mail and Messages).
   "TJLAutoLayoutMacros": "", // A collection of macros for use with auto layout.
   "TJLBarButtonMenu": "", // A simple 3 button menu with a nice presentation and dismissal animation that is meant to be launched from a bar button item.
@@ -3471,7 +3471,7 @@ and caching them.
   "TMCache": "", // Fast parallel object cache for iOS and OS X.
   "TMKDesignCheatSheet": "", // Provide resolutions of display, PPI and icon sizes for each devices like iPhone5 and iPhone4/4S
   "TMPTaskCompletionManager": "", // for supporting task completion, especially for multiple background tasks.
-  "TMQuiltView": "", // Interface similar to the UITableView with UI similar to Pintrest.
+  "TMQuiltView": "gui_tableview", // Interface similar to the UITableView with UI similar to Pintrest.
   "TMTumblrSDK": "", // An unopinionated and flexible library for easily integrating Tumblr data into your iOS or OS X application.
   "ToadSeq": "", // An iOS library for lazy sequences.
   "Toast": "", // A UIView category that adds Android-style toast notifications to iOS.
@@ -3538,10 +3538,10 @@ and caching them.
   "Turnpike": "", // Turnpike enables deeplinking in mobile apps.
   "TurtleBezierPath": "", // UIBezierPath subclass for Turtle Graphics
   "TUSafariActivity": "", // A UIActivity subclass that opens URLs in Safari.
-  "TVArrayDataSource": "", // This class will help you implement TableView faster.
+  "TVArrayDataSource": "gui_tableview", // This class will help you implement TableView faster.
   "TVCalibratedSlider": "", // A control used to select a value from a bunch of values. This control is drawn as horizontal bar with scale below it.
   "TVPickerView": "", // Custom picker view with increment decrement operations.
-  "TVSection": "", // Section for UITableView.
+  "TVSection": "gui_tableview", // Section for UITableView.
   "TwelveTwentyToolkit": "", // The Twelve Twenty Toolkit of reusable Objective-C classes.
   "TwilioSDK": "", // Twilio Client has the features that make it easy to embed VoIP directly into your web, iOS or Android apps.
   "TwistedOakCollapsingFutures": "", // Futures without nesting issues.
@@ -3572,7 +3572,7 @@ and caching them.
   "UbiquityStoreManager": "", // Solving the iCloud for Core Data problem.
   "UCKDeviceInfo": "", // Getting device information in iOS.
   "UDBarTrackballItem": "", // Button view which can position text caret and define text selection of a text view in parallel to its touch drag movement.
-  "UDTableView": "", // UDTableView allowsMultipleSelection backport to pre iOS5.
+  "UDTableView": "gui_tableview", // UDTableView allowsMultipleSelection backport to pre iOS5.
   "UI7Kit": "", // UI7Kit is a GUI toolkit to implement iOS7 look & feel UIKit under iOS5/iOS6. It is also supported that patching UIKit to UI7Kit in runtime.
   "UIActionSheet-Blocks": "", // UIActionSheet+Blocks is a simple Block implementation for UIActionSheet created by Shai Mishali.
   "UIActionSheet+Blocks": "", // Category on UIActionSheet to use inline block callbacks instead of delegate callbacks.
@@ -3580,10 +3580,10 @@ and caching them.
   "UIAlertView-Blocks": "", // Category for UIAlertView and UIActionSheet which allows you to use blocks rather than implementing a delegate.
   "UIAlertView+Blocks": "", // Category on UIAlertView to use inline block callbacks instead of delegate callbacks.
   "UIBezierPath-Symbol": "", // Symbol extension for UIBezierPath class (UIBezierPath category).
-  "UIBubbleTableView": "", // Cocoa UI component for chat bubbles with avatars and images support.
+  "UIBubbleTableView": "gui_tableview", // Cocoa UI component for chat bubbles with avatars and images support.
   "UIButton+StatefulBackgroundColor": "", // A category on UIButton adding a setBackgroundColor:forState: method.
   "UICircularSlider": "", // An iOS UISlider which displays value in a circle / pie.
-  "UICKeyChainStore": "", // UICKeyChainStore is a simple wrapper for Keychain on iOS and OS X. Makes using Keychain APIs as easy as NSUserDefaults.
+  "UICKeyChainStore": "keychain", // UICKeyChainStore is a simple wrapper for Keychain on iOS and OS X. Makes using Keychain APIs as easy as NSUserDefaults.
   "UICollectionViewEmptyState": "", // Set-and-forget overlays for empty UICollectionViews.
   "UIColor+Additions": "", // Basic additions to make UIColor more flexible.
   "UIColor+BlendMode": "", // Apply a color using a blend mode to another color.
@@ -3665,9 +3665,9 @@ and caching them.
   "UIScrollView+Direction": "", // Get the direction of a current scroll. Good for getting the direction in scrollViewDidScroll.
   "UISearchBar-Blocks": "", // Adds blocks to all UISearchBar delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
   "UISS": "", // UIKit Style Sheets.
-  "UITableView-AnimationControl": "", // Control UITableView animations like insertRowsAtIndexPaths:withRowAnimation:'s.
-  "UITableViewHelper": "", // Easier integration of UITableViews with custom cells built from nib files or storyboards.
-  "UITableView-NXEmptyView": "", // A category on UITableView that adds an empty view that can be shown whenever the table view has no cells.
+  "UITableView-AnimationControl": "gui_tableview", // Control UITableView animations like insertRowsAtIndexPaths:withRowAnimation:'s.
+  "UITableViewHelper": "gui_tableview", // Easier integration of UITableViews with custom cells built from nib files or storyboards.
+  "UITableView-NXEmptyView": "gui_tableview", // A category on UITableView that adds an empty view that can be shown whenever the table view has no cells.
   "UITextField-Blocks": "", // Adds blocks to all UITextField delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
   "UITextField+DelegationBlocks": "", // Add blocks, as per a single instance basis, to your UITextFields
   "UITextField+Shake": "", // UITextField category that adds a shake animation like the password field of the OsX login screen.
@@ -3753,7 +3753,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "VideoPlayerKit": "", // A custom iOS video player with controls, progress bar, and airplay all set up.
   "ViewDeck": "gui", // An implementation of the sliding functionality found in the Path 2.0 or Facebook iOS apps.
   "ViewUtils": "", // A collection of category methods that extend UIView with properties and functionality that you always wished were built-in to begin with.
-  "VIHorizontalTableView": "", // A few superclasses and docs for making horizontal table views.
+  "VIHorizontalTableView": "gui_tableview", // A few superclasses and docs for making horizontal table views.
   "VKClient": "", // A basic VK SDK for sharing images and docs to vk.com. Relies on AFNetworking.
   "VKDAKeyboardControl": "", // Easily add keyboard awareness and scrolling dismissal. Allows to add subview to keyboard.
   "VKInputToolbar": "", // Messages style input toolbar for iOS.
@@ -3770,7 +3770,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "VLMHarlemShake": "", // A harlem shake implementation for iOS.
   "vMAT": "", // The vMAT library implements a grab-bag of mathematical functions inspired by MATLAB.
   "VMDInstrumenter": "", // A simple Objective-C singleton to instrument, trace, and suppress selectors at runtime.
-  "VMTableViewStaticCells": "", // A simple category to use static UITableViewCells without having to use storyboards.
+  "VMTableViewStaticCells": "gui_tableview", // A simple category to use static UITableViewCells without having to use storyboards.
   "VPPCoreData": "", // VPPCoreData is a Core Data wrapper with Active Record support that simplifies the task of managing data with Core Data framework.
   "VPPDropDown": "", // VPPDropDown is an iOS library that allows you to create dropdown-like menus in a table view, as seen in old Tweetie.
   "VPPLocation": "", // VPPLocation Library for iOS simplifies the task of retrieving the user location and reverse geocoder info about it.
@@ -3787,7 +3787,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "wbxml": "", // An Objective-C API wrapped around libwbxml.
   "WCActionSheet": "", // A customizable and elegant alternative to UIActionSheet with support for block syntax.
   "WCAlertView": "", // WCAlertView is deliverd from UIAlertView. It's support color customization and blocks.
-  "WCFastCell": "", // A faster drop-in replacement for UITableViewCell. Seamless integration with nibs
+  "WCFastCell": "gui_tableview", // A faster drop-in replacement for UITableViewCell. Seamless integration with nibs
   "WebContentView": "", // A simple native interface for rendering rich HTML content using a UIWebView.
   "WebViewJavascriptBridge": "", // An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
   "WeChatSDK": "", // The Official iOS SDK of WeChat from Tencent.
@@ -3881,7 +3881,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "YASlidingViewController": "", // A sliding UIViewController for iOS.
   "YBStatechart": "", // Framework for statecharts. A statecharts is a formalized type of finite state machine.
   "YelpKit": "", // An iOS framework for Objective-C, and contains some basics for image loading, caching, requests, views and layouts.
-  "YFJLeftSwipeDeleteTableView": "", // Drop-in UITableView subclass that supports left-swipe cell deletion like in iOS7. (works both in iOS6 and iOS7).
+  "YFJLeftSwipeDeleteTableView": "gui_tableview", // Drop-in UITableView subclass that supports left-swipe cell deletion like in iOS7. (works both in iOS6 and iOS7).
   "YIDetectWindow": "", // A subclass of UIWindow for detecting shake, status-bar-tap, long-press, touchBegan/Moved/Ended/Cancelled, via NSNotification.
   "YIDragScrollBar": "", // Attaches draggable scroll bar on top of original UIScrollView for iOS5+, works like a drug.
   "YieldMo": "", // A repo for the (private source) YieldMo iOS SDK framework, to allow integration using CocoaPods.
@@ -3906,7 +3906,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "YSViewer": "", // Image viewer like Tweetbot 3.
   "YTFExtensions": "", // YTFExtensions - extensions and categories.
   "YTFKeyboardCorrector": "", // Corrector for keyboard used in iOS.
-  "YTFPlaceholderTableView": "", // UITableView with placeholder view.
+  "YTFPlaceholderTableView": "gui_tableview", // UITableView with placeholder view.
   "YTFToggler": "", // Simple toggler for side views.
   "YTVimeoExtractor": "", // Fetches Vimeo's mp4 URLs for iOS.
   "ZAActivityBar": "", // An easy-to-use activity bar that's meant to non-intrusively display the progress of a task.
@@ -3919,13 +3919,13 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "ZFHaversine": "", // Objective-C implementation of the Haversine formula & Spherical Law of Cosines used to find the distance between two GPS coordinates.
   "ZGCountDownTimer": "", // Background Proof, Termination Proof Timer, Reboot Proof Timer.
   "ZGNavigationBarTitle": "", // **ZGNavigationBarTitle** is navigationBar Subtitle thing, inspired by the [Reeder for iOS](http://reederapp.com/iphone/).
-  "ZGParallelView": "", // ZGParallelView is the easiest way to add a Parallax effect to a UITableView.
+  "ZGParallelView": "gui_tableview", // ZGParallelView is the easiest way to add a Parallax effect to a UITableView.
   "ZGPullDragScrollView": "", // Awesome Scroll Category for DragUp and PullDown.
-  "ZGPullDragTableView": "", // Awesome TableView Category for Drag and Pull.
+  "ZGPullDragTableView": "gui_tableview", // Awesome TableView Category for Drag and Pull.
   "ZipArchive": "", // An Objective C class for zip/unzip on iPhone and Mac OS X.
   "ZipKit": "", // An Objective-C Zip framework for Mac OS X and iOS.
   "zipzap": "", // zipzap is a zip file I/O library for Mac OS X and iOS.
-  "ZKRevealingTableViewCell": "", // A Sparrow-style Implementation of Swipe-To-Reveal.
+  "ZKRevealingTableViewCell": "gui_tableview", // A Sparrow-style Implementation of Swipe-To-Reveal.
   "ZKSforce": "", // A Cocoa library for calling the Salesforce.com SOAP APIs.
   "ZKTextField": "", // NSTextField replacement.
   "ZRYAsyncTestCase": "", // Asynchronous unit testing for your Xcode apps.
