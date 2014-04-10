@@ -21,5 +21,10 @@
   "SBJson4": "json",
   "SBJson": "json",
   "AwesomeMenu": "gui",
-  "cocos2d": "gaming"
+  "cocos2d": "gaming",
+  "PonyDebugger": "debugging",
+  "QuickDialog": "gui_controls",
+  "JVFloatLabeledTextField": "gui_controls",
+  "JASidePanels": "gui_controls",
+  "EGOTableViewPullRefresh": "gui_controls"
 }
