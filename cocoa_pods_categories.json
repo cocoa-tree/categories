@@ -1,5 +1,25 @@
 {
   "500px-iOS-api": "proprietary_api",
   "A2DynamicDelegate": "functional_programming",
-  "ABCustomUINavigationController": "gui"
+  "ABCustomUINavigationController": "gui",
+  "GPUImage": "image_processing",
+  "RestKit": "http",
+  "Three20": "framework",
+  "AFNetworking": "network",
+  "SDWebImage": "gui",
+  "ASIHTTPRequest": "http",
+  "MagicalRecord": "core_data",
+  "libgit2": "git",
+  "Facebook-iOS-SDK": "proprietary_api",
+  "FMDB": "sqlite",
+  "JSONKit": "json",
+  "FlatUIKit": "gui",
+  "ReactiveCocoa": "reactive_programming",
+  "ViewDeck": "gui",
+  "FastImageCache": "gui",
+  "SVProgressHUD": "gui",
+  "SBJson4": "json",
+  "SBJson": "json",
+  "AwesomeMenu": "gui",
+  "cocos2d": "gaming"
 }
