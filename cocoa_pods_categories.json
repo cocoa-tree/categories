@@ -187,9 +187,9 @@
   "AOCUDL": "", // AOCUDL - An alternative shorthand syntax to Dustin Bachrach's OCUDL.
   "AOTrayView": "gui_tableview", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
   "AOTToolkit": "", // A collection of helper/utility classes to aid iOS development.
-  "APAddressBook": "", // Easy access to iOS address book
+  "APAddressBook": "address", // Easy access to iOS address book
   "APAsyncDictionary": "", // Thread safe wrapper to NSMutableDictionary for asynchronous access by @Alterplay folks.
-  "APAutocompleteTextField": "", // Autocompletable text field
+  "APAutocompleteTextField": "gui_autocomplete", // Autocompletable text field
   "APAvatarImageView": "", // Subclass of UIImageView to create a circle avatar image view with configuration border width and border color
   "APDropDownNavToolbar": "", // Subclass of UINavigationController to drop down toolbar when a bar button item is tapped like in the Messages App in iOS7
   "APIClient": "", // Convention over configuration REST API client
@@ -445,7 +445,7 @@
   "BRLOptionParser": "", // A short wrapper for getopt_long(3).
   "BRORM": "", // Another Objective-C SQLite ORM
   "BRYDescriptionBuilder": "", // Utility for producing object descriptions, based on Apache Commons ToStringBuilder
-  "BRYEmailAddressDetective": "", // Perform UIView animations serially without blocking the main thread
+  "BRYEmailAddressDetective": "email", // Perform UIView animations serially without blocking the main thread
   "BRYEqualsBuilder": "", // Utility for determining object equality, based on Apache Commons EqualsBuilder
   "BRYHashCodeBuilder": "", // Utility for determining object hash codes, based on Apache Commons HashCodeBuilder
   "BRYMailToURIParser": "", // Objective-C parser for mailto URIs
@@ -480,7 +480,7 @@
   "Bypass": "", // Bypass - Bypass renders markdown directly to UIViews instead of using an intermediary HTML format.
   "BZGFormField": "", // A text field with a validity indicator for better forms.
   "BZGFormViewController": "", // A library for creating dynamic forms.
-  "BZGMailgunEmailValidation": "", // A simple wrapper for the Mailgun email validation API.
+  "BZGMailgunEmailValidation": "email", // A simple wrapper for the Mailgun email validation API.
   "BZipCompression": "", // An Objective-C interface for the BZip2 compression algorithm
   "BZPasscodeViewController": "", // Passcode view controller for iOS.
   "C360NavigationBar": "", // A subclass of UINavigationBar with better tinting.
@@ -533,7 +533,7 @@
   "CFLocation": "", // Some Helper methods within LocationManager and Geocoder. 
   "CFShareCircle": "", // CFShareCircle is a user interface component for iOS that can be integrated into an app as a sharing mechanism for any kind of content.
   "CGFDateModifier": "", // Modify a NSDate the easy way.
-  "CGLMail": "", // A simple class that cares about email and MessageUI, so you don't have to.
+  "CGLMail": "email", // A simple class that cares about email and MessageUI, so you don't have to.
   "CGRectDivideNull": "", // A more convenient CGRectDivide()
   "Chameleon": "", // Chameleon is a port of Apple's UIKit (and some minimal related frameworks) to Mac OS X.
   "Chartbeat": "", // Chartbeat analytics library for iOS.
@@ -647,7 +647,7 @@
   "ConstraintFormatter": "", // A library to unify visual constraints and constraints based on attributes for Auto Layout
   "ConventionalC": "", // Cocoapod and static library to provide defaults and convenience methods for terser Objective-C.
   "CoordinateFinder": "", // Easily get current coordinates (and other location info) with just a few lines of code
-  "COPeoplePickerViewController": "", // Tokenized People Picker. Re-implementation of the email address picker of iCal (work in progress).
+  "COPeoplePickerViewController": "email", // Tokenized People Picker. Re-implementation of the email address picker of iCal (work in progress).
   "Cordova": "", // Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript.
   "CordovaPlugin-battery-status": "", // Mirror of Apache Cordova Plugin battery-status
   "CordovaPlugin-camera": "", // Mirror of Apache Cordova Plugin camera
@@ -967,7 +967,7 @@
   "ELHeaderView": "", // 网易新闻中订阅的Header.
   "ELRefresh": "", // Pull to refresh component
   "ELTableViewController": "gui_tableview", // A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async.
-  "EmailChecker": "", // EmailChecker helps to catch simple email domain typos.
+  "EmailChecker": "email", // EmailChecker helps to catch simple email domain typos.
   "EmbeddedSwapping": "storyboard", // Container view controller which manage multiple child view controllers using storyboards
   "Emitter": "", // An event emitter implementation for Objective-C with dynamic block invocation based on the node.js EventEmitter API.
   "Emoticonizer": "", // Converts a given string with common chat smileys like :) to emoji symbols.
@@ -979,7 +979,7 @@
   "EngineeringNotationFormatter": "", // C-based Engineering Notation Formatter with a Objective-C wrapper.
   "Ensembles": "", // A peer-to-peer synchronization framework for Core Data.
   "EnumeratorKit": "", // Ruby-style enumeration in Objective-C.
-  "EPChecker": "", // Checker Collection such as email, id card(mainland China) and phone number(mainland China). 
+  "EPChecker": "address", // Checker Collection such as email, id card(mainland China) and phone number(mainland China). 
   "EPSCollectionViewController": "", // A subclass of UICollectionViewController that makes it possible to reposition the collection view.
   "EPSCollectionViewFormLayout": "", // A UICollectionView layout for creating forms.
   "EPSDistanceFormatter": "", // A class to format CLLocationDistance instances into human readable text.
@@ -1201,7 +1201,7 @@
   "Geoloqi-iPhone-SDK": "", // Geoloqi SDK for iOS
   "geos": "", // GEOS (Geometry Engine - Open Source) is a C++ port of the Java Topology Suite (JTS).
   "GeotriggerSDK": "", // A library for using the ArcGIS Geotrigger Service with iOS.
-  "GetGravatar": "", // Simple class for generating a gravatar from an email address.
+  "GetGravatar": "gravatar", // Simple class for generating a gravatar from an email address.
   "GGFullscreenImageViewController": "", // Fullscreen any UIImageView.
   "GHKit": "", // Objective-C categories and utilities
   "GHMarkdownParser": "", // A markdown parser for iOS based on discount.
@@ -1291,7 +1291,7 @@
   "GTScrollNavigationBar": "", // A scrollable UINavigationBar that follows a UIScrollView
   "GTTableViewController": "gui_tableview", // CoreData Display in CoreData
   "GTUIKitAdditions": "", // GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit.
-  "GuardPost-ObjectiveC": "", // An objective-C implementation of Mailgun's Guardpost email validation service.
+  "GuardPost-ObjectiveC": "email", // An objective-C implementation of Mailgun's Guardpost email validation service.
   "Guile": "", // The Gilt User Interface Library for iOS.
   "GVCache": "", // Fast Caching for Objective-C (iPhone & Mac Compatible).
   "GVGoogleBannerView": "", // Google-Mobile-Ads-SDK banners in interface builder with handy delegate callbacks.
@@ -1362,7 +1362,7 @@ and caching them.
   "HSKDTree": "", // Objective-C implementation of a k-dimensional binary space partitioning tree.
   "HSLUpdateChecker": "", // Prompts the user to update your app when a new version is available. Zero configuration, one line of code to use.
   "HSSHexStringSupport": "", // UIColor categories adding support for hex strings including HTML prefixes and extra factory method colors
-  "HTAutocompleteTextField": "", // A subclass of UITextField that displays text completion suggestions while a user types. Perfect for suggestion email address domains.
+  "HTAutocompleteTextField": "gui_autocomplete", // A subclass of UITextField that displays text completion suggestions while a user types. Perfect for suggestion email address domains.
   "HTBCalendarView": "", // A calendar component based on UICollectionView
   "HTBKVObservation": "", // Yet another attempt at making KVO safer and more convenient.
   "HTBURLSession": "", // A drop-in equivalent replacement for NSURLSession with better blocks support
@@ -1730,7 +1730,7 @@ and caching them.
   "KGNoise@tonyzonghui": "", // KGNoise forked from kgn/KGNoise to use the latest version 1.2.0 with UIImage support.
   "KGStatusBar": "", // A minimal status bar for iOS.
   "KHFlatButton": "", // KHFlatButton for iOS 7
-  "KHGravatar": "", // A library to easily build URLs for Gravatar profile images, and also includes an AFNetworking 2 extension.
+  "KHGravatar": "gravatar", // A library to easily build URLs for Gravatar profile images, and also includes an AFNetworking 2 extension.
   "KIF": "", // Keep It Functional - iOS UI acceptance testing in an OCUnit harness.
   "KIF-next": "", // DEPRECATED: Please use KIF.
   "KIFViewControllerActions": "", // Adds actions to KIF for presenting view controllers to aid in functional testing.
@@ -2129,7 +2129,7 @@ and caching them.
   "MLImageCache": "", // Simple yet powerful and fast image cache.
   "MLKRestfullYii": "", // This is a helper class to easily create filters for the Yii extension restfullyii
   "MLPAccessoryBadge": "", // A customizable widget for displaying metadata, especially in UITableViewCells.
-  "MLPAutoCompleteTextField": "gui_menus", // UITextfield subclass with autocomplete menu.
+  "MLPAutoCompleteTextField": "gui_autocomplete", // UITextfield subclass with autocomplete menu.
   "MLPNeuralNet": "", // Fast multilayer perceptron neural net for iOS and Mac OS X
   "MLPSpotlight": "", // UIView subclass that draws a spotlight effect.
   "MLScreenshot": "", // Get a screenshot from UIView easy as pie.
@@ -2446,7 +2446,7 @@ and caching them.
   "NSURLConnection-Blocks": "", // NSURLConnection using blocks for success and failure calls.
   "NSURLConnection-Swizzled": "", // Debug your NSURLConnection with the URL and stack trace.
   "NSURLConnectionVCR": "", // Record and replay NSURLConnection requests/responses in tests.
-  "NSURL+Gravatar": "", // NSURL+Gravatar is a NSURL category to generate Gravatar URLs.
+  "NSURL+Gravatar": "gravatar", // NSURL+Gravatar is a NSURL category to generate Gravatar URLs.
   "NSURL+ParseQuery": "", // Simple URL query parser convert to NSDictionary
   "NSURL+QueryDictionary": "", // Make working with NSURL queries more pleasant.
   "NSURLRequestLogger": "", // Simple category for logging all details of a NSURLRequest.
@@ -3114,7 +3114,7 @@ and caching them.
   "SHBarButtonItemBlocks": "", // Prefixed UIBarButtonItem category with blocks, auto-removed. Swizzle free!
   "SHControlBlocks": "", // Prefixed UIControl category with blocks, auto-removed. Swizzle free!
   "Shelley": "", // View selection engine used in Frank.
-  "SHEmailValidator": "", // iOS Email Validator
+  "SHEmailValidator": "email", // iOS Email Validator
   "SHFastEnumerationProtocols": "", // NSFastEnumeration helpers and enumeration blocks through a protocol on foundation collection classes.
   "SHFoundationAdditions": "", // Additional prefixed categories for the Foundation framework *without* libffi.
   "SHGameCenter": "", // Block based patterns and properties for GameCenter.
@@ -3244,7 +3244,7 @@ and caching them.
   "SPDebugMenu": "gui_menus", // Make your own debug menu with fully customizable actions.
   "Specify": "", // An Objective-C behaviour-driven development library.
   "Specta": "", // A light-weight TDD / BDD framework for Objective-C & Cocoa.
-  "SPGooglePlacesAutocomplete": "", // An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the Maps app.
+  "SPGooglePlacesAutocomplete": "gui_autocomplete", // An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the Maps app.
   "Spine-Cocos2d": "", // 2D skeletal animation runtime for Spine
   "SpinKit": "", // UIActivityIndicatorView replacement with multiple styles and animations.
   "SpinningDiskView": "", // Disk is the romance of the 20 century.
@@ -3502,7 +3502,7 @@ and caching them.
   "Transit": "", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
   "TransitionKit": "", // A block-based State Machine API for Objective-C.
   "TransloaditAPI": "", // A simple API to upload files to transloadit.
-  "TRAutocompleteView": "", // Flexible and highly configurable auto complete view, attachable to any UITextField.
+  "TRAutocompleteView": "gui_autocomplete", // Flexible and highly configurable auto complete view, attachable to any UITextField.
   "TreasureData": "", // Treasure Data Client Library for Objective-C.
   "treemapkit": "", // TreeMap for Cocoa Touch (iPhone/iPod touch/iPad).
   "TRSDialScrollView": "", // TRSDialScrollView is a customizable UIScrollView for use as a dial control.
@@ -3646,7 +3646,7 @@ and caching them.
   "UIImage+TextureAtlas": "", // UIImage category to convert XCode generated Texture Atlas files into UIImages. Useful for animations outside of SpriteKit.
   "UIImage+Transforms": "", // Methods and functions for manipulating UIImages
   "UIImage-Vector": "", // UIImage category for dealing with vector formats like PDF and icon fonts.
-  "UIImageView-Gravatar": "", // A simple and quickly put together UIImageView subclass for dealing with http://gravatar.com images.
+  "UIImageView-Gravatar": "gravatar", // A simple and quickly put together UIImageView subclass for dealing with http://gravatar.com images.
   "UIImageViewModeScaleAspect": "", // Create animation of a UIImageView between twice contentMode ( UIViewContentModeScaleAspectFill / UIViewContentModeScaleAspectFit ).
   "UIKitCategoryAdditions": "", // Block based Category additions for AlertView and ActionSheets.
   "UIKitHelper": "", // UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement.
