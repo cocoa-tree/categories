@@ -85,9 +85,9 @@
   "AFIncrementalStore": "", // Core Data Persistence with AFNetworking, Done Right.
   "AFJSONPRequestOperation": "", // AFNetworking Extension for the JSONP format.
   "AFJSONRPCClient": "json", // A JSON-RPC client build on AFNetworking.
-  "AFKissXMLRequestOperation": "", // An extension for AFNetworking that provides an interface to parse XML using KissXML.
-  "AFKissXMLRequestOperation@aceontech": "", // An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.
-  "AFKissXMLRequestOperation@tonyzonghui": "", // An extension for AFNetworking that provides an interface to parse XML using KissXML. Specified AFNetworking version.
+  "AFKissXMLRequestOperation": "xml", // An extension for AFNetworking that provides an interface to parse XML using KissXML.
+  "AFKissXMLRequestOperation@aceontech": "xml", // An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.
+  "AFKissXMLRequestOperation@tonyzonghui": "xml", // An extension for AFNetworking that provides an interface to parse XML using KissXML. Specified AFNetworking version.
   "AFLinkedInOAuth1Client": "", // AFOAuth1Client for LinkedIn.
   "AFMacros": "", // Macros for iOS projects.
   "AFMobilePayRequestHandler": "", // Send and request money via Danske Banks MobilePay app.
@@ -105,8 +105,8 @@
   "AFQiitaClient": "", // AFNetworking Client for the Qiita API.
   "AFQiniuClient": "", // AFNetworking Extension for Qiniu(七牛)
   "AFQuickLookView": "", // AFNetworking Extension for document previews of remote files.
-  "AFRaptureXMLRequestOperation": "", // AFRaptureXMLRequestOperation is an extension for AFNetworking that provides an interface to parse XML using RaptureXML.
-  "AFRedditAPIClient": "", // AFHTTPClient Subclass for the Reddit Api.
+  "AFRaptureXMLRequestOperation": "xml", // AFRaptureXMLRequestOperation is an extension for AFNetworking that provides an interface to parse XML using RaptureXML.
+  "AFRedditAPIClient": "proprietary_api", // AFHTTPClient Subclass for the Reddit Api.
   "AFRESTfulCoreDataBackgroundQueue": "", // AFNetworking based AFHTTPClient conforming to SLRESTfulCoreDataBackgroundQueue.
   "AFSpritz": "", // A complete Spritz SDK for iOS
   "AFStatHatClient": "http", // An AFHTTPClient subclass for reporting to StatHat.
@@ -115,7 +115,7 @@
   "AFURLConnectionByteSpeedMeasure": "", // Extends AFNetworking with the ability to measure connection speed and estimate completion time.
   "AFWunderlist": "proprietary_api", // AFWunderlist is a Wunderlist API wrapper for Objective-C
   "AFXAuthClient": "networking", // AFNetworking Extension for XAuth Authentication.
-  "AFXMLDictionarySerializer": "", // Support for converting XML do NSDictionary in AFNetworking.
+  "AFXMLDictionarySerializer": "xml", // Support for converting XML do NSDictionary in AFNetworking.
   "AGAssert": "", // The better alternative to NSAssert.
   "AGAsyncTestHelper": "", // Macro for writing unit tests with asynchronous operations.
   "AGBlurTransition": "", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
@@ -235,7 +235,7 @@
   "APTimeZones": "", // The easiest way to get NSTimeZone from CLLocation from @Alterplay folks
   "APTokenField": "", // A simple, lightweight, yet equally powerful version of Three20's TTPickerTextField.
   "APUtils": "", // Collection of helpful categories and magik one liners for iOS/Mac OS development.
-  "apxml": "", // XML DOM for iPhone and iPod Touch.
+  "apxml": "xml", // XML DOM for iPhone and iPod Touch.
   "AQGridView": "", // A grid view for iPhone/iPad, designed to look similar to NSCollectionView.
   "ARAnalytics": "", // Using subspecs you can define your analytics provider with the same API on iOS and OS X.
   "AraneaKit": "", // Kit for iOS Development from Aranea Apps.
@@ -396,7 +396,7 @@
   "BlockExtentions": "", // Simple block-based extentions.
   "BlockInjection": "", // You can insert some Blocks before and after the method.
   "Block-KVO": "", // Objective-C Key-Value Observing made easier with blocks.
-  "BlockRSSParser": "", // AFNetworkingXMLRequestOperation based RSS parser.
+  "BlockRSSParser": "feeds", // AFNetworkingXMLRequestOperation based RSS parser.
   "BlocksKit": "", // The Objective-C block utilities you always wish you had.
   "BlockTypeDescription": "", // Category on NSBlock to add the type signature to the description.
   "BloodMagic": "", // BloodMagic provides kind of custom property attributes
@@ -609,7 +609,7 @@
   "CNSplitView": "", // CNSplitView is an feature enhanced derivative of NSSplitView. It has support for sticky top or bottom toolbars for each of its subviews.
   "CNTreeNode": "", // Using CNTreeNode is a convenient and easy way to build a tree of nested objects.
   "CNUserNotification": "", // CNUserNotification gives you „the same‟ support for user notifications on OS X Lion 10.7 like OS X Mountain Lion 10.8 it does.
-  "CNXML": "", // Simple basic handling of XML files for both reading and manual creation.
+  "CNXML": "xml", // Simple basic handling of XML files for both reading and manual creation.
   "coby": "", // Opinionated categories for Objective C.
   "CocoaActiveModel": "", // A ActiceRecord style data modeling for Objective C.
   "CocoaAsyncSocket": "", // Asynchronous socket networking library for Mac and iOS.
@@ -775,7 +775,7 @@
   "DCImageView": "", // Network Based ImageViewer.
   "DCIntrospect": "", // Introspect is small set of tools for iOS that aid in debugging user interfaces built with UIKit.
   "DCIntrospect-ARC": "", // Introspect is small set of tools for iOS that aid in debugging user interfaces built with.
-  "DCKeyValueObjectMapping": "", // Automatic KeyValue Object Mapping for Objective-C, parse JSON/Plist/XML automatically, support Core Data, convetion over configuration.
+  "DCKeyValueObjectMapping": "object_mapping", // Automatic KeyValue Object Mapping for Objective-C, parse JSON/Plist/XML automatically, support Core Data, convetion over configuration.
   "DCLabel": "", // Extends UILabel attributedText drawing to make embedding images/video content simple.
   "DCModalSegue": "", // A custom segue which makes a 'pushed back' modal presenting animation.
   "DCModel": "", // ORM model in objective-c Using CoreData. Similar to Active Record.
@@ -963,7 +963,7 @@
   "EKTilesMaker": "", // Simple iOS utility that slices provided original image onto tiles.
   "ELCImagePickerController": "", // A Multiple Selection Image Picker.
   "ELCTextFieldCell": "gui_tableview", // A UITableViewCell subclass useful for forms.
-  "ElementParser": "", // ElementParser is lightweight Cocoa Framework (usable on the iPhone) to provide easy access to XML and HTML content.
+  "ElementParser": "xml", // ElementParser is lightweight Cocoa Framework (usable on the iPhone) to provide easy access to XML and HTML content.
   "ELHeaderView": "", // 网易新闻中订阅的Header.
   "ELRefresh": "", // Pull to refresh component
   "ELTableViewController": "gui_tableview", // A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async.
@@ -1008,7 +1008,7 @@
   "Evernote-SDK-iOS": "", // Evernote SDK for iOS.
   "Evernote-SDK-Mac": "", // Evernote SDK for osx.
   "EXiLE": "", // Easy Xib Localization Entity.
-  "expat": "", // Expat is an XML parser library written in C.
+  "expat": "xml", // Expat is an XML parser library written in C.
   "Expecta": "", // A matcher framework for Objective-C & Cocoa.
   "ExtendNSLog": "", // ExtendNSLog
   "EZAudio": "", // A simple, intuitive audio framework for iOS and OSX useful for anyone doing audio processing and/or audio-based visualizations.
@@ -1114,7 +1114,7 @@
   "FRD3DBarChart": "", // Interactive iOS 3D bar chart control made with GLKit.
   "FRDLivelyButton": "", // Lively button.
   "FreeStreamer": "", // A low-memory footprint streaming audio client for iOS and OS X.
-  "freexl": "", // FreeXL is an open source library to extract valid data from within an Excel (.xls) spreadsheet.
+  "freexl": "proprietary_api", // FreeXL is an open source library to extract valid data from within an Excel (.xls) spreadsheet.
   "FreshdeskSDK": "", // Customer service helpdesk for mobile applications.
   "FRLayeredNavigationController": "", // Layered navigation controller for hierarchical iPad apps.
   "FRPChangeRootViewControllerSegue": "", // Custom segue that performs a root view controller change with an animation
@@ -1122,7 +1122,7 @@
   "FSClassExtensions": "", // FocalShift Objective-C Class Extensions
   "FSExtendedAlertKit": "", // Block based alert views and action sheets, with activity indicator and progress view support.
   "FSImageViewer": "", // FSImageViewer is a photo viewer for iOS.
-  "FSJUnitTestLog": "", // FSJUnitTestLog is a XCTestObserver implementation, which converts the test results to an JUnit XML Results file.
+  "FSJUnitTestLog": "testing", // FSJUnitTestLog is a XCTestObserver implementation, which converts the test results to an JUnit XML Results file.
   "FSNetworking": "", // FSNetworking is a small library for HTTP networking on iOS.
   "FSOAuth": "", // Foursquare native auth makes it easier for users of your app to connect to Foursquare.
   "FSOpenInGmail": "", // FSOpenInGmail is a tool for sending mails with Gmail iOS App.
@@ -1556,7 +1556,7 @@ and caching them.
   "ITSidebar": "", // ITSidebar is a control for Mac OS X similar to the one of Sparrow.
   "iTunesConnectHelper": "", // Helper class for making purchases with iTunes Connect.
   "iTunesSearch": "", // Block based iTunes store communication for iOS and Mac OS X.
-  "iTVDb": "", // iTVDb provides a wrapper around the TVDB (http://thetvdb.com) XML API and can be used in iOS apps.
+  "iTVDb": "proprietary_api", // iTVDb provides a wrapper around the TVDB (http://thetvdb.com) XML API and can be used in iOS apps.
   "ITWLoadingPanel": "", // Drop in classes for adding a download info panel.
   "iVersion": "", // Library for checking for updates to Mac/iPhone App Store apps from within the application and notifying users about the new release.
   "IVGCoreDataUtils": "", // Miscellaneous core data helper routines for iOS
@@ -1743,7 +1743,7 @@ and caching them.
   "KISObserver": "", // An easy way to use the Key-Value Observing (KVO) pattern with blocks and selectors.
   "KISSmetrics": "", // Library for KISSmetrics.
   "KissNSUserDefaults": "", // Keep NSUserDefaults simple, stupid. Access NSUserDefaults key using property, subclassing is not required.
-  "KissXML": "", // A replacement for Cocoa's NSXML cluster of classes. Based on libxml.
+  "KissXML": "xml", // A replacement for Cocoa's NSXML cluster of classes. Based on libxml.
   "Kiwi": "", // A Behavior Driven Development library for iOS and OS X.
   "Kiwi-KIF": "", // Allows to write KIF integration tests using Kiwi framework
   "KJGridLayout": "", // KJGridLayout is a simple grid layout manager for views in an iOS application.
@@ -1879,7 +1879,7 @@ and caching them.
   "libintl-alternative": "", // Replace libintl part of gettext runtime with NSBundle localizedString: for OSX/iOS.
   "libkml": "", // a KML library written in C++.
   "libPhoneNumber-iOS": "", // iOS library for parsing, formatting, storing and validating international phone numbers from libphonenumber library.
-  "libplist": "", // Apple Binary and XML Property Lists
+  "libplist": "apple_api", // Apple Binary and XML Property Lists
   "libPusher": "", // An Objective-C client for the Pusher.com service
   "libqrencode": "", // Libqrencode is a C library for encoding data in a QR Code symbol.
   "librato-iOS": "", // Librato library for iOS
@@ -1889,7 +1889,7 @@ and caching them.
   "libsodium-ios": "", // libodium-ios is an API-compatible iOS version of the crypto lib NaCl (com, encryption & signatures). Based on libsodium.
   "libspotify": "", // The libspotify C API package
   "libssh2": "", // libssh2 is a client-side C library implementing the SSH2 protocol
-  "libwbxml": "", // libwbxml is a WBXML parser library written in C.
+  "libwbxml": "xml", // libwbxml is a WBXML parser library written in C.
   "libwebp": "", // Library to encode and decode images in WebP format.
   "LibYAML": "", // LibYAML is a YAML 1.1 parser and emitter written in C.
   "libzmq": "", // ZeroMQ is a high-performance asynchronous messaging library aimed at use in scalable distributed or concurrent applications.
@@ -2108,8 +2108,8 @@ and caching them.
   "MJNIndexView": "", // MJNIndexView
   "MJPopupViewController": "", // A UIViewController Category to display a ViewController as a popup with different transition effects.
   "MKDevice": "", // A convenience library for querying device and system information.
-  "MKFoundation": "", // Super easy serialization/deserialiation classes for JSON/XML and Parse.
-  "MKFoundationKit": "", // Collection of categories for NSFoundation classes to accelerate development.
+  "MKFoundation": "serialization", // Super easy serialization/deserialiation classes for JSON/XML and Parse.
+  "MKFoundationKit": "utilities", // Collection of categories for NSFoundation classes to accelerate development.
   "MKHorizMenu": "gui_menus", // Demo of MKHorizMenu a simple, drop-in replacement for the Three20 fame horizontal menus used in news apps.
   "MKiCloudSync": "", // Sync your NSUserDefaults to iCloud automatically.
   "MKInfoPanel": "", // Non-modal, non-intrusive Info Panel implementation as seen on some "popular" apps.
@@ -2405,27 +2405,27 @@ and caching them.
   "NSLayoutConstraint+ExpressionFormat": "", // A category on NSLayoutConstraint that adds a new class method that allows you to create constraints using a simple string-based syntax.
   "NSLayoutConstraint+HAWHelpers": "", // NSLayoutConstraint category that adds clearly-named convenience methods for some commonly-used constraints.
   "NSLayoutEquations": "", // Make NSLayoutConstraint as easy as y = mx + b.
-  "NSLogger": "", // A modern, flexible logging tool.
-  "NSLogger-CocoaLumberjack-connector": "", // Bridges NSLogger and CocoaLumberjack.
-  "NSManagedObjectContext-Hydrate": "", // A drop-in category of NSManagedObjectContext class for easily preloading a CoreData store with custom objects from JSON or CSV data.
-  "NSMutableArrayRearrangingExtensions": "", // NSMutableArray extensions.
-  "NSMutableArray-Shuffle": "", // A helpful category on NSMutableArray that provides a method to shuffle the array.
-  "NSMutableURLRequest-BasicAuth": "", // An Objective-C category for performing HTTP Basic Access Authentication. 
-  "NSNull+TypeAdditions": "", // A category on NSNull that auto-sanitizes API values.
-  "NSNumber+CGFloat": "", // NSNumber+CGFloat is an category to get CGFloat value from NSNumber object and create NSNumber object with CGFloat value.
-  "NSNumber+NSTimeInterval": "", // NSNumber+NSTimeInterval is a category to convert between values of types NSTimeInterval and NSNumber.
-  "NSObject+AutoDescription": "", // NSObject+AutoDescription is an category that greatly simplifies the process of writing description method for data models.
-  "NSObject-AutomagicCoding": "", // Very easy to use NSCoding replacement for Mac and iOS Projects.
-  "NSObject+Dealloc": "", // Category used to know when your object has been deallocated
-  "NSObject+Expectation": "", // Simple object verification that does not clutter your code.
-  "NSObject-NSCoding": "", // Automatic NSCoding and persistence implementation
-  "NSObject-ObjectIO": "", // ObjectIO is an NSObject Category for writing and reading objects to and from files, with encryption support.
-  "NSObject-ObjectMap": "", // This is a drop-in category of NSObject that makes it easy to initialize custom objects from JSON or XML.
-  "NSObjectProperties": "", // Expansion of AQToolkit's NSObject+Properties category
-  "NSObject-Tap": "", // `tap:` method for Objective-C borrowed from Ruby.
-  "NSOrderedDictionary": "", // A cross between NSArray and NSDictionary. It holds an ordered list of objects and keys.
-  "NSRails": "", // iOS/Mac OS framework for Rails.
-  "NSRemoteLog": "", // A delightful remote NSLogging library.
+  "NSLogger": "logging", // A modern, flexible logging tool.
+  "NSLogger-CocoaLumberjack-connector": "logging", // Bridges NSLogger and CocoaLumberjack.
+  "NSManagedObjectContext-Hydrate": "core_data", // A drop-in category of NSManagedObjectContext class for easily preloading a CoreData store with custom objects from JSON or CSV data.
+  "NSMutableArrayRearrangingExtensions": "foundation_extension", // NSMutableArray extensions.
+  "NSMutableArray-Shuffle": "foundation_extension", // A helpful category on NSMutableArray that provides a method to shuffle the array.
+  "NSMutableURLRequest-BasicAuth": "authentication", // An Objective-C category for performing HTTP Basic Access Authentication. 
+  "NSNull+TypeAdditions": "foundation_extension", // A category on NSNull that auto-sanitizes API values.
+  "NSNumber+CGFloat": "foundation_extension", // NSNumber+CGFloat is an category to get CGFloat value from NSNumber object and create NSNumber object with CGFloat value.
+  "NSNumber+NSTimeInterval": "foundation_extension", // NSNumber+NSTimeInterval is a category to convert between values of types NSTimeInterval and NSNumber.
+  "NSObject+AutoDescription": "foundation_extension", // NSObject+AutoDescription is an category that greatly simplifies the process of writing description method for data models.
+  "NSObject-AutomagicCoding": "foundation_extension", // Very easy to use NSCoding replacement for Mac and iOS Projects.
+  "NSObject+Dealloc": "foundation_extension", // Category used to know when your object has been deallocated
+  "NSObject+Expectation": "foundation_extension", // Simple object verification that does not clutter your code.
+  "NSObject-NSCoding": "foundation_extension", // Automatic NSCoding and persistence implementation
+  "NSObject-ObjectIO": "foundation_extension", // ObjectIO is an NSObject Category for writing and reading objects to and from files, with encryption support.
+  "NSObject-ObjectMap": "foundation_extension", // This is a drop-in category of NSObject that makes it easy to initialize custom objects from JSON or XML.
+  "NSObjectProperties": "foundation_extension", // Expansion of AQToolkit's NSObject+Properties category
+  "NSObject-Tap": "foundation_extension", // `tap:` method for Objective-C borrowed from Ruby.
+  "NSOrderedDictionary": "foundation_extension", // A cross between NSArray and NSDictionary. It holds an ordered list of objects and keys.
+  "NSRails": "api", // iOS/Mac OS framework for Rails.
+  "NSRemoteLog": "logging", // A delightful remote NSLogging library.
   "NSSimpleDefaults": "", // A simple implementation of NSUserDefaults with shorter getting and setting methods
   "NSSNOWAnimatedLogoView": "", // An animated view of the NSSnow Logo.
   "NSString-Email": "", // A category on NSString for checking if a string is an email address.
@@ -2512,7 +2512,7 @@ and caching them.
   "ObjectiveLuhn": "", // The Luhn Algorithm ported to objective-c.
   "ObjectiveMetrics": "", // Implementation of DeskMetrics for iOS & OS X.
   "ObjectiveMixin": "", // Ruby-like mixin functionality for Objective-C programs.
-  "ObjectiveRecord": "", // Lightweight and sexy Core Data finders, creators and other methods. Rails syntax.
+  "ObjectiveRecord": "core_data", // Lightweight and sexy Core Data finders, creators and other methods. Rails syntax.
   "Objective-Shorthand": "", // Objective-Shorthand is a set of categories on Foundation objects that make long things in Objective-C short.
   "ObjectiveSugar": "", // Objective C additions for humans. Write ObjC _like a boss_.
   "ObjectiveTumblr": "", // Tumblr API Client for Objective-C with minimal features, based on Tumblr API v2 (OAuth).
