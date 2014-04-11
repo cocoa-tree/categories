@@ -1,7 +1,7 @@
 {
   "500px-iOS-api": "proprietary_api", // A simple SDK for accessing the 500px API. 
   "A2DynamicDelegate": "functional_programming", // Blocks are to functions as A2DynamicDelegate is to delegates.
-  "A2StoryboardSegueContext": "", // Supplement your segues' identifier strings with context objects.
+  "A2StoryboardSegueContext": "storyboard", // Supplement your segues' identifier strings with context objects.
   "A3GridTableView": "gui_tableview", // Fast UIScrollView subclass which presents its cells in a GridView.
   "AAActivityAction": "", // Reeder like action sheet.
   "AAImageUtils": "", // Simple framework to let your application's launch image fade-out to its initial view.
@@ -968,7 +968,7 @@
   "ELRefresh": "", // Pull to refresh component
   "ELTableViewController": "gui_tableview", // A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async.
   "EmailChecker": "", // EmailChecker helps to catch simple email domain typos.
-  "EmbeddedSwapping": "", // Container view controller which manage multiple child view controllers using storyboards
+  "EmbeddedSwapping": "storyboard", // Container view controller which manage multiple child view controllers using storyboards
   "Emitter": "", // An event emitter implementation for Objective-C with dynamic block invocation based on the node.js EventEmitter API.
   "Emoticonizer": "", // Converts a given string with common chat smileys like :) to emoji symbols.
   "EmpatikaBeacons": "", // Yet another SDK.
@@ -1127,7 +1127,7 @@
   "FSOAuth": "", // Foursquare native auth makes it easier for users of your app to connect to Foursquare.
   "FSOpenInGmail": "", // FSOpenInGmail is a tool for sending mails with Gmail iOS App.
   "FsprgEmbeddedStoreMac": "", // Embedded Store Framework for http://fastspring.com
-  "FSStoryboardHelpers": "", // Useful classes for effectively working with Xcode Storyboards.
+  "FSStoryboardHelpers": "storyboard", // Useful classes for effectively working with Xcode Storyboards.
   "FTAssetRenderer": "", // Create image assets at runtime in any color when used as mask and/or at any resolution when it’s a PDF.
   "FTCoreText": "", // UIView subclass for rendering static content with CoreText using Objective-C interface and highly customisable markup syntax.
   "FTFontSelector": "", // A clone of the font selector found in Apple’s iOS Pages app.
@@ -1165,7 +1165,7 @@
   "GBInfiniteScrollView": "", // GBInfiniteScrollView class provides an endlessly scroll view organized in pages.
   "GBToolbox": "", // Goonbee's iOS development toolbox
   "GBVersionTracking": "", // Track which versions of your iOS or Mac OS X app a user has previously installed.
-  "GC3DFlipTransitionStyleSegue": "", // iBooks-style 3D flip transition animation rendered in OpenGL ES 2.0 and wrapped in a UIStoryboardSegue subclass.
+  "GC3DFlipTransitionStyleSegue": "storyboard", // iBooks-style 3D flip transition animation rendered in OpenGL ES 2.0 and wrapped in a UIStoryboardSegue subclass.
   "GCBActionSheet": "", // A subclass of UIActionSheet that lets you attach blocks to its buttons.
   "GCBAlertView": "", // A subclass of UIAlertView that lets you attach blocks to its buttons.
   "GCBStatusDisplay": "", // A very simple status display facility for iOS apps.
@@ -1592,7 +1592,7 @@ and caching them.
   "JCModel": "", // A small framework to help with writing model layers in iOS.
   "JCNotificationBannerPresenter": "", // A library for generic presentation of "banners" (e.g. to present a push notification) from anywhere inside an iOS app.
   "JCPriorityQueue": "", // A set of priority queue classes for Objective C.
-  "JCSegueUserInfo": "", // Programmatic UIStoryboardSegue - the missing (data) link.
+  "JCSegueUserInfo": "storyboard", // Programmatic UIStoryboardSegue - the missing (data) link.
   "JDDroppableView": "", // A base class for any draggable views. Automatic drag target recognition. (Drag & Drop, even out of scrollviews).
   "JDFlipNumberView": "", // A simple, yet powerful, customizable FlipNumberView based on CoreAnimation (Simulating an analog flip display).
   "JDStatusBarNotification": "", // Easy, customizable notifications displayed on top of the statusbar. With progress and activity.
@@ -1772,7 +1772,7 @@ and caching them.
   "KOTabs": "", // Easily create a tabbed document interface.
   "KOTree": "", // Shows a tree of hierarchical data, e.g. files and folders.
   "KPAColorFormatter": "", // Format UIColor and NSColor instances to English names
-  "KPAStoryboardConvenience": "", // A UIStoryboard convenience category offering a standard way of naming components in UIStoryboards.
+  "KPAStoryboardConvenience": "storyboard", // A UIStoryboard convenience category offering a standard way of naming components in UIStoryboards.
   "KPAViewControllerTestHelper": "", // Convenience class for testing view controllers
   "KRCloudSync": "", // Sync your files with iCloud, Dropbox etc via KRCloudSync.
   "KRKit": "", // Useful utilities/categories
@@ -2061,7 +2061,7 @@ and caching them.
   "MFMathLib": "", // 8-bit to 1024-bit precision arithmetic with overflow/underflow tracking.
   "MFPageFlowView": "", // A paging flow view, similar to the scrollable iOS App Store screenshots.
   "MFSideMenu": "", // Facebook-like side menu for iOS.
-  "MFStoryboardPushSegue": "", // UIStoryboardPushSegue for use outside a navigation controller
+  "MFStoryboardPushSegue": "storyboard", // UIStoryboardPushSegue for use outside a navigation controller
   "MGBenchmark": "", // This library provides an easy way to measure execution time in code.
   "MGBox": "", // A UITableView replacement with simplified API.
   "MGBox2": "", // Simple, quick iOS tables, grids, and more.
@@ -2138,7 +2138,7 @@ and caching them.
   "MMCircularProgressView": "", // Circular ProgressView for iOS.
   "MMCounterView": "", // A 'high score'-style counting view that animates between different displayed integers.
   "MMDrawerController": "", // A lightweight, easy-to-use side drawer navigation controller.
-  "MMDrawerController+Storyboard": "", // Storyboard category extension for MMDrawerController
+  "MMDrawerController+Storyboard": "storyboard", // Storyboard category extension for MMDrawerController
   "MMKeychain": "keychain", // A simple wrapper around the keychain that securely stores NSStrings.
   "MMMarkdown": "", // An Objective-C static library for converting Markdown to HTML.
   "MMPickerView": "", // An easy to use and customizable UIPickerView for your iOS app.
@@ -2207,7 +2207,7 @@ and caching them.
   "MSMatrixController": "", // A component to organize your view controllers in a gesture-based a 2D matrix.
   "MSNavigationPaneViewController": "", // Draggable navigation pane view controller for iPhone. Similar to the Path/Facebook navigation paradigm.
   "MSNavigationSwipeController": "", // Subclass of UINavigationController to add 'swipe right to go back' gesture recognizer like most apps (Facebook, Tweetbot) already do.
-  "MSPageViewController": "", // Create UIPageViewControllers using storyboards.
+  "MSPageViewController": "storyboard", // Create UIPageViewControllers using storyboards.
   "MSPullToRefreshController": "", // The most flexible pull to refresh component EVER.
   "MSRandomIndexPath": "", // Returns a random index path valid for one of the arrays you specify.
   "MSRefreshControl": "", // iOS pull-to-refresh, BBC News app style
@@ -2829,7 +2829,7 @@ and caching them.
   "Raven": "", // A client for Sentry (getsentry.com).
   "Raygun4iOS": "", // Raygun for iOS
   "RBBAnimation": "", // Block-based animations made easy.
-  "RBStoryboardLink": "", // Makes transitioning between storyboards possible.
+  "RBStoryboardLink": "storyboard", // Makes transitioning between storyboards possible.
   "RBVolumeButtons": "", // This lets you steal the volume up and volume down buttons on iOS.
   "RCActiveRecord": "", // Quick & Free ORM tool for iOS.
   "RCDraggableButton": "", // A draggable button that appears in your view.
@@ -3207,7 +3207,7 @@ and caching them.
   "SMGenerator": "", // SMGenerator: experimental fast and easy way to create generators in Objective-C
   "SMGridView": "gui_tableview", // UIScrollView subclass that uses methods similar to UITableView, UITableViewDataSource, and UITableViewDelegate.
   "SMPageControl": "", // UIPageControl’s fancy one-upping cousin.
-  "SMQuickSegue": "", // Quick parameter setting with storyboard segues
+  "SMQuickSegue": "storyboard", // Quick parameter setting with storyboard segues
   "SMStateMachine": "", // Very simple state machine written in Objective-C.
   "SMVerticalSegmentedControl": "", // SMVerticalSegmentedControl is plain vertical segmented control
   "SMWebRequest": "", // A lightweight class for iOS for making asynchronous web requests.
@@ -3315,8 +3315,8 @@ and caching them.
   "StopWatch": "", // StopWatch view with BBControl buttons.
   "StorageRoomKit": "", // Objective-C API for StorageRoom API (http://storageroomapp.com).
   "StoreKISS": "", // Lightweight wrapper for Apple's StoreKit framework created with KISS concept and love ❤.
-  "StoryboardInitializer": "", // It is handling instantiateViewControllerWithIdentifier: of storyboard.
-  "StoryboardSupport": "", // Utilities to make prototyping with Storyboards easier, created for designers.
+  "StoryboardInitializer": "storyboard", // It is handling instantiateViewControllerWithIdentifier: of storyboard.
+  "StoryboardSupport": "storyboard", // Utilities to make prototyping with Storyboards easier, created for designers.
   "STPhoneFormatter": "", // A custom formatter to deal with an international phone number inside a UITextField.
   "STPImboClient": "", // STPImbo is a simple helper to create image URLs for imbo Image Server.
   "STPTransitions": "", // Unified, easy API for custom iOS view controller transitioning.
