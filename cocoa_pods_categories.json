@@ -28,7 +28,7 @@
   "ACEView": "gui_controls", // Use the ACE editor in your Cocoa applications.
   "AcknowledgementsBundle": "", // Easily add a Settings.bundle with CocoaPods acknowledgements to your iOS App.
   "ACPButton": "gui_controls", // UIButton subclass to easily add custom buttons to your iOS app.
-  "ACPScrollMenu": "gui_controls", // ACPScrollMenu is a easy and fully customizable scrollable menu
+  "ACPScrollMenu": "gui_menus", // ACPScrollMenu is a easy and fully customizable scrollable menu
   "ACReuseQueue": "queue", // A queue to keep and reusing objects.
   "ACSimpleKeychain": "keychain", // Dead simple keychain wrapper for iOS.
   "ActionSheetPicker": "gui_controls", // Quickly reproduce the dropdown UIPickerView / ActionSheet functionality from Safari on iPhone/ iOS / CocoaTouch.
@@ -45,7 +45,7 @@
   "AdBrixSDK": "", // AdBrix SDK
   "ADCExtensions": "", // ADCExtensions is a collection of useful categories for Cocoa objects.
   "ADClusterMapView": "gui_controls", // ADClusterMapView is a drop-in subclass of MKMapView that displays and animate clusters of annotations.
-  "ADDropDownMenuView": "gui_controls", // ADDropDownMenuView is an iOS navigation drop down style view.
+  "ADDropDownMenuView": "gui_menus", // ADDropDownMenuView is an iOS navigation drop down style view.
   "ADFullScreenDetailView": "", // A detail view that dynamically sizes based on content. Alternative to UIAlertView to display more information elegantly.
   "ADiOSUtilities": "", // ADiOSUtilities is collection of static libraries with re-useable iOS awesomeness.
   "Adjust": "", // This is the iOS SDK of Adjust. You can read more about it at http://adjust.io.
@@ -155,7 +155,7 @@
   "ALMoviePlayerController": "", // A drop-in replacement for MPMoviePlayerController that exposes the UI elements and allows for maximum customization.
   "AlphabetTable": "gui_tableview", // A UITableView subclass which automatically sorts your data elements into sections keyed by letter.
   "ALPValidator": "", // Drop in user input validation for your iOS apps.
-  "ALRadial": "", // Radial menus for iOS.
+  "ALRadial": "gui_menus", // Radial menus for iOS.
   "ALToastView": "", // Android-like toast messages for iOS.
   "AMAttributedHighlightLabel": "", // A UILabel subclass with mention/hashtag/link highlighting.
   "AmazeKit": "", // AmazeKit is a library for rendering beautiful images in your iOS app.
@@ -165,12 +165,12 @@
   "AMDraggableBlurView": "", // Draggable blurred view. This control is inspired by the brilliant work of César Pinto Castillo's AMBlurView
   "AMFatFractal": "", // Extends the FatFractal iOS framework.
   "AMInfiniteScrollView": "", // An automatically scrolling infinite scrollview.
-  "AMOptionMenu": "", // A popup button/menu that allows selection of multiple options.
+  "AMOptionMenu": "gui_menus", // A popup button/menu that allows selection of multiple options.
   "AMPAvatarView": "", // A simple UIView subclass that shows an UIImage with a shadow in a circle.
   "Amplitude-iOS": "", // Amplitude mobile analytics iOS SDK.
   "AMRatingControl": "", // A simple rating control for the iPhone.
   "AMScrollingNavbar": "", // Scrollable UINavigationBar that follows the scrolling of a UIScrollView. Similiar to Chrome for iOS7
-  "AMSlideMenu": "", // Ease slide menu, with high customization for ios
+  "AMSlideMenu": "gui_menus", // Ease slide menu, with high customization for ios
   "AMSlideOutController": "", // SlideOut Navigation Controller for iOS. Fully customizable.
   "AMTagListView": "", // UIScrollView subclass that allows to add a list of highly customizable tags.
   "AMYServer": "", // AMY Mocks Your Server - A mock HTTP server for KIF.
@@ -202,7 +202,7 @@
   "APLNavigationController": "", // Custom UINavigationController subclass which adds support for automatic show/hide of the navgationBar
   "APLObject": "", // NSObject subclass with automatic debugDescription
   "APLPageViewControllerDataSource": "", // APLPageViewControllerDataSource is an array based data source for UIPageViewController.
-  "APLSlideMenu": "", // Sliding Hamburger Menu like the one in the Facebook App
+  "APLSlideMenu": "gui_menus", // Sliding Hamburger Menu like the one in the Facebook App
   "APLTextField": "", // Advanced UITextField subclass with the possibility to be connected to a picker
   "Appacitive-iOS-SDK": "", // iOS SDK for the Appacitive platform.
   "APPaginalTableView": "gui_tableview", // This is implementation of view allowing navigation between views like in iOS 7 Weather App.
@@ -312,7 +312,7 @@
   "AVOSCloudUI": "", // AVOS Cloud iOS UI SDK for mobile backend.
   "AVOSCloudUIBeta": "", // AVOS Cloud iOS SDK for mobile backend.
   "AVTagTextView": "", // A category that adds an instragram-like hashtag choosing/listing capability to the UITextView
-  "AwesomeMenu": "gui", // Path 2.0 menu using CoreAnimation :).
+  "AwesomeMenu": "gui_menus", // Path 2.0 menu using CoreAnimation :).
   "AWIconSheet": "", // iOS 6 share style actionsheet.
   "AWSiOSSDK": "", // Amazon Web Services SDK for iOS.
   "AWSS3": "", // iOS SDK for Amazon S3.
@@ -418,7 +418,7 @@
   "BOSImageResizeOperation": "", // An Objective-C operation to resize your images correctly and quickly.
   "BOString": "", // Create NSAttributedString like a boss!
   "BotKit": "", // BotKit is a Cocoa Touch static library for use in iOS projects.
-  "BounceMenuController": "", // A tab bar controller-esque navigation solution for iOS.
+  "BounceMenuController": "gui_menus", // A tab bar controller-esque navigation solution for iOS.
   "box2d": "", // Box2D is an open source C++ engine for simulating rigid bodies in 2D.
   "boxBlur": "", // This helps blur background images using Accelerate
   "box-ios-sdk": "", // An Objective-C library for using the box API.
@@ -553,7 +553,7 @@
   "CHTCollectionViewWaterfallLayout": "", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
   "CHTStickerView": "", // A movable, resizable, rotatable UIView with one fingle, which is fully customizable!
   "CHTTextView": "", // A UITextView subclass which supports placeholder (almost) perfectly in any text and/or font setting.
-  "CHTumblrMenu": "", // CHTumblrMenu is a Tumblr iOS app like menu view completely created using core animation.
+  "CHTumblrMenu": "gui_menus", // CHTumblrMenu is a Tumblr iOS app like menu view completely created using core animation.
   "CHTwitterCover": "", // TwitterCover is a parallax top view with real time blur effect to any UIScrollView, inspired by Twitter for iOS.
   "Chute-SDK": "", // iOS SDK for developing apps using the Chute Platform.
   "CIALBrowser": "", // A MobileSafari like open source implementation.
@@ -588,7 +588,7 @@
   "Cloudinary": "", // Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.
   "CloudMine": "", // The iOS Framework for interacting with the CloudMine platform.
   "CLPKittenPlaceholder": "", // Need placeholder images for your next iOS Project? Try Kittens.
-  "CLSideMenu": "", // Side Menu with zooming and menu item display effects
+  "CLSideMenu": "gui_menus", // Side Menu with zooming and menu item display effects
   "CLTableWithFooterViewController": "gui_tableview", // Easily add a stationary footer image when you reach the bottom of your UIScrollView or UITableView
   "Clutch": "", // This is the iOS client library for Clutch.io.
   "CMDataStorage": "", // Simple and powerful API for read / write NSData from / to iOS Cache / Documents / Tmp folder.
@@ -730,7 +730,7 @@
   "CustomBadge": "", // Draws a typical iOS badge indicator with a custom text on any view.
   "CustomUIActionSheet": "", // A custom UIActionSheet that supports an insertion of a UIView as a subview.
   "CVUMoviePlayerView": "", // Easy remote video playback in a `UIView` subclass.
-  "CWDropDownMenu": "", // CWDropDownMenu is a block based UIButton subclass that uses UIActionSheet to present a drop down menu.
+  "CWDropDownMenu": "gui_menus", // CWDropDownMenu is a block based UIButton subclass that uses UIActionSheet to present a drop down menu.
   "CWLSynthesizeSingleton": "", // Matt Gallagher's original singleton macro
   "CWPopup": "", // A category on UIViewController to present a popup view controller.
   "CWStatusBarNotification": "", // A library that creates status bar notifications.
@@ -751,7 +751,7 @@
   "DAAppsViewController": "", // DAAppsViewController is a simple way of displaying apps from the App Store in an aesthetically similar manner.
   "DAAttributedStringUtils": "", // DAAttributedStringUtils is a set of simple utilities for working with the NSAttributedString class on iOS.
   "DACircularProgress": "", // DACircularProgress is a UIView subclass with circular UIProgressView properties.
-  "DAContextMenuTableViewController": "gui_tableview", // DAContextMenuTableViewController.
+  "DAContextMenuTableViewController": "gui_menus", // DAContextMenuTableViewController.
   "Dailymotion-SDK": "", // This SDK allows you to integrate Dailymotion in your iOS applications.
   "DAKeyboardControl": "", // Easily add keyboard awareness and scrolling dismissal.
   "DALinedTextView": "", // A UITextView subclass that draws ruled lines to the view, similar to iOS' built-in Notes app.
@@ -762,7 +762,7 @@
   "DateCellsController": "gui_tableview", // Simple ios controller for UITableView with date cells.
   "daum-oauth-sdk": "", // SDK for Daum OAuth 2.0
   "DB5": "", // App Configuration via Plist.
-  "DBBasementController": "", // A slide out menu just how I like it.
+  "DBBasementController": "gui_menus", // A slide out menu just how I like it.
   "DBCamera": "", // DBCamera is a simple custom camera with AVFoundation
   "DBChooser": "", // Add Dropbox to your app with a few lines of code.
   "DBFBProfilePictureView": "", // Improved Facebook profile picture view.
@@ -835,7 +835,7 @@
   "DLPDFRenderer": "", // Lightweight solution for generating multi-page PDFs from arbitrary HTML input.
   "DLStarRating": "", // iOS star rating component.
   "DLSubclassAwareSingleton": "", // Singleton pattern implementation with support for specific instances per subclass.
-  "DLWidgetMenu": "", // Versatile solution for displaying widget menus. Easily adjustable with custom layouts and/or animations.
+  "DLWidgetMenu": "gui_menus", // Versatile solution for displaying widget menus. Easily adjustable with custom layouts and/or animations.
   "DMActivityInstagram": "", // A UIActivity for Instagram sharing in iOS 6.
   "DMCustomModalViewController": "", // A cool modal transition
   "DMDynamicWaterfall": "", // UICollectionView Waterfall Layout with UIKit Dynamics
@@ -878,7 +878,7 @@
   "Dropbox-OSX-SDK": "", // The Dropbox SDK for OS X.
   "Dropbox-OSX-Sync-SDK": "", // The Dropbox Sync & Datastore API SDK for OSX.
   "Dropbox-Sync-API-SDK": "", // The Dropbox Sync & Datastore API SDK for iOS.
-  "DropdownMenu": "", // A dropdown menu for iOS built on modern technologies inspired by the Vine and Dropbox iOS7 apps.
+  "DropdownMenu": "gui_menus", // A dropdown menu for iOS built on modern technologies inspired by the Vine and Dropbox iOS7 apps.
   "DRPaginatedScrollView": "", // Implement a paginated scroll view really easily using blocks.
   "DRTap": "", // .tap from Ruby implemented as a category on NSObject.
   "drupal-ios-sdk": "", // A framework for communicating to Drupal via an iPhone.
@@ -972,7 +972,7 @@
   "Emitter": "", // An event emitter implementation for Objective-C with dynamic block invocation based on the node.js EventEmitter API.
   "Emoticonizer": "", // Converts a given string with common chat smileys like :) to emoji symbols.
   "EmpatikaBeacons": "", // Yet another SDK.
-  "EMSideMenu": "", // Customizable side menu for iOS
+  "EMSideMenu": "gui_menus", // Customizable side menu for iOS
   "EMVerticalSegmentedControl": "", // A Vertical Segmented Control View for iOS
   "EMWebImagePicker": "", // An iOS Image picker for URL based images
   "EngageSDK": "", // Silverpop Engage SDK for iOS.
@@ -1308,7 +1308,7 @@
   "HashBuilder": "", // A utility to generate a hash for NSObject subclasses.
   "Hashtel": "", // Consistently get a color value for strings
   "HatenaBookmarkSDK": "", // Hatena Bookmark iOS SDK
-  "HATransparentView": "", // UIView transparent subclass based on Rdio stations menu.
+  "HATransparentView": "gui_menus", // UIView transparent subclass based on Rdio stations menu.
   "Hawk": "", // Hawk authentication scheme.
   "HawkClient": "", // Implementation of Hawk protocol for clients in iOS.
   "HAWTiltedImageView": "", // A view in iOS that uses gyro updates to show all of an image.
@@ -1336,7 +1336,7 @@
 and caching them.
   "HJRSeparatableView": "gui_tableview", // An extended view with a single line separator like UITableViewCell.
   "HKCircularProgressView": "", // A simple discrete/continuous circular progress view with current/max properties, customizable appearance and animatable.
-  "HKRadialMenu": "", // A menu and a button with an interactive central view that expands other peripherical interactive views.
+  "HKRadialMenu": "gui_menus", // A menu and a button with an interactive central view that expands other peripherical interactive views.
   "HKRefreshControl": "", // A custom refresh control that mimics iOS6's UIRefreshControl behavior but is also available for iOS5.
   "HKRewind": "", // A UIGestureRecognizer subclass and a HUD view that help you implement a rewind gesture à la Paper by Fifty-Three.
   "HLLDropDownQuickView": "", // DropDown List View
@@ -1344,7 +1344,7 @@ and caching them.
   "HMGLNavigationController": "", // Custom UINavigationController subclass that includes 3D animations for push/pop transitions.
   "HMGLTransitions": "", // HMGLTransitions is set of classes which can animate transition between two UIViews, or presentation / dismissing of UIViewControllers.
   "HMSegmentedControl": "", // A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products.
-  "HMSideMenu": "", // Allows you to display a menu of items that show from the left, right, top or bottom of a view controller with a delightful animation.
+  "HMSideMenu": "gui_menus", // Allows you to display a menu of items that show from the left, right, top or bottom of a view controller with a delightful animation.
   "HockeyKit": "", // A software update kit for iOS.
   "HockeySDK": "", // Collect live crash reports, get feedback from your users, distribute your betas, and analyze your test coverage with HockeyApp.
   "HockeySDK-Mac": "", // Collect crash reports with HockeyApp.
@@ -1392,7 +1392,7 @@ and caching them.
   "IADownloadManager": "", // iOS download manager, Download a set of files in parallel and sequential order.
   "IAElegantSheet": "", // Another block based UIActionSheet but more elegant. Elegant to code and elegant to see.
   "IAInfiniteGridView": "gui_tableview", // Infinite grid view with UITableView-esque data source methods.
-  "IAMenuController": "", // A simple slide out menu controller container.
+  "IAMenuController": "gui_menus", // A simple slide out menu controller container.
   "IAPAdapter": "", // A wrapper for IAPManager that makes in app purchases testable and works in the simulator.
   "IAPManager": "", // Yet Another simple in-app purchase interface.
   "iAppInfos": "", // iAppInfos allows an access to important App informations : version, model, Mobile provisionning infos
@@ -1486,7 +1486,7 @@ and caching them.
   "iOpenWeChat": "", // 微信开放平台SDK
   "iOS6-ForwardAutorotate": "", // UIKit-additions to forward iOS6 rotation methods.
   "iOS7Colors": "", // The standard iOS 7 Colors as a handy category on UIColor
-  "iOS7Menu": "", // Fancy iOS7 style menu.
+  "iOS7Menu": "gui_menus", // Fancy iOS7 style menu.
   "iOS7-TableTopSeparator": "gui_tableview", // Add top-border for iOS7 UITableView.
   "iOS-BlingLord": "", // iOS springboard (home screen) style view controller.
   "iOSBlocks": "", // Objective-C block replacement for some Cocoa Touch APIs depending on delegation.
@@ -1517,7 +1517,7 @@ and caching them.
   "IOSQueryable": "", // ios-queryable is an implementation of IQueryable/IEnumerable for Core Data.
   "iOS-QuizKit": "", // Local Quiz/Test administration and management for iOS.
   "iOS-Rich-Text-Editor": "", // A RichTextEditor for iPhone & iPad.
-  "iOS-Slide-Menu": "", // A Slide Menu for iOS
+  "iOS-Slide-Menu": "gui_menus", // A Slide Menu for iOS
   "iOSSolarMapOverlay": "", // A Solar Terminator Overlay for iOS.
   "iOS-WebP": "", // WebP image decoder and encoder for iOS
   "iOSWebserviceTemplate": "", // A template for binding to webservices using NSOperation and NSOperationQueue.
@@ -1585,7 +1585,7 @@ and caching them.
   "JCDefaultFormInputAccessoryView": "", // Default input accessory view for iOS with next/previous and done buttons.
   "JCDHTTPConnection": "", // Block-based NSURLConnection wrapper.
   "JCECustomDynamicType": "", // Extends iOS dynamic type to provide font sizes and custom fonts.
-  "JCGridMenu": "", // JCGridMenu is a menu that works like a grid (rows and columns).
+  "JCGridMenu": "gui_menus", // JCGridMenu is a menu that works like a grid (rows and columns).
   "JCInfiniteGalleryView": "", // In app oauth login to Instagram.
   "JCInstaOauthViewController": "", // In app oauth login to Instagram.
   "JCKeyPathValidator": "", // Compiler keypath validation.
@@ -1611,7 +1611,7 @@ and caching them.
   "JJCachedAsyncViewDrawing": "", // Helper class that allows you to draw views (a)synchronously to a UIImage with caching for great performance.
   "JJGraphicsUtilities": "", // General graphics utilities, including generic inset effect classes.
   "JJPluralForm": "", // Helps localize strings such as 'N day' by returning '1 day', '2 days'
-  "JJTopMenu": "", // Simple top menu with selected indicator.
+  "JJTopMenu": "gui_menus", // Simple top menu with selected indicator.
   "JKDataSource": "gui_tableview", // Helper class to make managing TableView Delegate/Datasource easier.
   "JKSegueActionViewController": "", // A Category on UIViewController to simplify preparing segues.
   "JKTabBarController": "", // JKTabBarController is a custom TabBarController with way more feature support.
@@ -1645,7 +1645,7 @@ and caching them.
   "JPSThumbnailAnnotation": "", // A simple mapkit annotation for displaying images and details.
   "JPSVolumeButtonHandler": "", // JPSVolumeButtonHandler provides an easy block interface to hardware volume buttons on iOS devices. Perfect for camera apps!
   "JPush": "", // JPush SDK for iOS.
-  "JPVerticalSlideMenu": "", // Sliding Menu for iOS (Top and Bottom menus)
+  "JPVerticalSlideMenu": "gui_menus", // Sliding Menu for iOS (Top and Bottom menus)
   "JQKit": "", // JQKit is an Objective-C wrapper around jq.
   "jre_emul": "", // J2ObjC's JRE emulation library, emulates a subset of the Java runtime library.
   "JREnum": "", // macros that automate vending an NSString given an enum value.
@@ -1811,10 +1811,10 @@ and caching them.
   "KXEventEmitter": "", // A event emitter for objc internally using NSNotificationCenter.
   "KXKiOS7ColorsAndGradients": "", // iOS 7 Colors and Gradients.
   "KXLazyTableImage": "gui_tableview", // A small library for asychronous image dowonloading to UITableViewCell
-  "KxMenu": "", // KxMenu is a vertical popup menu for using in iOS applications.
+  "KxMenu": "gui_menus", // KxMenu is a vertical popup menu for using in iOS applications.
   "KXSharedSpace": "", // A name based shared data space.
   "KYArcTab": "", // Arcuated tab view controller with toggleing animation.
-  "KYCircleMenu": "", // A circle menu with toggling animation.
+  "KYCircleMenu": "gui_menus", // A circle menu with toggling animation.
   "kyoto-cabinet": "", // Kyoto Cabinet is a library of routines for managing a database.
   "KZPropertyMapper": "", // Property mapping for iOS apps.
   "LACache": "", // Useful iOS local and persistent cache classes.
@@ -2060,7 +2060,7 @@ and caching them.
   "MFLicensing": "", // Software License Generation and Validation Library.
   "MFMathLib": "", // 8-bit to 1024-bit precision arithmetic with overflow/underflow tracking.
   "MFPageFlowView": "", // A paging flow view, similar to the scrollable iOS App Store screenshots.
-  "MFSideMenu": "", // Facebook-like side menu for iOS.
+  "MFSideMenu": "gui_menus", // Facebook-like side menu for iOS.
   "MFStoryboardPushSegue": "storyboard", // UIStoryboardPushSegue for use outside a navigation controller
   "MGBenchmark": "", // This library provides an easy way to measure execution time in code.
   "MGBox": "", // A UITableView replacement with simplified API.
@@ -2075,7 +2075,7 @@ and caching them.
   "MGInstagram": "", // A Simple and Easy to use iOS Instagram Utility for posting images to Instagram.
   "MGPinViewController": "", // Drop in UIViewController subclass providing PIN entry.
   "MGSplitViewController": "", // A flexible, advanced split-view controller for iPad developers.
-  "MGTileMenu": "", // Tile-based contextual menu for iPad and iPhone developers.
+  "MGTileMenu": "gui_menus", // Tile-based contextual menu for iPad and iPhone developers.
   "MGTimelineManager": "", // Easy to use twitter timeline manager & parser - Uses async twitter api fetches - see demo for capabilities/example useage.
   "MHCustomTabBarController": "", // Custom UITabBar replacement using storyboard and segues.
   "MHDismissModalView": "", // automatically sets the background with a blur effect and you can dismiss all modal views with a gesture
@@ -2110,7 +2110,7 @@ and caching them.
   "MKDevice": "", // A convenience library for querying device and system information.
   "MKFoundation": "", // Super easy serialization/deserialiation classes for JSON/XML and Parse.
   "MKFoundationKit": "", // Collection of categories for NSFoundation classes to accelerate development.
-  "MKHorizMenu": "", // Demo of MKHorizMenu a simple, drop-in replacement for the Three20 fame horizontal menus used in news apps.
+  "MKHorizMenu": "gui_menus", // Demo of MKHorizMenu a simple, drop-in replacement for the Three20 fame horizontal menus used in news apps.
   "MKiCloudSync": "", // Sync your NSUserDefaults to iCloud automatically.
   "MKInfoPanel": "", // Non-modal, non-intrusive Info Panel implementation as seen on some "popular" apps.
   "MKMapView+AttributionView": "", // A MKMapView category that adds a method to obtain the AttributionView.
@@ -2129,7 +2129,7 @@ and caching them.
   "MLImageCache": "", // Simple yet powerful and fast image cache.
   "MLKRestfullYii": "", // This is a helper class to easily create filters for the Yii extension restfullyii
   "MLPAccessoryBadge": "", // A customizable widget for displaying metadata, especially in UITableViewCells.
-  "MLPAutoCompleteTextField": "", // UITextfield subclass with autocomplete menu.
+  "MLPAutoCompleteTextField": "gui_menus", // UITextfield subclass with autocomplete menu.
   "MLPNeuralNet": "", // Fast multilayer perceptron neural net for iOS and Mac OS X
   "MLPSpotlight": "", // UIView subclass that draws a spotlight effect.
   "MLScreenshot": "", // Get a screenshot from UIView easy as pie.
@@ -2247,7 +2247,7 @@ and caching them.
   "MTPencil": "", // Library for animated line drawing (like an invisible pencil).
   "MTPocket": "", // Your application's favorite web request library.
   "MTQueue": "", // Add blocks to queues in a super terse and readable way.
-  "MTRadialMenu": "", // A simple radial menu.
+  "MTRadialMenu": "gui_menus", // A simple radial menu.
   "MTRecursiveKVC": "", // A small category on `NSObject` that adds support for recursive lookup using `valueForKey:`.
   "MTStackableNavigationController": "", // A drop-in replacement for UINavigationController with stacked views ala Path / Facebook.
   "MTStackViewController": "", // A container view controller which provides Facebook / Path style navigation.
@@ -2266,7 +2266,7 @@ and caching them.
   "MultiDelegate": "", // Objective-C delegate multiplexing.
   "MurmurHash": "", // MurmurHash implementation for Objective-C/iOS
   "MVFollow": "", // MVFollow is a lightweight drop-in solution that allows you to follow people on Twitter.
-  "MVYSideMenu": "", // iOS Side Menu based on Google+ iPhone app.
+  "MVYSideMenu": "gui_menus", // iOS Side Menu based on Google+ iPhone app.
   "MWFeedParser": "", // An RSS and Atom web feed parser for iOS.
   "MWFSlideNavigationViewController": "", // MWFSlideNavigationViewController is a container view controller that manages primary and secondary view controller.
   "MwfTableViewController": "gui_tableview", // Extension to UITableViewController in attempt to provide additional features that are reusable in most scenarios.
@@ -2288,7 +2288,7 @@ and caching them.
   "MZDayPicker": "", // An iOS day picker to allow users to select date.
   "MZFayeClient": "", // Faye Client for iOS. Supports subscription blocks.
   "MZFormSheetController": "", // Provides an alternative to the native iOS UIModalPresentationFormSheet.
-  "MZRSlideInMenu": "", // A simple slide-in menu for iOS.
+  "MZRSlideInMenu": "gui_menus", // A simple slide-in menu for iOS.
   "MZTimerLabel": "", // A handy class to use UILabel as a countdown timer or stopwatch just like in Apple Clock App.
   "NAChloride": "", // Objective-C library for libsodium (NaCl)
   "NAKPlaybackIndicatorView": "", // A view that mimics the music playback indicator in the Music.app on iOS 7.
@@ -2466,7 +2466,7 @@ and caching them.
   "NullSafe": "", // NullSafe is a simple category on NSNull that returns nil for any unrecognised messages instead of throwing an exception.
   "NVDSP": "", // High-performance DSP for audio on iOS and OSX with Novocaine.
   "nv-ios-http-status": "", // List of HTTP status codes as typedef enum. kHTTPStatusCodeOK, kHTTPStatusCodeNotFound, and so on..
-  "NVSlideMenuController": "", // A slide menu done right for iOS.
+  "NVSlideMenuController": "gui_menus", // A slide menu done right for iOS.
   "NVUIGradientButton": "", // A beautiful customizable iOS button with gradient.
   "NWLogging": "", // A minimalistic logging framework for Cocoa.
   "NWPusher": "", // iOS/OS X library for playing with the Apple Push Notification Service.
@@ -2521,7 +2521,7 @@ and caching them.
   "ObjectiveZMQ": "", // High-level Objective-C bindings for ØMQ.
   "ObjectXML": "", // Simple XML object model for Objective-C from NSXMLParser.
   "ObjQREncoder": "", // Objective C QR Encoder.
-  "OBMenuBarWindow": "", // An NSWindow subclass that can be attached to the menu bar
+  "OBMenuBarWindow": "gui_menus", // An NSWindow subclass that can be attached to the menu bar
   "OBShapedButton": "", // A UIButton subclass that works with non-rectangular button shapes.
   "OBSlider": "", // A UISlider subclass that adds variable scrubbing speeds.
   "OBTabBarController": "", // Open source alternative to UITabBarController, easier.
@@ -2619,7 +2619,7 @@ and caching them.
   "PanicAR": "", // Location-based Augmented Reality Framework for point of interest visualization.
   "PAPasscode": "", // A Passcode View Controller for iOS similar to the one in Settings.app.
   "PaperFold": "", // Paper folding animation for iOS.
-  "PaperFoldMenuController": "", // A navigation menu on the left of the screen using PaperFold.
+  "PaperFoldMenuController": "gui_menus", // A navigation menu on the left of the screen using PaperFold.
   "PAPlaceholder": "", // A Passcode View Controller for iOS similar to the one in Settings.app
   "Parallax": "", // iOS library that reproduces the parallax effect of the iOS7 home screen.
   "ParcelKit": "", // ParcelKit integrates Core Data with Dropbox using the Dropbox Datastore API.
@@ -2743,7 +2743,7 @@ and caching them.
   "PPRevealSideViewController": "", // A new container controller to easily push views on side like Path or Facebook.
   "PPSSignatureView": "", // Signature pad
   "PPTopMostController": "", // This protocol aims to simplify the code behind 'which controller/view is on screen'.
-  "PPTopSlideMenu": "", // PPTopSLideMenu is a sliding menu that appears from the top of the screen. 
+  "PPTopSlideMenu": "gui_menus", // PPTopSLideMenu is a sliding menu that appears from the top of the screen. 
   "PRAugmentedReality": "", // iOS AR Library.
   "PREBorderView": "", // A very simple Objective-C UIView category for specifying single-sided borders.
   "PrettyKit": "", // PrettyKit for iOS is a small set of new widgets and UIKit subclasses that gives you a deeper UIKit customization.
@@ -2762,7 +2762,7 @@ and caching them.
   "PSAlertView": "", // Modern block-based wrappers for UIAlertView and UIActionSheet.
   "PSAnalogClock": "", // A class for making analog style clocks with your own provided images.
   "PSCollectionView": "", // A simple open source implementation of a Pinterest Pinboard for iOS.
-  "PSMenuItem": "", // A block based UIMenuItem subclass.
+  "PSMenuItem": "gui_menus", // A block based UIMenuItem subclass.
   "PSPDFKit": "", // The leading framework for displaying and annotating PDFs in your iOS apps.
   "PSPushPopPressView": "", // Zoom, Rotate, Drag ? everything at the same time. A view-container for direct manipulation, inspired by Our Choice from Push Pop Press.
   "PSStackedView": "", // Open source implementation of Twitter/iPad stacked UI - done right.
@@ -2800,8 +2800,8 @@ and caching them.
   "Pythonic": "", // Us NS Collections like Python.
   "QBFlatButton": "", // QBFlatButton is flat style button.
   "QBImagePickerController": "", // A clone of UIImagePickerController with multiple selection support.
-  "QBKOverlayMenuView": "", // UIView object that tries to mimic the behavior of the floating control used by Sparrow.
-  "QBPopupMenu": "", // Customizable popup menu for iOS.
+  "QBKOverlayMenuView": "gui_menus", // UIView object that tries to mimic the behavior of the floating control used by Sparrow.
+  "QBPopupMenu": "gui_menus", // Customizable popup menu for iOS.
   "QMBParallaxScrollViewController": "", // Add a parallax top view to any UIScrollView
   "QMBTabs": "", // A Google Chrome like tab view controller.
   "QMonthElement": "", // A month picker element for QuickDialog.
@@ -2809,7 +2809,7 @@ and caching them.
   "QRCodeEncoder": "", // QRCode encoder for OS X
   "QR-Code-Encoder-for-Objective-C": "", // An implementation of QR code encoder for Objective-C ported from Psytec library.
   "QTree-objc": "", // Library for location-based clustering of data using Quadtree written in Objective-C.
-  "QuadCurveMenu": "", // Path 2.0 menu (configurable, extendable, and composable).
+  "QuadCurveMenu": "gui_menus", // Path 2.0 menu (configurable, extendable, and composable).
   "Quantcast-Measure": "", // Quantcast Measure for iOS.
   "Quantcast-Measure-iOS4": "", // Quantcast Measure for iOS (iOS 4 and later).
   "Quayboard": "", // A keyboard accessory that blends in with the default iOS keyboard.
@@ -2873,14 +2873,14 @@ and caching them.
   "REKit": "", // A collection of NSObject extensions that brings out Blocks latent ability.
   "Reliant": "", // Reliant is a light-weight Dependency Injection (DI) framework for Objective-C, both for OS X and iOS.
   "REMarkerClusterer": "", // REMarkerClusterer creates and manages per-zoom-level clusters for large amounts of markers.
-  "REMenu": "", // Dropdown menu inspired by Vine.
+  "REMenu": "gui_menus", // Dropdown menu inspired by Vine.
   "RemoteConfig": "", // Objective-c library for loading a remote JSON / XML config file with locally defined default values.
   "REPagedScrollView": "", // Paged UIScrollView with an embedded UIPageControl.
   "REPhotoCollectionController": "", // A simple photo thumbnail viewer for the iOS that groups photos by date.
   "ReplayRequest": "", // Translate your NSURLRequest to a curl request to debug your API calls
   "RequestQueue": "", // RequestQueue is a simple class for managing multiple concurrent asynchronous URL requests in your applications.
   "RequestUtils": "", // RequestUtils is a collection of category methods designed to simplify the process of HTTP request construction and manipulation in Cocoa.
-  "RESideMenu": "", // iOS 7 style side menu.
+  "RESideMenu": "gui_menus", // iOS 7 style side menu.
   "ResourceManager": "", // Synchronize your application resources from dropbox to the app and experience dynamic reload on simulator and devices.
   "RestForIOS": "", // A simple, easy-to-use library of static functions for accessing RESTful APIs in iOS
   "RestKit": "http", // RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.
@@ -2945,7 +2945,7 @@ and caching them.
   "RNConcurrentBlockOperation": "", // Simple NSOperation subclass that allows a block of asynchronous work to be executed in parallel in a NSOperationQueue
   "RNCryptor": "", // Encryptor/Decryptor for iOS.
   "RNFrostedSidebar": "", // A Control Center-esque control with blurred background and toggle animations.
-  "RNGridMenu": "", // A grid menu with elastic layout, depth of field, and realistic animation.
+  "RNGridMenu": "gui_menus", // A grid menu with elastic layout, depth of field, and realistic animation.
   "RNPinnedCertValidator": "", // Simplify validating pinned SSL certificates.
   "RNRippleTableView": "gui_tableview", // A custom table view with highly detailed ripple animations.
   "RNSwipeViewController": "", // A custom table view with highly detailed ripple animations.
@@ -2975,7 +2975,7 @@ and caching them.
   "RSDayFlow": "", // Scrollable iOS 7 Date Picker.
   "RSDeallocHandler": "", // NSObject category for adding and removing dealloc handler blocks.
   "RSEnvironment": "", // Most common environment checks in one place: system version, retina support, UI flat mode, device models and so on.
-  "RSMenuController": "", // yet another menu tray controller like sparrow and path.
+  "RSMenuController": "gui_menus", // yet another menu tray controller like sparrow and path.
   "RSMenuView": "gui_tableview", // An event driven tableview. supports UIAppearance and more.
   "RSOAuthEngine": "", // ARC based OAuth engine for MKNetworkKit.
   "RSSecrets": "keychain", // Set and get encrypted values from the iOS keychain.
@@ -3017,7 +3017,7 @@ and caching them.
   "SAMWebView": "", // Push UIWebView to its limits.
   "SARAddressBookBackup": "", // An iOS library to backup the device contacts as .vcf file
   "SARUnArchiveANY": "", // UnArchiving Library for iOS
-  "SASlideMenu": "", // A simple library to create sliding menus that can be used in storyboards and supports static cells.
+  "SASlideMenu": "gui_menus", // A simple library to create sliding menus that can be used in storyboards and supports static cells.
   "SatelliteStore": "", // A modernized, block-based way to approach StoreKit for iOS
   "SAXyOX": "", // SAXy OX is full-featured XML and JSON marshalling framework for Objective-C.
   "SBAPNSPusher": "", // A simple cocoa app to send pushes via APNS.
@@ -3087,7 +3087,7 @@ and caching them.
   "SFNotify": "", // Simple custom user notifications.
   "SFObservers": "", // Categories expanding both NSNotificationCenter and KVO to provide auto removal of observers.
   "SFRoundProgressCounterView": "", // Provides a progress bar as circle with an optional counter in the center of the circle
-  "SFSCollectionMenu": "", // An open-source menu control for iOS utilizing UICollectionView layout.
+  "SFSCollectionMenu": "gui_menus", // An open-source menu control for iOS utilizing UICollectionView layout.
   "SFSocialFacebook": "", // Façade implementation for Facebook-iOS-SDKIt enables you to access the Facebook Platform APIs including the Graph API, FQL, and Dialogs.
   "SGBDrillDownController": "", // A parent view controller for the iPad which manages a stack of controllers while keeping the top two controllers visible.
   "SGHotKeysLib": "", // A modernized fork of PTHotKeysLib for Mac OS X Leopard and beyond.
@@ -3241,7 +3241,7 @@ and caching them.
   "SpatialDBKit": "", // SpatialDBKit is the spatial RDBMS for iOS.
   "spatialite": "", // SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
   "SPConnector": "", // A SharePoint services library for iOS and OS X.
-  "SPDebugMenu": "", // Make your own debug menu with fully customizable actions.
+  "SPDebugMenu": "gui_menus", // Make your own debug menu with fully customizable actions.
   "Specify": "", // An Objective-C behaviour-driven development library.
   "Specta": "", // A light-weight TDD / BDD framework for Objective-C & Cocoa.
   "SPGooglePlacesAutocomplete": "", // An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the Maps app.
@@ -3429,7 +3429,7 @@ and caching them.
   "ThermodoSDK": "", // ThermodoSDK provides a simple interface for interacting with Thermodo.
   "TheSidebarController": "", // A container view controller that implements different popular sidebar view controllers like Facebook, Airbnb, Flipboard, etc.
   "theWrapper": "", // An objective C utility that lets you add a wrapper to any function.
-  "THGridMenu": "", // A fluid grid menu layout system that adjusts item width with device rotation.
+  "THGridMenu": "gui_menus", // A fluid grid menu layout system that adjusts item width with device rotation.
   "THHybridCache": "", // Hybrid memory and disk cache for UIImages.
   "THIn": "", // Three easy ways to do things later in Cocoa Touch.
   "THLabel": "", // THLabel is a subclass of UILabel, which additionally allows shadow blur, inner shadow, stroke text and fill gradient.
@@ -3451,7 +3451,7 @@ and caching them.
   "TISwipeableTableView": "gui_tableview", // Allows you to swipe a UITableViewCell and reveal a back view, functions like cells in the Twitter app.
   "TITokenField": "", // An iOS version of the NSTokenField (See To: field in Mail and Messages).
   "TJLAutoLayoutMacros": "", // A collection of macros for use with auto layout.
-  "TJLBarButtonMenu": "", // A simple 3 button menu with a nice presentation and dismissal animation that is meant to be launched from a bar button item.
+  "TJLBarButtonMenu": "gui_menus", // A simple 3 button menu with a nice presentation and dismissal animation that is meant to be launched from a bar button item.
   "TJLButtonView": "", // A view with buttons arranged in a circle pattern that animate out from the center. 
   "TJLLazyProperties": "", // Lazy getters for object-type properties, auto generated for you.
   "TJLSessionManager": "", // A manager class for the new MultipeerConnectivity framework.
@@ -3553,7 +3553,7 @@ and caching them.
   "TWSReleaseNotesView": "", // A simple way to show in-app release notes in your iOS applications.
   "TWStatus": "", // Show notification status on Status bar mimicking Sunrise and Mailbox
   "TWToolBar": "", // TWToolBar is a widget library for Taskworld mobile app.
-  "TWTSideMenuViewController": "", // Side Menus for iOS 7.
+  "TWTSideMenuViewController": "gui_menus", // Side Menus for iOS 7.
   "TWTToast": "", // Tools and Utilities for Cocoa Development
   "TwUI": "", // A UI framework for Mac based on Core Animation.
   "TWWidget": "", // TWWidget is a widget library for Taskworld mobile app.
@@ -3652,7 +3652,7 @@ and caching them.
   "UIKitHelper": "", // UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement.
   "UIKitResources": "", // This repository includes UIKit resources of Apple iOS7.
   "UILabel+ContentSize": "", // Get the content size of a UILabel with text, because I always forget how to and want to have it in one god damn place.
-  "UIMenuItem-CXAImageSupport": "", // UIMenuItem with Image Support.
+  "UIMenuItem-CXAImageSupport": "gui_menus", // UIMenuItem with Image Support.
   "UINavigationController+Blocks": "", // UINavigationController category with completion and back blocks.
   "UINavigationItem+AnimatedPrompt": "", // Category for UINavigationItem to get a callback after prompt is finished animated.
   "UINavigationItem-iOS7Spacing": "", // Category to fix iOS 7 UINavigationItem spacing.
@@ -3730,8 +3730,8 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "UUIDShortener": "", // Convert UUID 32-character hex string into a Base32 short string and back.
   "UZTextView": "", // Clickable and selectable text view for iOS.
   "UzysCircularProgressPullToRefresh": "", // Give Pinterest Like PullToRefresh to any UIScrollView with just simple code.
-  "UzysDragMenu": "", // Drag Menu you can easily open and close using drag gesture.
-  "UzysSlideMenu": "", // Slide Dropdown Menu.
+  "UzysDragMenu": "gui_menus", // Drag Menu you can easily open and close using drag gesture.
+  "UzysSlideMenu": "gui_menus", // Slide Dropdown Menu.
   "UzysUIViewAddition": "", // UIView Category - Easy way to access view's frame, And provide easy way to layout UIViews programatically to maintain readability of code.
   "V8HorizontalPickerView": "", // A horizontal UIPickerView control for iOS.
   "ValueTween": "", // Simple Tween engine and Easing Libraries for Objective-C.
@@ -3772,7 +3772,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "VMDInstrumenter": "", // A simple Objective-C singleton to instrument, trace, and suppress selectors at runtime.
   "VMTableViewStaticCells": "gui_tableview", // A simple category to use static UITableViewCells without having to use storyboards.
   "VPPCoreData": "", // VPPCoreData is a Core Data wrapper with Active Record support that simplifies the task of managing data with Core Data framework.
-  "VPPDropDown": "", // VPPDropDown is an iOS library that allows you to create dropdown-like menus in a table view, as seen in old Tweetie.
+  "VPPDropDown": "gui_menus", // VPPDropDown is an iOS library that allows you to create dropdown-like menus in a table view, as seen in old Tweetie.
   "VPPLocation": "", // VPPLocation Library for iOS simplifies the task of retrieving the user location and reverse geocoder info about it.
   "VPPMap": "", // VPPMap library for iOS simplifies the creation and management of a MKMapView.
   "VPPReachability": "", // VPPReachability Library for iOS simplifies access to the status of a given hostname.
@@ -3843,7 +3843,7 @@ multiplexing connections over USB to an iPhone or iPod touch.
   "XCTAsyncTestCase": "", // Asynchronous capable XCTestCase subclass
   "xctest-assert-eventually": "", // Assertion extensions and utilities for XCTest.
   "XCTestAsync": "", // Extension to XCTest for asynchronous testing
-  "XDKAirMenu": "", // iOs Menu like the app FIFA
+  "XDKAirMenu": "gui_menus", // iOs Menu like the app FIFA
   "XHImageViewer": "", // XHImageViewer is images viewer, zoom image.
   "XHItemScrollToolBar": "", // XHItemScrollToolBar is a TabBar or ItemBar for rolling, used for user category select.
   "XHMediaZoom": "", // 类似instagrm图片、视频等资源的缩放动画View来查看详细内容
