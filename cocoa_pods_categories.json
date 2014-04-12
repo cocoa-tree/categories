@@ -167,23 +167,23 @@
   "AMInfiniteScrollView": "", // An automatically scrolling infinite scrollview.
   "AMOptionMenu": "gui_menus", // A popup button/menu that allows selection of multiple options.
   "AMPAvatarView": "", // A simple UIView subclass that shows an UIImage with a shadow in a circle.
-  "Amplitude-iOS": "", // Amplitude mobile analytics iOS SDK.
+  "Amplitude-iOS": "analytics", // Amplitude mobile analytics iOS SDK.
   "AMRatingControl": "", // A simple rating control for the iPhone.
   "AMScrollingNavbar": "", // Scrollable UINavigationBar that follows the scrolling of a UIScrollView. Similiar to Chrome for iOS7
   "AMSlideMenu": "gui_menus", // Ease slide menu, with high customization for ios
   "AMSlideOutController": "", // SlideOut Navigation Controller for iOS. Fully customizable.
   "AMTagListView": "", // UIScrollView subclass that allows to add a list of highly customizable tags.
   "AMYServer": "", // AMY Mocks Your Server - A mock HTTP server for KIF.
-  "Analytics": "", // Segment.io analytics and marketing tools library for iOS.
-  "AnalyticsKit": "", // Analytics framework for iOS
-  "AnalyticsSDK": "", // A full analytics SDK for all iOS statistics tools. For example, UMeng, 百度统计, Google Analytics.
+  "Analytics": "analytics", // Segment.io analytics and marketing tools library for iOS.
+  "AnalyticsKit": "analytics", // Analytics framework for iOS
+  "AnalyticsSDK": "analytics", // A full analytics SDK for all iOS statistics tools. For example, UMeng, 百度统计, Google Analytics.
   "AngleGradientLayer": "", // Objective-C angle gradients for iOS.
   "AnimatedGif": "", // Animated GIF library for iPhone. Based on original work by Martin van Spanje.
   "Aniways": "", // Beautiful messaging monetization.
   "Annex": "", // A small collection of categories and classes to make Objective-C more comfortable.
-  "ANSegmentedControl": "", // Reader for Mac like Animation NSSegmentedControl.
+  "ANSegmentedControl": "gui_controls", // Reader for Mac like Animation NSSegmentedControl.
   "Antenna": "", // Extensible Remote Logging for iOS.
-  "AnyJSON": "", // Encode / Decode JSON by any means possible.
+  "AnyJSON": "json", // Encode / Decode JSON by any means possible.
   "AOCUDL": "", // AOCUDL - An alternative shorthand syntax to Dustin Bachrach's OCUDL.
   "AOTrayView": "gui_tableview", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
   "AOTToolkit": "", // A collection of helper/utility classes to aid iOS development.
@@ -237,7 +237,7 @@
   "APUtils": "", // Collection of helpful categories and magik one liners for iOS/Mac OS development.
   "apxml": "xml", // XML DOM for iPhone and iPod Touch.
   "AQGridView": "", // A grid view for iPhone/iPad, designed to look similar to NSCollectionView.
-  "ARAnalytics": "", // Using subspecs you can define your analytics provider with the same API on iOS and OS X.
+  "ARAnalytics": "analytics", // Using subspecs you can define your analytics provider with the same API on iOS and OS X.
   "AraneaKit": "", // Kit for iOS Development from Aranea Apps.
   "ARCHelper": "", // Set of macros for writing library code that can be used with both ARC and non-ARC environments.
   "Archimedes": "", // Geometry functions for Cocoa and Cocoa Touch
@@ -328,7 +328,7 @@
   "Backbeam": "", // iOS SDK for backbeam.io.
   "BackgroundBlurEffectUIView": "", // Background Blur Effect for UIView
   "BackInMotion": "", // RubyMotion helper classes for Objective-C.
-  "Baidu-Analytics-SDK": "", // Baidu mobile tongji analytics SDK for iOS.
+  "Baidu-Analytics-SDK": "analytics", // Baidu mobile tongji analytics SDK for iOS.
   "Baidu-Maps-iOS-SDK": "", // Baidu Maps SDK for iOS
   "BaiduPushSDK": "", // BaiduPushSDK.
   "balanced-ios": "", // iOS library for working with Balanced Payments.
@@ -536,7 +536,7 @@
   "CGLMail": "email", // A simple class that cares about email and MessageUI, so you don't have to.
   "CGRectDivideNull": "", // A more convenient CGRectDivide()
   "Chameleon": "", // Chameleon is a port of Apple's UIKit (and some minimal related frameworks) to Mac OS X.
-  "Chartbeat": "", // Chartbeat analytics library for iOS.
+  "Chartbeat": "analytics", // Chartbeat analytics library for iOS.
   "Chartboost": "", // Chartboost for showing ads and more.
   "ChartboostSDK": "", // ChartboostSDK for showing ads and more.
   "Chartreuse": "", // Pie charts for iOS.
@@ -677,7 +677,7 @@
   "couchbase-lite-ios": "", // Couchbase Lite is an embedded lightweight, document-oriented (NoSQL), syncable database engine.
   "CouchCocoa": "", // Objective-C API for CouchDB on iOS and Mac OS.
   "CounterAgent": "", // Simple Count Manager(App's version)
-  "Countly": "", // Countly is an innovative, real-time, open source mobile analytics platform.
+  "Countly": "analytics", // Countly is an innovative, real-time, open source mobile analytics platform.
   "CountryPicker": "", // CountryPicker is a custom UIPickerView subclass that provides an iOS control allowing a user to select a country from a list.
   "Courier": "", // A lightweight network layer built on NSURLSession.
   "CPAnimationSequence": "", // Describe multi-step animation sequences declaratively.
@@ -790,7 +790,7 @@
   "DCTextEngine": "", // An engine that convert text to attributed strings and attributed strings to text. Supports HTML and markdown by default.
   "DCTTextFieldValidator": "", // Validates an array of UITextFields before allowing an action to take place.
   "DDExpandableButton": "", // DDExpandableButton is a class designed to be used like an expandable UIButton; as seen in the iOS Camera app for the flash button.
-  "DDGoogleAnalytics-OSX": "", // Objective-C Cocoa Wrapper for javascript google analytics tracking. a demo on github shows how to easily use it into your app.
+  "DDGoogleAnalytics-OSX": "analytics", // Objective-C Cocoa Wrapper for javascript google analytics tracking. a demo on github shows how to easily use it into your app.
   "DDiCloudSync": "", // Sync your NSUserDefaults to iCloud automatically (rewrite of MKiCloudSync with conflict handling).
   "DDMicrophoneBlowDetector": "", // iOS 'Utility' Class that monitors the microphone and watches for hissing noises and sends notifications. demo on github.
   "DDMultipeerLogger": "", // A logger for CocoaLumberjack that uses multipeer connectivity.
@@ -1075,7 +1075,7 @@
   "flojack-ios": "", // iOS static lib for FloJack NFC reader/writer.
   "Floop-iOS": "", // A COPPA-compliant sharing framework for kids apps.
   "Flow.m": "", // Simple async processing with pass/miss.
-  "FlurrySDK": "", // FlurrySDK for analytics reporting.
+  "FlurrySDK": "analytics", // FlurrySDK for analytics reporting.
   "FMConstraintSwitch": "", // Add the ability to configure different states for constraints from the interface builder and trigger them from code
   "FMDB": "sqlite", // A Cocoa / Objective-C wrapper around SQLite.
   "fmemopen": "", // fmemopen port for iOS and Mac OS X
@@ -1153,8 +1153,8 @@
   "FXNotifications": "", // An alternative API for NSNotificationCenter that doesn't suck.
   "FXPageControl": "", // Drop-in replacement for UIPageControl that adds the ability to edit the dot color, shape, shadow, size, image and spacing.
   "FXReachability": "", // Lightweight reachability class for Mac and iOS.
-  "GAI-AutomaticSessionManagement": "", // Enables automatic session management for Google Analytics for iOS (GAI) version 3.
-  "GA-iOS-SDK": "", // GameAnalytics REST API SDK for iOS
+  "GAI-AutomaticSessionManagement": "analytics", // Enables automatic session management for Google Analytics for iOS (GAI) version 3.
+  "GA-iOS-SDK": "analytics", // GameAnalytics REST API SDK for iOS
   "GAJavaScript": "", // Library to simplify working with JavaScript and UIWebView.
   "GameCenterManager": "", // GameCenter Manager helps to manage Game Center in iOS and Mac apps
   "GamepadBridge": "", // Brings Gamepad API support to iOS WebKit
