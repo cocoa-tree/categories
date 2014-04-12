@@ -1233,8 +1233,8 @@
   "Goodreads-Oauth": "", // Library for making OAuth with Goodreads from iOS Easier.
   "Google-AdMob-Ads-SDK": "google_ads_api", // Google AdMob Ads SDK.
   "GoogleAds-IMA-iOS-SDK": "google_ads_api", // Google Ads IMA SDK for iOS 5.0+.
-  "GoogleAnalytics-iOS-SDK": "google_analytics_api", // GoogleAnalytics for iOS SDK.
-  "GoogleAnalyticsSDKForOSX": "google_analytics_api", // Track usage of OS X applications
+  "GoogleAnalytics-iOS-SDK": "analytics", // GoogleAnalytics for iOS SDK.
+  "GoogleAnalyticsSDKForOSX": "analytics", // Track usage of OS X applications
   "Google-API-Client": "google_api", // Written by Google, this library is a flexible and efficient Objective-C framework for accessing JSON APIs.
   "google-cast-sdk": "google_api", // Send and control video to Google Cast devices including the ChromeCast
   "GoogleConversionTracking": "google_api", // Google Conversion Tracking SDK for iOS.
@@ -1256,7 +1256,7 @@
   "GPUImage": "image_processing", // An open source iOS framework for GPU-based image and video processing.
   "GPUImage@siuying": "image_processing", // Versioned fork of GPUImage.
   "GPXParser": "", // Parse GPX & TCX files for iOS applications.
-  "GrabAnalytics": "", // Grab Analytics SDK for mobile analytics tracking.
+  "GrabAnalytics": "analytics", // Grab Analytics SDK for mobile analytics tracking.
   "grabKit": "", // Drop-in iOS component to easily import photos from Facebook, FlickR, Instagram, Picasa, and more.
   "GrandObjectDispatch": "grand_central_dispatch", // Objective-C wrapper for Grand Central Dispatch.
   "GrannySmith": "", // Allows to format rich text in iOS in HTML/CSS fashion.
@@ -1318,7 +1318,7 @@
   "HCObjectSwitch": "", // A simple way to implement object based switch-like statements in Objective-C using blocks.
   "HCViews": "", // HCViews is a (currently small) collection of convenient views.
   "HCYoutubeParser": "", // Retrieves the iOS compatible video URL from YouTube.
-  "Heap": "", // Capture everything - iOS analytics library for Heap.
+  "Heap": "analytics", // Capture everything - iOS analytics library for Heap.
   "Helpshift": "", // Customer service helpdesk for mobile applications.
   "HessianKit": "", // HessianKit is a Framework for Objective-C 2.0 to allow OS X and iOS applications to seamlessly communicate with hessian web services.
   "HexColors": "", // Easy HEX- and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
@@ -1696,7 +1696,7 @@ and caching them.
   "JXHTTP": "", // Networking for iOS and OS X.
   "JYRadarChart": "", // an iOS open source Radar Chart implementation
   "JZSwipeCell": "gui_tableview", // UITableViewCell inspired by Mailbox app.
-  "KahunaSDK": "", // KahunaSDK for tracking analytics for use in the Kahuna Engagement Engine.
+  "KahunaSDK": "analytics", // KahunaSDK for tracking analytics for use in the Kahuna Engagement Engine.
   "KAKit": "", // A collection of usefull classes for iOS development.
   "Kal": "", // A calendar component for the iPhone (the UI is designed to match MobileCal).
   "KALayoutHelper": "", // Easy layout mecanism for iOS, similar to Android, removing the pain of frame adjustments and allowing cleaner, more readable code.
@@ -1768,7 +1768,7 @@ and caching them.
   "KOKeyboard": "", // KOKeyboard is an iOS drop-in component that adds a new row of keys to the default on-screen keyboard.
   "konashi-ios-sdk": "", // iOS SDK for konashi, a wireless physical computing toolkit for iPhone, iPod touch and iPad.
   "Konfig": "", // JSON based remote configuration for iOS apps
-  "Kontagent": "", // Kontagent SDK, Analytics
+  "Kontagent": "analytics", // Kontagent SDK, Analytics
   "KOTabs": "", // Easily create a tabbed document interface.
   "KOTree": "", // Shows a tree of hierarchical data, e.g. files and folders.
   "KPAColorFormatter": "", // Format UIColor and NSColor instances to English names
@@ -1928,7 +1928,7 @@ and caching them.
   "LOG_EXPR": "", // A macro that prints out x, no matter what type x is.
   "LOLProgressOverlayView": "", // UIButton / UIView category that add a progress indicator overlay simply with single line of code.
   "Lookback": "", // Lookback records screen, camera, touches etc and uploads it to http://lookback.io. Useful for UX research, QA bug reporting, etc.
-  "Loopy": "", // iOS Library for the Loopy Social Analytics Platform.
+  "Loopy": "analytics", // iOS Library for the Loopy Social Analytics Platform.
   "LoremIpsum": "", // A lightweight lorem ipsum and image placeholders generator for Objective-C.
   "LoremPixel": "", // Simple library that fills imageViews with images from www.lorempixel.com
   "LPActiveRecord": "", // CoreData Wrapper.
@@ -2100,8 +2100,8 @@ and caching them.
   "MillennialMediaSDK": "", // The Millennial Media iOS SDK.
   "MINavigationController": "", // An UINaviagtionController subclass to easily implement *push* and *pop* actions with neat animation.
   "MixiSDK": "", // mixi SDK for iOS.
-  "Mixpanel": "", // iPhone tracking library for Mixpanel Analytics
-  "Mixpanel-OSX-Community": "", // OS X tracking library for Mixpanel Analytics.
+  "Mixpanel": "analytics", // iPhone tracking library for Mixpanel Analytics
+  "Mixpanel-OSX-Community": "analytics", // OS X tracking library for Mixpanel Analytics.
   "miyagi": "", // Zen-like JSON <-> Object marshalling.
   "MI-YOSSocialSDK": "", // An updated/improved fork of Yahoo Social Objective-C SDK
   "MJGFoundation": "", // A collection of iOS classes & categories by Matt Galloway.
@@ -2455,7 +2455,7 @@ and caching them.
   "NSUUID": "", // NSUUID implementation for iOS < 6.0 and OS X < 10.8.
   "NSView+LinenBackground": "", // Adds a [drawLinen] methods to NSView.
   "NSXtensions": "", // A collection of useful extensions for standard Cocoa classes.
-  "NTAnalytics": "", // NTAnalytics - A Provider-based system to integrate Analytics systems such at Flurry or Google Analytics
+  "NTAnalytics": "analytics", // NTAnalytics - A Provider-based system to integrate Analytics systems such at Flurry or Google Analytics
   "NTApiClient": "", // A simple and flexible JSON-based API client for iOS.
   "NTDCoreDataTableViewController": "gui_tableview", // Eliminates boilerplate code involved with a CoreData based UITableViewController which uses a NSFetchedResultsController as its data source.
   "NTJsonValues": "", // NTJsonValues - A NSDictionary Category to aid parsing JSON values.
@@ -2479,7 +2479,7 @@ and caching them.
   "NZBundle": "", // Easily access and manipulate the the Info.plist file of your project.
   "NZCircularImageView": "", // Performs async download image and leaves with rounded edge, used for presenting pictures of user profiles.
   "NZFadeImageView": "", // This class performs the rotation of images with fade-in/fade-out effects in a given time interval.
-  "NZGoogleAnalytics": "", // Quickly and easily integration with Google Analytics API for iOS.
+  "NZGoogleAnalytics": "analytics", // Quickly and easily integration with Google Analytics API for iOS.
   "NZLabel": "", // UILabel with multiple fonts and colors.
   "OAHabraManager": "", // Simplify obj-c object to work with site habrahabr.ru
   "OAuthCore": "", // Simple function to sign OAuth requests.
