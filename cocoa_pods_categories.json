@@ -1332,8 +1332,7 @@
   "HHUnitConverter": "", // Unit conversion library for Objective-C.
   "HighlightedWebView": "", // WebView subclass that highlights all search results (Safari-style wannabe)
   "hiredis": "", // Minimalistic C client for Redis.
-  "HJCache": "", // HJCache is library for asynchronous download of images and other data over the net, and for sharing 
-and caching them.
+  "HJCache": "", // HJCache is library for asynchronous download of images and other data over the net, and for sharing  and caching them.
   "HJRSeparatableView": "gui_tableview", // An extended view with a single line separator like UITableViewCell.
   "HKCircularProgressView": "", // A simple discrete/continuous circular progress view with current/max properties, customizable appearance and animatable.
   "HKRadialMenu": "gui_menus", // A menu and a button with an interactive central view that expands other peripherical interactive views.
@@ -2026,8 +2025,7 @@ and caching them.
   "MCPanelViewController": "", // Drop-in panel control for iOS with blurring background and screen-edge activation gestures.
   "MCRotatingCarousel": "", // A rotating and infinately looping carousel
   "MCSegmentedControl": "", // subclass of UISegmentedControl with custom colors.
-  "MCSimpleTables": "", //     A simple UITableViewController subclass and helper classes for programmatically creating coded UITableViews.
-
+  "MCSimpleTables": "", //     A simple UITableViewController subclass and helper classes for programmatically creating coded UITableViews. 
   "MCSMKeychainItem": "keychain", // A Keychain Wrapper for iOS and OS X.
   "MCSwipeTableViewCell": "gui_tableview", // Convenient UITableViewCell subclass that implements a swippable content to trigger actions (similar to the Mailbox app).
   "MCUIColorUtils": "", // UIColor utilities.
@@ -2347,8 +2345,7 @@ and caching them.
   "NMSSH": "", // NMSSH is a clean, easy-to-use, unit tested framework for iOS and OSX that wraps libssh2.
   "NNNetwork": "", // Networking categories, OAuth and read later clients.
   "Nocilla": "", // Stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
-  "Node": "", // The NODE Obj-C framework allows you to develop iOS and Mac OSX applications using NODE+, a modular sensor system 
-  					made by Variable.
+  "Node": "", // The NODE Obj-C framework allows you to develop iOS and Mac OSX applications using NODE+, a modular sensor system    					made by Variable.
   "NodeConnectionHelper": "", // NodeConnectionHelper speeds up NODE+ development by providing a class that wraps most common CoreBluetooth code.
   "NoodleKit": "", // Collection of Cocoa classes from http://www.noodlesoft.com/blog.
   "NoticeView": "", // A TweetBot-like notice component for iOS.
@@ -2536,8 +2533,7 @@ and caching them.
   "OCHamcrest": "", // Hamcrest for Objective-C: Powerful, combinable, extensible matchers for verification.
   "OCInject": "", // Objective-C dependency injection framework
   "OCInjection": "", // Dependency Injection framework for Objective C
-  "OCJiraFeedback": "", // OCJiraFeedback is a simple library useful for sending user
-		   feedback to any Atlassian Jira instance.
+  "OCJiraFeedback": "", // OCJiraFeedback is a simple library useful for sending user 		   feedback to any Atlassian Jira instance.
   "OCLint-Annotations": "", // Drop in annotations to make OCLint more usable.
   "OCLogTemplate": "", // A logging framework for Objective-C projects.
   "OCMapper": "", // NSDictionary to NSObject Mapper
@@ -3723,8 +3719,7 @@ and caching them.
   "uriparser": "", // uriparser is a strictly RFC 3986 compliant URI parsing and handling library written in C.
   "URLMock": "", // A Cocoa framework for mocking and stubbing URL requests and responses.
   "US2FormValidator": "", // A lightweight iOS form validation framework.
-  "usbmuxd": "", // 'usbmuxd' stands for "USB multiplexing daemon". This daemon is in charge of
-multiplexing connections over USB to an iPhone or iPod touch.
+  "usbmuxd": "", // 'usbmuxd' stands for "USB multiplexing daemon". This daemon is in charge of multiplexing connections over USB to an iPhone or iPod touch.
   "uservoice-iphone-sdk": "", // UserVoice iOS SDK for iPhone and iPad apps.
   "USStatesColorMap": "", // iOS control for creating USA states color map using Stately font.
   "UUIDShortener": "", // Convert UUID 32-character hex string into a Base32 short string and back.
