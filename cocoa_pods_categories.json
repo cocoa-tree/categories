@@ -8,7 +8,7 @@
   "AALaunchTransition": "", // Simple framework to let your application's launch image fade-out to its initial view.
   "AAPullToRefresh": "", // All around pull to refresh library.
   "AAShareBubbles": "", // Animated Social share buttons control for iOS
-  "ABCalendarPicker": "", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
+  "ABCalendarPicker": "gui_calendar", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
   "ABContactHelper": "", // Objective-C Address Book wrapper.
   "ABCustomUINavigationController": "gui", // Custom UINavigationController. SquaresFlips and Cube effects
   "ABFullScrollViewController": "gui_tableview", // Subclass of ViewController that provide the behaviour of hide the toolbar when user makes scroll in a UITableView.
@@ -568,7 +568,7 @@
   "CJString": "", // NSString category divers helpers.
   "CJStringValidator": "", // NSString category to help the validate formate string.
   "CKBasicAuthUrlUtilities": "", // NSURL BASIC Authentication utility.
-  "CKCalendar": "calendar", // A sleek, easily customized calendar control for iOS.
+  "CKCalendar": "gui_calendar", // A sleek, easily customized calendar control for iOS.
   "CKRefreshControl": "", // A pull-to-refresh view for iOS 5, 100% API-compatible with UIRefreshControl in iOS 6.
   "CKSelectedTableViewCellFactory": "gui_tableview", // Selected Background factory UITableViewCell.
   "CKShapeView": "", // UIView subclass that is backed by CAShapeLayer
@@ -885,7 +885,7 @@
   "DSBarChart": "", // A simple Objective-C Bar Chart / Histogram library.
   "DSFavIconManager": "", // DSFavIconManager is a complete solution for displaying favicons.
   "DSGraphicsKit": "", // Utilties for common and advanced graphics operations.
-  "DSLCalendarView": "", // Simple calendar view for iOS.
+  "DSLCalendarView": "gui_calendar", // Simple calendar view for iOS.
   "DspFilters": "", // A Collection of Useful C++ Classes for Digital Signal Processing.
   "DSSDayStepCounter": "", // A CMStepCounter Category that adds methods for step queries to make daily step counts easy
   "DSSwipeTableViewCell": "gui_tableview", // A drop-in replacement for UITableViewCell with horizontal scrolling to reveal a custom view
@@ -995,7 +995,7 @@
   "ESCursors": "", // Creates NSCursors with 2/3/4-pronged resize cursors, possibly rounded and rotated.
   "ESDatabaseWrapper": "", // Objective-C protocols for FMDB
   "ESLocale": "", // ESLocale
-  "ESTimePicker": "", // Simple time picker that looks and acts exactly like the time picker dialog in the Google Calendar app for Android
+  "ESTimePicker": "gui_calendar", // Simple time picker that looks and acts exactly like the time picker dialog in the Google Calendar app for Android
   "EstimoteSDK": "", // iOS library for Estimote iBeacon devices
   "ETA-SDK": "", // eTilbudsavis iOS SDK.
   "ETFramework": "", // Helper framework for iOS projects. Some categories and helper classes for easy and quicker development.
@@ -1362,7 +1362,7 @@
   "HSLUpdateChecker": "", // Prompts the user to update your app when a new version is available. Zero configuration, one line of code to use.
   "HSSHexStringSupport": "", // UIColor categories adding support for hex strings including HTML prefixes and extra factory method colors
   "HTAutocompleteTextField": "gui_autocomplete", // A subclass of UITextField that displays text completion suggestions while a user types. Perfect for suggestion email address domains.
-  "HTBCalendarView": "", // A calendar component based on UICollectionView
+  "HTBCalendarView": "gui_calendar", // A calendar component based on UICollectionView
   "HTBKVObservation": "", // Yet another attempt at making KVO safer and more convenient.
   "HTBURLSession": "", // A drop-in equivalent replacement for NSURLSession with better blocks support
   "HTCopyableLabel": "", // HTCopyableLabel is a subclass of UILabel that makes it easy to allow users to copy a label's text.
@@ -1490,7 +1490,7 @@
   "iOS-BlingLord": "", // iOS springboard (home screen) style view controller.
   "iOSBlocks": "", // Objective-C block replacement for some Cocoa Touch APIs depending on delegation.
   "iOS-blur": "", // iOS 7 blur look-a-like that blurs in real time.
-  "ios-calendar": "", // Stylable and extensible month calendar view for iPhone.
+  "ios-calendar": "gui_calendar", // Stylable and extensible month calendar view for iPhone.
   "iOS-Color-Picker": "", // An HSL color-picker for the iPhone.
   "iOS-color-wheel": "", // A fully scalable, dynamically rendered color wheel for iOS.
   "iOS-CrackRock": "", // Reactive in-app purchase helper classes.
@@ -1697,7 +1697,7 @@
   "JZSwipeCell": "gui_tableview", // UITableViewCell inspired by Mailbox app.
   "KahunaSDK": "analytics", // KahunaSDK for tracking analytics for use in the Kahuna Engagement Engine.
   "KAKit": "", // A collection of usefull classes for iOS development.
-  "Kal": "", // A calendar component for the iPhone (the UI is designed to match MobileCal).
+  "Kal": "gui_calendar", // A calendar component for the iPhone (the UI is designed to match MobileCal).
   "KALayoutHelper": "", // Easy layout mecanism for iOS, similar to Android, removing the pain of frame adjustments and allowing cleaner, more readable code.
   "KANibHelper": "", // When you need to have two very distinct interfaces between 3.5 and 4 inches screens.
   "KAProgressLabel": "", // Circular progress view.
@@ -1969,7 +1969,7 @@
   "MABlockClosure": "", // MABlockClosure uses libffi to generate function pointers wrapping Objective-C blocks.
   "MABToolkit": "", // Some reusable code to handle some common Mac dev problems.
   "MACachedImageView": "", // Load images from a URL into a local cache before displaying them and show a fancy loading indicator in the meantime.
-  "MACalendarUI": "", // MACalendarUI is a project which offers calendar user interface for iPhone applications.
+  "MACalendarUI": "gui_calendar", // MACalendarUI is a project which offers calendar user interface for iPhone applications.
   "MACircleProgressIndicator": "", // Circular Progress Indicator for iOS.
   "MacMapKit": "", // MapKit Framework for the Mac.
   "MACollectionUtilities": "", // Smalltalk-inspired methods and macros on Cocoa collection classes, taking advantage of blocks.
@@ -1997,7 +1997,7 @@
   "MasterShareSDK": "", // This is a simple open source project to make interfacing with social APIs easier.
   "MAZeroingWeakRef": "", // Zeroing weak references for retain/release Objective-C.
   "MBAlertView": "", // Fast, fun, and simple block-based alerts and HUDs.
-  "MBCalendarKit": "", // An open source calendar view for iOS.
+  "MBCalendarKit": "gui_calendar", // An open source calendar view for iOS.
   "MBCategory": "", // A simple little helper library that adds methods to UIColor for getting colors from hex strings.
   "MBCommon": "", // MBCommon is a lightweight, generic Cocoa library for iOS and OS X.
   "MBContactPicker": "", // A contact picker that looks like the one in Apple mail for iOS7. This implementation uses a UICollectionView.
@@ -2064,7 +2064,7 @@
   "MGBox": "", // A UITableView replacement with simplified API.
   "MGBox2": "", // Simple, quick iOS tables, grids, and more.
   "MGBoxKit": "", // Simple, quick iOS tables, grids, and more.
-  "MGCalendar": "", // iOS Calendar that was made to be customized.
+  "MGCalendar": "gui_calendar", // iOS Calendar that was made to be customized.
   "MGCommand": "", // This library provides a lightweight way for executing commands sequentially or concurrently.
   "MGCommandConfig": "", // This library allows to configure commands (MGCommand lib) via config files.
   "MGCraftman": "", // A framework to speedup development when you can't (or don't want to) use Interface Builder.
@@ -2145,7 +2145,7 @@
   "MMScalableVectorView": "", // Make vector drawing code generated by Qwarkee and PaintCode scale properly
   "MMSpreadsheetView": "", // A light weight, easy-to-use spreadsheet-like view.
   "MNAVChapters": "", // Read chapter metadata of audiovisual assets.
-  "MNCalendarView": "", // Highly customizable calendar view for iOS apps.
+  "MNCalendarView": "gui_calendar", // Highly customizable calendar view for iOS apps.
   "MNColorKit": "", // A utility belt of color related add-ons for UIKit.
   "MNMBottomPullToRefresh": "", // .
   "MNMPullToRefresh": "", // .
@@ -2197,7 +2197,7 @@
   "MSCachedAsyncViewDrawing": "", // Helper class that allows you to draw views (a)synchronously to a UIImage with caching for great performance.
   "MSCellAccessory": "gui_tableview", // UITableViewCell accessoryType can easily customize the colors, Supported iOS7 Flat Design.
   "MSCMoreOptionTableViewCell": "gui_tableview", // Drop-in solution to achieve the "More" button in an UITableView's "Swipe to Delete" menu (as seen in Mail.app under iOS 7)
-  "MSCollectionViewCalendarLayout": "", // UICollectionViewLayout for displaying cells chronologically. Similar to the iOS Calendar app.
+  "MSCollectionViewCalendarLayout": "gui_calendar", // UICollectionViewLayout for displaying cells chronologically. Similar to the iOS Calendar app.
   "MSCurrencyFormatter": "", // A piece of code that will automatically format a UITextField with a numberpad to behave like an ATM.
   "MSDynamicsDrawerViewController": "", // Container view controller that leverages UIKit Dynamics to provide a realistic drawer navigation paradigm.
   "MSEmojiChecksumCalculator": "", // Calculate checksums that are human readable and fun!
@@ -2319,7 +2319,7 @@
   "NGVaryingGridView": "", // A GridView which allows to set individual Rects for the Cells.
   "NHAlignmentFlowLayout": "", // A UIFlowLayout sublass that allows you to set the alignment instead of being only justified.
   "NHBalancedFlowLayout": "", // UICollectionViewLayout subclass for displaying items of different sizes in a grid without wasting any visual space.
-  "NHCalendarActivity": "", // NHCalendarActivity is an easy to use custom UIActivity (iOS 6+) that adds events and alarms to the iOS calendar.
+  "NHCalendarActivity": "gui_calendar", // NHCalendarActivity is an easy to use custom UIActivity (iOS 6+) that adds events and alarms to the iOS calendar.
   "NHSeeThroughView": "", // A set of classes to make see-through views on iOS.
   "NHSlidingController": "", // A sliding controller to handle interfaces with a top and bottom view controllers where the top one slides to reveal the bottom one.
   "NHToolKit": "", // A set of tools to make iOS development easier.
@@ -2523,8 +2523,8 @@
   "OBSlider": "", // A UISlider subclass that adds variable scrubbing speeds.
   "OBTabBarController": "", // Open source alternative to UITabBarController, easier.
   "OCBorghettiView": "", // An easy to use accordion view for iOS.
-  "OCCalendar": "", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
-  "OCCalendar-Ext": "", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
+  "OCCalendar": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
+  "OCCalendar-Ext": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
   "OCDiscount": "", // Discount Markdown Processor for iOS and OS X
   "OCDSpec2": "", // Unit Testing for the obsessive compulsive.
   "OCFuntime": "", // Objective-c runtime funny wrapper.
@@ -2654,7 +2654,7 @@
   "PDKeychainBindingsController": "keychain", // PDKeychainBindingsController is intended to make using the Max OSX and iOS Keychains as easy as NSUserDefaults.
   "PDKTStickySectionHeadersCollectionViewLayout": "", // UICollectionView Layout that makes section headers stick to the top of the collection view, over it's section cells.
   "PDTiledView": "", // Accordion-style table view, with block-based delegation.
-  "PDTSimpleCalendar": "", // A simple Calendar / Date Picker with a nice iOS7 design.
+  "PDTSimpleCalendar": "gui_calendar", // A simple Calendar / Date Picker with a nice iOS7 design.
   "PDUtils": "", // A bunch of little helper classes to make life easier.
   "PeakRisingLabel": "", // 动态展示上升的数字，并可以对这个数字进行格式化.
   "PebbleKit": "", // Embed PebbleKit iOS into your app to communicate with Pebble
@@ -2707,7 +2707,7 @@
   "PLVisualAttributeConstraints": "", // Custom VFL (Visual Format Language) for creating NSLayoutConstraint's.
   "PLWeakCompatibility": "", // Compatibility stubs to enable use of weak references with ARC on older OSes.
   "PMAudioRecorderViewController": "", // Drop-in class to record audio note in iOS application and get it back in the app
-  "PMCalendar": "", // Yet another calendar component for iOS. Supports presenting as a popover and very flexible UI tuning.
+  "PMCalendar": "gui_calendar", // Yet another calendar component for iOS. Supports presenting as a popover and very flexible UI tuning.
   "PMEDatePicker": "", // DatePicker with configurable date components
   "PMParentalGate": "", // A drop-in class for iOS applications that allow to add a parental-gate to the app
   "PMPKVObservation": "", // Yet another attempt at making KVO safer and more convenient.
@@ -2840,7 +2840,7 @@
   "RDHOrderedDictionary": "", // Ordered version of NSDictionary.
   "Rdio": "", // The Rdio Framework
   "RDRStickyKeyboardView": "", // Replication of iMessage's text input behavior on iOS 7
-  "RDVCalendarView": "", // Highly customizable calendarView and calendarViewController for iOS
+  "RDVCalendarView": "gui_calendar", // Highly customizable calendarView and calendarViewController for iOS
   "RDVKeyboardAvoiding": "", // Keyboard avoiding scroll view for iOS
   "RDVTabBarController": "", // Highly customizable tabBar and tabBarController for iOS
   "Reachability": "", // ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
@@ -3771,7 +3771,7 @@
   "VPPLocation": "", // VPPLocation Library for iOS simplifies the task of retrieving the user location and reverse geocoder info about it.
   "VPPMap": "", // VPPMap library for iOS simplifies the creation and management of a MKMapView.
   "VPPReachability": "", // VPPReachability Library for iOS simplifies access to the status of a given hostname.
-  "VRGCalendarView": "", // Vurig Calendar.
+  "VRGCalendarView": "gui_calendar", // Vurig Calendar.
   "VSDataStore": "", // Simple Key-Value Data Store for Objective-C
   "VSStringComposing": "", // VSStringComposing is a simple category of NSString which allows you easily compose NSString objects.
   "VTAcknowledgementsViewController": "", // Ready to use “Acknowledgements”/“Licenses”/“Credits” view controller for CocoaPods.
