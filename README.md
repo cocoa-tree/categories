@@ -2,7 +2,7 @@
 
 Categorization information for CocoaPods.
 
-[![Travis-CI Build Status](https://secure.travis-ci.org/cocoa-tree/branches.png)](https://secure.travis-ci.org/dpree/eq)
+[![Travis-CI Build Status](https://secure.travis-ci.org/cocoa-tree/branches.png)](https://secure.travis-ci.org/cocoa-tree/branches)
 
 ## License
 
