@@ -6,7 +6,7 @@ Categorization information for CocoaPods.
 
 ## Contribute
 
-Assign a category in for a cocoa pod in `cocoa_pods_categories.json` and create a pull request. 
+Assign a category in for a cocoa pod in `cocoa_pods_categories.json` and create a pull request. Categories must be lowercase + underscored.
 
 ## License
 
