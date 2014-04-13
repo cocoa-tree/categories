@@ -1,8 +1,8 @@
-# Cocoa Tree Branches
+# Cocoa Tree Categories
 
 Categorization information for CocoaPods.
 
-[![Travis-CI Build Status](https://secure.travis-ci.org/cocoa-tree/branches.png)](https://secure.travis-ci.org/cocoa-tree/branches)
+[![Travis-CI Build Status](https://secure.travis-ci.org/cocoa-tree/categories.png)](https://secure.travis-ci.org/cocoa-tree/categories)
 
 ## License
 
