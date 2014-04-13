@@ -7,10 +7,12 @@ require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
+desc 'Updates cocoa_pods_categories.json'
 task :mapping do
   system 'curl https://cocoa-tree-seeds.herokuapp.com/cocoa_pods_categories.json > cocoa_pods_categories.json'
 end
 
+desc 'Updates cocoa_pod_categories.json'
 task :categories do
   data = File.read('cocoa_pods_categories.json')
   mapping = JSON.parse(data)
