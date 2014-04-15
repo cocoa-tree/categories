@@ -71,7 +71,7 @@
   "AFAmazonS3Client": "uncategorized", // AFNetworking Client for the Amazon S3 API.
   "AFCache": "http", // AFCache is an HTTP cache for iOS and OSX seeking towards full RFC2616 compliance.
   "AFCensusAPIClient": "http", // AFHTTPClient subclass for the Census API.
-  "AFCSVRequestOperation": "uncategorized", // An extension for AFNetworking that provides an interface to parse CSV using CHCSVParser.
+  "AFCSVRequestOperation": "csv", // An extension for AFNetworking that provides an interface to parse CSV using CHCSVParser.
   "AFDownloadRequestOperation": "uncategorized", // A progressive download operation for AFNetworking.
   "AFFCCAPIClient": "uncategorized", // AFHTTPClient subclass for the FCC API.
   "AFFEvent": "uncategorized", // AFFEvent is an easy to use event system built for both iOS and OSX.
@@ -294,11 +294,11 @@
   "AutoCompleteSuffixView": "uncategorized", // complete account's suffix automatically when user inputs in UITextField.
   "AutoDescribe": "uncategorized", // Prints human-readable information about an instance.
   "AutoHideKeyboardControllers": "uncategorized", // AutoHideKeyboardControllers is a set of UIViewController subclasses which enables the tap background to hide keyboard behavior.
-  "AutoLayoutDance": "uncategorized", // AutoLayoutDance is a small library for debugging AutoLayout ambiguous layouts.
-  "AutoLayoutDSL": "uncategorized", // A straightforward DSL for specifying Cocoa Auto Layout constraints.
-  "AutoLayoutKit": "uncategorized", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
-  "AutoLayoutMacros": "uncategorized", // Macros for making Macros for making Auto Layout more readable.
-  "AutoLayoutShorthand": "uncategorized", // alternative system for creating and adding Cocoa Auto Layout constraints
+  "AutoLayoutDance": "layout", // AutoLayoutDance is a small library for debugging AutoLayout ambiguous layouts.
+  "AutoLayoutDSL": "layout", // A straightforward DSL for specifying Cocoa Auto Layout constraints.
+  "AutoLayoutKit": "layout", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
+  "AutoLayoutMacros": "layout", // Macros for making Macros for making Auto Layout more readable.
+  "AutoLayoutShorthand": "layout", // alternative system for creating and adding Cocoa Auto Layout constraints
   "AutoScrollLabel": "uncategorized", // A marquee like scrolling UILabel, think iPod track title scrolling. Provides edge fading, speed adjustment, scroll direction, etc.
   "AVAnimator": "uncategorized", // VAnimator is an iOS library that makes it easy to implement non-trivial animated/video content in iOS.
   "AVCaptureMultipeerVideoDataOutput": "uncategorized", // An AVFoundation subclass for sending video over multipeer connectivity
@@ -518,7 +518,7 @@
   "CDI": "uncategorized", // Simple, easy and very powerful way to use context and dependency injection and interception (minimalistic AOP) for Objective-C development.
   "CDJSONExporter": "uncategorized", // Conversion of a Core Data Store to/from JSON.
   "CDLJSONPResponseSerializer": "uncategorized", // A JSONP response serializer for AFNetworking
-  "CDOForceKeyboardLayout": "uncategorized", // Easily add 'Force Keyboard Layout' functionality into your OSX app
+  "CDOForceKeyboardLayout": "keyboard", // Easily add 'Force Keyboard Layout' functionality into your OSX app
   "CDPlistManager": "uncategorized", // Objective-c class for working with plist.
   "CDSParticleFilter": "uncategorized", // Implements a particle filter in Objective C
   "CDTDatastore": "uncategorized", // CDTDatastore is a document datastore which syncs.
@@ -541,7 +541,7 @@
   "ChartboostSDK": "uncategorized", // ChartboostSDK for showing ads and more.
   "Chartreuse": "uncategorized", // Pie charts for iOS.
   "ChatHeads": "uncategorized", // ChatHeads is a new feature in Facebook.app 6.0 where little bubbles appear when somebody sends you a message.
-  "CHCSVParser": "uncategorized", // A proper CSV parser for Objective-C.
+  "CHCSVParser": "csv", // A proper CSV parser for Objective-C.
   "CHDataStructures": "uncategorized", // Library of standard data structures like (queues, stacks, and trees) based on protocols.
   "CheckNetConnectionHUD": "uncategorized", // The background automatically detect the network connection , When the network status have changed show HUD
   "ChimpKit": "uncategorized", // ChimpKit is an API wrapper for the MailChimp API 2.0.
@@ -550,7 +550,7 @@
   "ChopeToastView": "uncategorized", // iOS toast view
   "ChromaHash": "uncategorized", // A port of Matt Thompsons ChromaHash JS secure password field.
   "CHSectionSelectionView": "gui_tableview", // Easy to use and highly customizable View that displays selector controls for (e.g.) UITableView Sections.
-  "CHTCollectionViewWaterfallLayout": "uncategorized", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
+  "CHTCollectionViewWaterfallLayout": "layout", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
   "CHTStickerView": "uncategorized", // A movable, resizable, rotatable UIView with one fingle, which is fully customizable!
   "CHTTextView": "uncategorized", // A UITextView subclass which supports placeholder (almost) perfectly in any text and/or font setting.
   "CHTumblrMenu": "gui_menus", // CHTumblrMenu is a Tumblr iOS app like menu view completely created using core animation.
@@ -643,7 +643,7 @@
   "ConciseKit": "uncategorized", // A set of Objective-C additions and macros that lets you write code more quickly.
   "ConcurrentCollectionOperations": "uncategorized", // Concurrent map and filter on NSArray, NSDictionary, NSSet using GCD.
   "ConnectionManager": "uncategorized", // Easy management for connections in iOS
-  "ConstraintExpressions": "uncategorized", // A DSL to create NSLayoutConstraints in code.
+  "ConstraintExpressions": "layout", // A DSL to create NSLayoutConstraints in code.
   "ConstraintFormatter": "uncategorized", // A library to unify visual constraints and constraints based on attributes for Auto Layout
   "ConventionalC": "uncategorized", // Cocoapod and static library to provide defaults and convenience methods for terser Objective-C.
   "CoordinateFinder": "uncategorized", // Easily get current coordinates (and other location info) with just a few lines of code
@@ -706,14 +706,14 @@
   "CSHashKit": "uncategorized", // A simple class category that implements hash and isEqual: for every Objective-C object.
   "CSJTools": "uncategorized", // 曹盛杰Cocoa工具包
   "cslim": "uncategorized", // An implementation of FitNesse SliM for C and Objective-C
-  "CSLinearLayoutView": "uncategorized", // Linear layout view designed to simplify relative layouts on iOS.
+  "CSLinearLayoutView": "layout", // Linear layout view designed to simplify relative layouts on iOS.
   "CSNNotificationObserver": "uncategorized", // CSNNotificationObserver is wrapping NSNotification for convenience.
   "CSNotificationView": "uncategorized", // iOS-7-style, semi-translucent notification view with blur.
   "CSSSelectorConverter": "uncategorized", // Objective-C/Cocoa String Tokenizer and Parser toolkit. Supports Grammars.
-  "CSStickyHeaderFlowLayout": "uncategorized", // Parallax and Sticky header done right using UICollectionViewLayout
+  "CSStickyHeaderFlowLayout": "layout", // Parallax and Sticky header done right using UICollectionViewLayout
   "CSURITemplate": "uncategorized", // Implementation of the URI Template spec.
-  "CSV": "uncategorized", // Format data to the comma-separated values format.
-  "CsvToSqlite": "uncategorized", // An iOS library to import a CSV file to the SQLite table
+  "CSV": "csv", // Format data to the comma-separated values format.
+  "CsvToSqlite": "csv", // An iOS library to import a CSV file to the SQLite table
   "CTAssetsPickerController": "uncategorized", // iOS control that allows picking multiple photos and videos from user's photo library.
   "CTCheckbox": "uncategorized", // CTCheckbox is a checkbox UI component library for iOS.
   "CTCustomTableViewCell": "gui_tableview", // Simple superclass for custom tableview cells that works on convention and removes the need for a lot of code.
@@ -1962,7 +1962,7 @@
   "_.m": "uncategorized", // _.m is a port of Underscore.jsto Objective-C.
   "M13BadgeView": "uncategorized", // A customizable implementation of badges for UIViews.
   "M13Checkbox": "uncategorized", // A customizable checkbox for iOS that mimics the checkbox found on OS X, and Safari.
-  "M13CSVParser": "uncategorized", // A set of classes to read and write character separated value files and strings.
+  "M13CSVParser": "csv", // A set of classes to read and write character separated value files and strings.
   "M13InfiniteTabBar": "uncategorized", // An elegant redesign of UITabBar for iOS Applications.
   "M13OrderedDictionary": "uncategorized", // A cross between NSArray and NSDictionary. It holds an ordered list of objects and keys.
   "M13ProgressSuite": "uncategorized", // A suite containing many tools to display progress information on iOS.
