@@ -12,8 +12,8 @@ You may choose any category from [cocoa_pod_categories.json](cocoa_pod_categorie
 
 The json files can be generated with:
 
-* rake categories => [cocoa_pod_categories.json](cocoa_pod_categories.json
-* rake mapping => [cocoa_pods_categories.json](cocoa_pods_categories.json
+* `rake categories` generates [cocoa_pod_categories.json](cocoa_pod_categories.json)
+* `rake mapping` generates [cocoa_pods_categories.json](cocoa_pods_categories.json)
 
 ## License
 
