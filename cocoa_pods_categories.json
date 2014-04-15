@@ -608,7 +608,7 @@
   "CNSKit": "uncategorized", // CNSKit is a collection of utility-classes that make the life easier.
   "CNSplitView": "uncategorized", // CNSplitView is an feature enhanced derivative of NSSplitView. It has support for sticky top or bottom toolbars for each of its subviews.
   "CNTreeNode": "uncategorized", // Using CNTreeNode is a convenient and easy way to build a tree of nested objects.
-  "CNUserNotification": "uncategorized", // CNUserNotification gives you „the same‟ support for user notifications on OS X Lion 10.7 like OS X Mountain Lion 10.8 it does.
+  "CNUserNotification": "notifications", // CNUserNotification gives you „the same‟ support for user notifications on OS X Lion 10.7 like OS X Mountain Lion 10.8 it does.
   "CNXML": "xml", // Simple basic handling of XML files for both reading and manual creation.
   "coby": "uncategorized", // Opinionated categories for Objective C.
   "CocoaActiveModel": "uncategorized", // A ActiceRecord style data modeling for Objective C.
@@ -733,7 +733,7 @@
   "CWDropDownMenu": "gui_menus", // CWDropDownMenu is a block based UIButton subclass that uses UIActionSheet to present a drop down menu.
   "CWLSynthesizeSingleton": "uncategorized", // Matt Gallagher's original singleton macro
   "CWPopup": "uncategorized", // A category on UIViewController to present a popup view controller.
-  "CWStatusBarNotification": "uncategorized", // A library that creates status bar notifications.
+  "CWStatusBarNotification": "notifications", // A library that creates status bar notifications.
   "CXAdjustBlockView": "uncategorized", // CXAdjustBlockView(UIScrollView).
   "CXAlertView": "uncategorized", // Custom alertView which allow you to add view as main content.
   "CXFeedParser": "uncategorized", // An Objective-C RSS / Atom Feed Parser for iOS.
@@ -812,7 +812,7 @@
   "DFJPEGTurbo": "uncategorized", // Objective-C libjpeg-turbo wrapper
   "DFPickerView": "uncategorized", // A simple picker view with tool bar and blocks.
   "DHAppleReceiptParser": "uncategorized", // Parser for the receipt file available in iOS 7.
-  "DHCCounter": "uncategorized", // Count Events and get notifications when that count changes, per event.
+  "DHCCounter": "notifications", // Count Events and get notifications when that count changes, per event.
   "DHCObjectIntrospection": "uncategorized", // a category on NSObject to allow for runtime introspection.
   "DHCOnDealloc": "uncategorized", // A simple category that allows you set a block to fire when an object is dealloced..
   "DHCShakeNotifier": "uncategorized", // A very simple category that sends out an NSNotification whenever the device is shaken.
@@ -1143,14 +1143,14 @@
   "Functional.m": "uncategorized", // Categories for functional programming in Objective-C.
   "Funcussion": "uncategorized", // A library providing functional operations for Objective C collections.
   "Futility": "uncategorized", // Some reusable iOS goodness, brought to you by Futurice.
-  "FWTPushNotifications": "uncategorized", // Utility classes to integrate with FWTPushNotificationServer gem.
+  "FWTPushNotifications": "notifications", // Utility classes to integrate with FWTPushNotificationServer gem.
   "FXBlurView": "uncategorized", // UIView subclass that replicates the iOS 7 realtime background blur effect, but works on iOS 5 and above.
   "FXColorSpace": "uncategorized", // High level image pixels enumeration library
   "FXImageView": "uncategorized", // FXImageView is a class designed to simplify the application of common visual effects.
   "FXJSON": "uncategorized", // Lightweight, ARC-friendly JSON library, supporting both DOM and SAX style parsing.
   "FXKeychain": "keychain", // FXKeychain is a lightweight wrapper around the Apple keychain APIs that provides a simple dictionary-like interface.
   "FXLabel": "uncategorized", // UILabel subclass that supports soft shadows, inner shadow and gradient fill and custom leading/kerning.
-  "FXNotifications": "uncategorized", // An alternative API for NSNotificationCenter that doesn't suck.
+  "FXNotifications": "notifications", // An alternative API for NSNotificationCenter that doesn't suck.
   "FXPageControl": "uncategorized", // Drop-in replacement for UIPageControl that adds the ability to edit the dot color, shape, shadow, size, image and spacing.
   "FXReachability": "uncategorized", // Lightweight reachability class for Mac and iOS.
   "GAI-AutomaticSessionManagement": "analytics", // Enables automatic session management for Google Analytics for iOS (GAI) version 3.
@@ -1549,7 +1549,7 @@
   "IssueKit": "uncategorized", // A drop-in component for creating GitHub issues in your app.
   "ITActionManager": "uncategorized", // Method dispatcher and progress handler.
   "iTellAFriend": "uncategorized", // iTellAFriend is an iOS toolkit for displaying a preconfigued mail composerwith a "Tell a Friend" template in ios apps.
-  "iToast": "uncategorized", // We at Guru software really love toast notifications available on android OS, so we've built a similar feature for the IOS enabled devices.
+  "iToast": "notifications", // We at Guru software really love toast notifications available on android OS, so we've built a similar feature for the IOS enabled devices.
   "ITProgressBar": "uncategorized", // ITProgressBar is a very lightweight progress bar replacement for OS X.
   "ITPullToRefreshScrollView": "uncategorized", // ITPullToRefreshScrollView is a subclass of NSScrollView which allows iOS 7 style refreshing by pulling.
   "ITSidebar": "uncategorized", // ITSidebar is a control for Mac OS X similar to the one of Sparrow.
@@ -2782,10 +2782,10 @@
   "PunchScrollView": "gui_tableview", // PunchScrollView is a iOS ScrollView framework which works like the UITableView.
   "puremvc": "uncategorized", // A lightweight framework for creating applications based upon the classic Model-View-Controller design meta-pattern.
   "PushAd": "uncategorized", // PushAd advertisement SDK
-  "PusherMan": "uncategorized", // A class that handles registration and handling of push notifications tokens in iOS.
-  "PushSpring": "uncategorized", // Send beautiful in-app messages to your users via push notifications.
-  "Pushwoosh": "uncategorized", // Push notifications library by Pushwoosh.
-  "pushwoosh-ios-arc-sdk": "uncategorized", // Pushwoosh iOS SDK with ARC support
+  "PusherMan": "notifications", // A class that handles registration and handling of push notifications tokens in iOS.
+  "PushSpring": "notifications", // Send beautiful in-app messages to your users via push notifications.
+  "Pushwoosh": "notifications", // Push notifications library by Pushwoosh.
+  "pushwoosh-ios-arc-sdk": "notifications", // Pushwoosh iOS SDK with ARC support
   "PVAsyncImageView": "uncategorized", // A simple NSImageView subclass that let's you download images asynchronously from the web on the Mac with some other useful properties.
   "PWAlignView": "uncategorized", // Align and arrange collection of views (UIView, UIImageView, UIButton, … ) on different directions.
   "PWLoadMoreTableFooter": "uncategorized", // A similar control to load more control.
@@ -3080,7 +3080,7 @@
   "SFCountdownView": "uncategorized", // Provides a customizable countdown overlay view
   "SFGaugeView": "uncategorized", // Provides a gauge control for ios
   "SFHFKeychainUtils": "keychain", // SciFiHiFi Utilities for manipulating the keychain.
-  "SFNotify": "uncategorized", // Simple custom user notifications.
+  "SFNotify": "notifications", // Simple custom user notifications.
   "SFObservers": "uncategorized", // Categories expanding both NSNotificationCenter and KVO to provide auto removal of observers.
   "SFRoundProgressCounterView": "uncategorized", // Provides a progress bar as circle with an optional counter in the center of the circle
   "SFSCollectionMenu": "gui_menus", // An open-source menu control for iOS utilizing UICollectionView layout.
@@ -3165,10 +3165,10 @@
   "SimpleRemoteObject": "uncategorized", // SimpleRemoteObject is a simple Objectie-C library that can create your classes' instance from server-side JSON text.
   "SimpleSyncService": "uncategorized", // Simple helper for updating Core Data models from multiple data sources
   "SimpleUserDefaults": "uncategorized", // Simple NSUserDefaults manager library -  Access NSUserDefaults key using property.
-  "SimulatorRemoteNotifications": "uncategorized", // Library to send mock remote notifications to the iOS simulator
+  "SimulatorRemoteNotifications": "notifications", // Library to send mock remote notifications to the iOS simulator
   "SinaWeibo": "uncategorized", // sina weibo sdk of sso and Oauth2.0.
   "SinglySDK": "uncategorized", // iOS SDK for Singly.
-  "SJNotificationViewController": "uncategorized", // Lightweight notifications in iOS apps.
+  "SJNotificationViewController": "notifications", // Lightweight notifications in iOS apps.
   "SJODataKit": "uncategorized", // Lightweight Core Data helper to reduce boilerplate code.
   "SJOPaperboy": "uncategorized", // An easy to use library that lets you implement background updates in your app.
   "SKAnimateScroll": "uncategorized", // SKAnimateScroll
@@ -3291,7 +3291,7 @@
   "STableViewController": "gui_tableview", // STableViewController is a custom table view controller that supports pull-to-refresh and load-more.
   "StackBluriOS": "uncategorized", // Stack Blur implementation for iOS.
   "StackMob": "uncategorized", // StackMob's SDK for accessing the StackMob Services on iOS.
-  "StackMobPush": "uncategorized", // StackMob's Push SDK for sending push notifications via the StackMob Services on iOS.
+  "StackMobPush": "notifications", // StackMob's Push SDK for sending push notifications via the StackMob Services on iOS.
   "StackView": "uncategorized", // A class designed to simplify the implementation of vertical stacks of views on iOS.
   "StandardPaths": "uncategorized", // Category on NSFileManager for simple consistent access to standard application directories.
   "starIOPrintSDK": "uncategorized", // Star Micronics iOS Print SDK
@@ -3470,7 +3470,7 @@
   "TMQuiltView": "gui_tableview", // Interface similar to the UITableView with UI similar to Pintrest.
   "TMTumblrSDK": "uncategorized", // An unopinionated and flexible library for easily integrating Tumblr data into your iOS or OS X application.
   "ToadSeq": "uncategorized", // An iOS library for lazy sequences.
-  "Toast": "uncategorized", // A UIView category that adds Android-style toast notifications to iOS.
+  "Toast": "notifications", // A UIView category that adds Android-style toast notifications to iOS.
   "ToggleView": "uncategorized", // ToggleView is easy-to-use original toggle button.
   "TOMData": "uncategorized", // A simple set of categories that make Core Data easier to work with.
   "TOMFoundation": "uncategorized", // Simple extensions for Foundation framework.
@@ -3511,7 +3511,7 @@
   "TSCoreData": "uncategorized", // Core Data convenience.
   "TSCurrencyTextField": "uncategorized", // A UITextField subclass for inputing currency amounts.
   "TSLibraryImport": "uncategorized", // Objective-C class for importing files from user's iPod Library in iOS4.
-  "TSMessages": "uncategorized", // Easy to use and customizable messages/notifications for iOS à la Tweetbot.
+  "TSMessages": "notifications", // Easy to use and customizable messages/notifications for iOS à la Tweetbot.
   "TSMiniWebBrowser": "uncategorized", // An in-app web browser control for iOS apps.
   "TSMiniWebBrowser@kylerobson": "uncategorized", // In app browser.
   "TSNetworking": "uncategorized", // An iOS7+ networking API based on NSURLSession.
@@ -3542,7 +3542,7 @@
   "TwilioSDK": "uncategorized", // Twilio Client has the features that make it easy to embed VoIP directly into your web, iOS or Android apps.
   "TwistedOakCollapsingFutures": "uncategorized", // Futures without nesting issues.
   "twitter-text-objc": "uncategorized", // Objective-C port of the twitter-text handling libraries.
-  "TWMessageBarManager": "uncategorized", // An iOS manager for presenting system-wide notifications via a dropdown message bar.
+  "TWMessageBarManager": "notifications", // An iOS manager for presenting system-wide notifications via a dropdown message bar.
   "TWRCouchDBClient": "uncategorized", // An `AFHTTPSessionManager` subclass for interacting with CouchDB databases
   "TWReverseAuth": "uncategorized", // I don't recomend using TWReverseAuth, please use 'pod SHOmniAuthTwitter' instead.
   "TWRProgressView": "uncategorized", // A custom progress view to be used with masking images.
@@ -3601,7 +3601,7 @@
   "UIColor+RandomColor": "uncategorized", // Generate random UIColors
   "UIColor-Utilities": "uncategorized", // Helpful utilities for UIColor for iPhone.
   "uicontrol-blocks": "uncategorized", // This category adds block support block based callbacks for UIControlEvents to UIControl.
-  "UIControl+Notifications": "uncategorized", // Make your UIControls respond to notifications and blocks instead of the old fashioned target+selector approach
+  "UIControl+Notifications": "notifications", // Make your UIControls respond to notifications and blocks instead of the old fashioned target+selector approach
   "UICountingLabel": "uncategorized", // Adds animated counting support to UILabel.
   "UICustomizeKit": "uncategorized", // Base UIKit components extended to allow almost any customizations.
   "UIDeviceAddition": "uncategorized", // Generates a unique identifier based on the mac address of the device in combination with the bundle identifier.
