@@ -443,7 +443,7 @@
   "Brightcove-Video-Cloud-App-SDK-Player-and-Sharing-Kit": "uncategorized", // The Player and Sharing Kit component of the Brightcove Video Cloud App SDK for iOS.
   "Brightcove-Video-Cloud-Player-SDK": "uncategorized", // Brightcove Video Cloud Player SDK for iOS.
   "BRLOptionParser": "uncategorized", // A short wrapper for getopt_long(3).
-  "BRORM": "uncategorized", // Another Objective-C SQLite ORM
+  "BRORM": "orm", // Another Objective-C SQLite ORM
   "BRYDescriptionBuilder": "uncategorized", // Utility for producing object descriptions, based on Apache Commons ToStringBuilder
   "BRYEmailAddressDetective": "email", // Perform UIView animations serially without blocking the main thread
   "BRYEqualsBuilder": "uncategorized", // Utility for determining object equality, based on Apache Commons EqualsBuilder
@@ -478,8 +478,8 @@
   "BWObjectSerializer": "uncategorized", // Small library that transform an object into a dictionary that can be send to a web service.
   "BYLBadgeView": "uncategorized", // An animatable, TextKit based view to display badges.
   "Bypass": "uncategorized", // Bypass - Bypass renders markdown directly to UIViews instead of using an intermediary HTML format.
-  "BZGFormField": "uncategorized", // A text field with a validity indicator for better forms.
-  "BZGFormViewController": "uncategorized", // A library for creating dynamic forms.
+  "BZGFormField": "gui_form", // A text field with a validity indicator for better forms.
+  "BZGFormViewController": "gui_form", // A library for creating dynamic forms.
   "BZGMailgunEmailValidation": "email", // A simple wrapper for the Mailgun email validation API.
   "BZipCompression": "uncategorized", // An Objective-C interface for the BZip2 compression algorithm
   "BZPasscodeViewController": "uncategorized", // Passcode view controller for iOS.
@@ -564,7 +564,7 @@
   "CJInfinityScroll": "uncategorized", // Infinityscroll in iOS.
   "CJMPhoneRotationManager": "uncategorized", // UIDevice extension to rotate the phone when upright using the vibration motor.
   "CJMTwitterFollowButton": "gui_controls", // A Twitter UIButton which can be configured to open a designated users profile in the native Twitter App that the user has installed
-  "CJRouter": "uncategorized", // Scheme url for iOS. Parsing URL and launch an application on a specified controller.
+  "CJRouter": "url_routing", // Scheme url for iOS. Parsing URL and launch an application on a specified controller.
   "CJString": "uncategorized", // NSString category divers helpers.
   "CJStringValidator": "uncategorized", // NSString category to help the validate formate string.
   "CKBasicAuthUrlUtilities": "uncategorized", // NSURL BASIC Authentication utility.
@@ -613,8 +613,8 @@
   "coby": "uncategorized", // Opinionated categories for Objective C.
   "CocoaActiveModel": "uncategorized", // A ActiceRecord style data modeling for Objective C.
   "CocoaAsyncSocket": "uncategorized", // Asynchronous socket networking library for Mac and iOS.
-  "CocoaHTTPServer": "uncategorized", // A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.
-  "CocoaHTTPServerExpress": "uncategorized", // Embeddable HTTP server that make testing easier.
+  "CocoaHTTPServer": "http_server", // A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.
+  "CocoaHTTPServerExpress": "http_server", // Embeddable HTTP server that make testing easier.
   "CocoaLibSpotify": "uncategorized", // A Cocoa wrapper for libspotify.
   "CocoaLumberjack": "uncategorized", // A fast & simple, yet powerful & flexible logging framework for Mac and iOS.
   "cocoa-oauth": "uncategorized", // Cocoa library for creating signed requests according to the OAuth 1.0a standard.
@@ -799,7 +799,7 @@
   "DDProgressView": "uncategorized", // A custom UIProgressView à la Twitter for iPhone.
   "DDQuicklookAdditionalViews": "uncategorized", // An extension for the OSX cocoa class QLPreviewPanel. The Category allows to set additional views in the titlebar.
   "DDQuoteService": "uncategorized", // A random quote service that accesses iheartquotes.com and can optionally use a local file as backup.
-  "DDSimpleHTTPd": "uncategorized", // This is a simple web server written in Objective C using the CCFNetwork (for OSX and iOS).
+  "DDSimpleHTTPd": "http_server", // This is a simple web server written in Objective C using the CCFNetwork (for OSX and iOS).
   "DDURLParser": "uncategorized", // Parses Parameters in URLs.
   "DebugKit": "uncategorized", // Debug and Data Dumping Helper Functions
   "Deezer": "uncategorized", // Deezer iOS SDK.
@@ -1616,8 +1616,8 @@
   "JKTabBarController": "uncategorized", // JKTabBarController is a custom TabBarController with way more feature support.
   "JKVValue": "uncategorized", // A simple Value Object library.
   "JLPRequestSubscripting": "uncategorized", // Terrific HTTP header subscripting for NSURLRequests!
-  "JLRoutes": "uncategorized", // Advanced URL parsing designed to handle complex URL schemes with a block-based callback API.
-  "JLTMDbClient": "uncategorized", // JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with www.themoviedb.org API
+  "JLRoutes": "url_routing", // Advanced URL parsing designed to handle complex URL schemes with a block-based callback API.
+  "JLTMDbClient": "proprietary_api", // JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with www.themoviedb.org API
   "JLUtils": "uncategorized", // JLUtils
   "JMFrame": "uncategorized", // UIView category to help the handling of view frames.
   "JMImageCache": "uncategorized", // NSCache based remote-image caching and downloading mechanism for iOS.
@@ -2954,8 +2954,8 @@
   "RoboReaderPDF": "uncategorized", // A cool pdf reader framework.
   "RotateView": "uncategorized", // Simple UIView subclass that rotates to match device orientation independently of the view controller.
   "RouletteWheelCollectionViewLayout": "uncategorized", // Custom UICollectionViewFlowLayout subclass implementation of a roulette wheel of cards.
-  "Routable": "uncategorized", // A native in-app URL router for iOS.
-  "RoutingHTTPServer": "uncategorized", // A routing API for CocoaHTTPServer.
+  "Routable": "url_routing", // A native in-app URL router for iOS.
+  "RoutingHTTPServer": "url_routing", // A routing API for CocoaHTTPServer.
   "RoUTP": "uncategorized", // Reliable-over-Unreliable Transport Protocol for Apple Game Center Multiplayer.
   "RPDynamicWarningView": "uncategorized", // A simple warning view that takes advantage of UIKit Dynamics
   "RPFloatingPlaceholders": "uncategorized", // UITextField and UITextView subclasses with floating placeholder labels.
@@ -3795,7 +3795,7 @@
   "WhatsAppKit": "uncategorized", // Unofficial wrapper to quickly send messages with WhatsApp for iPhone.
   "WhirlyGlobe": "uncategorized", // WhirlyGlobe is a self contained 3D earth display view suitable for use in iPhone and iPad applications.
   "WhirlyGlobe-Headers": "uncategorized", // WhirlyGlobe headers is a self contained 3D earth display view suitable for use in iPhone and iPad applications. (temporary).
-  "Wiggly": "uncategorized", // (URL) Routing library. No need to build your urls and extract their data by hand anymore!
+  "Wiggly": "url_routing", // (URL) Routing library. No need to build your urls and extract their data by hand anymore!
   "WindowsAzureACS-iOS": "uncategorized", // Windows Azure Access Control Service library.
   "WindowsAzureMobileServices": "uncategorized", // Windows Azure Mobile SDK for iOS.
   "Wit": "uncategorized", // Wit.AI Official SDK
