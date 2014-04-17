@@ -63,7 +63,7 @@
   "ADVProgressBar": "uncategorized", // Progress Bar Design with Percentage values.
   "AD-X-SDK": "uncategorized", // AD-X SDK for iOS.
   "AeroGear": "uncategorized", // Provides a lightweight set of utilities for communication, security, storage and more.
-  "AeroGear-Crypto": "uncategorized", // Provides encryption utilities.
+  "AeroGear-Crypto": "crypto", // Provides encryption utilities.
   "AeroGear-OTP": "uncategorized", // Provides an Objective-C One Time Password API.
   "AeroGear-Push": "uncategorized", // AeroGear UnifiedPush Client Registration SDK.
   "AFAbstractRESTClient": "uncategorized", // AFAbstractRESTClient is simple abstract solution to deal with REST webservices using AFNetworking.
@@ -620,7 +620,7 @@
   "cocoa-oauth": "uncategorized", // Cocoa library for creating signed requests according to the OAuth 1.0a standard.
   "CocoaOniguruma": "uncategorized", // Objective-C binding of Oniguruma regular expression engine.
   "CocoaRouge": "uncategorized", // An attempt at a more expressive syntax for Objective-C. Heavily borrowed (stolen) from Ruby.
-  "CocoaSecurity": "uncategorized", // Encrypt/Decrypt: AES. Hash: MD5, SHA(SHA1, SHA224, SHA256, SHA384, SHA512). Encode/Decode: Base64, Hex.
+  "CocoaSecurity": "crypto", // Encrypt/Decrypt: AES. Hash: MD5, SHA(SHA1, SHA224, SHA256, SHA384, SHA512). Encode/Decode: Base64, Hex.
   "CocoaSoundCloudAPI": "uncategorized", // A simple way to interact with the SoundCloud  CocoaSoundCloudAPI.
   "CocoaSoundCloudUI": "uncategorized", // A simple way to share audio on soundcloud.com.
   "CocoaSPDY": "uncategorized", // SPDY for iOS and OS X
@@ -639,7 +639,7 @@
   "ColorUtils": "uncategorized", // Category on UIColor that extends it with some commonly needed features that were left out of the standard API.
   "Colours": "uncategorized", // 100s of beautiful, predefined Colors and Color methods. Works for iOS/OSX.
   "Commando": "uncategorized", // Navigate the iOS simulator with the keyboard. Ditch your mouse and GO FULL COMMANDO!
-  "CommonCrypto": "uncategorized", // A simple cryptographic tool.
+  "CommonCrypto": "crypto", // A simple cryptographic tool.
   "ConciseKit": "uncategorized", // A set of Objective-C additions and macros that lets you write code more quickly.
   "ConcurrentCollectionOperations": "uncategorized", // Concurrent map and filter on NSArray, NSDictionary, NSSet using GCD.
   "ConnectionManager": "uncategorized", // Easy management for connections in iOS
@@ -698,7 +698,7 @@
   "CRMotionView": "uncategorized", // A custom photo viewer that implements device motion scrolling, inspired by Facebook Paper.
   "CRNavigationController": "uncategorized", // A UINavigationController subclass that brings about a more vivid, brighter UINavigationBar.
   "CRToast": "uncategorized", // A modern iOS toast view that can fit your notification needs
-  "CryptoPill": "uncategorized", // CryptoPill is the crypto code used by Core Secret
+  "CryptoPill": "crypto", // CryptoPill is the crypto code used by Core Secret
   "CSApi": "uncategorized", // Client library for using the Cogenta Shopping API.
   "CSBlockyProgress": "uncategorized", // A blocky subclass of NSProgress
   "CSColorizedProgressView": "uncategorized", // A progress view that transitions a grayscale image to a full-color image.
@@ -1596,7 +1596,7 @@
   "JDFlipNumberView": "uncategorized", // A simple, yet powerful, customizable FlipNumberView based on CoreAnimation (Simulating an analog flip display).
   "JDStatusBarNotification": "uncategorized", // Easy, customizable notifications displayed on top of the statusbar. With progress and activity.
   "JESCircularProgressView": "uncategorized", // A little circular progressview for OSX that looks like the one used in the app store.
-  "JFBCrypt": "uncategorized", // BCrypt in Objective C
+  "JFBCrypt": "crypto", // BCrypt in Objective C
   "JFELocationManager": "uncategorized", // JFELocationManager is a CoreLocation singleton.
   "JFFileManager": "uncategorized", // Class methods which make dealing with files on iOS easier.
   "JFModelDataSource": "uncategorized", // A base data source class which should be subclassed for an object which is created from JSON.
@@ -1779,7 +1779,7 @@
   "KSCardView": "uncategorized", // A robust, customizable, easy to use, subclass of UIView for iOS. 
   "KSCircularActivityView": "uncategorized", // An activity indicator drawing circle.
   "KSCrash": "uncategorized", // The Ultimate iOS Crash Reporter
-  "KSCrypto": "uncategorized", // Simple wrapper for SHA1 hashing files/data.
+  "KSCrypto": "crypto", // Simple wrapper for SHA1 hashing files/data.
   "KSCustomUIPopover": "uncategorized", // Example project showing how to customize UIPopover with images.
   "KSDeferred": "uncategorized", // Async library inspired by CommonJS Promises/A spec.
   "KSError": "uncategorized", // Additions to NSError for easier creation of errors, and querying existing ones.
@@ -1885,7 +1885,7 @@
   "librtmp-iOS": "uncategorized", // librtmp build for iOS
   "libsasl2": "uncategorized", // Cyrus SASL Library.
   "libsodium": "uncategorized", // Sodium is a portable, cross-compilable, installable, packageable, API-compatible version of NaCl.
-  "libsodium-ios": "uncategorized", // libodium-ios is an API-compatible iOS version of the crypto lib NaCl (com, encryption & signatures). Based on libsodium.
+  "libsodium-ios": "crypto", // libodium-ios is an API-compatible iOS version of the crypto lib NaCl (com, encryption & signatures). Based on libsodium.
   "libspotify": "uncategorized", // The libspotify C API package
   "libssh2": "uncategorized", // libssh2 is a client-side C library implementing the SSH2 protocol
   "libwbxml": "xml", // libwbxml is a WBXML parser library written in C.
@@ -2434,7 +2434,7 @@
   "NSStringMask": "uncategorized", // The NSStringMask enables you to apply masks or formats to NSStrings using NSRegularExpression to input your format.
   "NSString+RMURLEncoding": "uncategorized", // Adds URL encoding helpers to NSString.
   "NSString+Ruby": "uncategorized", // NSString category providing common Ruby String methods.
-  "NSString+TBEncryption": "uncategorized", // Lightweight encryption methods for NSString
+  "NSString+TBEncryption": "crypto", // Lightweight encryption methods for NSString
   "NSString+TextAndNumberValidation": "uncategorized", // NSString category methods to simplify popular string standards validation.
   "NSString-UrlEncode": "uncategorized", // Category that adds urlEncode to NSString.
   "NSTimer-Blocks": "uncategorized", // Extremely simple category on NSTimer which makes it able to use blocks.
@@ -2447,7 +2447,7 @@
   "NSURL+ParseQuery": "uncategorized", // Simple URL query parser convert to NSDictionary
   "NSURL+QueryDictionary": "uncategorized", // Make working with NSURL queries more pleasant.
   "NSURLRequestLogger": "uncategorized", // Simple category for logging all details of a NSURLRequest.
-  "NSUserDefaults-AESEncryptor": "uncategorized", // Save and load data using AES encryption
+  "NSUserDefaults-AESEncryptor": "crypto", // Save and load data using AES encryption
   "NSUserDefaults+Utility": "uncategorized", // Catagories for easier access to NSUserDefaults.
   "NSUUID": "uncategorized", // NSUUID implementation for iOS < 6.0 and OS X < 10.8.
   "NSView+LinenBackground": "uncategorized", // Adds a [drawLinen] methods to NSView.
@@ -2552,7 +2552,7 @@
   "OGActionPopup": "uncategorized", // Tumblr-like fullscreen replacement for selecting an action (like e.g., UIActionSheet)
   "OGCollectionExtensions": "uncategorized", // Extensions to Foundation collection classes
   "OGCoreDataStack": "uncategorized", // A multi-threaded Core Data stack. Design goals are ease of use, compile-time checks, and wrappers for some common use cases.
-  "OGCryptoHash": "uncategorized", // Wrapper around CommonCrypto hash functions, MD5, SHA1, SHA224, SHA256, SHA384, and SHA512.
+  "OGCryptoHash": "crypto", // Wrapper around CommonCrypto hash functions, MD5, SHA1, SHA224, SHA256, SHA384, and SHA512.
   "OGDebuggingTools": "debugging", // Code snippets for debugging
   "OGExtensions": "apple_api", // UIKit and Foundation extensions
   "OGImage": "uncategorized", // OGImage provides a simple abstraction for loading images from the network, processing them, and caching them locally.
@@ -2581,8 +2581,8 @@
   "OpenIDFA": "uncategorized", // OpenIDFA is an alternative to IDFA.
   "OpenInChrome": "uncategorized", // The easiest way to have your iOS app open links in Chrome.
   "OpenSans": "uncategorized", // A podspec encapsulating OpenSans font for iOS
-  "OpenSSL": "uncategorized", // OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support.
-  "OpenSSL-Universal": "uncategorized", // OpenSSL for iOS and OS X
+  "OpenSSL": "crypto", // OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support.
+  "OpenSSL-Universal": "crypto", // OpenSSL for iOS and OS X
   "OpenTokSDK": "uncategorized", // The OpenTok iOS SDK lets you use OpenTok video sessions in apps you build for iPad, iPhone, and iPod touch devices.
   "OpenTokSDK-WebRTC": "uncategorized", // The OpenTok iOS SDK lets you use OpenTok video sessions in apps you build for iPad, iPhone, and iPod touch devices.
   "OpenUDID": "uncategorized", // Open source initiative for a universal and persistent UDID solution for iOS.
@@ -2939,10 +2939,10 @@
   "RNBlurredSideViewController": "uncategorized", // A side view controller with a dynamic blurred background effect which is similar to the iOS 7 control center.
   "RNCachingURLProtocol": "uncategorized", // Simple offline caching for UIWebView and other NSURLConnection clients.
   "RNConcurrentBlockOperation": "uncategorized", // Simple NSOperation subclass that allows a block of asynchronous work to be executed in parallel in a NSOperationQueue
-  "RNCryptor": "uncategorized", // Encryptor/Decryptor for iOS.
+  "RNCryptor": "crypto", // Encryptor/Decryptor for iOS.
   "RNFrostedSidebar": "uncategorized", // A Control Center-esque control with blurred background and toggle animations.
   "RNGridMenu": "gui_menus", // A grid menu with elastic layout, depth of field, and realistic animation.
-  "RNPinnedCertValidator": "uncategorized", // Simplify validating pinned SSL certificates.
+  "RNPinnedCertValidator": "crypto", // Simplify validating pinned SSL certificates.
   "RNRippleTableView": "gui_tableview", // A custom table view with highly detailed ripple animations.
   "RNSwipeViewController": "uncategorized", // A custom table view with highly detailed ripple animations.
   "RNTextStatistics": "uncategorized", // A category on NSString to gather advanced statistics on text.
@@ -3057,8 +3057,8 @@
   "SEBeamMeUpScotty": "uncategorized", // Ridiculously simple iOS video uploader classes for YouTube, Facebook, etc.
   "SECollectionViewFlowLayout": "uncategorized", // A flow layout for UICollectionView that implements swiping-to-select gestures
   "SECoreTextView": "uncategorized", // Multi-line rich text view library with clickable links, selectable text, embeding images and editing.
-  "SecureNSUserDefaults": "uncategorized", // NSUserDefaults category for iOS and Mac OS X with additional methods to securely save data using strong AES encryption.
-  "SecureUDID": "uncategorized", // SecureUDID is an open-source sandboxed UDID solution aimed at solving the main privacy issues that caused Apple to deprecate UDIDs.
+  "SecureNSUserDefaults": "crypto", // NSUserDefaults category for iOS and Mac OS X with additional methods to securely save data using strong AES encryption.
+  "SecureUDID": "crypto", // SecureUDID is an open-source sandboxed UDID solution aimed at solving the main privacy issues that caused Apple to deprecate UDIDs.
   "SEDraggable": "uncategorized", // Drag and drop UIView subclasses for iOS.
   "SEEActivityIndicatorView": "uncategorized", // A drop in replacement for UIActivityIndicatorView that looks like the Seesaw logo.
   "SEEPhoneNumberFormatter": "uncategorized", // Format phone numbers in Objective-C using libphonenumber.
@@ -3254,11 +3254,11 @@
   "SPTabBarController": "uncategorized", // Custom tab bar container controller for iOS 5.
   "SPTScrollViewScrubber": "gui_tableview", // Add a scrubber to quickly scroll through an `UIScrollView` or any of its subclasses like `UITableView` or `UICollectionView`.
   "SPYTestLog": "uncategorized", // XcodeColors meets XCTest
-  "SQAESDE": "uncategorized", // Safe&Quick AES256 Encrypt and Decrypt
+  "SQAESDE": "crypto", // Safe&Quick AES256 Encrypt and Decrypt
   "SQCommonUtils": "uncategorized", // Common Utils SDK for ObjC project.
   "SQKPieProgressView": "uncategorized", // Pie chart style progress pie chart. Based from SSPieProgressView in SSToolKit.
   "SQLayout": "uncategorized", // SQLayout is an IOS library that provides simple layout tools for UIViews that need to be placed relative to one another.
-  "SQLCipher": "uncategorized", // Full Database Encryption for SQLite.
+  "SQLCipher": "crypto", // Full Database Encryption for SQLite.
   "SQLClient": "uncategorized", // Native SQL Server client for iOS.
   "sqlite3": "uncategorized", // SQLite is an embedded SQL database engine.
   "sqlite3-objc": "uncategorized", // Sqlite3 Objective-C wrapper.
@@ -3862,7 +3862,7 @@
   "XNGOAuth1Client": "uncategorized", // A OAuth1 client based on AFNetworking 2.0 for use in the XNGAPIClient
   "XPCKit": "uncategorized", // XPC simplified for Cocoa. Deal with NS* objects instead of xpc_object_t.
   "XRay": "uncategorized", // XRay.framework is essential for using XRay Probe & XRay Editor with your application.
-  "XRSA": "uncategorized", // Encrypt data using RSA public keys.
+  "XRSA": "crypto", // Encrypt data using RSA public keys.
   "XtifyLib": "uncategorized", // Xtify library for iOS application with CocoaPods integration.
   "XYPieChart": "uncategorized", // A simple and animated Pie Chart for your iOS app.
   "yajl": "uncategorized", // Yet Another JSON Library - A Portable JSON parsing and serialization library in ANSI C.
