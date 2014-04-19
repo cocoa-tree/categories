@@ -117,7 +117,7 @@
   "AFXAuthClient": "networking", // AFNetworking Extension for XAuth Authentication.
   "AFXMLDictionarySerializer": "xml", // Support for converting XML do NSDictionary in AFNetworking.
   "AGAssert": "uncategorized", // The better alternative to NSAssert.
-  "AGAsyncTestHelper": "uncategorized", // Macro for writing unit tests with asynchronous operations.
+  "AGAsyncTestHelper": "testing", // Macro for writing unit tests with asynchronous operations.
   "AGBlurTransition": "uncategorized", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
   "AGGeometryKit": "uncategorized", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
   "AGi18n": "i18n", // Easily localize your iOS apps by automatically extracting texts from code and XIB files into a Localizable strings.
@@ -125,7 +125,7 @@
   "AGImagePickerController": "uncategorized", // AGImagePickerController is a image picker controller that allows you to select multiple photos and can be used for all iOS devices.
   "AGMedallionView": "uncategorized", // AGMedallionView is a picture view control just like the one that Apple is using at the login screen in Mac OS X Lion.
   "AGPhotoBrowser": "uncategorized", // A customizable photo browser for iOS6 and iOS7 inspired by Facebook.
-  "AGWaitForAsyncTestHelper": "uncategorized", // C macro for async operations in unit tests. Example: WAIT_WHILE(!jobDone, limitInSeconds);.
+  "AGWaitForAsyncTestHelper": "testing", // C macro for async operations in unit tests. Example: WAIT_WHILE(!jobDone, limitInSeconds);.
   "AGWindowView": "uncategorized", // AGWindowView is a UIView which can be added directly to UIWindow. It handles rotation and frame changes of statusbar for you.
   "AHAlertView": "uncategorized", // `AHAlertView` is a powerful, block-based alternative to UIKit's `UIAlertView`.
   "AHCarousel": "uncategorized", // for the creation of pod
@@ -217,7 +217,7 @@
   "APPinViewController": "uncategorized", // Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic.
   "Appirater": "uncategorized", // A utility that reminds your iPhone app's users to review the app.
   "AppkefuSDK": "uncategorized", // AppkefuSDK for iOS
-  "AppKitActor": "uncategorized", // AppKitActor is an integration test framework for AppKit applications..
+  "AppKitActor": "testing", // AppKitActor is an integration test framework for AppKit applications..
   "AppleCoreAudioUtilityClasses@thehtb": "uncategorized", // A git mirror of Apple's Core Audio Utility Classes for better versioning and with clang/llvm fixes.
   "AppleGuice": "uncategorized", // Effortless dependency injection framework for Objective-C
   "AppPaoPaoSDK": "uncategorized", // AppPaoPao ios sdk.
@@ -228,7 +228,7 @@
   "AppSociallySDK": "uncategorized", // Integrate user-acquisition functions into your app.
   "AppStoreOpener": "uncategorized", // Simple function that open iOS app store page with AppID.
   "apptentive-ios": "uncategorized", // Apptentive Customer Communications SDK.
-  "Apptimize": "uncategorized", // Apptimize Library for AB testing on iOS.
+  "Apptimize": "ab_test", // Apptimize Library for AB testing on iOS.
   "AppVersioning": "uncategorized", // Very simple app's version manager library.
   "AppXperience": "uncategorized", // AppXperience is an advertising fmk of mobile applications. Learn more at http://appxperience.com.
   "APSmartStorage": "uncategorized", // A smart storage for network resources by @Alterplay folks. It automatically caches data on disk or in memory. #iosdev
@@ -277,8 +277,8 @@
   "AsyncImageDownloader": "uncategorized", // Very simple asynchronous image downloader for iOS and Mac OS.
   "AsyncImageDownloaderOSX": "uncategorized", // Very simple asynchronous image downloader for iOS and Mac OS.
   "AsyncImageView": "uncategorized", // AsyncImageView is an extension of UIImageView for loading and displaying images asynchronously on iOS so that they do not lock up the UI.
-  "AsyncSenTest": "uncategorized", // Asynchronous Test for OCTest (SenTest).
-  "AsyncTestSupporter": "uncategorized", // Like GHUnit AsyncTestCase functions.
+  "AsyncSenTest": "testing", // Asynchronous Test for OCTest (SenTest).
+  "AsyncTestSupporter": "testing", // Like GHUnit AsyncTestCase functions.
   "AtkDragAndDrop": "uncategorized", // A drag and drop toolkit for iOS.
   "ATLog": "uncategorized", // Log common structures without boring conversions. ATLog(@"%@",CGPointMake(1,1)); // No need for NSStringFromCGPoint.
   "ATMHud": "uncategorized", // Library for the creation of HUDs in iPhone applications.
@@ -368,9 +368,9 @@
   "BeeDebugger": "uncategorized", // A powerful runtime Debugger on iOS platform.
   "BeeFramework": "uncategorized", // Bee Framework is a rapid developemnt framework for iOS.
   "BEMSimpleLineGraph": "uncategorized", // iOS library to create simple line graphs/charts (charting library).
-  "BenchmarkTestCase": "uncategorized", // XCTestCase for benchmark testing.
+  "BenchmarkTestCase": "testing", // XCTestCase for benchmark testing.
   "Benihime": "uncategorized", // A collection of independent utility classes for iOS projects.
-  "Bestly": "uncategorized", // A/B testing for native mobile apps.
+  "Bestly": "ab_test", // A/B testing for native mobile apps.
   "BetterBlocks": "uncategorized", // Completion and Error blocks for NSURLConnection.
   "BetterMaps": "uncategorized", // Categories with extensions to MKMapKit libs.
   "BFColorPickerPopover": "uncategorized", // The standard OS X color picker put into an NSPopover
@@ -488,8 +488,8 @@
   "CAAnimationBlocks": "uncategorized", // Category which allows the usage of start and completion blocks in CAAnimation instances, instead of a delegate.
   "CAAnimation-EasingEquations": "uncategorized", // A category on CAAnimation that provides a number of easing equations to add some zazz to your app (with examples!)
   "Caboodle": "uncategorized", // Caboodle builds on Foundation to implement missing data structures.
-  "Calabash": "uncategorized", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
-  "Calabash-server": "uncategorized", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
+  "Calabash": "testing", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
+  "Calabash-server": "testing", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
   "CameraPlusIntegration": "uncategorized", // Using the Camera+ app integration API, developers can integrate Camera+ functionality into their apps.
   "Canvas": "uncategorized", // Animate in Xcode without code
   "CaptainPass": "uncategorized", // Captain Pass iOS SDK to create Passbook Passes.
@@ -525,8 +525,8 @@
   "CDZLinkOpenManager": "uncategorized", // Simple facility for your app's users to select a default alternative browser (Safari, Chrome, 1Password).
   "CDZPinger": "uncategorized", // Easy-to-use ICMP Ping for iOS (and maybe OSX).
   "CDZQRScanningViewController": "uncategorized", // Easy QR code scanning on iOS 7.
-  "Cedar": "uncategorized", // BDD-style testing using Objective-C.
-  "CedarAsync": "uncategorized", // asynchronous testing for Cedar (and others).
+  "Cedar": "testing", // BDD-style testing using Objective-C.
+  "CedarAsync": "testing", // asynchronous testing for Cedar (and others).
   "Cedule": "uncategorized", // Task scheduler
   "CEPopupPickerView": "uncategorized", // A UIPickerView that pops up, just like the Facebook app.
   "CERoundProgressView": "uncategorized", // A progress view which shows its progress a pie-chart.
@@ -804,7 +804,7 @@
   "DebugKit": "uncategorized", // Debug and Data Dumping Helper Functions
   "Deezer": "uncategorized", // Deezer iOS SDK.
   "DEFacebookComposeViewController": "uncategorized", // The iOS 4 compatible Facebook Sheet.
-  "Defactory": "uncategorized", // The simplest way to build test objects.
+  "Defactory": "mocking", // The simplest way to build test objects.
   "DejalActivityView": "uncategorized", // Spinning activity indicator with horizontal, bezel, or keyboard-covering styles and adjustable text.
   "DerpKit": "uncategorized", // DerpKit is a set of categories and classes that should've been included in Cocoa and Cocoa Touch.
   "DETweetComposeViewController": "uncategorized", // The iOS 4 compatible Tweet Sheet.
@@ -1497,7 +1497,7 @@
   "ios-debugbar": "uncategorized", // Handy UI for firing off (debug) methods.
   "ios-etsy-sdk": "uncategorized", // Very simple read-only (no OAUTH) library to connect to a few Etsy services.
   "iOS-Extensions": "uncategorized", // iOS Extensions that make life easier :).
-  "iOS-FakeWeb": "uncategorized", // Simple HTTP request mocking/interception for testing module.
+  "iOS-FakeWeb": "mocking", // Simple HTTP request mocking/interception for testing module.
   "iOS-Flip-Transform": "uncategorized", // Core Animation framework for navigating data by flipping.
   "iOS-GTLYouTube": "uncategorized", // Auto-generated Google GTL library for accessing YouTube's new JSON API.
   "ios-helpers": "uncategorized", // collect some helpers for ios development
@@ -1936,7 +1936,7 @@
   "LPGoogleFunctions": "uncategorized", // LPGoogleFunctions is an iOS library that provides easy access to certain Google API functions.
   "LRGlowingButton": "uncategorized", // Subclass of UIButton with custom glow color.
   "LRImageManager": "uncategorized", // Objective-C simple image manager with memory and disk cache support.
-  "LRMocky": "uncategorized", // A mock object library for Objective C, inspired by JMock 2.0.
+  "LRMocky": "mocking", // A mock object library for Objective C, inspired by JMock 2.0.
   "LRNavigationController": "uncategorized", // push NavigationController With Custom Animation
   "LRNotificationObserver": "uncategorized", // A smarter, simple and better way to use NSNotificationCenter with RAII.
   "LROAuth2Client": "uncategorized", // OAuth2 client for iPhone and iPad apps.
@@ -2159,8 +2159,8 @@
   "MobileDeepLinking-iOS": "uncategorized", // Industry standard for handling deeplinks with ease.
   "MobPartneriOSPublisherSDK": "uncategorized", // Mobpartner publisher is an advertising fmk of mobile applications.
   "mocean-sdk-ios": "uncategorized", // mOcean SDK project for iOS platform
-  "MockInject": "uncategorized", // A library that allows developers to globally mock any ObjectiveC class' initialization method when testing with Kiwi.
-  "Mocktail": "uncategorized", // A simple(r) way to stub out HTTP servers in your Objective-C app.
+  "MockInject": "mocking", // A library that allows developers to globally mock any ObjectiveC class' initialization method when testing with Kiwi.
+  "Mocktail": "mocking", // A simple(r) way to stub out HTTP servers in your Objective-C app.
   "MOCollectionUtilities": "uncategorized", // A set of useful utilities for common Foundation collections
   "MONDecimalNumberField": "uncategorized", // An iOS input field for decimal numbers and currencies.
   "mongo-c-driver": "uncategorized", // C driver for MongoDB.
@@ -2212,7 +2212,7 @@
   "MSScrollView": "uncategorized", // A block-based UIScrollView alternative.
   "MSSimpleGauge": "uncategorized", // Gauge like widget views for iOS.
   "MSSlidingPanelController": "uncategorized", // Integrate easily a sliding panel controller mechanism in your project!
-  "MSSpec": "uncategorized", // Kiwi Spec with support to inject mocks using Objection
+  "MSSpec": "testing", // Kiwi Spec with support to inject mocks using Objection
   "MSStringifyMacros": "uncategorized", // A set of macros for simplifying the use of NSUserDefaults and NSCoding.
   "MSTextField": "uncategorized", // A UITextField subclass that takes custom formatting and verification blocks.
   "MSTranslateVendor": "uncategorized", // Microsoft Translate API for iOS.
@@ -3829,15 +3829,15 @@
   "Xbox360ControllerManager": "uncategorized", // A Library to conveniently detect input of Xbox input devices.
   "XBPageCurl": "uncategorized", // A decent page curl transition for iOS.
   "XBToolkit": "uncategorized", // Xebia mapping and serializing tools for iOS & OSX.
-  "XCAsyncTestCase": "uncategorized", // Asynchronous capable XCTestCase subclass
+  "XCAsyncTestCase": "testing", // Asynchronous capable XCTestCase subclass
   "XCDFormInputAccessoryView": "uncategorized", // Input accessory view with previous, next and done buttons.
   "XCDYouTubeVideoPlayerViewController": "uncategorized", // YouTube video player for iPhone and iPad.
   "XcodeEditor": "uncategorized", // An API for manipulating Xcode Projects using objective-C.
   "XControls": "uncategorized", // Controls for rapid iOS UI development.
-  "XCParameterizedTestCase": "uncategorized", // Parameterized implementation of XCTestCase.
-  "XCTAsyncTestCase": "uncategorized", // Asynchronous capable XCTestCase subclass
-  "xctest-assert-eventually": "uncategorized", // Assertion extensions and utilities for XCTest.
-  "XCTestAsync": "uncategorized", // Extension to XCTest for asynchronous testing
+  "XCParameterizedTestCase": "testing", // Parameterized implementation of XCTestCase.
+  "XCTAsyncTestCase": "testing", // Asynchronous capable XCTestCase subclass
+  "xctest-assert-eventually": "testing", // Assertion extensions and utilities for XCTest.
+  "XCTestAsync": "testing", // Extension to XCTest for asynchronous testing
   "XDKAirMenu": "gui_menus", // iOs Menu like the app FIFA
   "XHImageViewer": "uncategorized", // XHImageViewer is images viewer, zoom image.
   "XHItemScrollToolBar": "uncategorized", // XHItemScrollToolBar is a TabBar or ItemBar for rolling, used for user category select.
@@ -3923,7 +3923,7 @@
   "ZKRevealingTableViewCell": "gui_tableview", // A Sparrow-style Implementation of Swipe-To-Reveal.
   "ZKSforce": "uncategorized", // A Cocoa library for calling the Salesforce.com SOAP APIs.
   "ZKTextField": "uncategorized", // NSTextField replacement.
-  "ZRYAsyncTestCase": "uncategorized", // Asynchronous unit testing for your Xcode apps.
+  "ZRYAsyncTestCase": "testing", // Asynchronous unit testing for your Xcode apps.
   "ZRYWordPicker": "uncategorized", // Horizontal word picker, ideal as keyboard input accessory view.
   "ZTRESTConnection": "uncategorized", // A lightweight block based REST library for OBJ-C.
   "ZumeroSync": "uncategorized", // Use Zumero to sync SQL Server databases with local SQLite dbfiles.
