@@ -197,7 +197,7 @@
   "APLArrayDataSource": "gui_tableview", // UITableViewDataSource for NSArray
   "APLCollectionViewDataSource": "uncategorized", // APLCollectionViewDataSource is an array based datasource for collection views.
   "APLFacebookProxyActivity": "uncategorized", // A UIActivity for use when Facebook is not activated yet.
-  "APLKeyboardControls": "uncategorized", // inputAccesoryView above the keyboard with done button and optional previous and next buttons
+  "APLKeyboardControls": "keyboard", // inputAccesoryView above the keyboard with done button and optional previous and next buttons
   "APLLog": "uncategorized", // Console logger supporting different log levels for different configurations.
   "APLNavigationController": "uncategorized", // Custom UINavigationController subclass which adds support for automatic show/hide of the navgationBar
   "APLObject": "uncategorized", // NSObject subclass with automatic debugDescription
@@ -293,7 +293,7 @@
   "AutoCoding": "uncategorized", // AutoCoding is a category on NSObject that provides automatic support for NSCoding to any object.
   "AutoCompleteSuffixView": "uncategorized", // complete account's suffix automatically when user inputs in UITextField.
   "AutoDescribe": "uncategorized", // Prints human-readable information about an instance.
-  "AutoHideKeyboardControllers": "uncategorized", // AutoHideKeyboardControllers is a set of UIViewController subclasses which enables the tap background to hide keyboard behavior.
+  "AutoHideKeyboardControllers": "keyboard", // AutoHideKeyboardControllers is a set of UIViewController subclasses which enables the tap background to hide keyboard behavior.
   "AutoLayoutDance": "layout", // AutoLayoutDance is a small library for debugging AutoLayout ambiguous layouts.
   "AutoLayoutDSL": "layout", // A straightforward DSL for specifying Cocoa Auto Layout constraints.
   "AutoLayoutKit": "layout", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
@@ -345,7 +345,7 @@
   "BBGroover": "uncategorized", // A drum beat scheduler/sequencer that grooves.
   "BBHTTP": "uncategorized", // A modern HTTP client framework for iOS/OSX built on top of libcurl.
   "BBlock": "uncategorized", // Objective-c block categories and subclasses.
-  "BBTextFieldPicker": "uncategorized", // UITextField keyboard replacement with a UIPickerView.
+  "BBTextFieldPicker": "keyboard", // UITextField keyboard replacement with a UIPickerView.
   "BButton": "uncategorized", // Twitter Bootstrap buttons for iOS
   "BCGenieEffect": "uncategorized", // OSX style genie effect inside your iOS app.
   "BCStatusItem": "uncategorized", // Classes for extending the abilities of NSStatusItem including drag & drop and getting its location.
@@ -450,12 +450,12 @@
   "BRYHashCodeBuilder": "uncategorized", // Utility for determining object hash codes, based on Apache Commons HashCodeBuilder
   "BRYMailToURIParser": "uncategorized", // Objective-C parser for mailto URIs
   "BrynKit": "language_extensions", // Macros and helpers for logging, debugging, and metaprogramming.
-  "BRYParseKeyboardNotification": "uncategorized", // Parses the useful parts out of a keyboard will show/hide notification
+  "BRYParseKeyboardNotification": "keyboard", // Parses the useful parts out of a keyboard will show/hide notification
   "BRYSerialAnimationQueue": "uncategorized", // Perform UIView animations serially without blocking the main thread
   "BRYSoundEffectPlayer": "uncategorized", // Convenience wrapper around some of Apple's Audio Service functions used for playing sound effects
   "BRYVarArgs": "uncategorized", // A nicer syntax for enumerating variable arguments
   "BScrollController": "uncategorized", // Simple grouped scroll controller for UICollectionViewController items
-  "BSKeyboardControls": "uncategorized", // Put controls above the keyboard in your iPhone or iPad app.
+  "BSKeyboardControls": "keyboard", // Put controls above the keyboard in your iPhone or iPad app.
   "BSManagedDocument": "uncategorized", // Brings UIManagedDocument's design to OS X.
   "BSModalPickerView": "uncategorized", // A custom  UIPickerView and UIDatePicker with a simple list of options, along with a toolbar for Done/Cancel and a faded backdrop view.
   "BSONCodec": "uncategorized", // BSON Codec for Objective-C.
@@ -473,7 +473,7 @@
   "BugSquasher": "uncategorized", // Jira plugin for iOS. Upload screenshots, log files, bundle version, title, and summary.
   "Bully": "uncategorized", // A simple Pusher Objective-C client.
   "BVReorderTableView": "gui_tableview", // Easy Long Press Reordering for UITableView.
-  "BWLongTextViewController": "uncategorized", // Simple IOS controller that show a full screen textView with keyboard.
+  "BWLongTextViewController": "keyboard", // Simple IOS controller that show a full screen textView with keyboard.
   "BWObjectMapping": "uncategorized", // Small library that parse JSON and map it to any object, works with NSManagedObject.
   "BWObjectSerializer": "uncategorized", // Small library that transform an object into a dictionary that can be send to a web service.
   "BYLBadgeView": "uncategorized", // An animatable, TextKit based view to display badges.
@@ -638,7 +638,7 @@
   "ColorPopover": "uncategorized", // ColorPopover is a simple component for iOS that provides a "Popover" color picker.
   "ColorUtils": "uncategorized", // Category on UIColor that extends it with some commonly needed features that were left out of the standard API.
   "Colours": "uncategorized", // 100s of beautiful, predefined Colors and Color methods. Works for iOS/OSX.
-  "Commando": "uncategorized", // Navigate the iOS simulator with the keyboard. Ditch your mouse and GO FULL COMMANDO!
+  "Commando": "keyboard", // Navigate the iOS simulator with the keyboard. Ditch your mouse and GO FULL COMMANDO!
   "CommonCrypto": "crypto", // A simple cryptographic tool.
   "ConciseKit": "uncategorized", // A set of Objective-C additions and macros that lets you write code more quickly.
   "ConcurrentCollectionOperations": "uncategorized", // Concurrent map and filter on NSArray, NSDictionary, NSSet using GCD.
@@ -753,7 +753,7 @@
   "DACircularProgress": "uncategorized", // DACircularProgress is a UIView subclass with circular UIProgressView properties.
   "DAContextMenuTableViewController": "gui_menus", // DAContextMenuTableViewController.
   "Dailymotion-SDK": "uncategorized", // This SDK allows you to integrate Dailymotion in your iOS applications.
-  "DAKeyboardControl": "uncategorized", // Easily add keyboard awareness and scrolling dismissal.
+  "DAKeyboardControl": "keyboard", // Easily add keyboard awareness and scrolling dismissal.
   "DALinedTextView": "uncategorized", // A UITextView subclass that draws ruled lines to the view, similar to iOS' built-in Notes app.
   "DAPagesContainer": "uncategorized", // A generic views container with a scrollable top bar.
   "DAProgressOverlayView": "uncategorized", // A UIView subclass displaying download progress. Looks similarly to springboard icons of apps being downloaded in iOS 7.
@@ -848,7 +848,7 @@
   "DMTabBar": "uncategorized", // XCode 4.x like inspector segmented control.
   "DNSKit": "uncategorized", // Access to DNS queries the Objective-C way.
   "DogeKit": "uncategorized", // DogeKit for iOS adds much wow to your such application
-  "DOHexKeyboard": "uncategorized", // A mimimalist keyboard for inputting hex value.
+  "DOHexKeyboard": "keyboard", // A mimimalist keyboard for inputting hex value.
   "DoneCancelNumberPadToolbar": "uncategorized", // Adds Done and Cancel buttons to an iPhone Number Pad.
   "DOSingleton": "uncategorized", // Subclassable Objective-C singleton for Mac OSX and iOS.
   "DOUAudioStreamer": "uncategorized", // A Core Audio based streaming audio player for iOS/Mac.
@@ -957,7 +957,7 @@
   "EHTapGestureRecognizer": "uncategorized", // EHTapGestureRecognizer is a time based alternative to UITapGestureRecognizer.
   "eigen": "uncategorized", // Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
   "Ejecta": "uncategorized", // A Fast, Open Source JavaScript, Canvas & Audio Implementation for iOS.
-  "EKKeyboardAvoiding": "uncategorized", // It's an universal solution that automatically changes content inset of your UIScrollView classes.
+  "EKKeyboardAvoiding": "keyboard", // It's an universal solution that automatically changes content inset of your UIScrollView classes.
   "EKNotifView": "uncategorized", // A Simple, easily customizable, lightweight notification system for iOS Apps.
   "EKStreamView": "uncategorized", // A scrolling view of a number of columns containing multiple cells with variable different heights for iOS, inspired by Pinterest.
   "EKTilesMaker": "uncategorized", // Simple iOS utility that slices provided original image onto tiles.
@@ -1061,8 +1061,8 @@
   "Flash2Cocos2D": "uncategorized", // Library to import animations made in Flash to Cocos2D.
   "FlatUI": "uncategorized", // A collection of custom draw controls inspired by the Flat theme. Built off UICustomizeKit.
   "FlatUIKit": "gui", // A collection of awesome flat UI components for iOS.
-  "Fleksy": "uncategorized", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
-  "FleksySDK": "uncategorized", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
+  "Fleksy": "keyboard", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
+  "FleksySDK": "keyboard", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
   "FlexileDatabase": "uncategorized", // A SQLite database management tool with object oriented SQL Statements.
   "FlexileToolkit": "uncategorized", // Common Extensions, defines, functions and classes used in the Flexile app development
   "FlickrKit": "uncategorized", // FlickrKit is an iOS Objective-C library for accessing the Flickr API.
@@ -1421,7 +1421,7 @@
   "iFuga": "uncategorized", // iOS component for displaying a fullscreen image gallery Supports orientation changes.
   "IFUnicodeURL": "uncategorized", // Category to add internationalized domain name support to NSURL.
   "IFVideoPicker": "uncategorized", // Library iOS video picker using AVCapturexxxx libraries.
-  "IGAutoCompletionToolbar": "uncategorized", // IGAutoCompletionToolbar is a UICollectionView subclass created to display auto completion via a keyboard accessory view.
+  "IGAutoCompletionToolbar": "keyboard", // IGAutoCompletionToolbar is a UICollectionView subclass created to display auto completion via a keyboard accessory view.
   "IGAutoString": "uncategorized", // Convert string in arbitary encoding to NSString in Objective-C.
   "IGDigest": "uncategorized", // Provides convenient wrappers for popular message digest formats (MD5, SHA1 and SHA256) and HMAC (Hash-based message authentication code).
   "IGFastImage": "uncategorized", // Finds the size and type of an image given its uri by fetching as little as needed.
@@ -1527,7 +1527,7 @@
   "iPhoneMK": "uncategorized", // iPhoneMK is a loose collection of Objective-C classes for the iPhone SDK.
   "IPQuickModal": "uncategorized", // A UIViewController category that makes showing modal view controllers easy.
   "IQEnginesSDK": "uncategorized", // iOS IQ Engines SDK.
-  "IQKeyboardManager": "uncategorized", // Keyboard TextField Manager
+  "IQKeyboardManager": "keyboard", // Keyboard TextField Manager
   "iRate": "uncategorized", // A handy class that prompts users of your iPhone or Mac App Store app to rate your application after using it for a while.
   "IRFAutoCompletionKit": "uncategorized", // Small kit designed to provide autocompletion triggered by a character. Loves emojis!
   "IRFEmojiCheatSheet": "uncategorized", // Offers programmatic access to emojis as organized in the emoji-cheat-sheet.com website.
@@ -1685,7 +1685,7 @@
   "JTTargetActionBlock": "uncategorized", // imported from https://gist.github.com/mystcolor/2205564.
   "JTTree": "uncategorized", // A more useful wrapper around CFTree (with apologies to NSTreeNode).
   "JustPlayer": "uncategorized", // A super-easy way of using AVPlayer which is fully customizable on later need
-  "JustType": "uncategorized", // The iOS keyboard for more productive writing
+  "JustType": "keyboard", // The iOS keyboard for more productive writing
   "JVArgumentParser": "uncategorized", // A simple command line argument parser.
   "JVFloatLabeledTextField": "gui_controls", // UITextField subclass that turns placeholders into floating labels once filled in.
   "JWFolders": "uncategorized", // JWFolders is a class that attempts to mimic the folder animation present on the iOS SpringBoard.
@@ -1704,8 +1704,8 @@
   "KASeparatorLine": "uncategorized", // NSView subclass for drawing a separator line.
   "KASlideShow": "uncategorized", // Minimal slideshow for iOS. Support manual or automatic slideshow, with fade and slide transitions.
   "KAStatusBar": "uncategorized", // Display unobstrusive alerts or indeterminate progress directly inside the status bar.
-  "KBKeyboardHandler": "uncategorized", // iOS Keyboard Handler.
-  "KBKeyboardObserver": "uncategorized", // An iOS keyboard observer, for your convenience.
+  "KBKeyboardHandler": "keyboard", // iOS Keyboard Handler.
+  "KBKeyboardObserver": "keyboard", // An iOS keyboard observer, for your convenience.
   "KCOrderedAccessorFix": "uncategorized", // Fixes "CoreDataGeneratedAccessors" for ordered, to-many relationships.
   "KDropDownMultipleSelection": "uncategorized", // Single or multiple selection in dropdownlist
   "KDXCollectionView": "uncategorized", // A better collection view for Mac.
@@ -1764,7 +1764,7 @@
   "KNSemiModalViewController": "uncategorized", // Replica of the semi-modal view with pushed-back stacked animation found in the beautiful Park Guides by National Geographic app.
   "KoaPullToRefresh": "uncategorized", // Minimal & easily customizable pull-to-refresh control.
   "Kobold2D": "uncategorized", // An extended and improved version of the popular Cocos2D for iPhone game engine.
-  "KOKeyboard": "uncategorized", // KOKeyboard is an iOS drop-in component that adds a new row of keys to the default on-screen keyboard.
+  "KOKeyboard": "keyboard", // KOKeyboard is an iOS drop-in component that adds a new row of keys to the default on-screen keyboard.
   "konashi-ios-sdk": "uncategorized", // iOS SDK for konashi, a wireless physical computing toolkit for iPhone, iPod touch and iPad.
   "Konfig": "uncategorized", // JSON based remote configuration for iOS apps
   "Kontagent": "analytics", // Kontagent SDK, Analytics
@@ -1846,7 +1846,7 @@
   "LDGradientButton": "uncategorized", // Subclassing UIButton to create UI awesomeness.
   "LDProgressView": "uncategorized", // A configurable progress view with a single color setter written in CoreGraphics
   "LDScrollViewForm": "uncategorized", // Controller helping to manage a form on iOS by avoiding the keyboard and adapte the size of UITextViews
-  "LEAAcronymsKeyboard": "uncategorized", // Custom keyboard with most popular english acronyms
+  "LEAAcronymsKeyboard": "keyboard", // Custom keyboard with most popular english acronyms
   "LEColorPicker": "uncategorized", // A Cocoa-Touch system for iOS to get a color scheme in function of an image, like iTunes 11 does.
   "Lela": "uncategorized", // Provides perceptial difference screen testing within KIF-next.
   "LetsMove": "uncategorized", // Move a running Mac application to the /Applications directory.
@@ -1993,7 +1993,7 @@
   "MASimplestSemiModalViewController": "uncategorized", // The simplest Semi Modal implementation possible.
   "Masonry": "uncategorized", // Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.
   "MASPreferences": "uncategorized", // Modern implementation of the Preferences window for OS X apps, used in TextMate, GitBox and Mou.
-  "MASShortcut": "uncategorized", // Modern framework for managing global keyboard shortcuts compatible with Mac App Store.
+  "MASShortcut": "keyboard", // Modern framework for managing global keyboard shortcuts compatible with Mac App Store.
   "MasterShareSDK": "uncategorized", // This is a simple open source project to make interfacing with social APIs easier.
   "MAZeroingWeakRef": "uncategorized", // Zeroing weak references for retain/release Objective-C.
   "MBAlertView": "uncategorized", // Fast, fun, and simple block-based alerts and HUDs.
@@ -2268,7 +2268,7 @@
   "MWFeedParser": "uncategorized", // An RSS and Atom web feed parser for iOS.
   "MWFSlideNavigationViewController": "uncategorized", // MWFSlideNavigationViewController is a container view controller that manages primary and secondary view controller.
   "MwfTableViewController": "gui_tableview", // Extension to UITableViewController in attempt to provide additional features that are reusable in most scenarios.
-  "MWKeyboardAnimation": "uncategorized", // A UIView category to simplify animations that sync up with the UIKeyboard show/hide animation
+  "MWKeyboardAnimation": "keyboard", // A UIView category to simplify animations that sync up with the UIKeyboard show/hide animation
   "MWLayoutHelpers": "uncategorized", // Some UIView helpers to make manual frame layout less verbose
   "MWOpenInKit": "uncategorized", // An easier way to handle third-party URL schemes in iOS apps.
   "MWPhotoBrowser": "uncategorized", // A simple iOS photo browser with optional grid view, captions and selections.
@@ -2594,7 +2594,7 @@
   "Orbiter": "uncategorized", // Push Notification Registration for iOS.
   "OrderedDictionary": "uncategorized", // NSDictionary subclass for iOS/Mac OS that preserves insertion order.
   "OrigamiEngine": "uncategorized", // Lightweight iOS/OSX audio engine with flac, cue, mp3, m4a, m3u support.
-  "ORKeyboardReactingApplication": "uncategorized", // Use Keyboard Bindings with the iOS Simulator.
+  "ORKeyboardReactingApplication": "keyboard", // Use Keyboard Bindings with the iOS Simulator.
   "Ornament": "uncategorized", // Ornament is a set of APIs used to provide visual ornamentation for iOS apps.
   "OROpenSubtitleDownloader": "uncategorized", // An Obj-C API for Searching and Downloading Subtitles from OpenSubtitles.
   "ORSSerialPort": "uncategorized", // Set of Objective-C classes useful for communicating with external devices through a serial port (most commonly RS-232).
@@ -2677,7 +2677,7 @@
   "PhoneNumberFormatter": "uncategorized", // NSFormatter subclass for formatting phone numbers.
   "PhotoPickerPlus": "uncategorized", // iOS component for picking photos from the iDevice & web using the Chute Platform.
   "PHSideScrollingImagePicker": "uncategorized", // iOS 7-style Image Picker
-  "PhysicalKeyboardNotifications": "uncategorized", // Posting notifications on iPhone simulator when physical keyboard is pressed. Useful for debugging
+  "PhysicalKeyboardNotifications": "keyboard", // Posting notifications on iPhone simulator when physical keyboard is pressed. Useful for debugging
   "PhysicsDebugger": "uncategorized", // iOS 7 Sprite Kit PhysicsDebugger
   "PICircularProgressView": "uncategorized", // PICircularProgressView is a subclass of UIView with circular UIProgressView properties and text in this circle representing the progress.
   "PinEntry": "uncategorized", // iPhone pin entry controller and a custom numpad view.
@@ -2808,7 +2808,7 @@
   "QuadCurveMenu": "gui_menus", // Path 2.0 menu (configurable, extendable, and composable).
   "Quantcast-Measure": "uncategorized", // Quantcast Measure for iOS.
   "Quantcast-Measure-iOS4": "uncategorized", // Quantcast Measure for iOS (iOS 4 and later).
-  "Quayboard": "uncategorized", // A keyboard accessory that blends in with the default iOS keyboard.
+  "Quayboard": "keyboard", // A keyboard accessory that blends in with the default iOS keyboard.
   "QuickDialog": "gui_controls", // Quick and easy dialog screens for iOS.
   "QuincyKit": "uncategorized", // Live crash report management for iOS and Mac OS X. AppStore ready!.
   "QUnit.m": "testing", // QUnit.m brings syntax to SenTestingKit for testing Objective-C projects
@@ -2839,9 +2839,9 @@
   "RDHJSONObjectSerialisation": "uncategorized", // Simple JSON serialisation for any custom NSObject based on its declared properties.
   "RDHOrderedDictionary": "uncategorized", // Ordered version of NSDictionary.
   "Rdio": "uncategorized", // The Rdio Framework
-  "RDRStickyKeyboardView": "uncategorized", // Replication of iMessage's text input behavior on iOS 7
+  "RDRStickyKeyboardView": "keyboard", // Replication of iMessage's text input behavior on iOS 7
   "RDVCalendarView": "gui_calendar", // Highly customizable calendarView and calendarViewController for iOS
-  "RDVKeyboardAvoiding": "uncategorized", // Keyboard avoiding scroll view for iOS
+  "RDVKeyboardAvoiding": "keyboard", // Keyboard avoiding scroll view for iOS
   "RDVTabBarController": "uncategorized", // Highly customizable tabBar and tabBarController for iOS
   "Reachability": "uncategorized", // ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
   "ReactiveCocoa": "reactive_programming", // A framework for composing and transforming streams of values.
@@ -2893,7 +2893,7 @@
   "RevMob": "uncategorized", // Official RevMob iOS SDK.
   "RevMobSDK": "uncategorized", // RevMobSDK for showing ads, banners, more games link and many more.
   "RFduino-library": "uncategorized", // RFduino-library is a few classes to manage & communicate with RFduino boards over BlueTooth 4.0
-  "RFKeyboardToolbar": "uncategorized", // A flexible UIView and UIButton subclass to add customized buttons and toolbars to your UITextFields/UITextViews.
+  "RFKeyboardToolbar": "keyboard", // A flexible UIView and UIButton subclass to add customized buttons and toolbars to your UITextFields/UITextViews.
   "RFKeychain": "keychain", // Keychain wrapper for iOS and Mac OS X.
   "RFMarkdownTextView": "uncategorized", // A UITextView that is supposed to replicate the comment toolbar in iOctocat (http://ioctocat.com) with auto-insert markdown functionality.
   "RFMathTextField": "uncategorized", // A simple validator/equation answerer.
@@ -3195,7 +3195,7 @@
   "SLRemoteObject": "uncategorized", // Its just an objc RPC framework for your local network.
   "SLRESTfulCoreData": "uncategorized", // Objc naming conventions, autogenerated accessors at runtime, URL substitutions and intelligent attribute mapping.
   "SLRESTfulCoreDataUI": "uncategorized", // UI counterpart to SLRESTfulCoreData.
-  "SLScrollViewKeyboardSupport": "uncategorized", // SLScrollViewKeyboardSupport auto adjusts UIScrollViews contentInset based on the first responder.
+  "SLScrollViewKeyboardSupport": "keyboard", // SLScrollViewKeyboardSupport auto adjusts UIScrollViews contentInset based on the first responder.
   "SLUITableViewCellSectionLocation": "gui_tableview", // UITableViewCellSectionLocation made public.
   "SMAccessibilityOverlay": "uncategorized", // Tool for developers to visualize what voiceover users will "see" when using their apps.
   "Smartling.i18n": "i18n", // iOS Plurals Localization Library
@@ -3375,7 +3375,7 @@
   "TapjoyAdvertiserSDK": "uncategorized", // Publisher libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
   "TapjoyPublisherSDK": "uncategorized", // Publisher libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
   "TapjoySDK": "uncategorized", // TapjoySDK libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
-  "TAPKeyboardPop": "uncategorized", // A UIViewController category that enables animated keyboard dismissal with the pop gesture.
+  "TAPKeyboardPop": "keyboard", // A UIViewController category that enables animated keyboard dismissal with the pop gesture.
   "TapkuLibrary": "uncategorized", // tap + haiku = tapku, a well crafted open source iOS framework.
   "Taplytics": "ab_test", // iOS framework for using the Taplytics native mobile A/B testing service.
   "Tapstream": "uncategorized", // Tapstream marketing analytics.
@@ -3485,7 +3485,7 @@
   "TOWebViewController": "uncategorized", // A view controller for iOS that allows users to quickly view web sites without needing to open Safari/Chrome.
   "TownPlan": "uncategorized", // Is a UIView layout helper.
   "TPCircularBuffer": "uncategorized", // A simple, fast circular buffer implementation.
-  "TPKeyboardAvoiding": "uncategorized", // A drop-in universal solution for moving text fields out of the way of the keyboard in iOS.
+  "TPKeyboardAvoiding": "keyboard", // A drop-in universal solution for moving text fields out of the way of the keyboard in iOS.
   "TPMapsApp": "uncategorized", // A class to help deal with the variety of mapping apps on iOS.
   "TPMigrationManager": "uncategorized", // A easy way for CoreData database migration.
   "TPSegmentedControl": "uncategorized", // UISegmentedControl which is able to detect already selected segment touch.
@@ -3653,7 +3653,7 @@
   "UINavigationItem+AnimatedPrompt": "uncategorized", // Category for UINavigationItem to get a callback after prompt is finished animated.
   "UINavigationItem-iOS7Spacing": "uncategorized", // Category to fix iOS 7 UINavigationItem spacing.
   "UIPhotoGallery": "uncategorized", // Set of extended & customizable views to show Photo Gallery for iOS UIKit.
-  "UIResponder+KeyboardCache": "uncategorized", // A simple workaround to the annoying problem of keyboard lag.
+  "UIResponder+KeyboardCache": "keyboard", // A simple workaround to the annoying problem of keyboard lag.
   "UIResponder+MNActions": "uncategorized", // UIResponder event propagation.
   "UIScreen+Info": "uncategorized", // Information that is useful to have when dealing with UIScreen
   "UIScrollSlidingPages": "uncategorized", // This control allows you to add multiple view controllers and have them scroll horizontally, each with a smaller header view.
@@ -3750,7 +3750,7 @@
   "ViewUtils": "uncategorized", // A collection of category methods that extend UIView with properties and functionality that you always wished were built-in to begin with.
   "VIHorizontalTableView": "gui_tableview", // A few superclasses and docs for making horizontal table views.
   "VKClient": "uncategorized", // A basic VK SDK for sharing images and docs to vk.com. Relies on AFNetworking.
-  "VKDAKeyboardControl": "uncategorized", // Easily add keyboard awareness and scrolling dismissal. Allows to add subview to keyboard.
+  "VKDAKeyboardControl": "keyboard", // Easily add keyboard awareness and scrolling dismissal. Allows to add subview to keyboard.
   "VKInputToolbar": "uncategorized", // Messages style input toolbar for iOS.
   "VK-ios-sdk": "uncategorized", // Library for working with VK.
   "Vkontakte-iOS-SDK": "uncategorized", // The iOS SDK provides Vkontakte Platform support for iOS apps.
@@ -3813,14 +3813,14 @@
   "WSCoachMarksView": "uncategorized", // iOS drop-in class for interactive coach marks with cutouts to spotlight the app's existing UI.
   "WSLHTMLEntities": "uncategorized", // Convert HTML Entities like &rsaquo; to their unicode equivalent.
   "WTACURLStringFromURLRequest": "uncategorized", // A tool for building a cURL command from an NSURLRequest
-  "WTAScrollViewKeyboardManager": "uncategorized", // A class to manage scroll view content and scroll indicator insets when the keyboard appears and disappears.
+  "WTAScrollViewKeyboardManager": "keyboard", // A class to manage scroll view content and scroll indicator insets when the keyboard appears and disappears.
   "WTATagStringBuilder": "uncategorized", // A tool for build attributed strings using custom tags.
   "WTAZoomNavigationController": "uncategorized", // A zooming navigation controller for iOS 7. In progress.
   "WTExtension": "uncategorized", // Some useful categories used in other public libraries.
   "WTGlyphFontSet": "uncategorized", // draw or create image using glyph webfont.
-  "WTScrollViewKeyboardManager": "uncategorized", // ** Use WTAScrollViewKeyboardManager instead **
+  "WTScrollViewKeyboardManager": "keyboard", // ** Use WTAScrollViewKeyboardManager instead **
   "WTURLImageView": "uncategorized", // UIImageView that get image using AFNetworking with various features.
-  "WUEmoticonsKeyboard": "uncategorized", // Customizable emotion icons keyboard for iOS.
+  "WUEmoticonsKeyboard": "keyboard", // Customizable emotion icons keyboard for iOS.
   "WUTextSuggestion": "uncategorized", // A text suggestion toolkit for iOS.
   "WYPopoverController": "uncategorized", // An iOS Popover for iPhone and iPad. Very customizable.
   "WZLog": "uncategorized", // A log system named WZLog.Log
@@ -3900,7 +3900,7 @@
   "YRDropdownView": "uncategorized", // YRDropdownView is a view library for displaying stylish alerts, warnings, and errors.
   "YSViewer": "uncategorized", // Image viewer like Tweetbot 3.
   "YTFExtensions": "uncategorized", // YTFExtensions - extensions and categories.
-  "YTFKeyboardCorrector": "uncategorized", // Corrector for keyboard used in iOS.
+  "YTFKeyboardCorrector": "keyboard", // Corrector for keyboard used in iOS.
   "YTFPlaceholderTableView": "gui_tableview", // UITableView with placeholder view.
   "YTFToggler": "uncategorized", // Simple toggler for side views.
   "YTVimeoExtractor": "uncategorized", // Fetches Vimeo's mp4 URLs for iOS.
@@ -3924,7 +3924,7 @@
   "ZKSforce": "uncategorized", // A Cocoa library for calling the Salesforce.com SOAP APIs.
   "ZKTextField": "uncategorized", // NSTextField replacement.
   "ZRYAsyncTestCase": "testing", // Asynchronous unit testing for your Xcode apps.
-  "ZRYWordPicker": "uncategorized", // Horizontal word picker, ideal as keyboard input accessory view.
+  "ZRYWordPicker": "keyboard", // Horizontal word picker, ideal as keyboard input accessory view.
   "ZTRESTConnection": "uncategorized", // A lightweight block based REST library for OBJ-C.
   "ZumeroSync": "uncategorized", // Use Zumero to sync SQL Server databases with local SQLite dbfiles.
   "ZUUIRevealController": "uncategorized", // Facebook (iOS App) inspired custom ViewControllerContainer.
