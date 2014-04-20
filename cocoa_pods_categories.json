@@ -2251,7 +2251,7 @@
   "MTStackViewController": "uncategorized", // A container view controller which provides Facebook / Path style navigation.
   "MTStatusBarOverlay": "uncategorized", // A custom iOS status bar overlay seen in Apps like Reeder, Evernote and Google Mobile App.
   "MTStringAttributes": "uncategorized", // Makes it way easier to generate attribute dictionaries needed for NSAttributedString.
-  "MTTestSemaphore": "uncategorized", // A class to help you create unit tests that test asynchronous methods.
+  "MTTestSemaphore": "testing", // A class to help you create unit tests that test asynchronous methods.
   "MTTimer": "uncategorized", // An Objective-C timer that restricts firing to a time range.
   "MTZActionSheet": "uncategorized", // A rewritten API for UIActionSheet. This automatically calls methods on the delegate when buttons are tapped.
   "MTZAlertView": "uncategorized", // A rewritten API for UIAlertView. This automatically calls methods on the delegate when buttons are tapped.
@@ -2338,13 +2338,13 @@
   "NLCoreData": "uncategorized", // Library that wraps Core Data for iOS for easier and more readable operations.
   "NLCoreData-ObjectiveRecord": "uncategorized", // Adds ObjectiveRecord like synxtax to NLCoreData
   "NLKit": "uncategorized", // A collection of categories and classes to simplify iOS development.
-  "NLTHTTPStubServer": "uncategorized", // Fake server for iOS testing.
+  "NLTHTTPStubServer": "mocking", // Fake server for iOS testing.
   "NLTQuickCheck": "uncategorized", // like Haskell QuickCheck. QuickCheck is random test library.
   "NMPaginator": "uncategorized", // NMPaginator is a simple Objective-C class that handles pagination for you.
   "NMRangeSlider": "uncategorized", // A custom range slider for iOS.
-  "NMSSH": "uncategorized", // NMSSH is a clean, easy-to-use, unit tested framework for iOS and OSX that wraps libssh2.
+  "NMSSH": "testing", // NMSSH is a clean, easy-to-use, unit tested framework for iOS and OSX that wraps libssh2.
   "NNNetwork": "uncategorized", // Networking categories, OAuth and read later clients.
-  "Nocilla": "uncategorized", // Stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
+  "Nocilla": "mocking", // Stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
   "Node": "uncategorized", // The NODE Obj-C framework allows you to develop iOS and Mac OSX applications using NODE+, a modular sensor system    					made by Variable.
   "NodeConnectionHelper": "uncategorized", // NodeConnectionHelper speeds up NODE+ development by providing a class that wraps most common CoreBluetooth code.
   "NoodleKit": "uncategorized", // Collection of Cocoa classes from http://www.noodlesoft.com/blog.
@@ -2439,10 +2439,10 @@
   "NSString-UrlEncode": "uncategorized", // Category that adds urlEncode to NSString.
   "NSTimer-Blocks": "uncategorized", // Extremely simple category on NSTimer which makes it able to use blocks.
   "NSTimeZone-CountryCode": "uncategorized", // Convert timezone information into a country code conforming to ISO 3166 2-character country code.
-  "NSUnit": "uncategorized", // NSUnit is a unit testing framework, providing a more Objective-C friendly API, particularly for testing against Foundation classes.
+  "NSUnit": "testing", // NSUnit is a unit testing framework, providing a more Objective-C friendly API, particularly for testing against Foundation classes.
   "NSURLConnection-Blocks": "uncategorized", // NSURLConnection using blocks for success and failure calls.
   "NSURLConnection-Swizzled": "uncategorized", // Debug your NSURLConnection with the URL and stack trace.
-  "NSURLConnectionVCR": "uncategorized", // Record and replay NSURLConnection requests/responses in tests.
+  "NSURLConnectionVCR": "mocking", // Record and replay NSURLConnection requests/responses in tests.
   "NSURL+Gravatar": "gravatar", // NSURL+Gravatar is a NSURL category to generate Gravatar URLs.
   "NSURL+ParseQuery": "uncategorized", // Simple URL query parser convert to NSDictionary
   "NSURL+QueryDictionary": "uncategorized", // Make working with NSURL queries more pleasant.
@@ -2526,7 +2526,7 @@
   "OCCalendar": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
   "OCCalendar-Ext": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
   "OCDiscount": "uncategorized", // Discount Markdown Processor for iOS and OS X
-  "OCDSpec2": "uncategorized", // Unit Testing for the obsessive compulsive.
+  "OCDSpec2": "testing", // Unit Testing for the obsessive compulsive.
   "OCFuntime": "uncategorized", // Objective-c runtime funny wrapper.
   "OCFWeb": "uncategorized", // A small and imperfect web application framework written in Objective-C.
   "OCFWebServer": "uncategorized", // Lightweight, modern and asynchronous HTTP server written in Objective-C.
@@ -2767,9 +2767,9 @@
   "PSTDelegateProxy": "uncategorized", // A simple proxy that forwards optional methods to delegates
   "PSUpdateApp": "uncategorized", // PSUpdateApp is a simple method to notify users that a new version of your iOS app is available.
   "PTImageAlbumViewController": "uncategorized", // "Image Album" — or "Photo Album" if you like that better — View( Controller) for all crazy iOS developers out there...
-  "PTKTestKit": "uncategorized", // Various classes built to make iOS testing faster, easier, and more effective.
+  "PTKTestKit": "testing", // Various classes built to make iOS testing faster, easier, and more effective.
   "PTLDatasource": "uncategorized", // Helpers to lighten your view controllers.
-  "PTLURLProtocol": "uncategorized", // A helpful wrapper for testing network requests using NSURLProtocol
+  "PTLURLProtocol": "testing", // A helpful wrapper for testing network requests using NSURLProtocol
   "PTLViewDebugger": "debugging", // Useful tools for debugging your view layouts.
   "PublicAutomation": "uncategorized", // Wrapper for Apple's internal UIAutomation APIs.
   "PublicCodeLibrary": "uncategorized", // Static Library Project containing code to simplify daily development tasks.
@@ -2811,7 +2811,7 @@
   "Quayboard": "uncategorized", // A keyboard accessory that blends in with the default iOS keyboard.
   "QuickDialog": "gui_controls", // Quick and easy dialog screens for iOS.
   "QuincyKit": "uncategorized", // Live crash report management for iOS and Mac OS X. AppStore ready!.
-  "QUnit.m": "uncategorized", // QUnit.m brings syntax to SenTestingKit for testing Objective-C projects
+  "QUnit.m": "testing", // QUnit.m brings syntax to SenTestingKit for testing Objective-C projects
   "R4": "uncategorized", // A SpriteKit in 3D
   "RAMCollectionViewFlemishBondLayout": "uncategorized", // UICollectionViewLayout for displaying cells in groups (highlighting one of them).
   "RandomSequence": "uncategorized", // A class for creating independent, repeatable pseudorandom number sequences on Mac and iOS.
@@ -2858,7 +2858,7 @@
   "RECurtainViewController": "uncategorized", // A custom curtain-style transition for UIViewControllers.
   "RedditKit": "uncategorized", // An Objective-C wrapper for the reddit API.
   "REDebugClient": "uncategorized", // Advanced remote Xcode logging in Terminal app.
-  "RedGreen": "uncategorized", // RedGreen is an extension library for SenTestKit that makes the test output easier to parse by humans.
+  "RedGreen": "testing", // RedGreen is an extension library for SenTestKit that makes the test output easier to parse by humans.
   "ReflectionView": "uncategorized", // A UIView subclass designed to make it easy to create "mirrored floor"-style reflections of views on iOS.
   "REFormattedNumberField": "uncategorized", // UITextField subclass that allows number input in a predefined format.
   "REFrostedViewController": "uncategorized", // iOS 7 style blurred view controller that appears on top of your view controller.
@@ -2914,7 +2914,7 @@
   "Rivet": "uncategorized", // Bolt your apps together with dependency injection.
   "rkBLE": "uncategorized", // BLE library for iOS. Absolutely easy to use
   "RKCLLocationValueTransformer": "uncategorized", // An RKValueTransformer for transforming between NSDictionary and CLLocation representations of a geographical coordinate.
-  "RKKiwiMatchers": "uncategorized", // Provides a rich set of matchers for use in testing RestKit applications with the Kiwi Behavior Driven Development library.
+  "RKKiwiMatchers": "testing", // Provides a rich set of matchers for use in testing RestKit applications with the Kiwi Behavior Driven Development library.
   "RKTabView": "uncategorized", // Easy applicable toolbar/tabbar component for iOS.
   "RKValueTransformers": "uncategorized", // A powerful value transformation API extracted from RestKit.
   "RLPageControl": "uncategorized", // Custom UIPageControl implementation using blocks to draw the indicator.
@@ -3052,7 +3052,7 @@
   "SDURLCache": "uncategorized", // URLCache subclass with on-disk cache support on iPhone/iPad.
   "SDWebImage": "gui", // Asynchronous image downloader with cache support with an UIImageView category.
   "SDWebImage-ProgressView": "uncategorized", // Category on UIImageView, adding a progress view while images are downloaded using SDWebImage.
-  "Sealant": "uncategorized", // iOS Testing Glue - fixtures, matchers and helpers.
+  "Sealant": "testing", // iOS Testing Glue - fixtures, matchers and helpers.
   "SEBannerViewController": "uncategorized", // A drop-in iAd & AdMob Banner View Controller.
   "SEBeamMeUpScotty": "uncategorized", // Ridiculously simple iOS video uploader classes for YouTube, Facebook, etc.
   "SECollectionViewFlowLayout": "uncategorized", // A flow layout for UICollectionView that implements swiping-to-select gestures
@@ -3069,7 +3069,7 @@
   "SEHumanizedTimeDiff": "uncategorized", // An NSDate category to have humanly meaningful time intervals since todays date.
   "SEJSONViewController": "uncategorized", // Easily browse JSON content.
   "sendgrid": "uncategorized", // This library allows you to quickly and easily send emails through SendGrid using Objective-C.
-  "SenTestingKitAsync": "uncategorized", // Extension for the SenTestingKit for asynchronous testing.
+  "SenTestingKitAsync": "testing", // Extension for the SenTestingKit for asynchronous testing.
   "SEQBImagePickerController": "uncategorized", // A clone of UIImagePickerController with multiple selection support that supports swipe-to-select
   "Sequencer": "uncategorized", // Sequencer is an iOS library for asynchronous flow control.
   "Seriously": "uncategorized", // The Objective-C HTTP library that Apple should have created, seriously.
@@ -3136,7 +3136,7 @@
   "SHSegueBlocks": "uncategorized", // Segue Blocks and userInfo without swizzling.
   "SHSPhoneComponent": "uncategorized", // UITextField and NSFormatter subclasses for formatting phone numbers. Allow different formats for different countries(patterns).
   "SHTabBarControllerBlocks": "uncategorized", // Blocks for UITabBarController replacing delegates - libffi & swizzle free!
-  "SHTestCaseAdditions": "uncategorized", // Prefixed category on SenTestCase and XCTestCase to help with asynchronous callbacks. SenTestKit: SHTestCaseAdditions/SenTestCase
+  "SHTestCaseAdditions": "testing", // Prefixed category on SenTestCase and XCTestCase to help with asynchronous callbacks. SenTestKit: SHTestCaseAdditions/SenTestCase
   "SHTextFieldBlocks": "uncategorized", // Prefixed UITextField category replacing delegate calls with blocks. without libffi and swizzling.
   "SHTextViewBlocks": "uncategorized", // Prefixed UITextView category replacing delegate calls with blocks. without libffi and swizzling.
   "SHTransitionBlocks": "uncategorized", // View Controller Transition API simplified with blocks and gestures
@@ -3179,7 +3179,7 @@
   "SKSlideViewController": "uncategorized", // An easy to use slide to navigate view controller for ios 6.0 +
   "SKUAssert": "uncategorized", // Saner, safer assertion handling for your apps
   "SKUTouchPresenter": "uncategorized", // Highlight touches on screen, useful for iOS demos
-  "SkyLab": "uncategorized", // Multivariate & A/B Testing for iOS and Mac.
+  "SkyLab": "ab_test", // Multivariate & A/B Testing for iOS and Mac.
   "Slash": "uncategorized", // A simple, extensible, language for styling attributed strings.
   "Slash7": "uncategorized", // iOS library for SLASH-7
   "SLCoreDataStack": "uncategorized", // CoreData stack managing independent 2 NSManagedObjectContext instances.
@@ -3253,7 +3253,7 @@
   "SPSuccinct": "uncategorized", // Tools to write succinct Objective-C.
   "SPTabBarController": "uncategorized", // Custom tab bar container controller for iOS 5.
   "SPTScrollViewScrubber": "gui_tableview", // Add a scrubber to quickly scroll through an `UIScrollView` or any of its subclasses like `UITableView` or `UICollectionView`.
-  "SPYTestLog": "uncategorized", // XcodeColors meets XCTest
+  "SPYTestLog": "testing", // XcodeColors meets XCTest
   "SQAESDE": "crypto", // Safe&Quick AES256 Encrypt and Decrypt
   "SQCommonUtils": "uncategorized", // Common Utils SDK for ObjC project.
   "SQKPieProgressView": "uncategorized", // Pie chart style progress pie chart. Based from SSPieProgressView in SSToolKit.
@@ -3339,7 +3339,7 @@
   "sundown": "uncategorized", // Markdown parser based on the Upskirt library by Natacha Porté. Written in C with a lightweight Objective-C Wrapper.
   "SupportKit": "uncategorized", // Radialpoint SupportKit instantly embeds your Zendesk Help Center in your iOS app.
   "SuProgress": "uncategorized", // Supr-Ogress is a super progress bar solution.
-  "Surikae": "uncategorized", // Surikae exchanges a class or instance method with blocks. It’s helpful for unit testing of Objective-C.
+  "Surikae": "testing", // Surikae exchanges a class or instance method with blocks. It’s helpful for unit testing of Objective-C.
   "Survey": "uncategorized", // Survey is a library to simplify the process of creating and validating forms. This library is loosely based on CoreData and Django forms.
   "SVBlurView": "uncategorized", // A simple reimplementation of FXBlurView for iOS 7.
   "SVEApplicationDelegate": "uncategorized", // A service oriented ApplicationDelegate
@@ -3377,7 +3377,7 @@
   "TapjoySDK": "uncategorized", // TapjoySDK libraries allow you to display advertisements in your app (including the offerwall) and / or acquire new users from Tapjoy.
   "TAPKeyboardPop": "uncategorized", // A UIViewController category that enables animated keyboard dismissal with the pop gesture.
   "TapkuLibrary": "uncategorized", // tap + haiku = tapku, a well crafted open source iOS framework.
-  "Taplytics": "uncategorized", // iOS framework for using the Taplytics native mobile A/B testing service.
+  "Taplytics": "ab_test", // iOS framework for using the Taplytics native mobile A/B testing service.
   "Tapstream": "uncategorized", // Tapstream marketing analytics.
   "taskit": "uncategorized", // NSTask reimplementation a simpler interface.
   "TASTaggedAttributedString": "uncategorized", // A category on NSString for quickly generating attributed strings from HTML-style tags.
@@ -3415,7 +3415,7 @@
   "TestFlightLogger": "uncategorized", // A CocoaLumberjack logger for TestFlight.
   "TestFlightSDK": "uncategorized", // TestFlightSDK for over-the-air beta testing and crash reporting. BETA version.
   "TestmunkCalabash": "uncategorized", // This is the modified version of Calabash being used by Testmunk.
-  "TestPilot": "uncategorized", // Unit-testing Cocoa just got easy.
+  "TestPilot": "testing", // Unit-testing Cocoa just got easy.
   "TextExpander": "uncategorized", // Add TextExpander touch functionality to your iOS app!
   "TGJSBridge": "uncategorized", // A lightweight javascript bridge to Cocoa Touch.
   "THCircularProgressView": "uncategorized", // A configurable circular progress view.
@@ -3453,10 +3453,10 @@
   "TJLSessionManager": "uncategorized", // A manager class for the new MultipeerConnectivity framework.
   "TKImageIpsum": "uncategorized", // Helper class for quick fetching random images with given size from the http://lorempixel.com/ website.
   "TKNavigationController": "uncategorized", // UIViewController container that shows bottom toolbar.
-  "TKRGuard": "uncategorized", // The simple test helper for asynchronous processes.
+  "TKRGuard": "uncategotestingrized", // The simple test helper for asynchronous processes.
   "TKRoundedView": "uncategorized", // Rounded corners without images and much more.
-  "TKRSpecificTest": "uncategorized", // Run a specific test case by xcodebuild.
-  "TKSenTestAsync": "uncategorized", // SenTest category with Asynchronous support.
+  "TKRSpecificTest": "testing", // Run a specific test case by xcodebuild.
+  "TKSenTestAsync": "testing", // SenTest category with Asynchronous support.
   "TLAlertView": "uncategorized", // A simple replacement for UIAlertView with block based completion methods and a 3D dismiss animation.
   "TLIndexPathTools": "uncategorized", // TLIndexPathTools is a small set of classes that can greatly simplify your table and collection views.
   "TLLayoutTransitioning": "uncategorized", // Components for transitioning between UICollectionView layouts.
@@ -3493,7 +3493,7 @@
   "Tr8n": "uncategorized", // An integrated powerful and flexible translation framework for iOS.
   "Train": "uncategorized", // A simple dependency injection framework for objective c, written while traveling in a train.
   "Transcontinental": "uncategorized", // iOS library to obtain the continent of a CLPlacemark or from a country code in the ISO 3166 format
-  "Transcript": "uncategorized", // Improves SenTestingKit test output, and provides an API for defining custom reporters.
+  "Transcript": "testing", // Improves SenTestingKit test output, and provides an API for defining custom reporters.
   "TransformerKit": "uncategorized", // A block-based API for NSValueTransformer, with a growing collection of useful examples.
   "Transit": "uncategorized", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
   "TransitionKit": "uncategorized", // A block-based State Machine API for Objective-C.
@@ -3529,7 +3529,7 @@
   "TULayoutAdditions": "uncategorized", // Shortcuts and helper methods to make iOS Auto Layout dead simple.
   "TULogging": "uncategorized", // Better logging that uses ASL log levels. Based on work by Mike Weller.
   "TumbleOn-Utils": "uncategorized", // A collection of objective-c IOS utilities.
-  "tuneup_js": "uncategorized", // A JavaScript library to ease automated iOS UI testing with UIAutomation and Instruments.
+  "tuneup_js": "testing", // A JavaScript library to ease automated iOS UI testing with UIAutomation and Instruments.
   "TURecipientBar": "uncategorized", // A UIView to handle entering recipients similar to iOS Mail.
   "Turnpike": "uncategorized", // Turnpike enables deeplinking in mobile apps.
   "TurtleBezierPath": "uncategorized", // UIBezierPath subclass for Turtle Graphics
@@ -3800,7 +3800,7 @@
   "WindowsAzureMobileServices": "uncategorized", // Windows Azure Mobile SDK for iOS.
   "Wit": "uncategorized", // Wit.AI Official SDK
   "witness": "uncategorized", // write uncaught exception to file
-  "WJHXCTest": "uncategorized", // WJHXCTest extends XCTest to enable asynchronous testing.
+  "WJHXCTest": "testing", // WJHXCTest extends XCTest to enable asynchronous testing.
   "WKTParser": "uncategorized", // A library for parsing geometries from Well-Known-Text (WKT).
   "WKVerticalScrollBar": "uncategorized", // A traditional-style scrollbar for iOS that integrates with existing UIScrollView or UIScrollView subclasses.
   "WMATweetView": "uncategorized", // UIView subclass that renders tweet text.
