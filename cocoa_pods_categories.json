@@ -3851,11 +3851,11 @@
   "XLMediaZoom": "uncategorized", // UI controls to view an image or video in fullscreen like Instagram does with support for iOS 7.
   "XLRemoteImageView": "uncategorized", // UIImageView categories that show a progress indicator while the image is being downloaded.
   "XMCircleType": "uncategorized", // A UIView that allows you to display an NSString as a cicular text.
-  "XMLDictionary": "uncategorized", // XMLDictionary is a class designed to simplify parsing and generating of XML on iOS and Mac OS.
-  "XMLKit": "uncategorized", // Parsing XML/HTML.
-  "XMLReader": "uncategorized", // An NSXMLParser-based XML to NSDictionary converter.
-  "XMLReader-Arc": "uncategorized", // An ARC compliant NSXMLParser-based XML to NSDictionary converter.
-  "xmlrpc": "uncategorized", // The Cocoa XML-RPC Framework is a simple, and lightweight, XML-RPC client framework written in Objective-C.
+  "XMLDictionary": "xml", // XMLDictionary is a class designed to simplify parsing and generating of XML on iOS and Mac OS.
+  "XMLKit": "xml", // Parsing XML/HTML.
+  "XMLReader": "xml", // An NSXMLParser-based XML to NSDictionary converter.
+  "XMLReader-Arc": "xml", // An ARC compliant NSXMLParser-based XML to NSDictionary converter.
+  "xmlrpc": "xml", // The Cocoa XML-RPC Framework is a simple, and lightweight, XML-RPC client framework written in Objective-C.
   "XMPPFramework": "uncategorized", // An XMPP Framework in Objective-C for the Mac / iOS development community.
   "XNetworking": "uncategorized", // iOS networking operations.
   "XNGAPIClient": "uncategorized", // The official Objective-C client for the XING API
@@ -3865,10 +3865,10 @@
   "XRSA": "crypto", // Encrypt data using RSA public keys.
   "XtifyLib": "uncategorized", // Xtify library for iOS application with CocoaPods integration.
   "XYPieChart": "uncategorized", // A simple and animated Pie Chart for your iOS app.
-  "yajl": "uncategorized", // Yet Another JSON Library - A Portable JSON parsing and serialization library in ANSI C.
-  "YAJL-Entity": "uncategorized", // A JSON framework that can deserialize the JSON string into real objects, with 0.1 configuration.
-  "yajl-objc": "uncategorized", // Objective-C bindings for YAJL (Yet Another JSON Library) C library.
-  "YAML-Framework": "uncategorized", // Proper YAML support for Objective-C. Based on recommended LibYAML.
+  "yajl": "json", // Yet Another JSON Library - A Portable JSON parsing and serialization library in ANSI C.
+  "YAJL-Entity": "json", // A JSON framework that can deserialize the JSON string into real objects, with 0.1 configuration.
+  "yajl-objc": "json", // Objective-C bindings for YAJL (Yet Another JSON Library) C library.
+  "YAML-Framework": "yaml", // Proper YAML support for Objective-C. Based on recommended LibYAML.
   "YandexGeocoder": "uncategorized", // Use Yandex Geocoding API for forward and reversed geocoding.
   "YandexMapKit": "uncategorized", // Yandex Map Kit for iOS.
   "YandexMobileMetrica": "uncategorized", // This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica
