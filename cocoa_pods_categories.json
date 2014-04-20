@@ -410,7 +410,7 @@
   "BNFParser": "uncategorized", // BNFParser is a grammar parsing and validation framework based on the Backus-Naur Form pattern.
   "BNHtmlPdfKit": "uncategorized", // Easily turn HTML data from an HTML string or URL into a PDF file on iOS.
   "BNRDynamicTypeManager": "uncategorized", // Library to help manage iOS 7's Dynamic Type
-  "BNRSSFeedParser": "uncategorized", // Simple RSS and podcast parsing in Objective-C
+  "BNRSSFeedParser": "feeds", // Simple RSS and podcast parsing in Objective-C
   "Bolts": "uncategorized", // Bolts is a collection of low-level libraries designed to make developing mobile apps easier.
   "boost": "uncategorized", // Boost provides free peer-reviewed portable C++ source libraries.
   "BootstrapUI": "uncategorized", // A collection of custom draw controls inspired by the Bootstrap theme. Built off UICustomizeKit.
@@ -736,7 +736,7 @@
   "CWStatusBarNotification": "notifications", // A library that creates status bar notifications.
   "CXAdjustBlockView": "uncategorized", // CXAdjustBlockView(UIScrollView).
   "CXAlertView": "uncategorized", // Custom alertView which allow you to add view as main content.
-  "CXFeedParser": "uncategorized", // An Objective-C RSS / Atom Feed Parser for iOS.
+  "CXFeedParser": "feeds", // An Objective-C RSS / Atom Feed Parser for iOS.
   "CXFunctor": "uncategorized", // Functional operations for Objective-C objects: functors and foldables
   "CXPhotoBrowser": "uncategorized", // A photo browser supporting with high level customization.
   "CXTextFieldCoordinator": "uncategorized", // A easy way to intergrate with UITextField.
@@ -2265,7 +2265,7 @@
   "MurmurHash": "uncategorized", // MurmurHash implementation for Objective-C/iOS
   "MVFollow": "uncategorized", // MVFollow is a lightweight drop-in solution that allows you to follow people on Twitter.
   "MVYSideMenu": "gui_menus", // iOS Side Menu based on Google+ iPhone app.
-  "MWFeedParser": "uncategorized", // An RSS and Atom web feed parser for iOS.
+  "MWFeedParser": "feeds", // An RSS and Atom web feed parser for iOS.
   "MWFSlideNavigationViewController": "uncategorized", // MWFSlideNavigationViewController is a container view controller that manages primary and secondary view controller.
   "MwfTableViewController": "gui_tableview", // Extension to UITableViewController in attempt to provide additional features that are reusable in most scenarios.
   "MWKeyboardAnimation": "keyboard", // A UIView category to simplify animations that sync up with the UIKeyboard show/hide animation
@@ -2597,7 +2597,7 @@
   "ORKeyboardReactingApplication": "keyboard", // Use Keyboard Bindings with the iOS Simulator.
   "Ornament": "uncategorized", // Ornament is a set of APIs used to provide visual ornamentation for iOS apps.
   "OROpenSubtitleDownloader": "uncategorized", // An Obj-C API for Searching and Downloading Subtitles from OpenSubtitles.
-  "ORSSerialPort": "uncategorized", // Set of Objective-C classes useful for communicating with external devices through a serial port (most commonly RS-232).
+  "ORSSerialPort": "feeds", // Set of Objective-C classes useful for communicating with external devices through a serial port (most commonly RS-232).
   "ORStackView": "uncategorized", // An Auto Layout based Stack View.
   "OSReflectionKit": "uncategorized", // Lightweight object reflection library that allows you to instantiate objects from NSDictionary objects or JSON strings.
   "OSReflectionKit+CoreData": "uncategorized", // Category that adds Core Data support for OSReflectionKit.
@@ -2668,7 +2668,7 @@
   "PFCloud+Cache": "uncategorized", // iOS library for caching cloud function calls in Parse.
   "PFIncrementalStore": "uncategorized", // Core Data Persistence with Parse, an NSIncrementalStore subclass.
   "PFTwitterSignOn": "uncategorized", // Single Sign On for Twitter on iOS.
-  "PgMdAtom": "uncategorized", // Complete ATOM parser for iOS.
+  "PgMdAtom": "feeds", // Complete ATOM parser for iOS.
   "PHFArrayComparator": "uncategorized", // Animated table updates made easy.
   "PHFComposeBarView": "uncategorized", // A precise reconstruction of the compose bar from iOS 7 Messages.app.
   "PHFDelegateChain": "uncategorized", // Easily create delegation chains.
@@ -2975,7 +2975,7 @@
   "RSMenuView": "gui_tableview", // An event driven tableview. supports UIAppearance and more.
   "RSOAuthEngine": "uncategorized", // ARC based OAuth engine for MKNetworkKit.
   "RSSecrets": "keychain", // Set and get encrypted values from the iOS keychain.
-  "RSSwizzle": "uncategorized", // Safe method swizzling done right.
+  "RSSwizzle": "feeds", // Safe method swizzling done right.
   "RSTabBarController": "uncategorized", // full customizable TabBarController; drop-in replacement of UITabBarController.
   "RTagCloudView": "uncategorized", // useful tag cloud view
   "RTAlertView": "uncategorized", // Customizable replacement for iOS 7 UIAlertView
