@@ -299,7 +299,7 @@
   "AutoLayoutKit": "layout", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
   "AutoLayoutMacros": "layout", // Macros for making Macros for making Auto Layout more readable.
   "AutoLayoutShorthand": "layout", // alternative system for creating and adding Cocoa Auto Layout constraints
-  "AutoScrollLabel": "uncategorized", // A marquee like scrolling UILabel, think iPod track title scrolling. Provides edge fading, speed adjustment, scroll direction, etc.
+  "AutoScrollLabel": "scrolling", // A marquee like scrolling UILabel, think iPod track title scrolling. Provides edge fading, speed adjustment, scroll direction, etc.
   "AVAnimator": "uncategorized", // VAnimator is an iOS library that makes it easy to implement non-trivial animated/video content in iOS.
   "AVCaptureMultipeerVideoDataOutput": "uncategorized", // An AVFoundation subclass for sending video over multipeer connectivity
   "AVHexColor": "uncategorized", // AVHexColor was inspired by the lack of hexadecimal colour integration of iOS.
@@ -365,9 +365,9 @@
   "BDToastAlert": "uncategorized", // Easy way to display non-obstructive messages to user without having to worry about its behavior and conflicts with other views.
   "BeaconMan": "uncategorized", // iBeacon
   "BeamMusicPlayerViewController": "uncategorized", // An iPhone/iPad view controller to visualize and control music playback.
-  "BeeDebugger": "uncategorized", // A powerful runtime Debugger on iOS platform.
+  "BeeDebugger": "debugging", // A powerful runtime Debugger on iOS platform.
   "BeeFramework": "uncategorized", // Bee Framework is a rapid developemnt framework for iOS.
-  "BEMSimpleLineGraph": "uncategorized", // iOS library to create simple line graphs/charts (charting library).
+  "BEMSimpleLineGraph": "graphing", // iOS library to create simple line graphs/charts (charting library).
   "BenchmarkTestCase": "testing", // XCTestCase for benchmark testing.
   "Benihime": "uncategorized", // A collection of independent utility classes for iOS projects.
   "Bestly": "ab_test", // A/B testing for native mobile apps.
@@ -378,9 +378,9 @@
   "BGNavigationBar": "uncategorized", // BGNavigationBar Custom Transparent iOS7 style Navigation Bar for iOS5
   "BGUtilities": "uncategorized", // A collection of categories and class methods to make your iOS life easier.
   "BGUtils": "uncategorized", // Small collection of objective-C utilities, including map and filter.
-  "BHTabBar": "uncategorized", // A web-browser like tab bar implementation for iOS4+.
-  "Binding": "uncategorized", // Lightweight bindings for iOS
-  "Bindings": "uncategorized", // A lightweight iOS library inspired by Cocoa Bindings.
+  "BHTabBar": "tabs", // A web-browser like tab bar implementation for iOS4+.
+  "Binding": "bindings", // Lightweight bindings for iOS
+  "Bindings": "bindings", // A lightweight iOS library inspired by Cocoa Bindings.
   "Bitlyzer": "uncategorized", // Class to shorten URLs with Bit.ly on iOS (both block based and delegate based using ARC).
   "BJEDebugServerLumberLogger": "uncategorized", // View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to-read, xcode console.
   "BJImageCropper": "uncategorized", // A simple UIView subclass that allows a user to crop an image.
@@ -421,9 +421,9 @@
   "BounceMenuController": "gui_menus", // A tab bar controller-esque navigation solution for iOS.
   "box2d": "uncategorized", // Box2D is an open source C++ engine for simulating rigid bodies in 2D.
   "boxBlur": "uncategorized", // This helps blur background images using Accelerate
-  "box-ios-sdk": "uncategorized", // An Objective-C library for using the box API.
-  "box-ios-sdk-v2": "uncategorized", // iOS + OS X SDK for the Box V2 API.
-  "box-ios-sdk-v2-metadata": "uncategorized", // Metadata API plugin/wrapper for the Box API V2 iOS SDK.
+  "box-ios-sdk": "proprietary_api", // An Objective-C library for using the box API.
+  "box-ios-sdk-v2": "proprietary_api", // iOS + OS X SDK for the Box V2 API.
+  "box-ios-sdk-v2-metadata": "proprietary_api", // Metadata API plugin/wrapper for the Box API V2 iOS SDK.
   "BOZPongRefreshControl": "uncategorized", // A pull-down-to-refresh control for iOS that plays pong, originally created for the MHacks III iOS app
   "BPBarButtonItem": "uncategorized", // A tool for making awesome looking custom UIBarButtonItems on the fly.
   "BPContextualHelp": "uncategorized", // A view for displaying popup contextual help annotations.
@@ -443,7 +443,7 @@
   "Brightcove-Video-Cloud-App-SDK-Player-and-Sharing-Kit": "uncategorized", // The Player and Sharing Kit component of the Brightcove Video Cloud App SDK for iOS.
   "Brightcove-Video-Cloud-Player-SDK": "uncategorized", // Brightcove Video Cloud Player SDK for iOS.
   "BRLOptionParser": "uncategorized", // A short wrapper for getopt_long(3).
-  "BRORM": "orm", // Another Objective-C SQLite ORM
+  "BRORM": "orm", // Another Objective-C ite ORM
   "BRYDescriptionBuilder": "uncategorized", // Utility for producing object descriptions, based on Apache Commons ToStringBuilder
   "BRYEmailAddressDetective": "email", // Perform UIView animations serially without blocking the main thread
   "BRYEqualsBuilder": "uncategorized", // Utility for determining object equality, based on Apache Commons EqualsBuilder
@@ -490,7 +490,7 @@
   "Caboodle": "uncategorized", // Caboodle builds on Foundation to implement missing data structures.
   "Calabash": "testing", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
   "Calabash-server": "testing", // Calabash is an automated testing technology for Android and iOS native and hybrid applications.
-  "CameraPlusIntegration": "uncategorized", // Using the Camera+ app integration API, developers can integrate Camera+ functionality into their apps.
+  "CameraPlusIntegration": "apple_api", // Using the Camera+ app integration API, developers can integrate Camera+ functionality into their apps.
   "Canvas": "uncategorized", // Animate in Xcode without code
   "CaptainPass": "uncategorized", // Captain Pass iOS SDK to create Passbook Passes.
   "CaptureRecord": "uncategorized", // User + Screen Recording iOS SDK.
@@ -514,7 +514,7 @@
   "CCTemplate": "uncategorized", // lightweight template engine for objective-c.
   "CCValidatedTextField": "uncategorized", // Real-time UITextField validation via blocks
   "cdebug": "uncategorized", // Debug mode log/assertion macro for c/objc in a file.
-  "CDEvents": "uncategorized", // An Objective-C wrapper for Mac OS X’s FSEvents C API.
+  "CDEvents": "fsevents", // An Objective-C wrapper for Mac OS X’s FSEvents C API.
   "CDI": "uncategorized", // Simple, easy and very powerful way to use context and dependency injection and interception (minimalistic AOP) for Objective-C development.
   "CDJSONExporter": "uncategorized", // Conversion of a Core Data Store to/from JSON.
   "CDLJSONPResponseSerializer": "uncategorized", // A JSONP response serializer for AFNetworking
@@ -1005,9 +1005,9 @@
   "EventSource": "uncategorized", // HTML5 Server-Sent Events in your Cocoa app.
   "EvernoteBolts": "uncategorized", // BoltsFramework Tasks additions for Evernote iOS SDK.
   "EvernoteNotebookPicker": "uncategorized", // A simple Evernote Notebook Picker UI.
-  "Evernote-SDK-iOS": "uncategorized", // Evernote SDK for iOS.
-  "Evernote-SDK-Mac": "uncategorized", // Evernote SDK for osx.
-  "EXiLE": "uncategorized", // Easy Xib Localization Entity.
+  "Evernote-SDK-iOS": "proprietary_api", // Evernote SDK for iOS.
+  "Evernote-SDK-Mac": "proprietary_api", // Evernote SDK for osx.
+  "EXiLE": "xcode", // Easy Xib Localization Entity.
   "expat": "xml", // Expat is an XML parser library written in C.
   "Expecta": "uncategorized", // A matcher framework for Objective-C & Cocoa.
   "ExtendNSLog": "uncategorized", // ExtendNSLog
@@ -1032,7 +1032,7 @@
   "FatFractal": "uncategorized", // Cloud-hosted application backend service.
   "FatSecretKit": "uncategorized", // Client for interacting with the FatSecret API.
   "FBSnapshotTestCase": "uncategorized", // Snapshot view unit tests for iOS
-  "FCModel": "uncategorized", // An alternative to Core Data for people who like having direct SQL access.
+  "FCModel": "core_data", // An alternative to Core Data for people who like having direct SQL access.
   "FCOverlay": "uncategorized", // FCOverlay gives you the power to create any type of overlay in a new window
   "FCPostOffice": "uncategorized", // Address based messaging to connect remote parts of your app
   "FCSchemedConfiguration": "uncategorized", // Configure your app based on build configuration
@@ -1851,7 +1851,7 @@
   "Lela": "uncategorized", // Provides perceptial difference screen testing within KIF-next.
   "LetsMove": "uncategorized", // Move a running Mac application to the /Applications directory.
   "LetterpressExplosion": "uncategorized", // Category on `UIView` called Explode that will take the uiview and explode it into pieces.
-  "LevelDB-ObjC": "uncategorized", // A minimal wrapper for LevelDB in Objective C.
+  "LevelDB-ObjC": "leveldb", // A minimal wrapper for LevelDB in Objective C.
   "LFLineChartView": "uncategorized", // A view to show line charts on iOS.
   "LFRoundProgressView": "uncategorized", // round or annular ProgressView, base on DACircularProgress and MBRoundProgressView .
   "LFSAskForReview": "uncategorized", // An iOS class to add a customizable ask for review service.
@@ -2500,11 +2500,11 @@
   "Objective-C-HMTL-Parser": "uncategorized", // An objective c wrapper around libxml for parsing HTMLr.
   "ObjectiveDDP": "uncategorized", // Facilitates communication between iOS clients and meteor.js servers
   "objectiveflickr": "uncategorized", // ObjectiveFlickr, a Flickr API framework for Objective-C.
-  "objective-git": "uncategorized", // Objective-C bindings to libgit2.
-  "ObjectiveGit": "uncategorized", // Objective-C bindings to libgit2.
+  "objective-git": "git", // Objective-C bindings to libgit2.
+  "ObjectiveGit": "git", // Objective-C bindings to libgit2.
   "ObjectiveGumbo": "uncategorized", // A simple way to parse HTML5 reliably with Cocoa
-  "ObjectiveHAL": "uncategorized", // Objective-C implementation of the JSON Hypertext Application Language.
-  "Objective-LevelDB": "uncategorized", // A feature-complete wrapper for LevelDB in Objective-C.
+  "ObjectiveHAL": "json", // Objective-C implementation of the JSON Hypertext Application Language.
+  "Objective-LevelDB": "leveldb", // A feature-complete wrapper for LevelDB in Objective-C.
   "ObjectiveLibModbus": "uncategorized", // Obj-C wrapper for libmodbus.
   "ObjectiveLuhn": "uncategorized", // The Luhn Algorithm ported to objective-c.
   "ObjectiveMetrics": "uncategorized", // Implementation of DeskMetrics for iOS & OS X.
@@ -2699,7 +2699,7 @@
   "Playnomics": "uncategorized", // Playnomics SDK
   "PLCoreDataUtils": "uncategorized", // A set of helper methods for CoreData
   "PLCrashReporter": "uncategorized", // Reliable, open-source crash reporting for iOS and Mac OS X.
-  "PLDatabase": "uncategorized", // A SQL database access library for Objective-C.
+  "PLDatabase": "sql", // A SQL database access library for Objective-C.
   "PlexKit": "uncategorized", // A bunch of often used utility functions/classes.
   "PLImageManager": "uncategorized", // Image manager/downloader for iOS
   "PlivoSDK": "uncategorized", // Plivo iOS SDK.
@@ -3235,7 +3235,7 @@
   "SparkiOS": "uncategorized", // SparkiOS API library that allows authorized MLS members to request data through developer applications.
   "Sparrow-Framework": "uncategorized", // Objective-C library inspired by Adobe™ Flash and Starling that was built from ground up for iPhone, iPad and iPod Touch.
   "SpatialDBKit": "uncategorized", // SpatialDBKit is the spatial RDBMS for iOS.
-  "spatialite": "uncategorized", // SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
+  "spatialite": "sql", // SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
   "SPConnector": "uncategorized", // A SharePoint services library for iOS and OS X.
   "SPDebugMenu": "gui_menus", // Make your own debug menu with fully customizable actions.
   "Specify": "uncategorized", // An Objective-C behaviour-driven development library.
@@ -3257,11 +3257,11 @@
   "SQAESDE": "crypto", // Safe&Quick AES256 Encrypt and Decrypt
   "SQCommonUtils": "uncategorized", // Common Utils SDK for ObjC project.
   "SQKPieProgressView": "uncategorized", // Pie chart style progress pie chart. Based from SSPieProgressView in SSToolKit.
-  "SQLayout": "uncategorized", // SQLayout is an IOS library that provides simple layout tools for UIViews that need to be placed relative to one another.
-  "SQLCipher": "crypto", // Full Database Encryption for SQLite.
-  "SQLClient": "uncategorized", // Native SQL Server client for iOS.
-  "sqlite3": "uncategorized", // SQLite is an embedded SQL database engine.
-  "sqlite3-objc": "uncategorized", // Sqlite3 Objective-C wrapper.
+  "SQLayout": "sql", // SQLayout is an IOS library that provides simple layout tools for UIViews that need to be placed relative to one another.
+  "SQLCipher": "sql", // Full Database Encryption for SQLite.
+  "SQLClient": "sql", // Native SQL Server client for iOS.
+  "sqlite3": "sql", // SQLite is an embedded SQL database engine.
+  "sqlite3-objc": "sql", // Sqlite3 Objective-C wrapper.
   "Sqwiggle": "uncategorized", // Objective-C Wrapper for Sqwiggle API
   "SRGridLocation": "uncategorized", // SRGridLocation provides a convenient way to convert between Swedish grid and GPS location coordinates.
   "SRMonthPicker": "uncategorized", // Like UIDatePicker, but without the days.
@@ -3872,7 +3872,7 @@
   "YandexGeocoder": "uncategorized", // Use Yandex Geocoding API for forward and reversed geocoding.
   "YandexMapKit": "uncategorized", // Yandex Map Kit for iOS.
   "YandexMobileMetrica": "uncategorized", // This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica
-  "YapDatabase": "uncategorized", // A key/value store built atop sqlite for iOS & Mac.
+  "YapDatabase": "sql", // A key/value store built atop sqlite for iOS & Mac.
   "YASlidingViewController": "uncategorized", // A sliding UIViewController for iOS.
   "YBStatechart": "uncategorized", // Framework for statecharts. A statecharts is a formalized type of finite state machine.
   "YelpKit": "uncategorized", // An iOS framework for Objective-C, and contains some basics for image loading, caching, requests, views and layouts.
@@ -3926,7 +3926,7 @@
   "ZRYAsyncTestCase": "testing", // Asynchronous unit testing for your Xcode apps.
   "ZRYWordPicker": "keyboard", // Horizontal word picker, ideal as keyboard input accessory view.
   "ZTRESTConnection": "uncategorized", // A lightweight block based REST library for OBJ-C.
-  "ZumeroSync": "uncategorized", // Use Zumero to sync SQL Server databases with local SQLite dbfiles.
+  "ZumeroSync": "sql", // Use Zumero to sync SQL Server databases with local SQLite dbfiles.
   "ZUUIRevealController": "uncategorized", // Facebook (iOS App) inspired custom ViewControllerContainer.
   "ZWPTouchFrames": "uncategorized", // Helpers to manipulate frames and bounds of UIView
   "ZXing": "uncategorized", // Multi-format 1D/2D barcode image processing library.
