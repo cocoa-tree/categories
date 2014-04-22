@@ -1046,9 +1046,9 @@
   "FESSolarCalculator": "uncategorized", // Calculate sunrise, sunset, and twilight times for a given location and date.
   "FFCircularProgressView": "uncategorized", // An iOS 7-inspired blue circular progress view.
   "FHSegmentedViewController": "uncategorized", // Custom view controller container for swiching sub view controller with a segmented control
-  "FHTTPClient": "uncategorized", // A simple iOS HTTP Client for REST services.
+  "FHTTPClient": "http_client", // A simple iOS HTTP Client for REST services.
   "FileDrone": "uncategorized", // A simple mechanism that allows you to track changes to your app's files.
-  "FileMD5Hash": "uncategorized", // Library for computing MD5 hashes of files with small memory usage.
+  "FileMD5Hash": "hashing", // Library for computing MD5 hashes of files with small memory usage.
   "Fingertips": "uncategorized", // Touch indicators on external displays for iOS applications.
   "Fiorite": "uncategorized", // Components and utilities for iOS, based on the Pearl iOS library.
   "Firebase": "uncategorized", // The Firebase iOS framework for adding realtime data synchronization to your app.
@@ -1058,25 +1058,25 @@
   "FirstVersion": "keychain", // Save the version string to keychain on app first run
   "FISWebViewPreloader": "uncategorized", // Preloading UIWebviews in UIViewControllers for faster loadtime.
   "FKTabBarController": "uncategorized", // FKTabBarController is intended to change the tabbar and items instead of UITabBarController
-  "Flash2Cocos2D": "uncategorized", // Library to import animations made in Flash to Cocos2D.
-  "FlatUI": "uncategorized", // A collection of custom draw controls inspired by the Flat theme. Built off UICustomizeKit.
+  "Flash2Cocos2D": "gui", // Library to import animations made in Flash to Cocos2D.
+  "FlatUI": "gui", // A collection of custom draw controls inspired by the Flat theme. Built off UICustomizeKit.
   "FlatUIKit": "gui", // A collection of awesome flat UI components for iOS.
   "Fleksy": "keyboard", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
   "FleksySDK": "keyboard", // Fleksy Keyboard for iOS. The first 3rd-party keyboard for iOS.
   "FlexileDatabase": "uncategorized", // A SQLite database management tool with object oriented SQL Statements.
   "FlexileToolkit": "uncategorized", // Common Extensions, defines, functions and classes used in the Flexile app development
-  "FlickrKit": "uncategorized", // FlickrKit is an iOS Objective-C library for accessing the Flickr API.
+  "FlickrKit": "proprietary_api", // FlickrKit is an iOS Objective-C library for accessing the Flickr API.
   "FlipBoardNavigationController": "uncategorized", // A new UINavigationController.
-  "FLKAutoLayout": "uncategorized", // UIView category which makes it easy to create layout constraints in code.
+  "FLKAutoLayout": "auto_layout", // UIView category which makes it easy to create layout constraints in code.
   "FLKit": "uncategorized", // FLKit contains some utilities that I use in iOS project.
   "Floc-Commands": "uncategorized", // A collection of commands with fluent API for Objective-C.
-  "Floc-Dispatcher": "uncategorized", // An alternative to NSNotificationCenter.
+  "Floc-Dispatcher": "notifications", // An alternative to NSNotificationCenter.
   "Floc-Reflection": "uncategorized", // Reflection for Objective-C.
   "flojack-ios": "uncategorized", // iOS static lib for FloJack NFC reader/writer.
   "Floop-iOS": "uncategorized", // A COPPA-compliant sharing framework for kids apps.
   "Flow.m": "uncategorized", // Simple async processing with pass/miss.
   "FlurrySDK": "analytics", // FlurrySDK for analytics reporting.
-  "FMConstraintSwitch": "uncategorized", // Add the ability to configure different states for constraints from the interface builder and trigger them from code
+  "FMConstraintSwitch": "auto_layout", // Add the ability to configure different states for constraints from the interface builder and trigger them from code
   "FMDB": "sqlite", // A Cocoa / Objective-C wrapper around SQLite.
   "fmemopen": "uncategorized", // fmemopen port for iOS and Mac OS X
   "FMGrowingTextView": "uncategorized", // UITextView subclass that will change it's height to accomodate text within customizable restrictions
@@ -1084,48 +1084,48 @@
   "FODFormKit": "uncategorized", // A toolkit for creating dynamic forms on iOS.
   "FoldViewController": "uncategorized", // A folding view controller for the iOS platform based on the excellent ECSlidingViewController and XYOrigami projects.
   "Folklore": "uncategorized", // League of Legends chat service library for iOS and OS X.
-  "FontasticIcons": "uncategorized", // Objective-C wrapper for iconic fonts.
-  "FontAwesomeIconFactory": "uncategorized", // Create icons using the resolution-independent Font Awesome.
-  "FontAwesome-iOS": "uncategorized", // FontAwesome for iOS.
-  "FontAwesome+iOS": "uncategorized", // Category that makes FontAwesome even easier for iOS.
-  "FontAwesomeKit": "uncategorized", // Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zocial, and ionicons
-  "FontAwesomeTools": "uncategorized", // FontAwesomeTools-iOS allows you to easily use FontAwesome icons in your iOS projects.
-  "FontDiao": "uncategorized", // A chinese font for Web and iOS.
-  "FontLabel": "uncategorized", // A project that includes a module for drawing arbitrary .ttf fonts for iPhone.
-  "FontReplacer": "uncategorized", // Easily create nibs with custom fonts.
-  "forecast-ios-api": "uncategorized", // A simple Objective-C wrapper for the Forecast.io API.
-  "Forecastr": "uncategorized", // A simple, asynchronous Objective-C wrapper for the Forecast.io API.
+  "FontasticIcons": "fonts", // Objective-C wrapper for iconic fonts.
+  "FontAwesomeIconFactory": "fonts", // Create icons using the resolution-independent Font Awesome.
+  "FontAwesome-iOS": "fonts", // FontAwesome for iOS.
+  "FontAwesome+iOS": "fonts", // Category that makes FontAwesome even easier for iOS.
+  "FontAwesomeKit": "fonts", // Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zocial, and ionicons
+  "FontAwesomeTools": "fonts", // FontAwesomeTools-iOS allows you to easily use FontAwesome icons in your iOS projects.
+  "FontDiao": "fonts", // A chinese font for Web and iOS.
+  "FontLabel": "fonts", // A project that includes a module for drawing arbitrary .ttf fonts for iPhone.
+  "FontReplacer": "fonts", // Easily create nibs with custom fonts.
+  "forecast-ios-api": "proprietary_api", // A simple Objective-C wrapper for the Forecast.io API.
+  "Forecastr": "proprietary_api", // A simple, asynchronous Objective-C wrapper for the Forecast.io API.
   "FormatterKit": "uncategorized", // `stringWithFormat:` for the sophisticated hacker set.
-  "FoundationExtension": "uncategorized", // Foundation/UIKit extension kit. It is category based and looks familiar to Foundation/UIKit. It includes many common snippets as shortcut.
+  "FoundationExtension": "foundation_extension", // Foundation/UIKit extension kit. It is category based and looks familiar to Foundation/UIKit. It includes many common snippets as shortcut.
   "Fountain": "uncategorized", // An open source implementation of the Fountain screenplay formatting language.
-  "FourMarks": "uncategorized", // Objective-C client library for Delicious.com
-  "Foursquare-API-v2": "uncategorized", // Objective-C Foursquare API v2. With native authorisation now.
-  "Foursquare-iOS-API": "uncategorized", // Foursquare API v2 for iOS.
+  "FourMarks": "proprietary_api", // Objective-C client library for Delicious.com
+  "Foursquare-API-v2": "proprietary_api", // Objective-C Foursquare API v2. With native authorisation now.
+  "Foursquare-iOS-API": "proprietary_api", // Foursquare API v2 for iOS.
   "FPBrandColors": "uncategorized", // A collection of major brand color codes
   "FPLinearLayout": "uncategorized", // FPLinearLayout is a view container that automatically handles children positions for you in a linear fashion.
-  "FPLog": "uncategorized", // FPLog is a simple logger that help you trace the value of CGRect.
-  "FPPopover": "uncategorized", // Alternative to the native iOS UIPopoverController, with iPhone support and look and feel customization.
-  "FPView": "uncategorized", // Pretty noise, linear and radial gradient view for iOS.
-  "FRActionSheet": "uncategorized", // UIActionSheet replacement with nib support
-  "Fragaria": "uncategorized", // Cocoa syntax highlighting text view.
+  "FPLog": "logging", // FPLog is a simple logger that help you trace the value of CGRect.
+  "FPPopover": "gui_popover", // Alternative to the native iOS UIPopoverController, with iPhone support and look and feel customization.
+  "FPView": "gui", // Pretty noise, linear and radial gradient view for iOS.
+  "FRActionSheet": "gui_sheet", // UIActionSheet replacement with nib support
+  "Fragaria": "syntax_highlighting", // Cocoa syntax highlighting text view.
   "FrameAccessor": "uncategorized", // Easy access to view's frame.
   "FranticApparatus": "uncategorized", // An asynchronous task framework for iOS.
   "FRCoreDataOperation": "uncategorized", // A set of NSOperation subclasses for working with Core Data ManagedObjectContexts.
-  "FRD3DBarChart": "uncategorized", // Interactive iOS 3D bar chart control made with GLKit.
+  "FRD3DBarChart": "charts", // Interactive iOS 3D bar chart control made with GLKit.
   "FRDLivelyButton": "uncategorized", // Lively button.
   "FreeStreamer": "uncategorized", // A low-memory footprint streaming audio client for iOS and OS X.
   "freexl": "proprietary_api", // FreeXL is an open source library to extract valid data from within an Excel (.xls) spreadsheet.
   "FreshdeskSDK": "uncategorized", // Customer service helpdesk for mobile applications.
-  "FRLayeredNavigationController": "uncategorized", // Layered navigation controller for hierarchical iPad apps.
+  "FRLayeredNavigationController": "navigation", // Layered navigation controller for hierarchical iPad apps.
   "FRPChangeRootViewControllerSegue": "uncategorized", // Custom segue that performs a root view controller change with an animation
-  "FRPCoreDataManager": "uncategorized", // Base Core Data manager for typical Core Data based iOS apps
+  "FRPCoreDataManager": "core_data", // Base Core Data manager for typical Core Data based iOS apps
   "FSClassExtensions": "uncategorized", // FocalShift Objective-C Class Extensions
   "FSExtendedAlertKit": "uncategorized", // Block based alert views and action sheets, with activity indicator and progress view support.
   "FSImageViewer": "uncategorized", // FSImageViewer is a photo viewer for iOS.
   "FSJUnitTestLog": "testing", // FSJUnitTestLog is a XCTestObserver implementation, which converts the test results to an JUnit XML Results file.
-  "FSNetworking": "uncategorized", // FSNetworking is a small library for HTTP networking on iOS.
-  "FSOAuth": "uncategorized", // Foursquare native auth makes it easier for users of your app to connect to Foursquare.
-  "FSOpenInGmail": "uncategorized", // FSOpenInGmail is a tool for sending mails with Gmail iOS App.
+  "FSNetworking": "http_client", // FSNetworking is a small library for HTTP networking on iOS.
+  "FSOAuth": "oauth", // Foursquare native auth makes it easier for users of your app to connect to Foursquare.
+  "FSOpenInGmail": "google_api", // FSOpenInGmail is a tool for sending mails with Gmail iOS App.
   "FsprgEmbeddedStoreMac": "uncategorized", // Embedded Store Framework for http://fastspring.com
   "FSStoryboardHelpers": "storyboard", // Useful classes for effectively working with Xcode Storyboards.
   "FTAssetRenderer": "uncategorized", // Create image assets at runtime in any color when used as mask and/or at any resolution when it’s a PDF.
@@ -1134,8 +1134,8 @@
   "FTFoundation": "uncategorized", // Feedtailor's extension to Foundation framework.
   "FTiCloudSync": "uncategorized", // Automatically syncs NSUserDefaults across multiple iOS devices using iCloud
   "FTLocationManager": "uncategorized", // Utility class for simple block-based getting of current user's location on iOS.
-  "FTPManager": "uncategorized", // An Objective-C class for simple, synchronous ftp access.
-  "FTUIKit": "uncategorized", // Feedtailor's extension to UIIKit.
+  "FTPManager": "ftp", // An Objective-C class for simple, synchronous ftp access.
+  "FTUIKit": "uikit_extensions", // Feedtailor's extension to UIIKit.
   "FTUtils": "uncategorized", // Phone utilities mostly for Core Animation.
   "FTWButton": "uncategorized", // A UIControl subclass with easy color, gradient, text, and icon properties.
   "FUIVerticalTabBarController": "uncategorized", // An awesome flat vertical tab bar controller for iOS.
