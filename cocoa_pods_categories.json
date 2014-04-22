@@ -92,7 +92,7 @@
   "AFMacros": "uncategorized", // Macros for iOS projects.
   "AFMobilePayRequestHandler": "uncategorized", // Send and request money via Danske Banks MobilePay app.
   "AFNetworkActivityLogger": "uncategorized", // AFNetworking 2.0 Extension for Network Request Logging
-  "AFNetworking": "network", // A delightful iOS and OS X networking framework.
+  "AFNetworking": "networking", // A delightful iOS and OS X networking framework.
   "AFNetworking2-RACExtensions": "uncategorized", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
   "AFNetworking+AutoRetry": "uncategorized", // Auto Retries for AFNetworking requests
   "AFNetworking-RACExtensions": "uncategorized", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
@@ -1206,9 +1206,9 @@
   "GHKit": "uncategorized", // Objective-C categories and utilities
   "GHMarkdownParser": "uncategorized", // A markdown parser for iOS based on discount.
   "GHSidebarNav": "uncategorized", // A clone of the new Facebook iOS UI paradigm.
-  "GHUnit": "test", // Test Framework for Objective-C.
-  "GHUnitIOS": "test", // Test Framework for Objective-C.
-  "GHUnitOSX": "test", // Test Framework for Objective-C.
+  "GHUnit": "testing", // Test Framework for Objective-C.
+  "GHUnitIOS": "testing", // Test Framework for Objective-C.
+  "GHUnitOSX": "testing", // Test Framework for Objective-C.
   "Gig": "uncategorized", // A great Twitter API client powered by Mantle and AFNetworking.
   "Gigya-iOS-SDK": "uncategorized", // The iOS client library provides an Objective-C interface for the Gigya API
   "GIKPopoverBackgroundView": "uncategorized", // Custom popover backgrounds. UIKit quality.
@@ -1249,7 +1249,7 @@
   "GooglePlusShareActivity": "google_api", // An UIActivity subclass for Sharing on Google+
   "GoogleProtobuf": "google_api", // Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
   "GoogleTagManager": "google_api", // Google Tag Manager SDK.
-  "GoogleTest": "test", // C++ unit testing framework
+  "GoogleTest": "testing", // C++ unit testing framework
   "GPAC4iOS": "uncategorized", // GPAC4iOS is the libgpac library distributed as a Pod.
   "GPActivityViewController": "uncategorized", // Alternative to UIActivityViewController compatible with iOS5.0.
   "GPHTTPRequest": "uncategorized", // RESTFul network library in objective-c. Built on NSURLConnection.
@@ -3453,7 +3453,7 @@
   "TJLSessionManager": "uncategorized", // A manager class for the new MultipeerConnectivity framework.
   "TKImageIpsum": "uncategorized", // Helper class for quick fetching random images with given size from the http://lorempixel.com/ website.
   "TKNavigationController": "uncategorized", // UIViewController container that shows bottom toolbar.
-  "TKRGuard": "uncategotestingrized", // The simple test helper for asynchronous processes.
+  "TKRGuard": "uncategorized", // The simple test helper for asynchronous processes.
   "TKRoundedView": "uncategorized", // Rounded corners without images and much more.
   "TKRSpecificTest": "testing", // Run a specific test case by xcodebuild.
   "TKSenTestAsync": "testing", // SenTest category with Asynchronous support.
