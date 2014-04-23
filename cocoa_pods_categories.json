@@ -1022,8 +1022,8 @@
   "FactoryKit": "uncategorized", // Object generation library for Core Data
   "FamilySearchCocoa": "uncategorized", // An easy to use library for interacting with the FamilySearch.org API on iOS or OS X.
   "Fancy-iOS": "uncategorized", // A useful library of reusable code for iOS developers.
-  "FANN": "uncategorized", // A free open source neural network library.
-  "Fare": "uncategorized", // A networking library for the University of Michigan's bus dispatch system.
+  "FANN": "machine_learning", // A free open source neural network library.
+  "Fare": "networking", // A networking library for the University of Michigan's bus dispatch system.
   "FastCoding": "uncategorized", // Faster, more flexible replacement for NSKeyedArchiver, NSPropertyList and NSJSONSerializer.
   "FastDTW-x": "uncategorized", // C++ porting of Stan Salvador's FastDTW.
   "FastElegantDelegation": "uncategorized", // Objective-C library for delegate multicasting and friendly single delegation.
@@ -1178,7 +1178,7 @@
   "GCJSONKit": "uncategorized", // GC's fork of a Very High Performance Objective-C JSON Library.
   "GCMAggregatingTableViewDataSource": "gui_tableview", // A template project.
   "GCMCocoaExtensions": "uncategorized", // Category methods for CocoaTouch classes
-  "GCMNavStackMachine": "uncategorized", // A state machine tuned for common UINavigationController needs.
+  "GCMNavStackMachine": "state_machine", // A state machine tuned for common UINavigationController needs.
   "GCNetworkReachability": "uncategorized", // GCNetworkReachability monitors the network state on iOS and OS X devices. Supports ARC, GCD, Blocks, IPv4/IPv6 and OS X/iOS.
   "GCNetworkRequest": "uncategorized", // An easy-to-use asynchronous HTTP networking library for iOS and OS X.
   "GCOLaunchImageTransition": "uncategorized", // Animates the transition from the launch image to the app's initial view controller on iOS.
@@ -2128,7 +2128,7 @@
   "MLKRestfullYii": "uncategorized", // This is a helper class to easily create filters for the Yii extension restfullyii
   "MLPAccessoryBadge": "uncategorized", // A customizable widget for displaying metadata, especially in UITableViewCells.
   "MLPAutoCompleteTextField": "gui_autocomplete", // UITextfield subclass with autocomplete menu.
-  "MLPNeuralNet": "uncategorized", // Fast multilayer perceptron neural net for iOS and Mac OS X
+  "MLPNeuralNet": "machine_learning", // Fast multilayer perceptron neural net for iOS and Mac OS X
   "MLPSpotlight": "uncategorized", // UIView subclass that draws a spotlight effect.
   "MLScreenshot": "uncategorized", // Get a screenshot from UIView easy as pie.
   "MLUIColorAdditions": "uncategorized", // !!!SWITCH TO HexColors!!! DEPRECATED!!! Additions for UIColor for easy handling with hex- and rgb-colors.
@@ -3106,7 +3106,7 @@
   "SharedInstanceGCD": "uncategorized", // A collection of the best GCD singleton macros.
   "ShareKit": "uncategorized", // Drop in sharing features for all iPhone and iPad apps.
   "ShareThis": "uncategorized", // An iOS sharing tool that can be easily inserted into a project.
-  "Shark-SDK": "uncategorized", // iOS & OS X framework for Shark: C++ Machine Learning Library
+  "Shark-SDK": "machine_learning", // iOS & OS X framework for Shark: C++ Machine Learning Library
   "SHBarButtonItemBlocks": "uncategorized", // Prefixed UIBarButtonItem category with blocks, auto-removed. Swizzle free!
   "SHControlBlocks": "uncategorized", // Prefixed UIControl category with blocks, auto-removed. Swizzle free!
   "Shelley": "uncategorized", // View selection engine used in Frank.
@@ -3123,16 +3123,16 @@
   "SHModalObject": "uncategorized", // `SHModalObject` a utility class that reads NSDictionary and populates the instance variables and properties automatically.
   "SHNavigationControllerBlocks": "uncategorized", // Blocks for UINavigationController life cycle willShow & didShow and animations for transitions & interaction - swizzle free!
   "SHObjectUserInfo": "uncategorized", // NSObject prefixed userInfo without swizzling.
-  "SHOmniAuth": "uncategorized", // Pattern for Authentication via different providers.
-  "SHOmniAuthFacebook": "uncategorized", // Facebook Strategy for SHOmniAuth.
-  "SHOmniAuthFlickr": "flickr_api", // Flickr Strategy for SHOmniAuth, uses SHAccountStore and SHRequest.
-  "SHOmniAuthLinkedIn": "uncategorized", // LinkedIn Strategy for SHOmniAuth, uses SHAccountStore.
-  "SHOmniAuthTwitter": "uncategorized", // Twitter strategy for SHOmniAuth.
+  "SHOmniAuth": "oauth", // Pattern for Authentication via different providers.
+  "SHOmniAuthFacebook": "oauth", // Facebook Strategy for SHOmniAuth.
+  "SHOmniAuthFlickr": "oauth", // Flickr Strategy for SHOmniAuth, uses SHAccountStore and SHRequest.
+  "SHOmniAuthLinkedIn": "oauth", // LinkedIn Strategy for SHOmniAuth, uses SHAccountStore.
+  "SHOmniAuthTwitter": "oauth", // Twitter strategy for SHOmniAuth.
   "ShotBlocker": "screenshots", // Detecting iOS screenshots ala Snapchat and Facebook Poke.
   "ShowKit": "video", // Video Conferencing, Audio Conferencing, Screen Sharing, Gesture Sharing.
-  "SHPieChartView": "uncategorized", // `SHModalObject` a reusable UIView subclass to create Pie Charts
-  "SHPopoverControllerBlocks": "uncategorized", // Blocks for SHPopoverControllerBlocks shouldDismiss and didDismiss - swizzle free!
-  "SHRequest": "uncategorized", // OAuth Signed requests following an account protocol and looks like SLRequest.
+  "SHPieChartView": "charts", // `SHModalObject` a reusable UIView subclass to create Pie Charts
+  "SHPopoverControllerBlocks": "gui_popover", // Blocks for SHPopoverControllerBlocks shouldDismiss and didDismiss - swizzle free!
+  "SHRequest": "oauth", // OAuth Signed requests following an account protocol and looks like SLRequest.
   "SHSegueBlocks": "uncategorized", // Segue Blocks and userInfo without swizzling.
   "SHSPhoneComponent": "uncategorized", // UITextField and NSFormatter subclasses for formatting phone numbers. Allow different formats for different countries(patterns).
   "SHTabBarControllerBlocks": "uncategorized", // Blocks for UITabBarController replacing delegates - libffi & swizzle free!
@@ -3169,55 +3169,55 @@
   "SinaWeibo": "uncategorized", // sina weibo sdk of sso and Oauth2.0.
   "SinglySDK": "uncategorized", // iOS SDK for Singly.
   "SJNotificationViewController": "notifications", // Lightweight notifications in iOS apps.
-  "SJODataKit": "uncategorized", // Lightweight Core Data helper to reduce boilerplate code.
-  "SJOPaperboy": "uncategorized", // An easy to use library that lets you implement background updates in your app.
-  "SKAnimateScroll": "uncategorized", // SKAnimateScroll
-  "SKBindingManager": "uncategorized", // `SKBindingManager` is component which allows you to easily add bindings to your code with support for ARC.
-  "SKBounceAnimation": "uncategorized", // CAKeyframeAnimation subclass that lets quickly and easily set a number of bounces, and start and end values, and creates an animation.
-  "SKInnerShadowLayer": "uncategorized", // SKInnerShadowLayer is a CAGradientLayer subclass that adds properties to create an inner shadow on a given layer.
-  "skpsmtpmessage": "uncategorized", // Quick SMTP client code for the iPhone.
-  "SKSlideViewController": "uncategorized", // An easy to use slide to navigate view controller for ios 6.0 +
-  "SKUAssert": "uncategorized", // Saner, safer assertion handling for your apps
+  "SJODataKit": "core_data", // Lightweight Core Data helper to reduce boilerplate code.
+  "SJOPaperboy": "async", // An easy to use library that lets you implement background updates in your app.
+  "SKAnimateScroll": "gui_scroll", // SKAnimateScroll
+  "SKBindingManager": "bindings", // `SKBindingManager` is component which allows you to easily add bindings to your code with support for ARC.
+  "SKBounceAnimation": "gui_animation", // CAKeyframeAnimation subclass that lets quickly and easily set a number of bounces, and start and end values, and creates an animation.
+  "SKInnerShadowLayer": "gui", // SKInnerShadowLayer is a CAGradientLayer subclass that adds properties to create an inner shadow on a given layer.
+  "skpsmtpmessage": "smtp", // Quick SMTP client code for the iPhone.
+  "SKSlideViewController": "gui_slider", // An easy to use slide to navigate view controller for ios 6.0 +
+  "SKUAssert": "test", // Saner, safer assertion handling for your apps
   "SKUTouchPresenter": "touch", // Highlight touches on screen, useful for iOS demos
   "SkyLab": "ab_test", // Multivariate & A/B Testing for iOS and Mac.
-  "Slash": "uncategorized", // A simple, extensible, language for styling attributed strings.
+  "Slash": "gui", // A simple, extensible, language for styling attributed strings.
   "Slash7": "uncategorized", // iOS library for SLASH-7
-  "SLCoreDataStack": "uncategorized", // CoreData stack managing independent 2 NSManagedObjectContext instances.
-  "SLCountryPicker": "uncategorized", // Country picker table view controller for iOS 7+
+  "SLCoreDataStack": "core_data", // CoreData stack managing independent 2 NSManagedObjectContext instances.
+  "SLCountryPicker": "gui_controls", // Country picker table view controller for iOS 7+
   "SLExpandableTableView": "gui_tableview", // UITableView subclass with expandable sections.
-  "SLFlexibleButton": "uncategorized", // A button library which able to draw it self with bezel defined by relative location.
-  "SLGlowingTextField": "uncategorized", // This is a very simple subclass of UITextField that is designed to look like a Bootstrap input field.
-  "SliderViewController": "uncategorized", // A new container controller to slide  
-  "SlideViewFramework": "uncategorized", // The SlideViewFramework is a three panel slide controller that takes in three view controllers and uses a slide navigation.
-  "SlimeRefresh": "uncategorized", // SlimeRefresh looks like UIRefreshControl in iOS6, SlimeRefresh can also run on iOS4.0 and later...
-  "SLNavigationBarManager": "uncategorized", // Show or hidden Navigation bar base on the offset of the scrollable view 
+  "SLFlexibleButton": "gui_button", // A button library which able to draw it self with bezel defined by relative location.
+  "SLGlowingTextField": "gui_textfield", // This is a very simple subclass of UITextField that is designed to look like a Bootstrap input field.
+  "SliderViewController": "gui_slider", // A new container controller to slide  
+  "SlideViewFramework": "gui_slider", // The SlideViewFramework is a three panel slide controller that takes in three view controllers and uses a slide navigation.
+  "SlimeRefresh": "gui", // SlimeRefresh looks like UIRefreshControl in iOS6, SlimeRefresh can also run on iOS4.0 and later...
+  "SLNavigationBarManager": "navigation", // Show or hidden Navigation bar base on the offset of the scrollable view 
   "SLObjectiveCRuntimeAdditions": "uncategorized", // Objc runtime additions.
-  "SLRemoteObject": "uncategorized", // Its just an objc RPC framework for your local network.
-  "SLRESTfulCoreData": "uncategorized", // Objc naming conventions, autogenerated accessors at runtime, URL substitutions and intelligent attribute mapping.
-  "SLRESTfulCoreDataUI": "uncategorized", // UI counterpart to SLRESTfulCoreData.
+  "SLRemoteObject": "object_mapping", // Its just an objc RPC framework for your local network.
+  "SLRESTfulCoreData": "object_mapping", // Objc naming conventions, autogenerated accessors at runtime, URL substitutions and intelligent attribute mapping.
+  "SLRESTfulCoreDataUI": "bindings", // UI counterpart to SLRESTfulCoreData.
   "SLScrollViewKeyboardSupport": "keyboard", // SLScrollViewKeyboardSupport auto adjusts UIScrollViews contentInset based on the first responder.
   "SLUITableViewCellSectionLocation": "gui_tableview", // UITableViewCellSectionLocation made public.
   "SMAccessibilityOverlay": "uncategorized", // Tool for developers to visualize what voiceover users will "see" when using their apps.
   "Smartling.i18n": "i18n", // iOS Plurals Localization Library
-  "SMCalloutView": "uncategorized", // A lightweight callout view class for iOS mimicking UICalloutView.
+  "SMCalloutView": "gui", // A lightweight callout view class for iOS mimicking UICalloutView.
   "SMGenerator": "uncategorized", // SMGenerator: experimental fast and easy way to create generators in Objective-C
   "SMGridView": "gui_tableview", // UIScrollView subclass that uses methods similar to UITableView, UITableViewDataSource, and UITableViewDelegate.
   "SMPageControl": "uncategorized", // UIPageControl’s fancy one-upping cousin.
   "SMQuickSegue": "storyboard", // Quick parameter setting with storyboard segues
-  "SMStateMachine": "uncategorized", // Very simple state machine written in Objective-C.
-  "SMVerticalSegmentedControl": "uncategorized", // SMVerticalSegmentedControl is plain vertical segmented control
-  "SMWebRequest": "uncategorized", // A lightweight class for iOS for making asynchronous web requests.
-  "SMWheelControl": "uncategorized", // SMWheelControl is an iOS component allowing the selection of an item from a 360° spinning wheel.
+  "SMStateMachine": "state_machine", // Very simple state machine written in Objective-C.
+  "SMVerticalSegmentedControl": "gui_controls", // SMVerticalSegmentedControl is plain vertical segmented control
+  "SMWebRequest": "http", // A lightweight class for iOS for making asynchronous web requests.
+  "SMWheelControl": "gui_controls", // SMWheelControl is an iOS component allowing the selection of an item from a 360° spinning wheel.
   "SMXMLDocument": "uncategorized", // A lightweight XML Document class for iOS.
   "SMXObject": "uncategorized", // NSObject subclass for doing interesting things.
-  "Snapper": "uncategorized", // An App.net client library for iOS and Mac.
+  "Snapper": "proprietary_api", // An App.net client library for iOS and Mac.
   "Snappy": "uncategorized", // A port of snappy-c to Objective-C.
-  "SnappySlider": "uncategorized", // A subclass of UISlider that snaps to pre-specified values, or detents.
-  "SNFSegmentedViewController": "uncategorized", // The simplest way to use a UISegmentedControl for switching between views.
-  "SNNeuralNet": "uncategorized", // A neural network library for Objective-C
+  "SnappySlider": "gui_slider", // A subclass of UISlider that snaps to pre-specified values, or detents.
+  "SNFSegmentedViewController": "gui", // The simplest way to use a UISegmentedControl for switching between views.
+  "SNNeuralNet": "machine_learning", // A neural network library for Objective-C
   "SNRFetchedResultsController": "uncategorized", // Automatic Core Data change tracking for OS X (NSFetchedResultsController port).
-  "SNRHUDKit": "uncategorized", // Code drawn AppKit HUD interface elements.
-  "SocialAccounts": "uncategorized", // SocialAccounts is an iOS framework that provides an easy way to manage social network accounts.
+  "SNRHUDKit": "gui", // Code drawn AppKit HUD interface elements.
+  "SocialAccounts": "proprietary_api", // SocialAccounts is an iOS framework that provides an easy way to manage social network accounts.
   "SocketClient": "uncategorized", // Simple, fast & reliable Faye Websocket client. Well documented API build on SocketRocket. Supports messaging on different channels.
   "socket.IO": "uncategorized", // socket.io v0.7.2+ for iOS devices.
   "SocketIOBlocks": "uncategorized", // Category on socket.IO-objc to use block callbacks instead of delegate callbacks.
@@ -3227,19 +3227,19 @@
   "SOCQ": "uncategorized", // Syntax for Objective-C Queries.
   "SOExtendedAttributes": "uncategorized", // SOExtendedAttributes is a category on NSURL for manipulating the extended attributes of a file system object. BSD License.
   "SoloComponents-iOS": "uncategorized", // Self-contained, two-file (.h/.m) iPhone/iPad components that are dead-easy to drop into your projects.
-  "sonos-objc": "uncategorized", // A simple Objective-C API for controlling Sonos Devices.
+  "sonos-objc": "proprietary_api", // A simple Objective-C API for controlling Sonos Devices.
   "SORelativeDateTransformer": "uncategorized", // An NSValueTransformer subclass to turn an NSDate into a string expressing its relative age from now.
-  "SoundManager": "uncategorized", // SoundManager is a simple class for playing sound and music in iOS or Mac apps.
+  "SoundManager": "audio", // SoundManager is a simple class for playing sound and music in iOS or Mac apps.
   "SOZOJulianDateConverter": "uncategorized", // Converts dates in the Julian calendar into NSDates for use in other calendrical systems.
-  "SparkInspector": "uncategorized", // Runtime Debugger for iOS Apps.
+  "SparkInspector": "debugging", // Runtime Debugger for iOS Apps.
   "SparkiOS": "uncategorized", // SparkiOS API library that allows authorized MLS members to request data through developer applications.
   "Sparrow-Framework": "uncategorized", // Objective-C library inspired by Adobe™ Flash and Starling that was built from ground up for iPhone, iPad and iPod Touch.
   "SpatialDBKit": "uncategorized", // SpatialDBKit is the spatial RDBMS for iOS.
   "spatialite": "sql", // SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
   "SPConnector": "uncategorized", // A SharePoint services library for iOS and OS X.
   "SPDebugMenu": "gui_menus", // Make your own debug menu with fully customizable actions.
-  "Specify": "uncategorized", // An Objective-C behaviour-driven development library.
-  "Specta": "uncategorized", // A light-weight TDD / BDD framework for Objective-C & Cocoa.
+  "Specify": "testing", // An Objective-C behaviour-driven development library.
+  "Specta": "testing", // A light-weight TDD / BDD framework for Objective-C & Cocoa.
   "SPGooglePlacesAutocomplete": "gui_autocomplete", // An objective-c wrapper around the Google Places autocomplete API. Includes sample application emulating the Maps app.
   "Spine-Cocos2d": "uncategorized", // 2D skeletal animation runtime for Spine
   "SpinKit": "uncategorized", // UIActivityIndicatorView replacement with multiple styles and animations.
@@ -3296,8 +3296,8 @@
   "StandardPaths": "uncategorized", // Category on NSFileManager for simple consistent access to standard application directories.
   "starIOPrintSDK": "uncategorized", // Star Micronics iOS Print SDK
   "StartAtLoginController": "uncategorized", // Easy to use controller that makes use of the Cocoa ServiceManagement APIs.
-  "StateMachine": "uncategorized", // State machine library for Objective-C.
-  "StateMachine-GCDThreadsafe": "uncategorized", // Threadsafe state machine library for Objective-C based on Grand Central Dispatch.
+  "StateMachine": "state_machine", // State machine library for Objective-C.
+  "StateMachine-GCDThreadsafe": "state_machine", // Threadsafe state machine library for Objective-C based on Grand Central Dispatch.
   "StaticDataTableViewController": "gui_tableview", // Enabling animated hide/show of static cells for UITableView.
   "Statistics": "uncategorized", // A stab at a very simple statistics class for Objective-C
   "STCollapseTableView": "gui_tableview", // A UITableView subclass that automatically collapse and/or expand your sections.
@@ -3332,7 +3332,7 @@
   "STTwitterTimeLine": "uncategorized", // To Fetch recent tweets of specified twitter-handle on iOS7/iOS6/iOS5
   "Stubbilino": "uncategorized", // Easy stubbing in Objective-C.
   "StudyplusSDK": "uncategorized", // Studyplus iOS SDK
-  "STWorkflow": "uncategorized", // An Objective-C Finite-state machine.
+  "STWorkflow": "state_machine", // An Objective-C Finite-state machine.
   "StyledPageControl": "uncategorized", // Customizable PageControl for iOS.
   "StyledTableViewCell-for-iOS": "gui_tableview", // Customize table view cell border and highlight colors.
   "SubjectiveScript.m": "uncategorized", // Subjective-Script makes Objective-C more scripty!
@@ -3496,7 +3496,7 @@
   "Transcript": "testing", // Improves SenTestingKit test output, and provides an API for defining custom reporters.
   "TransformerKit": "uncategorized", // A block-based API for NSValueTransformer, with a growing collection of useful examples.
   "Transit": "uncategorized", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
-  "TransitionKit": "uncategorized", // A block-based State Machine API for Objective-C.
+  "TransitionKit": "state_machine", // A block-based State Machine API for Objective-C.
   "TransloaditAPI": "uncategorized", // A simple API to upload files to transloadit.
   "TRAutocompleteView": "gui_autocomplete", // Flexible and highly configurable auto complete view, attachable to any UITextField.
   "TreasureData": "uncategorized", // Treasure Data Client Library for Objective-C.
@@ -3874,7 +3874,7 @@
   "YandexMobileMetrica": "uncategorized", // This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica
   "YapDatabase": "sql", // A key/value store built atop sqlite for iOS & Mac.
   "YASlidingViewController": "uncategorized", // A sliding UIViewController for iOS.
-  "YBStatechart": "uncategorized", // Framework for statecharts. A statecharts is a formalized type of finite state machine.
+  "YBStatechart": "state_machine", // Framework for statecharts. A statecharts is a formalized type of finite state machine.
   "YelpKit": "uncategorized", // An iOS framework for Objective-C, and contains some basics for image loading, caching, requests, views and layouts.
   "YFJLeftSwipeDeleteTableView": "gui_tableview", // Drop-in UITableView subclass that supports left-swipe cell deletion like in iOS7. (works both in iOS6 and iOS7).
   "YIDetectWindow": "uncategorized", // A subclass of UIWindow for detecting shake, status-bar-tap, long-press, touchBegan/Moved/Ended/Cancelled, via NSNotification.
