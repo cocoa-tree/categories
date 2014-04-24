@@ -17,4 +17,4 @@ The json files can be generated with:
 
 ## License
 
-Copyright 2014 by dpree. See [MIT-LICENSE](LICENSE.txt).
+Copyright 2014 Jens Bissinger. See [MIT-LICENSE](LICENSE.txt).
