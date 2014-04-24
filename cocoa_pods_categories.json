@@ -1151,7 +1151,7 @@
   "FXKeychain": "keychain", // FXKeychain is a lightweight wrapper around the Apple keychain APIs that provides a simple dictionary-like interface.
   "FXLabel": "gui", // UILabel subclass that supports soft shadows, inner shadow and gradient fill and custom leading/kerning.
   "FXNotifications": "notifications", // An alternative API for NSNotificationCenter that doesn't suck.
-  "FXPageControl": "28849878", // Drop-in replacement for UIPageControl that adds the ability to edit the dot color, shape, shadow, size, image and spacing.
+  "FXPageControl": "uncategorized", // Drop-in replacement for UIPageControl that adds the ability to edit the dot color, shape, shadow, size, image and spacing.
   "FXReachability": "uncategorized", // Lightweight reachability class for Mac and iOS.
   "GAI-AutomaticSessionManagement": "analytics", // Enables automatic session management for Google Analytics for iOS (GAI) version 3.
   "GA-iOS-SDK": "analytics", // GameAnalytics REST API SDK for iOS
