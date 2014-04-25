@@ -519,7 +519,7 @@
   "CDJSONExporter": "json", // Conversion of a Core Data Store to/from JSON.
   "CDLJSONPResponseSerializer": "json", // A JSONP response serializer for AFNetworking
   "CDOForceKeyboardLayout": "keyboard", // Easily add 'Force Keyboard Layout' functionality into your OSX app
-  "CDPlistManager": "plists", // Objective-c class for working with plist.
+  "CDPlistManager": "plist", // Objective-c class for working with plist.
   "CDSParticleFilter": "uncategorized", // Implements a particle filter in Objective C
   "CDTDatastore": "storage", // CDTDatastore is a document datastore which syncs.
   "CDZLinkOpenManager": "links", // Simple facility for your app's users to select a default alternative browser (Safari, Chrome, 1Password).
@@ -761,7 +761,7 @@
   "DAScratchPad": "uncategorized", // DAScratchPad is a UIView subclass that provides a simple drawing interface for use on iOS.
   "DateCellsController": "gui_tableview", // Simple ios controller for UITableView with date cells.
   "daum-oauth-sdk": "uncategorized", // SDK for Daum OAuth 2.0
-  "DB5": "uncategorized", // App Configuration via Plist.
+  "DB5": "plist", // App Configuration via Plist.
   "DBBasementController": "gui_menus", // A slide out menu just how I like it.
   "DBCamera": "camera", // DBCamera is a simple custom camera with AVFoundation
   "DBChooser": "uncategorized", // Add Dropbox to your app with a few lines of code.
@@ -2077,7 +2077,7 @@
   "MGTimelineManager": "uncategorized", // Easy to use twitter timeline manager & parser - Uses async twitter api fetches - see demo for capabilities/example useage.
   "MHCustomTabBarController": "uncategorized", // Custom UITabBar replacement using storyboard and segues.
   "MHDismissModalView": "uncategorized", // automatically sets the background with a blur effect and you can dismiss all modal views with a gesture
-  "MHFancyPants": "uncategorized", // Simple app styling via Plist.
+  "MHFancyPants": "plist", // Simple app styling via Plist.
   "MHHabitat": "uncategorized", // Environment inspector for iOS applications.
   "MHKitchenSink": "uncategorized", // Lots of cool iOS classes globbed together in one (soon-to-be) mega repository. Currency field delegate updates.
   "MHNatGeoViewControllerTransition": "uncategorized", // A new ViewController Transition.
@@ -2356,7 +2356,7 @@
   "NPRImageView": "images", // Instagram-like UIImageView subclass. Progress view and activity view appear during image download. Support memory and disk caching.
   "NRBlurryStepOutAnimatedTransitioning": "uncategorized", // Tweetbot like blurry modal view transitioning module for iOS7.
   "NRGramKit": "instagram_api", // A simple block-based library to access all the functions of the Instagram API.
-  "NRSimplePlist": "uncategorized", // Easy library to fetch and edit data from and to plists on the fly (XCode).
+  "NRSimplePlist": "plist", // Easy library to fetch and edit data from and to plists on the fly (XCode).
   "NRTextTransitions": "uncategorized", // Basic, block based, text transitions
   "NRTouchPoints": "touch", // UIWindow subclass that shows users touches on screen, for screen recording purposes
   "NSArrayAux": "uncategorized", // Auxilary methods for NSArray.
@@ -2473,7 +2473,7 @@
   "NYXImagesKit": "uncategorized", // A set of efficient categories for UIImage class. It allows filtering, resizing, masking, rotating, enhancing... and more.
   "NZAlertView": "uncategorized", // Simple and intuitive alert view. Similar to push notification effect.
   "NZAssetsLibrary": "uncategorized", // Save, delete and load images from specific album or device folder.
-  "NZBundle": "uncategorized", // Easily access and manipulate the the Info.plist file of your project.
+  "NZBundle": "plist", // Easily access and manipulate the the Info.plist file of your project.
   "NZCircularImageView": "uncategorized", // Performs async download image and leaves with rounded edge, used for presenting pictures of user profiles.
   "NZFadeImageView": "uncategorized", // This class performs the rotation of images with fade-in/fade-out effects in a given time interval.
   "NZGoogleAnalytics": "analytics", // Quickly and easily integration with Google Analytics API for iOS.
