@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+Bundler.require
+
+data = File.read('cocoa_pods_categories.json')
+pods_to_categories = JSON.parse(data)
+
+categories_pods_count = {}
+for pod_name, category_name in pods_to_categories
+  categories_pods_count[category_name] ||= 0
+  categories_pods_count[category_name] += 1
+end
+
+File.open('cocoa_pod_categories.json', 'w') do |f|
+  f.puts '{'
+  categories_pods_count.each do |category_name, category_pods_count|
+    f.puts "  \"#{category_name}\": #{category_pods_count},"
+  end
+  f.puts '}'
+end
