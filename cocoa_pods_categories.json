@@ -1906,8 +1906,8 @@
   "LLARateLimiter": "uncategorized", // A rate limiter with a delightful API.
   "LLBinaryOperators": "uncategorized", // Binary Enumeration Operators, since NSArray only supports object equality.
   "LLDBQuickLook": "uncategorized", // Quicklook support from the lldb console
-  "LLModel": "uncategorized", // LLModel is an Object Property Mapper from JSON values.
-  "LLRoundSwitch": "uncategorized", // Customizable replacement for UISwitch with ARC support.
+  "LLModel": "object_mapping", // LLModel is an Object Property Mapper from JSON values.
+  "LLRoundSwitch": "gui_switch", // Customizable replacement for UISwitch with ARC support.
   "LLTableViewAdapter": "gui_tableview", // A library for simplifying and removing a lot of the cruft needed to drive a UITableView.
   "LMAlertView": "uncategorized", // Open Source, customisable clone of UIAlertView for iOS 7
   "LNCollectionViewPagedLayout": "uncategorized", // UICollectionViewLayout that correctly pages the content.
@@ -1929,19 +1929,19 @@
   "Lookback": "uncategorized", // Lookback records screen, camera, touches etc and uploads it to http://lookback.io. Useful for UX research, QA bug reporting, etc.
   "Loopy": "analytics", // iOS Library for the Loopy Social Analytics Platform.
   "LoremIpsum": "uncategorized", // A lightweight lorem ipsum and image placeholders generator for Objective-C.
-  "LoremPixel": "uncategorized", // Simple library that fills imageViews with images from www.lorempixel.com
-  "LPActiveRecord": "uncategorized", // CoreData Wrapper.
+  "LoremPixel": "images", // Simple library that fills imageViews with images from www.lorempixel.com
+  "LPActiveRecord": "core_data", // CoreData Wrapper.
   "LPBicikeljStationsFunctions": "uncategorized", // LPBicikeljStationsFunctions is an iOS library that provides easy access to BicikeLJ.
   "LPDataStructures": "uncategorized", // Some sweet data structures
-  "LPGoogleFunctions": "uncategorized", // LPGoogleFunctions is an iOS library that provides easy access to certain Google API functions.
-  "LRGlowingButton": "uncategorized", // Subclass of UIButton with custom glow color.
-  "LRImageManager": "uncategorized", // Objective-C simple image manager with memory and disk cache support.
+  "LPGoogleFunctions": "google_api", // LPGoogleFunctions is an iOS library that provides easy access to certain Google API functions.
+  "LRGlowingButton": "gui_button", // Subclass of UIButton with custom glow color.
+  "LRImageManager": "images", // Objective-C simple image manager with memory and disk cache support.
   "LRMocky": "mocking", // A mock object library for Objective C, inspired by JMock 2.0.
-  "LRNavigationController": "uncategorized", // push NavigationController With Custom Animation
-  "LRNotificationObserver": "uncategorized", // A smarter, simple and better way to use NSNotificationCenter with RAII.
-  "LROAuth2Client": "uncategorized", // OAuth2 client for iPhone and iPad apps.
+  "LRNavigationController": "navigation", // push NavigationController With Custom Animation
+  "LRNotificationObserver": "notifications", // A smarter, simple and better way to use NSNotificationCenter with RAII.
+  "LROAuth2Client": "oauth", // OAuth2 client for iPhone and iPad apps.
   "LRResty": "uncategorized", // Resty is a simple to use HTTP library for Cocoa and iOS apps, aimed at consuming RESTful web services and APIs.
-  "LRScrollingSidebarController": "uncategorized", // A scrolling based sidebar controller.
+  "LRScrollingSidebarController": "gui_scroll", // A scrolling based sidebar controller.
   "LRTableModel": "uncategorized", // A JTable-inspired alternative way of modelling your table view data.
   "LRTVDBAPIClient": "uncategorized", // Objective-C wrapper for TheTVDB.
   "LTDribbbleAPI": "uncategorized", // Yet another Dribbble API client for iOS 6.0+ and Mac OS X 10.8+ based on AFNetworking 2.0.
@@ -1996,12 +1996,12 @@
   "MASShortcut": "keyboard", // Modern framework for managing global keyboard shortcuts compatible with Mac App Store.
   "MasterShareSDK": "uncategorized", // This is a simple open source project to make interfacing with social APIs easier.
   "MAZeroingWeakRef": "uncategorized", // Zeroing weak references for retain/release Objective-C.
-  "MBAlertView": "uncategorized", // Fast, fun, and simple block-based alerts and HUDs.
+  "MBAlertView": "gui_alert", // Fast, fun, and simple block-based alerts and HUDs.
   "MBCalendarKit": "gui_calendar", // An open source calendar view for iOS.
-  "MBCategory": "uncategorized", // A simple little helper library that adds methods to UIColor for getting colors from hex strings.
+  "MBCategory": "colors", // A simple little helper library that adds methods to UIColor for getting colors from hex strings.
   "MBCommon": "uncategorized", // MBCommon is a lightweight, generic Cocoa library for iOS and OS X.
   "MBContactPicker": "contacts", // A contact picker that looks like the one in Apple mail for iOS7. This implementation uses a UICollectionView.
-  "MBDebugPanel": "uncategorized", // A painless, configurable, hidden panel to add shortcuts to run code, test features, or whatever you like.
+  "MBDebugPanel": "debugging", // A painless, configurable, hidden panel to add shortcuts to run code, test features, or whatever you like.
   "MBFaker": "mocking", // Library that generates fake data.
   "MBHMAC": "crpyto", // HMAC additions for Objective-C NSString class.
   "MBImageConstants": "uncategorized", // Simple XCode 5 script that generates constants corresponding to image.
@@ -2015,8 +2015,8 @@
   "MBXMapKit": "mapkit", // One-line Mapbox integration with MapKit on iOS and OS X.
   "MCAnimationView": "uncategorized", // A UIImageView alternative for better animations
   "MCAWSS3Client": "amazon_api", // Amazon S3 client based on AFHTTPClient.
-  "MCCircularProgressView": "uncategorized", // An scalable and updatable progress well suited for applications with limited space.
-  "MCColoredPageControl": "uncategorized", // Fully customizable alternative to UIPageControl.
+  "MCCircularProgressView": "gui_progress", // An scalable and updatable progress well suited for applications with limited space.
+  "MCColoredPageControl": "colors", // Fully customizable alternative to UIPageControl.
   "MCDateExtensions": "uncategorized", // Extensions on the dates classes.
   "MCDebuggingTools": "debugging", // Various debugging tools to make your life easier.
   "MCGraylog": "logging", // MCGraylog is a Cocoa C library for logging to a Graylog2 server or any other service that can grok GELF.
@@ -2028,29 +2028,29 @@
   "MCSimpleTables": "gui_tableview", //     A simple UITableViewController subclass and helper classes for programmatically creating coded UITableViews. 
   "MCSMKeychainItem": "keychain", // A Keychain Wrapper for iOS and OS X.
   "MCSwipeTableViewCell": "gui_tableview", // Convenient UITableViewCell subclass that implements a swippable content to trigger actions (similar to the Mailbox app).
-  "MCUIColorUtils": "uncategorized", // UIColor utilities.
-  "MCUIImageAdvanced": "uncategorized", // Advanced and powerful functionality enhancements to UIImage.
-  "MCUIViewLayout": "uncategorized", // Layouting enhancements to UIView.
+  "MCUIColorUtils": "colors", // UIColor utilities.
+  "MCUIImageAdvanced": "images", // Advanced and powerful functionality enhancements to UIImage.
+  "MCUIViewLayout": "gui_layout", // Layouting enhancements to UIView.
   "MD5Digest": "crypto", // An Objective-C NSString category for MD5 hex digests.
   "MDAboutController": "uncategorized", // Automatically populated about view controller for iOS apps.
-  "MDAudioPlayerController": "uncategorized", // Audio Player with a user interface.
-  "MDCFocusView": "uncategorized", // Apply a "tutorial screen" overlay to your application window.
-  "MDCParallaxView": "uncategorized", // Create a parallax effect using a custom container view, much like the top view of Path's timeline.
-  "MDCScrollBarLabel": "uncategorized", // Like Path's timestamp scrollbar label.
-  "MDCShineEffect": "uncategorized", // Add a "shine" effect to any view.
-  "MDHTMLLabel": "uncategorized", // A lightweight, easy to use replacement for UILabel which allows you to fully customize the appearence of text using HTML.
-  "MDMCoreData": "uncategorized", // A collection of lightweight Core Data classes for iOS and OS X.
+  "MDAudioPlayerController": "audio", // Audio Player with a user interface.
+  "MDCFocusView": "gui", // Apply a "tutorial screen" overlay to your application window.
+  "MDCParallaxView": "gui", // Create a parallax effect using a custom container view, much like the top view of Path's timeline.
+  "MDCScrollBarLabel": "gui_scroll", // Like Path's timestamp scrollbar label.
+  "MDCShineEffect": "gui", // Add a "shine" effect to any view.
+  "MDHTMLLabel": "gui_label", // A lightweight, easy to use replacement for UILabel which allows you to fully customize the appearence of text using HTML.
+  "MDMCoreData": "core_data", // A collection of lightweight Core Data classes for iOS and OS X.
   "MDMGiftAppActivity": "uncategorized", // A UIActivity subclass that provides a "Gift App" action to a UIActivityViewController.
-  "MDMultilineTextView": "uncategorized", // A lightweight UITextView subclass that is growing and shrinking in size, has a placeholder label and uses auto layout.
-  "MDRadialProgress": "uncategorized", // MDRadialProgress is a custom UIView to display progress in discrete steps.
-  "MDSpreadView": "uncategorized", // A 2D table view for iOS apps!
+  "MDMultilineTextView": "gui_textview", // A lightweight UITextView subclass that is growing and shrinking in size, has a placeholder label and uses auto layout.
+  "MDRadialProgress": "gui_progress", // MDRadialProgress is a custom UIView to display progress in discrete steps.
+  "MDSpreadView": "gui_tableview", // A 2D table view for iOS apps!
   "MDWamp": "uncategorized", // A client side objective-C implementation of the WebSocket subprotocol WAMP
   "MEActionSheet": "uncategorized", // UIActionSheet subclass with a simpler API using blocks and target/action invocations.
-  "MEAlertView": "uncategorized", // UIAlertView subclass with a simpler API using blocks and target/action invocations.
+  "MEAlertView": "gui_alert", // UIAlertView subclass with a simpler API using blocks and target/action invocations.
   "MendeleySDK": "uncategorized", // Objective-C client for the Mendeley Open API.
   "Mensa": "uncategorized", // Smart, modern table views on iOS.
   "MessageBarManager": "uncategorized", // An iOS manager for presenting system-wide notifications via a dropdown message bar.
-  "MessagePack": "uncategorized", // Extremely efficient object serialization library. It's like JSON, but very fast and small.
+  "MessagePack": "message_pack", // Extremely efficient object serialization library. It's like JSON, but very fast and small.
   "MessagesTableViewController": "gui_tableview", // A messages UI for iPhone and iPad.
   "MetricsKit": "uncategorized", // Clean Objective-C client for count.ly.
   "MFCache": "uncategorized", // A lightweight iOS cache class.
@@ -3548,7 +3548,7 @@
   "TWRProgressView": "uncategorized", // A custom progress view to be used with masking images.
   "TWSReleaseNotesView": "uncategorized", // A simple way to show in-app release notes in your iOS applications.
   "TWStatus": "uncategorized", // Show notification status on Status bar mimicking Sunrise and Mailbox
-  "TWToolBar": "uncategorized", // TWToolBar is a widget library for Taskworld mobile app.
+  "TWToolBar": "gui_toolbar", // TWToolBar is a widget library for Taskworld mobile app.
   "TWTSideMenuViewController": "gui_menus", // Side Menus for iOS 7.
   "TWTToast": "uncategorized", // Tools and Utilities for Cocoa Development
   "TwUI": "uncategorized", // A UI framework for Mac based on Core Animation.
