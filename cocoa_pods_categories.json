@@ -524,7 +524,7 @@
   "CDTDatastore": "storage", // CDTDatastore is a document datastore which syncs.
   "CDZLinkOpenManager": "links", // Simple facility for your app's users to select a default alternative browser (Safari, Chrome, 1Password).
   "CDZPinger": "icmp", // Easy-to-use ICMP Ping for iOS (and maybe OSX).
-  "CDZQRScanningViewController": "barcode", // Easy QR code scanning on iOS 7.
+  "CDZQRScanningViewController": "qr_code", // Easy QR code scanning on iOS 7.
   "Cedar": "testing", // BDD-style testing using Objective-C.
   "CedarAsync": "testing", // asynchronous testing for Cedar (and others).
   "Cedule": "uncategorized", // Task scheduler
@@ -1138,10 +1138,10 @@
   "FTUIKit": "uikit_extensions", // Feedtailor's extension to UIIKit.
   "FTUtils": "uncategorized", // Phone utilities mostly for Core Animation.
   "FTWButton": "uncategorized", // A UIControl subclass with easy color, gradient, text, and icon properties.
-  "FUIVerticalTabBarController": "uncategorized", // An awesome flat vertical tab bar controller for iOS.
-  "fullcontact-objc": "uncategorized", // Objective-C library to access FullContact's v2 API endpoints via iOS and Mac OS X.
-  "Functional.m": "uncategorized", // Categories for functional programming in Objective-C.
-  "Funcussion": "uncategorized", // A library providing functional operations for Objective C collections.
+  "FUIVerticalTabBarController": "tabs", // An awesome flat vertical tab bar controller for iOS.
+  "fullcontact-objc": "proprietary_api", // Objective-C library to access FullContact's v2 API endpoints via iOS and Mac OS X.
+  "Functional.m": "functional_programming", // Categories for functional programming in Objective-C.
+  "Funcussion": "functional_programming", // A library providing functional operations for Objective C collections.
   "Futility": "uncategorized", // Some reusable iOS goodness, brought to you by Futurice.
   "FWTPushNotifications": "notifications", // Utility classes to integrate with FWTPushNotificationServer gem.
   "FXBlurView": "uncategorized", // UIView subclass that replicates the iOS 7 realtime background blur effect, but works on iOS 5 and above.
@@ -1730,8 +1730,8 @@
   "KGStatusBar": "uncategorized", // A minimal status bar for iOS.
   "KHFlatButton": "uncategorized", // KHFlatButton for iOS 7
   "KHGravatar": "gravatar", // A library to easily build URLs for Gravatar profile images, and also includes an AFNetworking 2 extension.
-  "KIF": "uncategorized", // Keep It Functional - iOS UI acceptance testing in an OCUnit harness.
-  "KIF-next": "uncategorized", // DEPRECATED: Please use KIF.
+  "KIF": "testing", // Keep It Functional - iOS UI acceptance testing in an OCUnit harness.
+  "KIF-next": "testing", // DEPRECATED: Please use KIF.
   "KIFViewControllerActions": "uncategorized", // Adds actions to KIF for presenting view controllers to aid in functional testing.
   "KIImagePager": "uncategorized", // This UIView Subclass is used to present Images loaded from the Web and is inspired from foursquare's Image Slideshow.
   "KiiToolkit": "uncategorized", // A suite of iOS classes and methods to make app development simpler.
@@ -2360,7 +2360,7 @@
   "NRTextTransitions": "uncategorized", // Basic, block based, text transitions
   "NRTouchPoints": "touch", // UIWindow subclass that shows users touches on screen, for screen recording purposes
   "NSArrayAux": "uncategorized", // Auxilary methods for NSArray.
-  "NSArray+Functional": "uncategorized", // ObjC category that adds functional programming methods to NSArray.
+  "NSArray+Functional": "functional_programming", // ObjC category that adds functional programming methods to NSArray.
   "NSArray+LongestCommonSubsequence": "uncategorized", // A category on NSArray that finds the indexes of the longest common subsequence with another array.
   "NSArray+SafeAccess": "uncategorized", // NSArray category for avoiding NSRangeException
   "NSArray+Size": "uncategorized", // Create and check whether NSArrays are of a certain size. Great for datasources and forms.
@@ -2515,9 +2515,9 @@
   "ObjectiveTumblr": "uncategorized", // Tumblr API Client for Objective-C with minimal features, based on Tumblr API v2 (OAuth).
   "ObjectiveWMM": "uncategorized", // An Objective-C iOS wrapper for the World Magnetic Model 2010.
   "objective-zip": "uncategorized", // An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X.
-  "ObjectiveZMQ": "uncategorized", // High-level Objective-C bindings for ØMQ.
-  "ObjectXML": "uncategorized", // Simple XML object model for Objective-C from NSXMLParser.
-  "ObjQREncoder": "uncategorized", // Objective C QR Encoder.
+  "ObjectiveZMQ": "zero_mq", // High-level Objective-C bindings for ØMQ.
+  "ObjectXML": "xml", // Simple XML object model for Objective-C from NSXMLParser.
+  "ObjQREncoder": "qr_code", // Objective C QR Encoder.
   "OBMenuBarWindow": "gui_menus", // An NSWindow subclass that can be attached to the menu bar
   "OBShapedButton": "uncategorized", // A UIButton subclass that works with non-rectangular button shapes.
   "OBSlider": "uncategorized", // A UISlider subclass that adds variable scrubbing speeds.
@@ -2802,8 +2802,8 @@
   "QMBTabs": "uncategorized", // A Google Chrome like tab view controller.
   "QMonthElement": "uncategorized", // A month picker element for QuickDialog.
   "QNDAnimations": "gui_animation", // This is an implementation of a UIView that introduces the idea of 'rewinding', 'toggling' and 'forwarding' in animations.
-  "QRCodeEncoder": "barcode", // QRCode encoder for OS X
-  "QR-Code-Encoder-for-Objective-C": "barcode", // An implementation of QR code encoder for Objective-C ported from Psytec library.
+  "QRCodeEncoder": "qr_code", // QRCode encoder for OS X
+  "QR-Code-Encoder-for-Objective-C": "qr_code", // An implementation of QR code encoder for Objective-C ported from Psytec library.
   "QTree-objc": "uncategorized", // Library for location-based clustering of data using Quadtree written in Objective-C.
   "QuadCurveMenu": "gui_menus", // Path 2.0 menu (configurable, extendable, and composable).
   "Quantcast-Measure": "uncategorized", // Quantcast Measure for iOS.
