@@ -2945,7 +2945,7 @@
   "RNPinnedCertValidator": "crypto", // Simplify validating pinned SSL certificates.
   "RNRippleTableView": "gui_tableview", // A custom table view with highly detailed ripple animations.
   "RNSwipeViewController": "uncategorized", // A custom table view with highly detailed ripple animations.
-  "RNTextStatistics": "string", // A category on NSString to gather advanced statistics on text.
+  "RNTextStatistics": "strings", // A category on NSString to gather advanced statistics on text.
   "RNThemeManager": "uncategorized", // Easily manage themes and respond to theme changes by updating views in real time.
   "RNTimer": "uncategorized", // Simple GCD-based timer based on NSTimer.
   "ROADFramework": "uncategorized", // ROAD iOS Framework
