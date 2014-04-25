@@ -929,7 +929,7 @@
   "EasyTableView": "gui_tableview", // Horizontal and vertical scrolling table views for iOS.
   "EasyViewPager": "uncategorized", // A ViewPager port to iOS
   "EChart": "charts", // iOS/iPhone/iPad Chart, Graph. Event handling and animation supported.
-  "ECPhoneNumberFormatter": "phone", // NSFormatter subclass for formatting phone numbers.
+  "ECPhoneNumberFormatter": "phone_numbers", // NSFormatter subclass for formatting phone numbers.
   "ECSlidingViewController": "gui_slider", // View controller container that presents its child view controllers in two sliding layers. Inspired by the Path 2.0 and Facebook iPhone apps.
   "EDAssert": "uncategorized", // Assertion extensions and utilities for OCUnit.
   "EDColor": "uncategorized", // A collection of categories and utilities that extend UIColor.
@@ -1877,7 +1877,7 @@
   "libimobiledevice": "uncategorized", // A library to communicate with services of Apple iOS devices using native protocols.
   "libintl-alternative": "uncategorized", // Replace libintl part of gettext runtime with NSBundle localizedString: for OSX/iOS.
   "libkml": "uncategorized", // a KML library written in C++.
-  "libPhoneNumber-iOS": "uncategorized", // iOS library for parsing, formatting, storing and validating international phone numbers from libphonenumber library.
+  "libPhoneNumber-iOS": "phone_numbers", // iOS library for parsing, formatting, storing and validating international phone numbers from libphonenumber library.
   "libplist": "apple_api", // Apple Binary and XML Property Lists
   "libPusher": "uncategorized", // An Objective-C client for the Pusher.com service
   "libqrencode": "barcode", // Libqrencode is a C library for encoding data in a QR Code symbol.
@@ -1952,7 +1952,7 @@
   "lua": "uncategorized", // The lua language (for embedding).
   "LUKeychainAccess": "keychain", // A wrapper for iOS Keychain Services that behaves just like NSUserDefaults.
   "LumberjackConsole": "uncategorized", // On-device CocoaLumberjack console with support for search, filters and more.
-  "LumberjackPrettyClassInformation": "uncategorized", // A CocoaLumberjack log formatter for pretty class information output.
+  "LumberjackPrettyClassInformation": "prettyfier", // A CocoaLumberjack log formatter for pretty class information output.
   "LVDebounce": "uncategorized", // LVDebounce provides an NSTimer-like class for debouncing method calls.
   "LVTwitterOAuthClient": "uncategorized", // Super simple oAuth Client for the Twitter API
   "LWF": "uncategorized", // LWF (Lightweight SWF) is an open-source framework for importing Adobe Flash animations into iOS UIKit, HTML5, Cocos2d-x, Unity, and more.
@@ -2082,7 +2082,7 @@
   "MHKitchenSink": "uncategorized", // Lots of cool iOS classes globbed together in one (soon-to-be) mega repository. Currency field delegate updates.
   "MHNatGeoViewControllerTransition": "uncategorized", // A new ViewController Transition.
   "MHNibLoading": "uncategorized", // Simple UIView category for creating instances from nibs
-  "MHPrettyDate": "uncategorized", // An iOS framework that provides a simple mechanism to get  "Pretty Dates" ("Yesterday", "Today", etc.) from NSDate objects.
+  "MHPrettyDate": "dates", // An iOS framework that provides a simple mechanism to get  "Pretty Dates" ("Yesterday", "Today", etc.) from NSDate objects.
   "MHRotaryKnob": "uncategorized", // UIControl for iOS that acts like a rotary knob.
   "MHSegmentedView": "uncategorized", // A tabbed Viewcontainer using UISegmetedControl
   "MHTabBarController": "tabs", // A custom tab bar controller for iOS 5.
@@ -2674,7 +2674,7 @@
   "PHFDelegateChain": "delegates", // Easily create delegation chains.
   "PHFRefreshControl": "uncategorized", // YAPTR(TM): Yet another pull-to-refresh.
   "PhoenixPlatform-iOS-SDK": "uncategorized", // TSPhoenix is a framework providing access to Tigerspike Phoenix Rest APIs at http://phoenixplatform.com.sg
-  "PhoneNumberFormatter": "uncategorized", // NSFormatter subclass for formatting phone numbers.
+  "PhoneNumberFormatter": "phone_numbers", // NSFormatter subclass for formatting phone numbers.
   "PhotoPickerPlus": "uncategorized", // iOS component for picking photos from the iDevice & web using the Chute Platform.
   "PHSideScrollingImagePicker": "uncategorized", // iOS 7-style Image Picker
   "PhysicalKeyboardNotifications": "keyboard", // Posting notifications on iPhone simulator when physical keyboard is pressed. Useful for debugging
@@ -2743,7 +2743,7 @@
   "PRAugmentedReality": "uncategorized", // iOS AR Library.
   "PREBorderView": "uncategorized", // A very simple Objective-C UIView category for specifying single-sided borders.
   "PrettyKit": "uncategorized", // PrettyKit for iOS is a small set of new widgets and UIKit subclasses that gives you a deeper UIKit customization.
-  "PrettyTimestamp": "uncategorized", // An NSDate Category that returns human readable, pretty timestamps between two dates. Now available with localisation.
+  "PrettyTimestamp": "dates", // An NSDate Category that returns human readable, pretty timestamps between two dates. Now available with localisation.
   "Primus": "uncategorized", // Easily switch between different real-time Objective-C frameworks without any code changes.
   "PrimusEmitter": "uncategorized", // Simple emitter wrapper for primus-objc
   "ProgressHUD": "uncategorized", // ProgressHUD is a lightweight and easy-to-use HUD for iOS 7. (Objective-C)
@@ -3061,7 +3061,7 @@
   "SecureUDID": "crypto", // SecureUDID is an open-source sandboxed UDID solution aimed at solving the main privacy issues that caused Apple to deprecate UDIDs.
   "SEDraggable": "gui_dragging", // Drag and drop UIView subclasses for iOS.
   "SEEActivityIndicatorView": "gui_progress", // A drop in replacement for UIActivityIndicatorView that looks like the Seesaw logo.
-  "SEEPhoneNumberFormatter": "uncategorized", // Format phone numbers in Objective-C using libphonenumber.
+  "SEEPhoneNumberFormatter": "phone_numbers", // Format phone numbers in Objective-C using libphonenumber.
   "SEFilterControl": "uncategorized", // An iOS Filter UIControl Subclass. Zero Graphics. Highly Customizable.
   "SEGModules": "uncategorized", // A library to bring modules/mixins/concrete protocols to Objective-C.
   "SEGObserving": "kvo", // A pretty block-based wrapper around KVO.
