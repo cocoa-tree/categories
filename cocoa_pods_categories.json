@@ -2006,7 +2006,7 @@
   "MBHMAC": "crpyto", // HMAC additions for Objective-C NSString class.
   "MBImageConstants": "uncategorized", // Simple XCode 5 script that generates constants corresponding to image.
   "MBMapSnapshotter": "uncategorized", // Make static images from MapBox without loosing the coordinates
-  "MBMvc": "uncategorized", // MBMvc is a Message Based MVC framework.
+  "MBMvc": "mvc_framework", // MBMvc is a Message Based MVC framework.
   "MBPopoverBackgroundView": "uncategorized", // Class to implement custom UIPopoverController background view.
   "MBProgressHUD": "uncategorized", // An iOS activity indicator view.
   "MBPullDownController": "uncategorized", // An iOS container view controller for pullable scroll view interfaces.
@@ -2510,9 +2510,9 @@
   "ObjectiveMetrics": "uncategorized", // Implementation of DeskMetrics for iOS & OS X.
   "ObjectiveMixin": "uncategorized", // Ruby-like mixin functionality for Objective-C programs.
   "ObjectiveRecord": "core_data", // Lightweight and sexy Core Data finders, creators and other methods. Rails syntax.
-  "Objective-Shorthand": "uncategorized", // Objective-Shorthand is a set of categories on Foundation objects that make long things in Objective-C short.
-  "ObjectiveSugar": "uncategorized", // Objective C additions for humans. Write ObjC _like a boss_.
-  "ObjectiveTumblr": "uncategorized", // Tumblr API Client for Objective-C with minimal features, based on Tumblr API v2 (OAuth).
+  "Objective-Shorthand": "syntax_shugar", // Objective-Shorthand is a set of categories on Foundation objects that make long things in Objective-C short.
+  "ObjectiveSugar": "syntax_shugar", // Objective C additions for humans. Write ObjC _like a boss_.
+  "ObjectiveTumblr": "proprietary_api", // Tumblr API Client for Objective-C with minimal features, based on Tumblr API v2 (OAuth).
   "ObjectiveWMM": "uncategorized", // An Objective-C iOS wrapper for the World Magnetic Model 2010.
   "objective-zip": "compression", // An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X.
   "ObjectiveZMQ": "zero_mq", // High-level Objective-C bindings for ØMQ.
@@ -2780,7 +2780,7 @@
   "PullToRefreshView": "uncategorized", // A UIView for easily implementing pull-to-refresh functionality in a UIScrollView that doesn't suck.
   "PulsingHalo": "uncategorized", // iOS Component For Creating A Pulsing Animation Great For Map Annotations And Beacons
   "PunchScrollView": "gui_tableview", // PunchScrollView is a iOS ScrollView framework which works like the UITableView.
-  "puremvc": "uncategorized", // A lightweight framework for creating applications based upon the classic Model-View-Controller design meta-pattern.
+  "puremvc": "mvc_framework", // A lightweight framework for creating applications based upon the classic Model-View-Controller design meta-pattern.
   "PushAd": "uncategorized", // PushAd advertisement SDK
   "PusherMan": "notifications", // A class that handles registration and handling of push notifications tokens in iOS.
   "PushSpring": "notifications", // Send beautiful in-app messages to your users via push notifications.
@@ -2983,7 +2983,7 @@
   "rtmp-wrapper": "uncategorized", // librtmp wrapper library for IOS
   "RTToastMessage": "uncategorized", // Yet another toast messages presenter for iOS with nice animations and customisation options.
   "RubyCocoaString": "uncategorized", // Ruby string manipulation methods as a category on NSString.
-  "RubySugar": "uncategorized", // Ports Ruby syntactic sugar to Objective-C.
+  "RubySugar": "syntax_shugar", // Ports Ruby syntactic sugar to Objective-C.
   "rump-ios": "uncategorized", // Rump-iOS is Rump client for iOS devices..
   "RunKeeper-iOS": "uncategorized", // An iOS RunKeeper API module.
   "RuntimeHelpers": "uncategorized", // A collection of helpers related to objc/runtime.
@@ -3262,23 +3262,23 @@
   "SQLClient": "sql", // Native SQL Server client for iOS.
   "sqlite3": "sql", // SQLite is an embedded SQL database engine.
   "sqlite3-objc": "sql", // Sqlite3 Objective-C wrapper.
-  "Sqwiggle": "uncategorized", // Objective-C Wrapper for Sqwiggle API
-  "SRGridLocation": "uncategorized", // SRGridLocation provides a convenient way to convert between Swedish grid and GPS location coordinates.
+  "Sqwiggle": "proprietary_api", // Objective-C Wrapper for Sqwiggle API
+  "SRGridLocation": "geo_location", // SRGridLocation provides a convenient way to convert between Swedish grid and GPS location coordinates.
   "SRMonthPicker": "uncategorized", // Like UIDatePicker, but without the days.
   "SRVPickerButton": "uncategorized", // A UIButton that presents a picker view for input.
   "SSAccessibility": "uncategorized", // A VoiceOver speech synthesizer and other iOS accessibility helpers.
   "SSApplication": "uncategorized", // A UIApplication subclass to start your app off right.
   "SSAppURLs": "uncategorized", // Quickly check for and open URLs using iOS app URL schemes.
-  "SSCache": "uncategorized", // Simple in memory and on disk cache.
+  "SSCache": "caching", // Simple in memory and on disk cache.
   "SSCheckBoxView": "uncategorized", // SSCheckBoxView is a check box UI control for iOS apps.
   "SSCollectionViewExchangeController": "uncategorized", // SSCollectionViewExchangeController manages the process of exchanging 2 items in a collection view.
   "SSCWhatsAppActivity": "uncategorized", // A UIActivity subclass for sharing messages with WhatsApp.
-  "SSDataKit": "uncategorized", // Eliminate your Core Data boilerplate code.
+  "SSDataKit": "core_data", // Eliminate your Core Data boilerplate code.
   "SSDataSources": "gui_tableview", // Simple data sources for your UITableView and UICollectionView.
   "SSDynamicText": "uncategorized", // UILabel/TextField/TextView subclasses that support custom fonts with iOS 7's dynamic text sizes.
   "SSEvernoteSDKPatch": "uncategorized", // Provide a simple wrapper over Evernote iOS SDK to allow developers to download thumbnail image of a note or a resource image.
-  "SSFlatDatePicker": "uncategorized", // An iOS custom date picker in the flat design.
-  "SSGentleAlertView": "uncategorized", // This is gentler than UIAlertView and This can be changed the Appearance unlike UIAlertView.
+  "SSFlatDatePicker": "gui_calendar", // An iOS custom date picker in the flat design.
+  "SSGentleAlertView": "gui_alert", // This is gentler than UIAlertView and This can be changed the Appearance unlike UIAlertView.
   "SSKeychain": "keychain", // Simple Cocoa wrapper for the keychain that works on Mac and iOS.
   "SSLunarDate": "date", // This is an iOS Chinese Lunar date framework, which can convert the NSDate to a Lunar date, and Lunar holiday
   "SSOperations": "uncategorized", // Handy NSOperationQueue and NSBlockOperation helpers.
@@ -3304,8 +3304,8 @@
   "STColorPicker": "uncategorized", // A color picker presented in a UIView.
   "STDebugKit": "uncategorized", // Offer access to several debug tools within your app, such as CoreData browsing.
   "STDeferred": "uncategorized", // STDeferred is simple implementation of Deferred object.
-  "STHTTP": "uncategorized", // HTTP library for iOS 5+ and Mac OS X 10.7+, based on NSURLConnection
-  "STLOAuth": "uncategorized", // OAuth 1.0a client using AFNetwork.
+  "STHTTP": "http_client", // HTTP library for iOS 5+ and Mac OS X 10.7+, based on NSURLConnection
+  "STLOAuth": "oauth", // OAuth 1.0a client using AFNetwork.
   "StompKit": "uncategorized", // STOMP Objective-C Client for iOS.
   "Stop-Walking-iPhone": "uncategorized", // Save the children from texting while walking with iPhone.
   "StopWatch": "uncategorized", // StopWatch view with BBControl buttons.
@@ -3313,15 +3313,15 @@
   "StoreKISS": "store_kit", // Lightweight wrapper for Apple's StoreKit framework created with KISS concept and love ❤.
   "StoryboardInitializer": "storyboard", // It is handling instantiateViewControllerWithIdentifier: of storyboard.
   "StoryboardSupport": "storyboard", // Utilities to make prototyping with Storyboards easier, created for designers.
-  "STPhoneFormatter": "uncategorized", // A custom formatter to deal with an international phone number inside a UITextField.
+  "STPhoneFormatter": "phone_numbers", // A custom formatter to deal with an international phone number inside a UITextField.
   "STPImboClient": "uncategorized", // STPImbo is a simple helper to create image URLs for imbo Image Server.
-  "STPTransitions": "uncategorized", // Unified, easy API for custom iOS view controller transitioning.
+  "STPTransitions": "gui_transitions", // Unified, easy API for custom iOS view controller transitioning.
   "Strawberry": "models", // A wonderful iOS and OS X model framework
-  "StreamingKit": "uncategorized", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
+  "StreamingKit": "audio", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
   "Stretchr": "uncategorized", // The Cocoa SDK for the Stretchr platform.
-  "STRFTimeFormatter": "uncategorized", // NSDateFormatter replacement for machine encoded dates.
+  "STRFTimeFormatter": "date", // NSDateFormatter replacement for machine encoded dates.
   "StringCoding": "uncategorized", // Simple library for setting object properties of any type using string values. Great for configuration files.
-  "StringScore": "uncategorized", // StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring.
+  "StringScore": "search", // StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring.
   "Stripe": "payment", // Stripe is a web-based API for accepting payments online.
   "STScratchView": "uncategorized", // A UIView which allow a manual and automatic scratching behavior.
   "STSpriteKit": "uncategorized", // SpriteKit helpers and additions. Parallax Node
@@ -3389,7 +3389,7 @@
   "TBCollectionCanvas": "uncategorized", // A canvas displaying views that can be moved and connected.
   "TBImagePickerController": "uncategorized", // A UIImagePickerController that displays a UIActionSheet to select the source type (camera or library) if the current device has a camera.
   "TBLCategories": "utilities", // Some useful Objective-C categories
-  "TBMacros": "utilities", // A collection of Objective-C syntatic sugar
+  "TBMacros": "syntax_shugar", // A collection of Objective-C syntatic sugar
   "TBQuadTree": "uncategorized", // Quad tree data structure build in C.
   "TBXML": "xml", // Super-fast, lightweight, easy to use XML parser for the Mac & iOS.
   "TBXML+NSDictionary": "xml", // XML to NSDictionary through TBXML.
@@ -3619,40 +3619,40 @@
   "UIFontWDCustomLoader": "uncategorized", // An iOS custom font loader
   "UIForLumberjack": "uncategorized", // iOS UI library to display CocoaLumberjack logs on iOS device
   "UIGlossyButton": "uncategorized", // Generate system like or other nice button without any image.
-  "UIImage+Additions": "uncategorized", // Adding methods to generate dynamically images from colors, adding corner radius, tinting images, etc.
-  "UIImage+animatedGif": "uncategorized", // Adds animatedGifWithAnimatedGifData methods to UIImage.
-  "UIImage-ASMPDF": "uncategorized", // A category on UIImage for loading PDFs, inspired by UIImage-PDF.
-  "UIImage+AverageColor": "uncategorized", // Category method to return the average color for an image’s pixels.
-  "UIImage+BlurAndDarken": "uncategorized", // A category on UIImage to return a blurred and/or darkened copy of the receiver.
-  "UIImage+BlurredFrame": "uncategorized", // UIImage+BlurredFrame is a UIImage category that blurs an specified frame of a UIImage
-  "UIImage-Categories": "uncategorized", // UIImage categories extension for resizing, change alpha, and create round corner.
-  "UIImage+DecompressAndMap": "uncategorized", // iOS library for quickly displaying images while scrolling
-  "UIImage+Dummy": "uncategorized", // UIImage+Dummy category provides method to create dummy image for iOS 6.0+.
-  "UIImageEffects": "uncategorized", // Create iOS7 blur effects from an image. WWDC 2013 Apple sample code.
-  "UIImage-Filter": "uncategorized", // A UIImage Category to make filtering UIImage's easy
-  "UIImage-Helpers": "uncategorized", // UIImage category. Create a blurred images, take a screenshot, make a image with color...
-  "UIImage+ImageCompress": "uncategorized", // Easy compression of images for UIImage class
-  "UIImage+ImageWithColor": "uncategorized", // Creates a 1x1 UIImage with its pixel set to the color you choose.
-  "UIImage+InvertedImage": "uncategorized", // Returns a new image that is the receiver with all colors inverted.
-  "UIImage+MMLaunchImage": "uncategorized", // Returns the current launch image 'Default.png' for an iOS app, depending on OS version, device and orientation.
-  "UIImage+PDF": "uncategorized", // Simple UIImage+PDF renderer category for iOS scalable assets.
-  "UIImage-Resize": "uncategorized", // Category to add some resizing methods to the UIImage class, to resize it to a given CGRect — or fit in a CGRect keeping aspect ratio.
-  "UIImage+RTTint": "uncategorized", // Retina-aware category for tinting, darkening and lightening a UIImage.
-  "UIImage+SpriteAdditions": "uncategorized", // Useful UIImage category for handling sprite sheets.
-  "UIImage+TextureAtlas": "uncategorized", // UIImage category to convert XCode generated Texture Atlas files into UIImages. Useful for animations outside of SpriteKit.
-  "UIImage+Transforms": "uncategorized", // Methods and functions for manipulating UIImages
-  "UIImage-Vector": "uncategorized", // UIImage category for dealing with vector formats like PDF and icon fonts.
+  "UIImage+Additions": "images", // Adding methods to generate dynamically images from colors, adding corner radius, tinting images, etc.
+  "UIImage+animatedGif": "images", // Adds animatedGifWithAnimatedGifData methods to UIImage.
+  "UIImage-ASMPDF": "images", // A category on UIImage for loading PDFs, inspired by UIImage-PDF.
+  "UIImage+AverageColor": "images", // Category method to return the average color for an image’s pixels.
+  "UIImage+BlurAndDarken": "images", // A category on UIImage to return a blurred and/or darkened copy of the receiver.
+  "UIImage+BlurredFrame": "images", // UIImage+BlurredFrame is a UIImage category that blurs an specified frame of a UIImage
+  "UIImage-Categories": "images", // UIImage categories extension for resizing, change alpha, and create round corner.
+  "UIImage+DecompressAndMap": "images", // iOS library for quickly displaying images while scrolling
+  "UIImage+Dummy": "images", // UIImage+Dummy category provides method to create dummy image for iOS 6.0+.
+  "UIImageEffects": "images", // Create iOS7 blur effects from an image. WWDC 2013 Apple sample code.
+  "UIImage-Filter": "images", // A UIImage Category to make filtering UIImage's easy
+  "UIImage-Helpers": "images", // UIImage category. Create a blurred images, take a screenshot, make a image with color...
+  "UIImage+ImageCompress": "images", // Easy compression of images for UIImage class
+  "UIImage+ImageWithColor": "images", // Creates a 1x1 UIImage with its pixel set to the color you choose.
+  "UIImage+InvertedImage": "images", // Returns a new image that is the receiver with all colors inverted.
+  "UIImage+MMLaunchImage": "images", // Returns the current launch image 'Default.png' for an iOS app, depending on OS version, device and orientation.
+  "UIImage+PDF": "images", // Simple UIImage+PDF renderer category for iOS scalable assets.
+  "UIImage-Resize": "images", // Category to add some resizing methods to the UIImage class, to resize it to a given CGRect — or fit in a CGRect keeping aspect ratio.
+  "UIImage+RTTint": "images", // Retina-aware category for tinting, darkening and lightening a UIImage.
+  "UIImage+SpriteAdditions": "images", // Useful UIImage category for handling sprite sheets.
+  "UIImage+TextureAtlas": "images", // UIImage category to convert XCode generated Texture Atlas files into UIImages. Useful for animations outside of SpriteKit.
+  "UIImage+Transforms": "images", // Methods and functions for manipulating UIImages
+  "UIImage-Vector": "images", // UIImage category for dealing with vector formats like PDF and icon fonts.
   "UIImageView-Gravatar": "gravatar", // A simple and quickly put together UIImageView subclass for dealing with http://gravatar.com images.
-  "UIImageViewModeScaleAspect": "uncategorized", // Create animation of a UIImageView between twice contentMode ( UIViewContentModeScaleAspectFill / UIViewContentModeScaleAspectFit ).
+  "UIImageViewModeScaleAspect": "images", // Create animation of a UIImageView between twice contentMode ( UIViewContentModeScaleAspectFill / UIViewContentModeScaleAspectFit ).
   "UIKitCategoryAdditions": "uncategorized", // Block based Category additions for AlertView and ActionSheets.
   "UIKitHelper": "uncategorized", // UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement.
   "UIKitResources": "uncategorized", // This repository includes UIKit resources of Apple iOS7.
   "UILabel+ContentSize": "uncategorized", // Get the content size of a UILabel with text, because I always forget how to and want to have it in one god damn place.
   "UIMenuItem-CXAImageSupport": "gui_menus", // UIMenuItem with Image Support.
-  "UINavigationController+Blocks": "uncategorized", // UINavigationController category with completion and back blocks.
-  "UINavigationItem+AnimatedPrompt": "uncategorized", // Category for UINavigationItem to get a callback after prompt is finished animated.
-  "UINavigationItem-iOS7Spacing": "uncategorized", // Category to fix iOS 7 UINavigationItem spacing.
-  "UIPhotoGallery": "uncategorized", // Set of extended & customizable views to show Photo Gallery for iOS UIKit.
+  "UINavigationController+Blocks": "navigation", // UINavigationController category with completion and back blocks.
+  "UINavigationItem+AnimatedPrompt": "navigation", // Category for UINavigationItem to get a callback after prompt is finished animated.
+  "UINavigationItem-iOS7Spacing": "navigation", // Category to fix iOS 7 UINavigationItem spacing.
+  "UIPhotoGallery": "images", // Set of extended & customizable views to show Photo Gallery for iOS UIKit.
   "UIResponder+KeyboardCache": "keyboard", // A simple workaround to the annoying problem of keyboard lag.
   "UIResponder+MNActions": "uncategorized", // UIResponder event propagation.
   "UIScreen+Info": "uncategorized", // Information that is useful to have when dealing with UIScreen
@@ -3664,14 +3664,14 @@
   "UITableView-AnimationControl": "gui_tableview", // Control UITableView animations like insertRowsAtIndexPaths:withRowAnimation:'s.
   "UITableViewHelper": "gui_tableview", // Easier integration of UITableViews with custom cells built from nib files or storyboards.
   "UITableView-NXEmptyView": "gui_tableview", // A category on UITableView that adds an empty view that can be shown whenever the table view has no cells.
-  "UITextField-Blocks": "uncategorized", // Adds blocks to all UITextField delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
-  "UITextField+DelegationBlocks": "uncategorized", // Add blocks, as per a single instance basis, to your UITextFields
-  "UITextField+Shake": "uncategorized", // UITextField category that adds a shake animation like the password field of the OsX login screen.
-  "UITextSubClass": "uncategorized", // UITextField/UITextView SubClass library.
-  "UITextView+PinchZoom": "uncategorized", // Simple pinch-zoom category for UITextView.
-  "UITextView+UIControl": "uncategorized", // A UIControl-like API addition to UITextView.
-  "UIView-Autolayout": "uncategorized", // Category on UIView to simplify the creation of common layout constraints.
-  "UIView+AutoLayout": "uncategorized", // The ultimate API for creating Auto Layout constraints -- impressively simple, immensely powerful.
+  "UITextField-Blocks": "gui_textfield", // Adds blocks to all UITextField delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
+  "UITextField+DelegationBlocks": "gui_textfield", // Add blocks, as per a single instance basis, to your UITextFields
+  "UITextField+Shake": "gui_textfield", // UITextField category that adds a shake animation like the password field of the OsX login screen.
+  "UITextSubClass": "gui_textview", // UITextField/UITextView SubClass library.
+  "UITextView+PinchZoom": "gui_textview", // Simple pinch-zoom category for UITextView.
+  "UITextView+UIControl": "gui_textview", // A UIControl-like API addition to UITextView.
+  "UIView-Autolayout": "gui_layout", // Category on UIView to simplify the creation of common layout constraints.
+  "UIView+AutoLayout": "gui_layout", // The ultimate API for creating Auto Layout constraints -- impressively simple, immensely powerful.
   "UIView+BezierCurve": "uncategorized", // Round individual corners of a UIView.
   "UIViewCategoryForAutoLayout": "uncategorized", // A UIView Category for implement constraints with VFL(Visual Format Language).
   "UIViewController+Controller": "uncategorized", // Small but useful category on UIViewController that allows you to instantiate controller and navigation controller.
@@ -3692,8 +3692,8 @@
   "UIViewPlusPosition": "uncategorized", // Position category on UIView.
   "UIView+Positioning": "uncategorized", // UIView+Positioning provides shorthand methods to defining the frame properties of any UIView based object in an easy fashion.
   "UIView+TKGeometry": "uncategorized", // Category methods for UIView for easy size, center and origin manipulation.
-  "UIWebView-Blocks": "uncategorized", // UIWebView+Blocks is A simple category that implements blocks into UIWebView.
-  "UIWebView-DelegateBlocks": "uncategorized", // Adds blocks to all UIWebView delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
+  "UIWebView-Blocks": "gui_web_view", // UIWebView+Blocks is A simple category that implements blocks into UIWebView.
+  "UIWebView-DelegateBlocks": "gui_web_view", // Adds blocks to all UIWebView delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
   "UIWebViewRemoveShadow": "html", // iOS UIWebView category to remove the top and bottom shadow that Apple automatically adds to every webview.
   "UIWebView-WebStorage": "html", // UIWebView Category that adds CocoaTouch level hooks to HTML5 web storage.
   "UMeng": "proprietary_api", // UMeng analytics SDK for iOS.
@@ -3753,15 +3753,15 @@
   "VKDAKeyboardControl": "keyboard", // Easily add keyboard awareness and scrolling dismissal. Allows to add subview to keyboard.
   "VKInputToolbar": "uncategorized", // Messages style input toolbar for iOS.
   "VK-ios-sdk": "uncategorized", // Library for working with VK.
-  "Vkontakte-iOS-SDK": "uncategorized", // The iOS SDK provides Vkontakte Platform support for iOS apps.
-  "Vkontakte-iOS-SDK-LV": "uncategorized", // Powerful & flexible Vkontakte iOS SDK
-  "Vkontakte-iOS-SDK-v1": "uncategorized", // Powerful & flexible Vkontakte iOS SDK.
-  "Vkontakte-iOS-SDK-v2": "uncategorized", // Powerful & flexible Vkontakte iOS SDK v2.
-  "VLBAlertViews": "uncategorized", // An API that uses blocks with UIAlertView(s), adds support for multiple delegates and introduces local scope to a UIAlertViewDelegate.
+  "Vkontakte-iOS-SDK": "proprietary_api", // The iOS SDK provides Vkontakte Platform support for iOS apps.
+  "Vkontakte-iOS-SDK-LV": "proprietary_api", // Powerful & flexible Vkontakte iOS SDK
+  "Vkontakte-iOS-SDK-v1": "proprietary_api", // Powerful & flexible Vkontakte iOS SDK.
+  "Vkontakte-iOS-SDK-v2": "proprietary_api", // Powerful & flexible Vkontakte iOS SDK v2.
+  "VLBAlertViews": "gui_alert", // An API that uses blocks with UIAlertView(s), adds support for multiple delegates and introduces local scope to a UIAlertViewDelegate.
   "VLBCameraView": "camera", // A UIVIew that shows a live feed of the camera, can be used to take a picture, preview the picture and return a UIImage of that preview.
   "VLBFoundation": "uncategorized", // A library of classes used throughout the codebase of verylargebox.app
-  "VLBScrollView": "uncategorized", // A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
-  "VLFramework": "uncategorized", // VLFramework is a library for a simple and faster MVC approach.
+  "VLBScrollView": "gui_scroll", // A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
+  "VLFramework": "mvc_framework", // VLFramework is a library for a simple and faster MVC approach.
   "VLMHarlemShake": "uncategorized", // A harlem shake implementation for iOS.
   "vMAT": "uncategorized", // The vMAT library implements a grab-bag of mathematical functions inspired by MATLAB.
   "VMDInstrumenter": "uncategorized", // A simple Objective-C singleton to instrument, trace, and suppress selectors at runtime.
