@@ -91,32 +91,32 @@
   "AFLinkedInOAuth1Client": "uncategorized", // AFOAuth1Client for LinkedIn.
   "AFMacros": "uncategorized", // Macros for iOS projects.
   "AFMobilePayRequestHandler": "payment", // Send and request money via Danske Banks MobilePay app.
-  "AFNetworkActivityLogger": "uncategorized", // AFNetworking 2.0 Extension for Network Request Logging
+  "AFNetworkActivityLogger": "logging", // AFNetworking 2.0 Extension for Network Request Logging
   "AFNetworking": "networking", // A delightful iOS and OS X networking framework.
-  "AFNetworking2-RACExtensions": "uncategorized", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
-  "AFNetworking+AutoRetry": "uncategorized", // Auto Retries for AFNetworking requests
-  "AFNetworking-RACExtensions": "uncategorized", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
-  "AFNetworking-ReactiveCocoa": "uncategorized", // Make AFNetworking reactive.
-  "AFNetworking-Synchronous": "uncategorized", // Synchronous requests for AFNetworking
+  "AFNetworking2-RACExtensions": "networking", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
+  "AFNetworking+AutoRetry": "networking", // Auto Retries for AFNetworking requests
+  "AFNetworking-RACExtensions": "networking", // AFNetworking-RACExtensions is a delightful extension to the AFNetworking classes for iOS and Mac OS X.
+  "AFNetworking-ReactiveCocoa": "networking", // Make AFNetworking reactive.
+  "AFNetworking-Synchronous": "networking", // Synchronous requests for AFNetworking
   "AFOAuth1Client": "networking", // AFNetworking Extension for OAuth 1.0a Authentication.
   "AFOAuth2Client": "networking", // AFNetworking Extension for OAuth 2 Authentication.
   "AFOAuth2Client@phoenixplatform": "networking", // AFNetworking Extension for OAuth 2 Authentication.
   "AFProgressiveImageDownload": "uncategorized", // A category on UIView that allows you to progressively download images providing seamless enhancement.
-  "AFQiitaClient": "uncategorized", // AFNetworking Client for the Qiita API.
-  "AFQiniuClient": "uncategorized", // AFNetworking Extension for Qiniu(七牛)
-  "AFQuickLookView": "uncategorized", // AFNetworking Extension for document previews of remote files.
+  "AFQiitaClient": "proprietary_api", // AFNetworking Client for the Qiita API.
+  "AFQiniuClient": "proprietary_api", // AFNetworking Extension for Qiniu(七牛)
+  "AFQuickLookView": "networking", // AFNetworking Extension for document previews of remote files.
   "AFRaptureXMLRequestOperation": "xml", // AFRaptureXMLRequestOperation is an extension for AFNetworking that provides an interface to parse XML using RaptureXML.
   "AFRedditAPIClient": "proprietary_api", // AFHTTPClient Subclass for the Reddit Api.
   "AFRESTfulCoreDataBackgroundQueue": "uncategorized", // AFNetworking based AFHTTPClient conforming to SLRESTfulCoreDataBackgroundQueue.
   "AFSpritz": "uncategorized", // A complete Spritz SDK for iOS
   "AFStatHatClient": "http", // An AFHTTPClient subclass for reporting to StatHat.
-  "AFTumblrAPIClient": "uncategorized", // AFOAuth1Client for Tumblr.
-  "AFUrbanAirshipClient": "uncategorized", // [Deprecated] An API Client for Registering and Unregistering Devices with Urban Airship.
-  "AFURLConnectionByteSpeedMeasure": "uncategorized", // Extends AFNetworking with the ability to measure connection speed and estimate completion time.
+  "AFTumblrAPIClient": "proprietary_api", // AFOAuth1Client for Tumblr.
+  "AFUrbanAirshipClient": "proprietary_api", // [Deprecated] An API Client for Registering and Unregistering Devices with Urban Airship.
+  "AFURLConnectionByteSpeedMeasure": "networking", // Extends AFNetworking with the ability to measure connection speed and estimate completion time.
   "AFWunderlist": "proprietary_api", // AFWunderlist is a Wunderlist API wrapper for Objective-C
   "AFXAuthClient": "networking", // AFNetworking Extension for XAuth Authentication.
   "AFXMLDictionarySerializer": "xml", // Support for converting XML do NSDictionary in AFNetworking.
-  "AGAssert": "uncategorized", // The better alternative to NSAssert.
+  "AGAssert": "testing", // The better alternative to NSAssert.
   "AGAsyncTestHelper": "testing", // Macro for writing unit tests with asynchronous operations.
   "AGBlurTransition": "uncategorized", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
   "AGGeometryKit": "uncategorized", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
@@ -133,21 +133,21 @@
   "AHEasing": "uncategorized", // A supplemental library of easing functions for C, C++, and Objective-C.
   "AIAnimation": "uncategorized", // UIKit animations as first-class citizens -- make animations easier to manipulate.
   "Airbrake-iOS": "uncategorized", // A Airbrake Notifier for iOS.
-  "AIVerification": "uncategorized", // A framework for testing user inputs and generating error messages.
-  "AJNotificationView": "uncategorized", // Notice component for iOS.
-  "AKForm": "uncategorized", // A refreshing iOS 7 form framework with the works.
-  "AKLocationManager": "uncategorized", // Simple CLLocationManager subclass with block support and convenience methods.
+  "AIVerification": "validations", // A framework for testing user inputs and generating error messages.
+  "AJNotificationView": "notifications", // Notice component for iOS.
+  "AKForm": "gui_form", // A refreshing iOS 7 form framework with the works.
+  "AKLocationManager": "geo_location", // Simple CLLocationManager subclass with block support and convenience methods.
   "AKNumericFormatter": "uncategorized", // Formatter for numerical fields and UITextField category to use it easily while editing.
-  "AKSegmentedControl": "uncategorized", // AKSegmentedControl is a fully customizable Segmented Control for iOS.
+  "AKSegmentedControl": "gui_segmented", // AKSegmentedControl is a fully customizable Segmented Control for iOS.
   "AKSemanticView": "uncategorized", // A UIView category aimed at referencing common attributes a little less robotically.
-  "AKTabBarController": "uncategorized", // AKTabBarController is an adaptive and customizable tab bar for iOS.
+  "AKTabBarController": "tabs", // AKTabBarController is an adaptive and customizable tab bar for iOS.
   "AKVerbalExpression": "regular_expressions", // Quickly create simple or complicated regular expressions using very intuitive and verbal methods.
   "ALActionBlocks": "uncategorized", // ALActionBlocks Category on UIControl, UIBarButtonItem, and UIGestureRecognizer to allow use of blocks instead of selectors.
-  "ALAlertBanner": "uncategorized", // A clean and simple alert banner for iPhone and iPad
+  "ALAlertBanner": "gui_alert", // A clean and simple alert banner for iPhone and iPad
   "ALAssetsLibrary-CustomPhotoAlbum": "uncategorized", // A nice ALAssetsLibrary category for saving images & videos into custom photo album.
   "ALDClock": "uncategorized", // An interactive clock component for use in iOS projects.
-  "AlertNinja": "uncategorized", // Invisible UIAlertView and spying.
-  "AlertShortkut": "uncategorized", // A custom Alert and Actionsheet with block implementation.
+  "AlertNinja": "gui_alert", // Invisible UIAlertView and spying.
+  "AlertShortkut": "guit_alert", // A custom Alert and Actionsheet with block implementation.
   "AlgoliaSearch-Client": "uncategorized", // Algolia Search API Client for iOS & OS X.
   "AlgoliaSearchOffline-iOS-SDK": "uncategorized", // iOS framework to add Google-like instant search inside your apps.
   "AlgoliaSearchOffline-OSX-SDK": "uncategorized", // OS X framework to add Google-like instant search inside your apps.
@@ -232,7 +232,7 @@
   "AppVersioning": "uncategorized", // Very simple app's version manager library.
   "AppXperience": "uncategorized", // AppXperience is an advertising fmk of mobile applications. Learn more at http://appxperience.com.
   "APSmartStorage": "uncategorized", // A smart storage for network resources by @Alterplay folks. It automatically caches data on disk or in memory. #iosdev
-  "APTimeZones": "uncategorized", // The easiest way to get NSTimeZone from CLLocation from @Alterplay folks
+  "APTimeZones": "geo_location", // The easiest way to get NSTimeZone from CLLocation from @Alterplay folks
   "APTokenField": "gui_tokenfield", // A simple, lightweight, yet equally powerful version of Three20's TTPickerTextField.
   "APUtils": "uncategorized", // Collection of helpful categories and magik one liners for iOS/Mac OS development.
   "apxml": "xml", // XML DOM for iPhone and iPod Touch.
@@ -530,7 +530,7 @@
   "Cedule": "uncategorized", // Task scheduler
   "CEPopupPickerView": "uncategorized", // A UIPickerView that pops up, just like the Facebook app.
   "CERoundProgressView": "uncategorized", // A progress view which shows its progress a pie-chart.
-  "CFLocation": "uncategorized", // Some Helper methods within LocationManager and Geocoder. 
+  "CFLocation": "geo_location", // Some Helper methods within LocationManager and Geocoder. 
   "CFShareCircle": "uncategorized", // CFShareCircle is a user interface component for iOS that can be integrated into an app as a sharing mechanism for any kind of content.
   "CGFDateModifier": "uncategorized", // Modify a NSDate the easy way.
   "CGLMail": "email", // A simple class that cares about email and MessageUI, so you don't have to.
@@ -583,8 +583,8 @@
   "CLHoppingViewController": "uncategorized", // A block-based navigational UIViewController designed for app startup, login and onboarding scenarios
   "CLImageEditor": "uncategorized", // CLImageEditor provides basic image editing features to iPhone apps.
   "clipper": "uncategorized", // The Clipper library primarily performs the boolean clipping operations.
-  "CLLocation-FESCoordinates": "uncategorized", // A CLLocation category to handle alternate coordinate formats with CLLocation.
-  "CLLocationManager-blocks": "uncategorized", // A category on CLLocationManager adding blocks to basic delegate methods. It also adds some nifty features for simplifying location updates.
+  "CLLocation-FESCoordinates": "geo_location", // A CLLocation category to handle alternate coordinate formats with CLLocation.
+  "CLLocationManager-blocks": "geo_location", // A category on CLLocationManager adding blocks to basic delegate methods. It also adds some nifty features for simplifying location updates.
   "Cloudinary": "uncategorized", // Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.
   "CloudMine": "uncategorized", // The iOS Framework for interacting with the CloudMine platform.
   "CLPKittenPlaceholder": "uncategorized", // Need placeholder images for your next iOS Project? Try Kittens.
@@ -646,7 +646,7 @@
   "ConstraintExpressions": "layout", // A DSL to create NSLayoutConstraints in code.
   "ConstraintFormatter": "uncategorized", // A library to unify visual constraints and constraints based on attributes for Auto Layout
   "ConventionalC": "uncategorized", // Cocoapod and static library to provide defaults and convenience methods for terser Objective-C.
-  "CoordinateFinder": "uncategorized", // Easily get current coordinates (and other location info) with just a few lines of code
+  "CoordinateFinder": "geo_location", // Easily get current coordinates (and other location info) with just a few lines of code
   "COPeoplePickerViewController": "email", // Tokenized People Picker. Re-implementation of the email address picker of iCal (work in progress).
   "Cordova": "html", // Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript.
   "CordovaPlugin-battery-status": "battery", // Mirror of Apache Cordova Plugin battery-status
@@ -659,7 +659,7 @@
   "CordovaPlugin-dialogs": "uncategorized", // Mirror of Apache Cordova Plugin dialogs
   "CordovaPlugin-file": "uncategorized", // Mirror of Apache Cordova Plugin file
   "CordovaPlugin-file-transfer": "uncategorized", // Mirror of Apache Cordova Plugin file-transfer
-  "CordovaPlugin-geolocation": "uncategorized", // Mirror of Apache Cordova Plugin geolocation
+  "CordovaPlugin-geolocation": "geo_location", // Mirror of Apache Cordova Plugin geolocation
   "CordovaPlugin-globalization": "uncategorized", // Mirror of Apache Cordova Plugin globalization
   "CordovaPlugin-inappbrowser": "uncategorized", // Apache Cordova Plugin inappbrowser.
   "CordovaPlugin-media": "uncategorized", // Mirror of Apache Cordova Plugin media
@@ -842,7 +842,7 @@
   "DMEBottomView": "uncategorized", // DMEBottomView is a simple view to put on bottom of other view
   "DMEThumbnailer": "uncategorized", // DMEThumbnailer is a class to generate thumbnails for local images, videos and PDFs
   "DMInspectorPalette": "uncategorized", // Animated NSScrollView with collapsible sections like in XCode Inspector.
-  "DMLocationManager": "uncategorized", // Convenient CLLocationManager wrapper. Control location caching, cache age and accuracy.
+  "DMLocationManager": "geo_location", // Convenient CLLocationManager wrapper. Control location caching, cache age and accuracy.
   "DMLogFormatter": "uncategorized", // A clean log formatter for CocoaLumberjack.
   "DMRESTRequest": "uncategorized", // Super simple objective-c REST request wrapper.
   "DMTabBar": "uncategorized", // XCode 4.x like inspector segmented control.
@@ -982,7 +982,7 @@
   "EPChecker": "address", // Checker Collection such as email, id card(mainland China) and phone number(mainland China). 
   "EPSCollectionViewController": "uncategorized", // A subclass of UICollectionViewController that makes it possible to reposition the collection view.
   "EPSCollectionViewFormLayout": "uncategorized", // A UICollectionView layout for creating forms.
-  "EPSDistanceFormatter": "uncategorized", // A class to format CLLocationDistance instances into human readable text.
+  "EPSDistanceFormatter": "geo_location", // A class to format CLLocationDistance instances into human readable text.
   "epsonPrintSDK": "uncategorized", // Epson ePOS-Print SDK for iOS
   "EPSReactiveCollectionViewController": "uncategorized", // A collection view controller that automatically populates a collection view, and animates the insertion and deletion of items.
   "EPSReactiveTableViewController": "gui_tableview", // A table view controller that automatically populates a table view, and animates the insertion and deletion of rows.
@@ -1043,7 +1043,7 @@
   "FDWaveformView": "audio", // Reads an audio file and displays the waveform
   "FDWKit": "feeds", // A library that encapsulates the FeedWrangler API.
   "FECustomSwitch": "gui_controls", // Custom implementation for UISwitch
-  "FESSolarCalculator": "uncategorized", // Calculate sunrise, sunset, and twilight times for a given location and date.
+  "FESSolarCalculator": "geo_location", // Calculate sunrise, sunset, and twilight times for a given location and date.
   "FFCircularProgressView": "gui_progress", // An iOS 7-inspired blue circular progress view.
   "FHSegmentedViewController": "gui", // Custom view controller container for swiching sub view controller with a segmented control
   "FHTTPClient": "http_client", // A simple iOS HTTP Client for REST services.
@@ -1133,7 +1133,7 @@
   "FTFontSelector": "uncategorized", // A clone of the font selector found in Apple’s iOS Pages app.
   "FTFoundation": "uncategorized", // Feedtailor's extension to Foundation framework.
   "FTiCloudSync": "uncategorized", // Automatically syncs NSUserDefaults across multiple iOS devices using iCloud
-  "FTLocationManager": "uncategorized", // Utility class for simple block-based getting of current user's location on iOS.
+  "FTLocationManager": "geo_location", // Utility class for simple block-based getting of current user's location on iOS.
   "FTPManager": "ftp", // An Objective-C class for simple, synchronous ftp access.
   "FTUIKit": "uikit_extensions", // Feedtailor's extension to UIIKit.
   "FTUtils": "uncategorized", // Phone utilities mostly for Core Animation.
@@ -1597,7 +1597,7 @@
   "JDStatusBarNotification": "uncategorized", // Easy, customizable notifications displayed on top of the statusbar. With progress and activity.
   "JESCircularProgressView": "uncategorized", // A little circular progressview for OSX that looks like the one used in the app store.
   "JFBCrypt": "crypto", // BCrypt in Objective C
-  "JFELocationManager": "uncategorized", // JFELocationManager is a CoreLocation singleton.
+  "JFELocationManager": "geo_location", // JFELocationManager is a CoreLocation singleton.
   "JFFileManager": "uncategorized", // Class methods which make dealing with files on iOS easier.
   "JFModelDataSource": "uncategorized", // A base data source class which should be subclassed for an object which is created from JSON.
   "JFOpenWeatherMapManager": "uncategorized", // Easy to use Objective-C Wrapper to retrieve weather from the OpenWeatherMapApi.
@@ -1819,7 +1819,7 @@
   "LACache": "uncategorized", // Useful iOS local and persistent cache classes.
   "LALogger": "uncategorized", // A useful logging system for iOS applications.
   "Lambda-Alert": "uncategorized", // Simple UIAlertView wrapper that uses blocks for button actions.
-  "lambert-objc": "uncategorized", // CLLocation category to use lambert coordinates.
+  "lambert-objc": "geo_location", // CLLocation category to use lambert coordinates.
   "LanguagesManager": "uncategorized", // An easy way to control manually the language in your application.
   "LAPickerView": "uncategorized", // Horizontal spinning-wheel picker view for iOS.
   "LapseKit": "uncategorized", // Objective-C client for the Everlapse API.
@@ -1917,7 +1917,7 @@
   "Localytics": "uncategorized", // Localytics iOS SDK >2.14.
   "Localytics-AMP": "uncategorized", // Localytics AMP iOS SDK
   "Localytics-iOS-Client": "uncategorized", // Localytics iOS SDK.
-  "LocationHelper": "uncategorized", // Its singleton class for core location.
+  "LocationHelper": "geo_location", // Its singleton class for core location.
   "LocationPickerView": "gui_controls", // MKMapView + UITableView + Parallax scrolling. Provides a framework for building an interactive location picker on iOS.
   "LockBlocks": "uncategorized", // Adds block methods to Obj-C Lock objects. Also adds a Read/Write Lock class.
   "Lockbox": "keychain", // Lockbox is an Objective-C utility class for storing data securely in the keychain. Use it to store small, sensitive bits of data securely.
