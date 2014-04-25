@@ -1977,10 +1977,10 @@
   "MagicalRecord": "core_data", // Super Awesome Easy Fetching for Core Data 1!!!11!!!!1!.
   "MagicKit": "uncategorized", // mimeType detect
   "MagicPie": "uncategorized", // Powerfull pie layer for creating your own pie view
-  "Mailcheck-ObjectiveC": "uncategorized", // An Objective-C port of Kicksend's Mailcheck. Suggest corrections for misspelled email addresses.
-  "MailCore2": "uncategorized", // MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP.
-  "mailgun": "uncategorized", // The Mailgun SDK allows your Mac OS X or iOS application to connect with the programmable email platform.
-  "MAKVONotificationCenter": "uncategorized", // Key-Value Observing Done Right.
+  "Mailcheck-ObjectiveC": "mail", // An Objective-C port of Kicksend's Mailcheck. Suggest corrections for misspelled email addresses.
+  "MailCore2": "mail", // MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP.
+  "mailgun": "mail", // The Mailgun SDK allows your Mac OS X or iOS application to connect with the programmable email platform.
+  "MAKVONotificationCenter": "notifications", // Key-Value Observing Done Right.
   "MALazykit": "uncategorized", // Collection of extensions for easier object instantiation.
   "Malcom": "uncategorized", // A delightful iOS statistics and push notifications framework.
   "MAMirroredQueue": "uncategorized", // A thread safe, lockless, ring buffer implementation in Cocoa.
@@ -3461,7 +3461,7 @@
   "TLIndexPathTools": "uncategorized", // TLIndexPathTools is a small set of classes that can greatly simplify your table and collection views.
   "TLLayoutTransitioning": "uncategorized", // Components for transitioning between UICollectionView layouts.
   "TLMotionEffect": "uncategorized", // Good looking apps in only one line of code.
-  "TLSignals": "notifica", // Observer pattern with compile-time type checking for Objective-C.
+  "TLSignals": "notifications", // Observer pattern with compile-time type checking for Objective-C.
   "TLTiltHighlightView": "uncategorized", // A horizontal gradient which adjusts its appearance based on the positional attitude of an iOS device.
   "TLTiltSlider": "uncategorized", // A UISlider subclass which adjusts its appearance based on the positional attitude of an iOS device.
   "TMCache": "caching", // Fast parallel object cache for iOS and OS X.
