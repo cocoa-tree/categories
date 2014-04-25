@@ -5,7 +5,7 @@
   "A3GridTableView": "gui_tableview", // Fast UIScrollView subclass which presents its cells in a GridView.
   "AAActivityAction": "uncategorized", // Reeder like action sheet.
   "AAImageUtils": "uncategorized", // Simple framework to let your application's launch image fade-out to its initial view.
-  "AALaunchTransition": "uncategorized", // Simple framework to let your application's launch image fade-out to its initial view.
+  "AALaunchTransition": "gui_transitions", // Simple framework to let your application's launch image fade-out to its initial view.
   "AAPullToRefresh": "uncategorized", // All around pull to refresh library.
   "AAShareBubbles": "uncategorized", // Animated Social share buttons control for iOS
   "ABCalendarPicker": "gui_calendar", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
@@ -58,7 +58,7 @@
   "AdPopcornSDK": "uncategorized", // AdPopcorn SDK
   "AdPostSDK": "uncategorized", // AdPost iOS SDK with Helper.
   "ADTickerLabel": "uncategorized", // ADTickerLabel An objective-c UIView which provide a mechanism to show numbers with rolling effect, like in counter.
-  "ADTransitionController": "uncategorized", // Drop-in replacement for UINavigationController with custom transition animations.
+  "ADTransitionController": "gui_transitions", // Drop-in replacement for UINavigationController with custom transition animations.
   "ADURL": "url", // a URL builder class based on node's url module
   "ADVProgressBar": "gui_progress", // Progress Bar Design with Percentage values.
   "AD-X-SDK": "uncategorized", // AD-X SDK for iOS.
@@ -74,8 +74,8 @@
   "AFCSVRequestOperation": "csv", // An extension for AFNetworking that provides an interface to parse CSV using CHCSVParser.
   "AFDownloadRequestOperation": "http_client", // A progressive download operation for AFNetworking.
   "AFFCCAPIClient": "proprietary_api", // AFHTTPClient subclass for the FCC API.
-  "AFFEvent": "uncategorized", // AFFEvent is an easy to use event system built for both iOS and OSX.
-  "AFgzipRequestSerializer": "uncategorized", // gzip Request Serializer for AFNetworking
+  "AFFEvent": "notifications", // AFFEvent is an easy to use event system built for both iOS and OSX.
+  "AFgzipRequestSerializer": "compression", // gzip Request Serializer for AFNetworking
   "AFHARchiver": "http", // An AFNetworking extension to automatically generate a HTTP Archive file of all of your network requests.
   "AFHTTPClientLogger": "http", // A configurable HTTP request logger for AFNetworking.
   "AFHTTPFileUpdateOperation": "http", // AFNetworking extenstion for updating file with HTTP header "If-Modified-Since" and status code 304.
@@ -118,7 +118,7 @@
   "AFXMLDictionarySerializer": "xml", // Support for converting XML do NSDictionary in AFNetworking.
   "AGAssert": "testing", // The better alternative to NSAssert.
   "AGAsyncTestHelper": "testing", // Macro for writing unit tests with asynchronous operations.
-  "AGBlurTransition": "uncategorized", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
+  "AGBlurTransition": "gui_transitions", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
   "AGGeometryKit": "uncategorized", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
   "AGi18n": "i18n", // Easily localize your iOS apps by automatically extracting texts from code and XIB files into a Localizable strings.
   "AGImageChecker": "uncategorized", // Light library to visually check your app images.
@@ -255,7 +255,7 @@
   "ARSwipeToSelectGestureRecognizer": "touch", // Swipe-to-Select/Deselect gestures with UICollectionView.
   "ARSwipeToSelectPickerController": "uncategorized", // A UIImagePickerController-like assets picker that utilizes ARMultiSelectGestureRecognizer for swipe-to-select
   "ARTableViewPager": "gui_tableview", // The ARTableViewPager is an iOS component for horizontal table view scrolling/paging.
-  "ASAnyCurlController": "uncategorized", // iOS Curl transitions from any corner and any direction.
+  "ASAnyCurlController": "gui_transitions", // iOS Curl transitions from any corner and any direction.
   "ASBanker": "payment", // Simplifies adding In App Purchases to iOS applications.
   "ASCoalescingOperationQueue": "uncategorized", // A dispatch queue where you only ever have one block queued.
   "ASCollectionViewController": "uncategorized", // A UICollectionViewController subclass that makes working with NSFetchedResultsController, UIMenuController and UIRefreshControl easier.
@@ -280,7 +280,7 @@
   "AsyncSenTest": "testing", // Asynchronous Test for OCTest (SenTest).
   "AsyncTestSupporter": "testing", // Like GHUnit AsyncTestCase functions.
   "AtkDragAndDrop": "uncategorized", // A drag and drop toolkit for iOS.
-  "ATLog": "uncategorized", // Log common structures without boring conversions. ATLog(@"%@",CGPointMake(1,1)); // No need for NSStringFromCGPoint.
+  "ATLog": "logging", // Log common structures without boring conversions. ATLog(@"%@",CGPointMake(1,1)); // No need for NSStringFromCGPoint.
   "ATMHud": "uncategorized", // Library for the creation of HUDs in iPhone applications.
   "ATMHud@dhoerl": "uncategorized", // Full featured and flexible HUD framework.
   "ATValidations": "validations", // ATValidations is a data validation library for several programming languages.
@@ -323,7 +323,7 @@
   "AZAppearanceKit": "uncategorized", // A series of UI and drawing-related Objective-C components.
   "AZColoredNavigationBar": "navigation", // A UINavigationBar subclass for strong colored navigation bars on iOS 7.
   "AZDateBuilder": "uncategorized", // Simple NSDate builder library.
-  "AZSocketIO": "uncategorized", // A socket.io client for objective-c. Cocoapods-friendly. Appledocs. Built of AFNetworking and SocketRocket. Websockets + XHR.
+  "AZSocketIO": "web_sockets", // A socket.io client for objective-c. Cocoapods-friendly. Appledocs. Built of AFNetworking and SocketRocket. Websockets + XHR.
   "AzureSDK-iOS": "uncategorized", // Windows Azure makes it fast and easy to build mobile apps that scale.
   "Backbeam": "proprietary_api", // iOS SDK for backbeam.io.
   "BackgroundBlurEffectUIView": "uncategorized", // Background Blur Effect for UIView
@@ -340,16 +340,16 @@
   "Base64nl": "crpyto", // Base64 is a set of categories that provide methods to encode and decode data as a base-64-encoded string.
   "BaseKit": "uncategorized", // BaseKit is a set of IOS class to make your life easier.
   "BaseModel": "models", // BaseModel provides a base class for building model objects for your iOS or Mac OS projects.
-  "Bazaarvoice": "uncategorized", // Simple iOS SDK to interact with the Bazaarvoice platform API.
+  "Bazaarvoice": "proprietary_api", // Simple iOS SDK to interact with the Bazaarvoice platform API.
   "BBGraphKit": "charts", // A plug and play graphing library
-  "BBGroover": "uncategorized", // A drum beat scheduler/sequencer that grooves.
+  "BBGroover": "audio", // A drum beat scheduler/sequencer that grooves.
   "BBHTTP": "http_client", // A modern HTTP client framework for iOS/OSX built on top of libcurl.
   "BBlock": "uncategorized", // Objective-c block categories and subclasses.
   "BBTextFieldPicker": "keyboard", // UITextField keyboard replacement with a UIPickerView.
   "BButton": "gui_button", // Twitter Bootstrap buttons for iOS
   "BCGenieEffect": "uncategorized", // OSX style genie effect inside your iOS app.
   "BCStatusItem": "uncategorized", // Classes for extending the abilities of NSStatusItem including drag & drop and getting its location.
-  "BCVersionCheck": "uncategorized", // Easy major Version check cateogory.
+  "BCVersionCheck": "versioning", // Easy major Version check cateogory.
   "BDBAttributedButton": "gui_button", // A UIButton subclass with easy button styling!
   "BDBOAuth1Manager": "oauth", // AFNetworking 2.0-compatible replacement for AFOAuth1Client.
   "BDBPopupViewController": "uncategorized", // A UIViewController category for presenting custom view controllers modally.
@@ -387,21 +387,21 @@
   "BJJWebserverActivity": "uncategorized", // UIActivity subclass to share via a webserver.
   "BJRangeSliderWithProgress": "uncategorized", // A "progress bar" that also allows you to select a range.
   "BJTableCeption": "gui_tableview", // Add categories (sub section headers) to your UITableView.
-  "BKEAnimatedGradientView": "uncategorized", // Easily animate gradient transitions on UIViews.
-  "BKECircularProgressView": "uncategorized", // Easily create circular progress views.
+  "BKEAnimatedGradientView": "gui_transitions", // Easily animate gradient transitions on UIViews.
+  "BKECircularProgressView": "gui_progress", // Easily create circular progress views.
   "BkTask": "uncategorized", // An asynchronous workflows library for iOS
   "BLEKit": "uncategorized", // Low Energy Bluetooth Framework
   "BLKFunctional": "uncategorized", // Functional methods for iOS and OSX.
   "BlockAlertsAnd-ActionSheets": "uncategorized", // Beautifully done UIAlertView and UIActionSheet replacements inspired by TweetBot.
   "BlockExtentions": "uncategorized", // Simple block-based extentions.
   "BlockInjection": "uncategorized", // You can insert some Blocks before and after the method.
-  "Block-KVO": "uncategorized", // Objective-C Key-Value Observing made easier with blocks.
+  "Block-KVO": "kvo", // Objective-C Key-Value Observing made easier with blocks.
   "BlockRSSParser": "feeds", // AFNetworkingXMLRequestOperation based RSS parser.
   "BlocksKit": "uncategorized", // The Objective-C block utilities you always wish you had.
   "BlockTypeDescription": "uncategorized", // Category on NSBlock to add the type signature to the description.
   "BloodMagic": "uncategorized", // BloodMagic provides kind of custom property attributes
   "BlurryModalSegue": "uncategorized", // A custom segue for providing a blurred overlay effect.
-  "BLWebSocketsServer": "uncategorized", // A lightweight websockets server for iOS built around libwebsockets supporting both synchronous and asynchronous messaging.
+  "BLWebSocketsServer": "web_sockets", // A lightweight websockets server for iOS built around libwebsockets supporting both synchronous and asynchronous messaging.
   "BMExtendablePageController": "uncategorized", // An UIPageController replacement supporting custom and continuous transitions.
   "BMGlyphLabel": "uncategorized", // Use bitmap fonts generated from the bmGlyph app in SpriteKit
   "BMInitialsPlaceholderView": "uncategorized", // A circular placeholder view for initials.
@@ -900,10 +900,10 @@
   "DTCoreText": "html", // Methods to allow using HTML code with CoreText.
   "DTDownload": "file_download", // File Downloading, Caching and Queueing.
   "DTFoundation": "uncategorized", // Standard toolset classes and categories.
-  "DTInlineDatePicker": "dates", // Display UIDatePicker inline easily!
+  "DTInlineDatePicker": "gui_calendar", // Display UIDatePicker inline easily!
   "DTMarkdownParser": "markdown", // An event-based parser for Markdown.
   "DTModelStorage": "uncategorized", // Storage classes for datasource based controls.
-  "DTPickerPresenter": "uncategorized", // Modern wrapper for UIDatePicker and UIPickerView presentation.
+  "DTPickerPresenter": "gui_calendar", // Modern wrapper for UIDatePicker and UIPickerView presentation.
   "DTRequestVerifier": "uncategorized", // Easy, extensible NSURLRequest verification
   "DTTableViewManager": "gui_tableview", // The most simple and robust way to manage UITableView.
   "DTWebArchive": "uncategorized", // A lightweight class to allow interaction with the WebArchive Pasteboard type used by Apple's iOS apps.
@@ -914,39 +914,39 @@
   "DVFloatingWindow": "uncategorized", // The missing debug tool for iOS
   "DWTagList": "uncategorized", // Create a list of tags from an NSArray to be show in a view with customisable fonts, colors etc.
   "DXTableViewModel": "gui_tableview", // An object-oriented representation of UITableView. Helps describe table view in declarative manner.
-  "DynamicImagePlacer": "uncategorized", // a Library for iOS developer and designer for simply replace the image files in resource bundle without rebuild the app.
-  "DYRateView": "uncategorized", // A custom iOS rate view control similar to the one used in Apple's App Store app.
+  "DynamicImagePlacer": "images", // a Library for iOS developer and designer for simply replace the image files in resource bundle without rebuild the app.
+  "DYRateView": "gui_rating", // A custom iOS rate view control similar to the one used in Apple's App Store app.
   "DZLCategoryProperties": "uncategorized", // Dynamic Accessors for Category Properties
-  "DZNAppRater": "uncategorized", // A standard reminder for your users to rate your iOS apps on the App Store.
+  "DZNAppRater": "gui_rating", // A standard reminder for your users to rate your iOS apps on the App Store.
   "DZNCategories": "uncategorized", // Useful collection of Objective-C category classes.
-  "DZNPhotoPickerController": "uncategorized", // A photo search/picker for iOS similar to UIImagePickerControl, using popular providers like 500px, Flickr and many others.
-  "DZPopupController": "uncategorized", // A controller for representing modal, popup-style content on iPhone.
-  "DZProgressController": "uncategorized", // A dead simple, drop-in HUD view for iOS.
-  "DZWebDAVClient": "uncategorized", // An Objective-C WebDAV client based on AFNetworking.
+  "DZNPhotoPickerController": "images", // A photo search/picker for iOS similar to UIImagePickerControl, using popular providers like 500px, Flickr and many others.
+  "DZPopupController": "gui_popup", // A controller for representing modal, popup-style content on iPhone.
+  "DZProgressController": "gui_progress", // A dead simple, drop-in HUD view for iOS.
+  "DZWebDAVClient": "webdav", // An Objective-C WebDAV client based on AFNetworking.
   "EAIntroView": "uncategorized", // Highly customizable drop-in solution for introduction views.
-  "EAMTextView": "uncategorized", // EAMTextView is UITextView subclass that adds placeholder and vertical autoresizing support.
-  "EasyMapping": "uncategorized", // The easiest way to map data from your webservice.
+  "EAMTextView": "gui_textview", // EAMTextView is UITextView subclass that adds placeholder and vertical autoresizing support.
+  "EasyMapping": "object_mapping", // The easiest way to map data from your webservice.
   "EasyTableView": "gui_tableview", // Horizontal and vertical scrolling table views for iOS.
   "EasyViewPager": "uncategorized", // A ViewPager port to iOS
-  "EChart": "uncategorized", // iOS/iPhone/iPad Chart, Graph. Event handling and animation supported.
-  "ECPhoneNumberFormatter": "uncategorized", // NSFormatter subclass for formatting phone numbers.
-  "ECSlidingViewController": "uncategorized", // View controller container that presents its child view controllers in two sliding layers. Inspired by the Path 2.0 and Facebook iPhone apps.
+  "EChart": "charts", // iOS/iPhone/iPad Chart, Graph. Event handling and animation supported.
+  "ECPhoneNumberFormatter": "phone", // NSFormatter subclass for formatting phone numbers.
+  "ECSlidingViewController": "gui_slider", // View controller container that presents its child view controllers in two sliding layers. Inspired by the Path 2.0 and Facebook iPhone apps.
   "EDAssert": "uncategorized", // Assertion extensions and utilities for OCUnit.
   "EDColor": "uncategorized", // A collection of categories and utilities that extend UIColor.
   "EDQueue": "uncategorized", // A persistent background job queue for iOS.
-  "EDSemver": "uncategorized", // Semantic versioning for Objective-C.
+  "EDSemver": "versioning", // Semantic versioning for Objective-C.
   "EDSidebar": "uncategorized", // Customizable Sidebar for OSX Apps.
-  "EDStarRating": "uncategorized", // A configurable star rating control for OSX and iOS, similar to those found in iTunes and the App Store.
-  "EDStorage": "uncategorized", // An iOS library for fast, easy, and safe threaded disk I/O.
+  "EDStarRating": "gui_rating", // A configurable star rating control for OSX and iOS, similar to those found in iTunes and the App Store.
+  "EDStorage": "storage", // An iOS library for fast, easy, and safe threaded disk I/O.
   "EDSunriseSet": "uncategorized", // Objective-C class to calculate Sunrise/Sunset/Twilight times.
   "EECircularMusicPlayerControl": "uncategorized", // A control to play a music with a progress indicator.
   "EEEInjector": "uncategorized", // Dependency injection for the rest of us.
   "EEEInterventions": "uncategorized", // A small set of classes to observe or intervene in the communications of other classes.
   "EEHUDView": "uncategorized", // EEHUDView is an easy-to-use, clean and lightweight HUD for iOS.
-  "EEToolbarCenterButton": "uncategorized", // A featured button at the center of UIToolbar.
-  "EFCircularSlider": "uncategorized", // An extensible circular slider for iOS applications
+  "EEToolbarCenterButton": "gui_button", // A featured button at the center of UIToolbar.
+  "EFCircularSlider": "gui_slider", // An extensible circular slider for iOS applications
   "Egeniq": "uncategorized", // Egeniq Library for iOS projects
-  "EGOCache": "uncategorized", // Fast Caching for Objective-C (iPhone & Mac Compatible).
+  "EGOCache": "caching", // Fast Caching for Objective-C (iPhone & Mac Compatible).
   "EGODatabase": "uncategorized", // Thread-safe Objective-C SQLite library.
   "EGOImageLoading": "uncategorized", // What if images on the iPhone were as easy as HTML?
   "EGOPhotoViewer": "uncategorized", // A quick and easy to use photo viewer for iOS, with full support for iPhone, iPhone, and iPad.
@@ -1147,7 +1147,7 @@
   "FXBlurView": "uncategorized", // UIView subclass that replicates the iOS 7 realtime background blur effect, but works on iOS 5 and above.
   "FXColorSpace": "uncategorized", // High level image pixels enumeration library
   "FXImageView": "uncategorized", // FXImageView is a class designed to simplify the application of common visual effects.
-  "FXJSON": "uncategorized", // Lightweight, ARC-friendly JSON library, supporting both DOM and SAX style parsing.
+  "FXJSON": "json", // Lightweight, ARC-friendly JSON library, supporting both DOM and SAX style parsing.
   "FXKeychain": "keychain", // FXKeychain is a lightweight wrapper around the Apple keychain APIs that provides a simple dictionary-like interface.
   "FXLabel": "gui", // UILabel subclass that supports soft shadows, inner shadow and gradient fill and custom leading/kerning.
   "FXNotifications": "notifications", // An alternative API for NSNotificationCenter that doesn't suck.
@@ -1164,7 +1164,7 @@
   "GBImageView": "uncategorized", // Replacement of NSImageView that supports animations, asynchronous request and a conveniente internal cache system.
   "GBInfiniteScrollView": "uncategorized", // GBInfiniteScrollView class provides an endlessly scroll view organized in pages.
   "GBToolbox": "uncategorized", // Goonbee's iOS development toolbox
-  "GBVersionTracking": "uncategorized", // Track which versions of your iOS or Mac OS X app a user has previously installed.
+  "GBVersionTracking": "versioning", // Track which versions of your iOS or Mac OS X app a user has previously installed.
   "GC3DFlipTransitionStyleSegue": "storyboard", // iBooks-style 3D flip transition animation rendered in OpenGL ES 2.0 and wrapped in a UIStoryboardSegue subclass.
   "GCBActionSheet": "uncategorized", // A subclass of UIActionSheet that lets you attach blocks to its buttons.
   "GCBAlertView": "uncategorized", // A subclass of UIAlertView that lets you attach blocks to its buttons.
@@ -1188,7 +1188,7 @@
   "GCUndoManager": "uncategorized", // A reimplementation of NSUndoManager that is highly compatible with the original but much more debuggable.
   "GData": "proprietary_api", // The Google data APIs provide a simple protocol for reading and writing data on the web. Many Google services provide a Google data API.
   "GDataXML-HTML": "xml", // An XML/HTML Parser for iOS and OSX, based on Google's GDataXML.
-  "GDChannel": "events", // Event bus client over WebSocket for Java/Android/iOS/Javascript/GWT/J2ObjC
+  "GDChannel": "web_sockets", // Event bus client over WebSocket for Java/Android/iOS/Javascript/GWT/J2ObjC
   "GDCoreDataConcurrencyDebugging": "uncategorized", // Find out when you're accessing an NSManagedObject on the wrong queue/thread.
   "GDFileManagerKit": "uncategorized", // A consistent iOS API for cloud file storage services including Dropbox and Google Drive.
   "GDIIndexBar": "uncategorized", // `GDIIndexBar` is a component for navigating sections of a `UITableView`.
@@ -1226,7 +1226,7 @@
   "GMCRadialProgressView": "uncategorized", // GMCRadialProgressView is a radial progress overlay view, providing a visual very similar to the iOS 7 home screen app install progress.
   "GMGridView": "gui_grid", // A performant Grid-View for iOS (iPhone/iPad).
   "GnuPlotObjc": "uncategorized", // GnuPlotObjc is a sample wrapper for gnuplot under Mac Os X.
-  "Godzippa": "uncategorized", // GZip Compression / Decompression Category for NSData.
+  "Godzippa": "compression", // GZip Compression / Decompression Category for NSData.
   "GoldenFleece": "uncategorized", // On a quest for a better JSON API
   "GoldRaccoon": "uncategorized", // An iOS component that allow you to connect to a FTP service and perform the operations you need.
   "gom-client-objc": "uncategorized", // A GOM client written in Objective-C for the Cocoa framework.
@@ -1300,17 +1300,17 @@
   "GVPhotoBrowser": "photo_browser", // A reusable, zoomable image gallery for iOS using the datasource and delegate patterns. Handles device orientation changes & memory warnings.
   "GVUserDefaults": "uncategorized", // NSUserDefaults access via properties.
   "GWCollapsibleTable": "gui_tableview", // UITableView that support collapsing.
-  "GZIP": "uncategorized", // GZIP is category on NSData that provides simple gzip compression and decompression functionality.
+  "GZIP": "compression", // GZIP is category on NSData that provides simple gzip compression and decompression functionality.
   "handlebars-objc": "uncategorized", // handlebars-objc is an implementation of Handlebars.js for Objective-C
   "Handsy": "touch", // A bunch of iOS classes and extensions used for simulating gestures.
   "Haneke": "uncategorized", // A lightweight image cache for iOS.
-  "Harpy": "uncategorized", // Notify users that a new version of your iOS app is available, and prompt them with the AppStore link.
+  "Harpy": "app_store", // Notify users that a new version of your iOS app is available, and prompt them with the AppStore link.
   "HashBuilder": "uncategorized", // A utility to generate a hash for NSObject subclasses.
-  "Hashtel": "uncategorized", // Consistently get a color value for strings
+  "Hashtel": "colors", // Consistently get a color value for strings
   "HatenaBookmarkSDK": "uncategorized", // Hatena Bookmark iOS SDK
   "HATransparentView": "gui_menus", // UIView transparent subclass based on Rdio stations menu.
-  "Hawk": "uncategorized", // Hawk authentication scheme.
-  "HawkClient": "uncategorized", // Implementation of Hawk protocol for clients in iOS.
+  "Hawk": "authentication", // Hawk authentication scheme.
+  "HawkClient": "authentication", // Implementation of Hawk protocol for clients in iOS.
   "HAWTiltedImageView": "uncategorized", // A view in iOS that uses gyro updates to show all of an image.
   "Haystack": "uncategorized", // A collection of simple iOS classes and categories that fit in almost every project.
   "HCDataStructures": "uncategorized", // HCDataStructures is a (currently small) collection of missing data structures.
@@ -1359,7 +1359,7 @@
   "HRCoder": "uncategorized", // HRCoder is a replacement for the NSKeyedArchiver and NSKeyedUnarchiver classes that read/writes data as human-readable XML.
   "HSImageSidebarView": "uncategorized", // A view based on the sidebar in Apple's Keynote app for iPad.
   "HSKDTree": "uncategorized", // Objective-C implementation of a k-dimensional binary space partitioning tree.
-  "HSLUpdateChecker": "uncategorized", // Prompts the user to update your app when a new version is available. Zero configuration, one line of code to use.
+  "HSLUpdateChecker": "app_updates", // Prompts the user to update your app when a new version is available. Zero configuration, one line of code to use.
   "HSSHexStringSupport": "uncategorized", // UIColor categories adding support for hex strings including HTML prefixes and extra factory method colors
   "HTAutocompleteTextField": "gui_autocomplete", // A subclass of UITextField that displays text completion suggestions while a user types. Perfect for suggestion email address domains.
   "HTBCalendarView": "gui_calendar", // A calendar component based on UICollectionView
@@ -1520,7 +1520,7 @@
   "iOSSolarMapOverlay": "uncategorized", // A Solar Terminator Overlay for iOS.
   "iOS-WebP": "uncategorized", // WebP image decoder and encoder for iOS
   "iOSWebserviceTemplate": "uncategorized", // A template for binding to webservices using NSOperation and NSOperationQueue.
-  "IPaZipArchive": "uncategorized", // Objective C Zip tool.
+  "IPaZipArchive": "zip", // Objective C Zip tool.
   "IPCommon": "uncategorized", // Common tools for iOS development
   "IPCustomFont": "uncategorized", // A way to set custom fonts on UI elements in interface builder.
   "iPhoneContacts": "uncategorized", // A wrapper for the iPhone's C-based AddressBook framework.
@@ -1557,7 +1557,7 @@
   "iTunesSearch": "uncategorized", // Block based iTunes store communication for iOS and Mac OS X.
   "iTVDb": "proprietary_api", // iTVDb provides a wrapper around the TVDB (http://thetvdb.com) XML API and can be used in iOS apps.
   "ITWLoadingPanel": "uncategorized", // Drop in classes for adding a download info panel.
-  "iVersion": "uncategorized", // Library for checking for updates to Mac/iPhone App Store apps from within the application and notifying users about the new release.
+  "iVersion": "app_updates", // Library for checking for updates to Mac/iPhone App Store apps from within the application and notifying users about the new release.
   "IVGCoreDataUtils": "uncategorized", // Miscellaneous core data helper routines for iOS
   "IVGResources": "uncategorized", // Manage multiple versions of same resources
   "IVGUtils": "uncategorized", // Miscellaneous helper routines for iOS
@@ -2044,7 +2044,7 @@
   "MDMultilineTextView": "gui_textview", // A lightweight UITextView subclass that is growing and shrinking in size, has a placeholder label and uses auto layout.
   "MDRadialProgress": "gui_progress", // MDRadialProgress is a custom UIView to display progress in discrete steps.
   "MDSpreadView": "gui_tableview", // A 2D table view for iOS apps!
-  "MDWamp": "uncategorized", // A client side objective-C implementation of the WebSocket subprotocol WAMP
+  "MDWamp": "web_sockets", // A client side objective-C implementation of the WebSocket subprotocol WAMP
   "MEActionSheet": "uncategorized", // UIActionSheet subclass with a simpler API using blocks and target/action invocations.
   "MEAlertView": "gui_alert", // UIAlertView subclass with a simpler API using blocks and target/action invocations.
   "MendeleySDK": "uncategorized", // Objective-C client for the Mendeley Open API.
@@ -2239,7 +2239,7 @@
   "MTLabel": "uncategorized", // A lightweight replacement for Apple's UILabel.
   "MTLocation": "mapkit", // Convenience-stuff for CoreLocation/MapKit on iOS. Includes a UIBarButtonItem mimicing the Locate-Me-Button of the built-in Google Maps App.
   "MTLog": "uncategorized", // An NSLog replacement for coders!
-  "MTMigration": "uncategorized", // Manages blocks of code that only need to run once on version updates in iOS apps.
+  "MTMigration": "app_updates", // Manages blocks of code that only need to run once on version updates in iOS apps.
   "MTMultipleViewController": "uncategorized", // A container view controller that allows the selection of child views based on a UISegmentedControl in the navigation bar.
   "MTPDF": "uncategorized", // Objective-C PDF objects. Doing my part to help us stay out of the headache that is Core Foundation.
   "MTPencil": "uncategorized", // Library for animated line drawing (like an invisible pencil).
@@ -2514,7 +2514,7 @@
   "ObjectiveSugar": "uncategorized", // Objective C additions for humans. Write ObjC _like a boss_.
   "ObjectiveTumblr": "uncategorized", // Tumblr API Client for Objective-C with minimal features, based on Tumblr API v2 (OAuth).
   "ObjectiveWMM": "uncategorized", // An Objective-C iOS wrapper for the World Magnetic Model 2010.
-  "objective-zip": "uncategorized", // An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X.
+  "objective-zip": "compression", // An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X.
   "ObjectiveZMQ": "zero_mq", // High-level Objective-C bindings for ØMQ.
   "ObjectXML": "xml", // Simple XML object model for Objective-C from NSXMLParser.
   "ObjQREncoder": "qr_code", // Objective C QR Encoder.
@@ -2669,7 +2669,7 @@
   "PFIncrementalStore": "uncategorized", // Core Data Persistence with Parse, an NSIncrementalStore subclass.
   "PFTwitterSignOn": "uncategorized", // Single Sign On for Twitter on iOS.
   "PgMdAtom": "feeds", // Complete ATOM parser for iOS.
-  "PHFArrayComparator": "uncategorized", // Animated table updates made easy.
+  "PHFArrayComparator": "gui_tableview", // Animated table updates made easy.
   "PHFComposeBarView": "uncategorized", // A precise reconstruction of the compose bar from iOS 7 Messages.app.
   "PHFDelegateChain": "delegates", // Easily create delegation chains.
   "PHFRefreshControl": "uncategorized", // YAPTR(TM): Yet another pull-to-refresh.
@@ -2717,7 +2717,7 @@
   "PNDUserDefaultsController": "uncategorized", // The missing implementation of NSUserDefaultsController for iOS.
   "PocketAPI": "uncategorized", // Objective-C SDK for authenticating and making API calls to the Pocket API.
   "PocketChangeSDK": "uncategorized", // Pocket Change SDK for universal in-app rewards.
-  "PocketSocket": "uncategorized", // Objective-C websocket client/server library for building things that work in realtime on iOS and OS X.
+  "PocketSocket": "web_sockets", // Objective-C websocket client/server library for building things that work in realtime on iOS and OS X.
   "PocketSVG": "uncategorized", // An Objective-C class that converts Scalable Vector Graphics into Core Graphics elements.
   "PodioKit": "uncategorized", // PodioKit is an Objective-C client library for the Podio API.
   "PonyDebugger": "debugging", // Remote network and data debugging for your native iOS app using Chrome Developer Tools.
@@ -3218,10 +3218,10 @@
   "SNRFetchedResultsController": "uncategorized", // Automatic Core Data change tracking for OS X (NSFetchedResultsController port).
   "SNRHUDKit": "gui", // Code drawn AppKit HUD interface elements.
   "SocialAccounts": "proprietary_api", // SocialAccounts is an iOS framework that provides an easy way to manage social network accounts.
-  "SocketClient": "uncategorized", // Simple, fast & reliable Faye Websocket client. Well documented API build on SocketRocket. Supports messaging on different channels.
+  "SocketClient": "web_sockets", // Simple, fast & reliable Faye Websocket client. Well documented API build on SocketRocket. Supports messaging on different channels.
   "socket.IO": "uncategorized", // socket.io v0.7.2+ for iOS devices.
   "SocketIOBlocks": "uncategorized", // Category on socket.IO-objc to use block callbacks instead of delegate callbacks.
-  "SocketRocket": "uncategorized", // A conforming WebSocket (RFC 6455) client library.
+  "SocketRocket": "web_sockets", // A conforming WebSocket (RFC 6455) client library.
   "SocketShuttle": "uncategorized", // A higher-level API for SocketRocket with reachability and reconnect.
   "SOCKit": "uncategorized", // String <-> Object Coder for Objective-C.
   "SOCQ": "uncategorized", // Syntax for Objective-C Queries.
@@ -3733,11 +3733,11 @@
   "VBOrientationSpecificViewController": "uncategorized", // Allows you to display separate nibs for both landscape and portrait
   "VBValenciaOpenData": "uncategorized", // An Objective-c client for the Valencia Datos Abiertos service
   "VCRURLConnection": "mocking", // VCRURLConnection is an iOS and OSX API to record and replay HTTP interactions, inspired by VCR.
-  "VCTransitionsLibrary": "uncategorized", // A collection of interactive iOS 7 custom view controller transitions, including flip, fold, cross-fade and more
-  "VENCalculatorInputView": "uncategorized", // Venmo-style calculator keyboard for iOS
+  "VCTransitionsLibrary": "gui_transitions", // A collection of interactive iOS 7 custom view controller transitions, including flip, fold, cross-fade and more
+  "VENCalculatorInputView": "gui_calculator", // Venmo-style calculator keyboard for iOS
   "VENExperimentsManager": "uncategorized", // Definition, management and control of experiments within an iOS app.
   "VENSnowOverlayView": "uncategorized", // A UIView whith overlayed, animated snowflakes
-  "VENVersionTracker": "uncategorized", // Monitor App Versions, Prompt and Force Updates.
+  "VENVersionTracker": "app_updates", // Monitor App Versions, Prompt and Force Updates.
   "VerbalExpressions": "regular_expressions", // VerbalExpressions is an Objective C library that helps to construct difficult regular expressions.
   "VerbalExpressions-for-Objective-C": "regular_expressions", // Regular expression syntax and Objective-C verbosity, together at last.
   "Verbena": "uncategorized", // A collection of Core Graphics helper methods.
@@ -3827,7 +3827,7 @@
   "WZMarqueeView": "uncategorized", // A marquee view used on iOS.
   "XBImageFilters": "camera", // OpenGL ES 2-based image and real-time camera filters for iOS.
   "Xbox360ControllerManager": "uncategorized", // A Library to conveniently detect input of Xbox input devices.
-  "XBPageCurl": "http_client", // A decent page curl transition for iOS.
+  "XBPageCurl": "gui_transitions", // A decent page curl transition for iOS.
   "XBToolkit": "uncategorized", // Xebia mapping and serializing tools for iOS & OSX.
   "XCAsyncTestCase": "testing", // Asynchronous capable XCTestCase subclass
   "XCDFormInputAccessoryView": "uncategorized", // Input accessory view with previous, next and done buttons.
