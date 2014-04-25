@@ -72,18 +72,18 @@
   "AFCache": "http", // AFCache is an HTTP cache for iOS and OSX seeking towards full RFC2616 compliance.
   "AFCensusAPIClient": "http", // AFHTTPClient subclass for the Census API.
   "AFCSVRequestOperation": "csv", // An extension for AFNetworking that provides an interface to parse CSV using CHCSVParser.
-  "AFDownloadRequestOperation": "uncategorized", // A progressive download operation for AFNetworking.
-  "AFFCCAPIClient": "uncategorized", // AFHTTPClient subclass for the FCC API.
+  "AFDownloadRequestOperation": "http_client", // A progressive download operation for AFNetworking.
+  "AFFCCAPIClient": "proprietary_api", // AFHTTPClient subclass for the FCC API.
   "AFFEvent": "uncategorized", // AFFEvent is an easy to use event system built for both iOS and OSX.
   "AFgzipRequestSerializer": "uncategorized", // gzip Request Serializer for AFNetworking
-  "AFHARchiver": "uncategorized", // An AFNetworking extension to automatically generate a HTTP Archive file of all of your network requests.
+  "AFHARchiver": "http", // An AFNetworking extension to automatically generate a HTTP Archive file of all of your network requests.
   "AFHTTPClientLogger": "http", // A configurable HTTP request logger for AFNetworking.
-  "AFHTTPFileUpdateOperation": "uncategorized", // AFNetworking extenstion for updating file with HTTP header "If-Modified-Since" and status code 304.
+  "AFHTTPFileUpdateOperation": "http", // AFNetworking extenstion for updating file with HTTP header "If-Modified-Since" and status code 304.
   "AFHTTPRequestOperationLogger": "http", // AFNetworking Extension for HTTP Request Logging.
   "AFHTTPRequestOperationLogger-VolumeControl": "uncategorized", // Change log level with hardware volume buttons.
-  "AFImageDownloader": "uncategorized", // Downloads JPEG images asynchronously and decompresses them on a background thread.
-  "AFIncrementalStore": "uncategorized", // Core Data Persistence with AFNetworking, Done Right.
-  "AFJSONPRequestOperation": "uncategorized", // AFNetworking Extension for the JSONP format.
+  "AFImageDownloader": "images", // Downloads JPEG images asynchronously and decompresses them on a background thread.
+  "AFIncrementalStore": "core_data", // Core Data Persistence with AFNetworking, Done Right.
+  "AFJSONPRequestOperation": "json", // AFNetworking Extension for the JSONP format.
   "AFJSONRPCClient": "json", // A JSON-RPC client build on AFNetworking.
   "AFKissXMLRequestOperation": "xml", // An extension for AFNetworking that provides an interface to parse XML using KissXML.
   "AFKissXMLRequestOperation@aceontech": "xml", // An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.
