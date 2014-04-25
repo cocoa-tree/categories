@@ -477,7 +477,7 @@
   "BWObjectMapping": "uncategorized", // Small library that parse JSON and map it to any object, works with NSManagedObject.
   "BWObjectSerializer": "uncategorized", // Small library that transform an object into a dictionary that can be send to a web service.
   "BYLBadgeView": "uncategorized", // An animatable, TextKit based view to display badges.
-  "Bypass": "html", // Bypass - Bypass renders markdown directly to UIViews instead of using an intermediary HTML format.
+  "Bypass": "markdown", // Bypass - Bypass renders markdown directly to UIViews instead of using an intermediary HTML format.
   "BZGFormField": "gui_form", // A text field with a validity indicator for better forms.
   "BZGFormViewController": "gui_form", // A library for creating dynamic forms.
   "BZGMailgunEmailValidation": "email", // A simple wrapper for the Mailgun email validation API.
@@ -787,7 +787,7 @@
   "DCScrollView": "uncategorized", // DCScrollView is the scroll view that current title is changed with a delay.
   "DCSlideOutViewController": "uncategorized", // Does the slide view thing as seen in Path app.
   "DCTCoreDataStack": "uncategorized", // Easily sets up a read to use core data stack.
-  "DCTextEngine": "uncategorized", // An engine that convert text to attributed strings and attributed strings to text. Supports HTML and markdown by default.
+  "DCTextEngine": "markdown", // An engine that convert text to attributed strings and attributed strings to text. Supports HTML and markdown by default.
   "DCTTextFieldValidator": "uncategorized", // Validates an array of UITextFields before allowing an action to take place.
   "DDExpandableButton": "uncategorized", // DDExpandableButton is a class designed to be used like an expandable UIButton; as seen in the iOS Camera app for the flash button.
   "DDGoogleAnalytics-OSX": "analytics", // Objective-C Cocoa Wrapper for javascript google analytics tracking. a demo on github shows how to easily use it into your app.
@@ -874,15 +874,15 @@
   "DRImagePlaceholderHelper": "uncategorized", // easy programmatically created placeholder UIImages
   "DRKonamiCode": "touch", // The Konami Code gesture recognizer for iOS.
   "DropBlocks": "uncategorized", // A blocks-based wrapper for the Dropbox iOS SDK.
-  "Dropbox-iOS-SDK": "uncategorized", // The Dropbox SDK for iOS.
-  "Dropbox-OSX-SDK": "uncategorized", // The Dropbox SDK for OS X.
-  "Dropbox-OSX-Sync-SDK": "uncategorized", // The Dropbox Sync & Datastore API SDK for OSX.
-  "Dropbox-Sync-API-SDK": "uncategorized", // The Dropbox Sync & Datastore API SDK for iOS.
+  "Dropbox-iOS-SDK": "dropbox_api", // The Dropbox SDK for iOS.
+  "Dropbox-OSX-SDK": "dropbox_api", // The Dropbox SDK for OS X.
+  "Dropbox-OSX-Sync-SDK": "dropbox_api", // The Dropbox Sync & Datastore API SDK for OSX.
+  "Dropbox-Sync-API-SDK": "dropbox_api", // The Dropbox Sync & Datastore API SDK for iOS.
   "DropdownMenu": "gui_menus", // A dropdown menu for iOS built on modern technologies inspired by the Vine and Dropbox iOS7 apps.
-  "DRPaginatedScrollView": "uncategorized", // Implement a paginated scroll view really easily using blocks.
+  "DRPaginatedScrollView": "gui_scroll", // Implement a paginated scroll view really easily using blocks.
   "DRTap": "uncategorized", // .tap from Ruby implemented as a category on NSObject.
-  "drupal-ios-sdk": "uncategorized", // A framework for communicating to Drupal via an iPhone.
-  "DSBarChart": "uncategorized", // A simple Objective-C Bar Chart / Histogram library.
+  "drupal-ios-sdk": "proprietary_api", // A framework for communicating to Drupal via an iPhone.
+  "DSBarChart": "charts", // A simple Objective-C Bar Chart / Histogram library.
   "DSFavIconManager": "uncategorized", // DSFavIconManager is a complete solution for displaying favicons.
   "DSGraphicsKit": "uncategorized", // Utilties for common and advanced graphics operations.
   "DSLCalendarView": "gui_calendar", // Simple calendar view for iOS.
@@ -897,11 +897,11 @@
   "DTAUS": "uncategorized", // A simple DTAUS parser written in Objective-C.
   "DTBonjour": "uncategorized", // Client/Server Communication of NSObjects over WiFi.
   "DTCollectionViewManager": "uncategorized", // The most simple and robust way to manage UICollectionView.
-  "DTCoreText": "uncategorized", // Methods to allow using HTML code with CoreText.
-  "DTDownload": "uncategorized", // File Downloading, Caching and Queueing.
+  "DTCoreText": "html", // Methods to allow using HTML code with CoreText.
+  "DTDownload": "file_download", // File Downloading, Caching and Queueing.
   "DTFoundation": "uncategorized", // Standard toolset classes and categories.
-  "DTInlineDatePicker": "uncategorized", // Display UIDatePicker inline easily!
-  "DTMarkdownParser": "uncategorized", // An event-based parser for Markdown.
+  "DTInlineDatePicker": "dates", // Display UIDatePicker inline easily!
+  "DTMarkdownParser": "markdown", // An event-based parser for Markdown.
   "DTModelStorage": "uncategorized", // Storage classes for datasource based controls.
   "DTPickerPresenter": "uncategorized", // Modern wrapper for UIDatePicker and UIPickerView presentation.
   "DTRequestVerifier": "uncategorized", // Easy, extensible NSURLRequest verification
@@ -1204,7 +1204,7 @@
   "GetGravatar": "gravatar", // Simple class for generating a gravatar from an email address.
   "GGFullscreenImageViewController": "uncategorized", // Fullscreen any UIImageView.
   "GHKit": "uncategorized", // Objective-C categories and utilities
-  "GHMarkdownParser": "uncategorized", // A markdown parser for iOS based on discount.
+  "GHMarkdownParser": "markdown", // A markdown parser for iOS based on discount.
   "GHSidebarNav": "uncategorized", // A clone of the new Facebook iOS UI paradigm.
   "GHUnit": "testing", // Test Framework for Objective-C.
   "GHUnitIOS": "testing", // Test Framework for Objective-C.
@@ -2138,7 +2138,7 @@
   "MMDrawerController": "uncategorized", // A lightweight, easy-to-use side drawer navigation controller.
   "MMDrawerController+Storyboard": "storyboard", // Storyboard category extension for MMDrawerController
   "MMKeychain": "keychain", // A simple wrapper around the keychain that securely stores NSStrings.
-  "MMMarkdown": "uncategorized", // An Objective-C static library for converting Markdown to HTML.
+  "MMMarkdown": "markdown", // An Objective-C static library for converting Markdown to HTML.
   "MMPickerView": "uncategorized", // An easy to use and customizable UIPickerView for your iOS app.
   "MMProgressHUD": "uncategorized", // An easy to use HUD interface with personality.
   "MMRecord": "uncategorized", // A simple block based web service integration library.
@@ -2367,7 +2367,7 @@
   "NSAssert+BackingActions": "uncategorized", // NSAssert-based macros that perform some backing actions when NS_BLOCK_ASSERTIONS is defined.
   "NSAttributedString+CCLFormat": "uncategorized", // Attributed string extension for creating attributed strings from a format string.
   "NSAttributedString-DDHTML": "uncategorized", // Simplifies working with NSAttributedString by allowing you to use HTML to describe formatting behaviors.
-  "NSAttributedStringMarkdownParser": "uncategorized", // A Markdown NSAttributedString parser.
+  "NSAttributedStringMarkdownParser": "markdown", // A Markdown NSAttributedString parser.
   "NSBKeyframeAnimation": "uncategorized", // jQuery-like animations in CoreAnimation.
   "NSBSpritesheetLayer": "uncategorized", // Spritesheet animations in UIKit.
   "NSCalendar-EqualWithGranularity": "uncategorized", // An implementation of the NSDate function that Apple added to the iOS 7 beta and then removed from the final release.
@@ -2525,7 +2525,7 @@
   "OCBorghettiView": "uncategorized", // An easy to use accordion view for iOS.
   "OCCalendar": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
   "OCCalendar-Ext": "gui_calendar", // OCCalendar is a very simple component for iPhone/iPad that provides a 'Popover' date picker controller.
-  "OCDiscount": "uncategorized", // Discount Markdown Processor for iOS and OS X
+  "OCDiscount": "markdown", // Discount Markdown Processor for iOS and OS X
   "OCDSpec2": "testing", // Unit Testing for the obsessive compulsive.
   "OCFuntime": "uncategorized", // Objective-c runtime funny wrapper.
   "OCFWeb": "uncategorized", // A small and imperfect web application framework written in Objective-C.
@@ -2895,7 +2895,7 @@
   "RFduino-library": "uncategorized", // RFduino-library is a few classes to manage & communicate with RFduino boards over BlueTooth 4.0
   "RFKeyboardToolbar": "keyboard", // A flexible UIView and UIButton subclass to add customized buttons and toolbars to your UITextFields/UITextViews.
   "RFKeychain": "keychain", // Keychain wrapper for iOS and Mac OS X.
-  "RFMarkdownTextView": "gui_textview", // A UITextView that is supposed to replicate the comment toolbar in iOctocat (http://ioctocat.com) with auto-insert markdown functionality.
+  "RFMarkdownTextView": "markdown", // A UITextView that is supposed to replicate the comment toolbar in iOctocat (http://ioctocat.com) with auto-insert markdown functionality.
   "RFMathTextField": "uncategorized", // A simple validator/equation answerer.
   "RFOverlayScrollView": "uncategorized", // Overlay style NSScrollView even when a mouse is attached.
   "RFQuiltLayout": "uncategorized", // RFQuiltLayout is a subclass of UICollectionViewLayout that positions various sized cells like a maison laying bricks.
@@ -3336,7 +3336,7 @@
   "StyledPageControl": "uncategorized", // Customizable PageControl for iOS.
   "StyledTableViewCell-for-iOS": "gui_tableview", // Customize table view cell border and highlight colors.
   "SubjectiveScript.m": "uncategorized", // Subjective-Script makes Objective-C more scripty!
-  "sundown": "uncategorized", // Markdown parser based on the Upskirt library by Natacha Porté. Written in C with a lightweight Objective-C Wrapper.
+  "sundown": "markdown", // Markdown parser based on the Upskirt library by Natacha Porté. Written in C with a lightweight Objective-C Wrapper.
   "SupportKit": "uncategorized", // Radialpoint SupportKit instantly embeds your Zendesk Help Center in your iOS app.
   "SuProgress": "uncategorized", // Supr-Ogress is a super progress bar solution.
   "Surikae": "testing", // Surikae exchanges a class or instance method with blocks. It’s helpful for unit testing of Objective-C.
