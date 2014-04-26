@@ -2932,13 +2932,13 @@
   "RMSkinnedView": "uncategorized", // This subclass of NSView uses a NSImage as pattern or a NSColor to fill its background.
   "RMSTableViews": "gui_tableview", // Provides support for common UITableViewController usage patterns
   "RMStepsController": "uncategorized", // This is an iOS control for guiding users through a process step-by-step
-  "RMSTokenView": "uncategorized", // RMSTokenView is a text-field like view that handles tokens as seen in the Mail app.
-  "RMStore": "uncategorized", // A lightweight iOS framework for In-App Purchases.
+  "RMSTokenView": "gui_tokenfield", // RMSTokenView is a text-field like view that handles tokens as seen in the Mail app.
+  "RMStore": "payment", // A lightweight iOS framework for In-App Purchases.
   "RMSwipeTableViewCell": "gui_tableview", // A drop-in UITableViewCell subclass with built-in pan/swipe gestures for easy integration into any project.
   "RNBlurModalView": "uncategorized", // Add depth to your alerts.
   "RNBlurredSideViewController": "uncategorized", // A side view controller with a dynamic blurred background effect which is similar to the iOS 7 control center.
-  "RNCachingURLProtocol": "uncategorized", // Simple offline caching for UIWebView and other NSURLConnection clients.
-  "RNConcurrentBlockOperation": "uncategorized", // Simple NSOperation subclass that allows a block of asynchronous work to be executed in parallel in a NSOperationQueue
+  "RNCachingURLProtocol": "caching", // Simple offline caching for UIWebView and other NSURLConnection clients.
+  "RNConcurrentBlockOperation": "nsoperation", // Simple NSOperation subclass that allows a block of asynchronous work to be executed in parallel in a NSOperationQueue
   "RNCryptor": "crypto", // Encryptor/Decryptor for iOS.
   "RNFrostedSidebar": "uncategorized", // A Control Center-esque control with blurred background and toggle animations.
   "RNGridMenu": "gui_menus", // A grid menu with elastic layout, depth of field, and realistic animation.
