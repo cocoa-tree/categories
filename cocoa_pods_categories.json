@@ -3,11 +3,11 @@
   "A2DynamicDelegate": "functional_programming", // Blocks are to functions as A2DynamicDelegate is to delegates.
   "A2StoryboardSegueContext": "storyboard", // Supplement your segues' identifier strings with context objects.
   "A3GridTableView": "gui_tableview", // Fast UIScrollView subclass which presents its cells in a GridView.
-  "AAActivityAction": "uncategorized", // Reeder like action sheet.
-  "AAImageUtils": "uncategorized", // Simple framework to let your application's launch image fade-out to its initial view.
+  "AAActivityAction": "gui", // Reeder like action sheet.
+  "AAImageUtils": "images", // Simple framework to let your application's launch image fade-out to its initial view.
   "AALaunchTransition": "gui_transitions", // Simple framework to let your application's launch image fade-out to its initial view.
   "AAPullToRefresh": "uncategorized", // All around pull to refresh library.
-  "AAShareBubbles": "uncategorized", // Animated Social share buttons control for iOS
+  "AAShareBubbles": "gui_button", // Animated Social share buttons control for iOS
   "ABCalendarPicker": "gui_calendar", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
   "ABContactHelper": "uncategorized", // Objective-C Address Book wrapper.
   "ABCustomUINavigationController": "gui", // Custom UINavigationController. SquaresFlips and Cube effects
@@ -52,7 +52,7 @@
   "AdjustIO": "uncategorized", // This is the iOS SDK of AdjustIo. You can read more about it at http://adjust.io.
   "adlibr": "uncategorized", // adlibr SDK with helper.
   "AdMobHelper": "uncategorized", // Shortcut function for AdMob.
-  "AdMobMediationAdapterIAd": "uncategorized", // AdMob Mediation Adapter for iAd Network.
+  "AdMobMediationAdapterIAd": "proprietary_api", // AdMob Mediation Adapter for iAd Network.
   "ADNKit": "appnet_api", // Objective-C framework for building App.net applications on iOS and OS X.
   "ADNLogin": "appnet_api", // Easily add support for seamless App.net login via the Passport app.
   "AdPopcornSDK": "uncategorized", // AdPopcorn SDK
