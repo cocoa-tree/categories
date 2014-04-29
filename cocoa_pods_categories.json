@@ -2940,7 +2940,7 @@
   "RNCachingURLProtocol": "caching", // Simple offline caching for UIWebView and other NSURLConnection clients.
   "RNConcurrentBlockOperation": "nsoperation", // Simple NSOperation subclass that allows a block of asynchronous work to be executed in parallel in a NSOperationQueue
   "RNCryptor": "crypto", // Encryptor/Decryptor for iOS.
-  "RNFrostedSidebar": "uncategorized", // A Control Center-esque control with blurred background and toggle animations.
+  "RNFrostedSidebar": "gui_sidebar", // A Control Center-esque control with blurred background and toggle animations.
   "RNGridMenu": "gui_menus", // A grid menu with elastic layout, depth of field, and realistic animation.
   "RNPinnedCertValidator": "crypto", // Simplify validating pinned SSL certificates.
   "RNRippleTableView": "gui_tableview", // A custom table view with highly detailed ripple animations.
@@ -2985,9 +2985,9 @@
   "RubyCocoaString": "uncategorized", // Ruby string manipulation methods as a category on NSString.
   "RubySugar": "syntax_shugar", // Ports Ruby syntactic sugar to Objective-C.
   "rump-ios": "uncategorized", // Rump-iOS is Rump client for iOS devices..
-  "RunKeeper-iOS": "uncategorized", // An iOS RunKeeper API module.
+  "RunKeeper-iOS": "proprietary_api", // An iOS RunKeeper API module.
   "RuntimeHelpers": "uncategorized", // A collection of helpers related to objc/runtime.
-  "RWPCoreData": "uncategorized", // Boilerplate code for Core Data projects
+  "RWPCoreData": "core_data", // Boilerplate code for Core Data projects
   "RX": "regular_expressions", // Concise interface for regular expressions in Objective-C.
   "RXCollections": "uncategorized", // map, filter, fold, and detect for Cocoa collections.
   "RXPromise": "promises", // A thread safe implementation of the Promises/A+ specification in Objective-C with extensions.
@@ -3264,13 +3264,13 @@
   "sqlite3-objc": "sql", // Sqlite3 Objective-C wrapper.
   "Sqwiggle": "proprietary_api", // Objective-C Wrapper for Sqwiggle API
   "SRGridLocation": "geo_location", // SRGridLocation provides a convenient way to convert between Swedish grid and GPS location coordinates.
-  "SRMonthPicker": "uncategorized", // Like UIDatePicker, but without the days.
-  "SRVPickerButton": "uncategorized", // A UIButton that presents a picker view for input.
-  "SSAccessibility": "uncategorized", // A VoiceOver speech synthesizer and other iOS accessibility helpers.
+  "SRMonthPicker": "gui_calendar", // Like UIDatePicker, but without the days.
+  "SRVPickerButton": "gui_button", // A UIButton that presents a picker view for input.
+  "SSAccessibility": "accessibility", // A VoiceOver speech synthesizer and other iOS accessibility helpers.
   "SSApplication": "uncategorized", // A UIApplication subclass to start your app off right.
-  "SSAppURLs": "uncategorized", // Quickly check for and open URLs using iOS app URL schemes.
+  "SSAppURLs": "urls", // Quickly check for and open URLs using iOS app URL schemes.
   "SSCache": "caching", // Simple in memory and on disk cache.
-  "SSCheckBoxView": "uncategorized", // SSCheckBoxView is a check box UI control for iOS apps.
+  "SSCheckBoxView": "gui_form", // SSCheckBoxView is a check box UI control for iOS apps.
   "SSCollectionViewExchangeController": "uncategorized", // SSCollectionViewExchangeController manages the process of exchanging 2 items in a collection view.
   "SSCWhatsAppActivity": "uncategorized", // A UIActivity subclass for sharing messages with WhatsApp.
   "SSDataKit": "core_data", // Eliminate your Core Data boilerplate code.
