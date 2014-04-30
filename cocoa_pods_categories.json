@@ -3281,19 +3281,19 @@
   "SSGentleAlertView": "gui_alert", // This is gentler than UIAlertView and This can be changed the Appearance unlike UIAlertView.
   "SSKeychain": "keychain", // Simple Cocoa wrapper for the keychain that works on Mac and iOS.
   "SSLunarDate": "date", // This is an iOS Chinese Lunar date framework, which can convert the NSDate to a Lunar date, and Lunar holiday
-  "SSOperations": "uncategorized", // Handy NSOperationQueue and NSBlockOperation helpers.
-  "SSPreferredBrowser": "uncategorized", // Quickly present available web browsers, save prefs, and perform common actions.
-  "SSPullToRefresh": "uncategorized", // Simple and highly customizable pull to refresh view.
+  "SSOperations": "async", // Handy NSOperationQueue and NSBlockOperation helpers.
+  "SSPreferredBrowser": "web_browser", // Quickly present available web browsers, save prefs, and perform common actions.
+  "SSPullToRefresh": "gui", // Simple and highly customizable pull to refresh view.
   "SSToolkit": "uncategorized", // A collection of well-documented iOS classes for making life easier.
-  "SSUIViewMiniMe": "uncategorized", // A miniature replica of your UIView with an indicator of your location.
-  "SSXboxLeaders": "uncategorized", // Objective-C Wrapper for XboxLeaders API.
-  "SSZipArchive": "uncategorized", // Utility class for zipping and unzipping files on iOS and Mac.
+  "SSUIViewMiniMe": "gui", // A miniature replica of your UIView with an indicator of your location.
+  "SSXboxLeaders": "proprietary_api", // Objective-C Wrapper for XboxLeaders API.
+  "SSZipArchive": "compression", // Utility class for zipping and unzipping files on iOS and Mac.
   "STableViewController": "gui_tableview", // STableViewController is a custom table view controller that supports pull-to-refresh and load-more.
-  "StackBluriOS": "uncategorized", // Stack Blur implementation for iOS.
+  "StackBluriOS": "gui", // Stack Blur implementation for iOS.
   "StackMob": "uncategorized", // StackMob's SDK for accessing the StackMob Services on iOS.
   "StackMobPush": "notifications", // StackMob's Push SDK for sending push notifications via the StackMob Services on iOS.
-  "StackView": "uncategorized", // A class designed to simplify the implementation of vertical stacks of views on iOS.
-  "StandardPaths": "uncategorized", // Category on NSFileManager for simple consistent access to standard application directories.
+  "StackView": "gui", // A class designed to simplify the implementation of vertical stacks of views on iOS.
+  "StandardPaths": "file", // Category on NSFileManager for simple consistent access to standard application directories.
   "starIOPrintSDK": "uncategorized", // Star Micronics iOS Print SDK
   "StartAtLoginController": "uncategorized", // Easy to use controller that makes use of the Cocoa ServiceManagement APIs.
   "StateMachine": "state_machine", // State machine library for Objective-C.
@@ -3308,47 +3308,47 @@
   "STLOAuth": "oauth", // OAuth 1.0a client using AFNetwork.
   "StompKit": "uncategorized", // STOMP Objective-C Client for iOS.
   "Stop-Walking-iPhone": "uncategorized", // Save the children from texting while walking with iPhone.
-  "StopWatch": "uncategorized", // StopWatch view with BBControl buttons.
+  "StopWatch": "gui_button", // StopWatch view with BBControl buttons.
   "StorageRoomKit": "uncategorized", // Objective-C API for StorageRoom API (http://storageroomapp.com).
   "StoreKISS": "store_kit", // Lightweight wrapper for Apple's StoreKit framework created with KISS concept and love ❤.
   "StoryboardInitializer": "storyboard", // It is handling instantiateViewControllerWithIdentifier: of storyboard.
   "StoryboardSupport": "storyboard", // Utilities to make prototyping with Storyboards easier, created for designers.
   "STPhoneFormatter": "phone_numbers", // A custom formatter to deal with an international phone number inside a UITextField.
-  "STPImboClient": "uncategorized", // STPImbo is a simple helper to create image URLs for imbo Image Server.
+  "STPImboClient": "images", // STPImbo is a simple helper to create image URLs for imbo Image Server.
   "STPTransitions": "gui_transitions", // Unified, easy API for custom iOS view controller transitioning.
   "Strawberry": "models", // A wonderful iOS and OS X model framework
   "StreamingKit": "audio", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
-  "Stretchr": "uncategorized", // The Cocoa SDK for the Stretchr platform.
+  "Stretchr": "proprietary_api", // The Cocoa SDK for the Stretchr platform.
   "STRFTimeFormatter": "date", // NSDateFormatter replacement for machine encoded dates.
-  "StringCoding": "uncategorized", // Simple library for setting object properties of any type using string values. Great for configuration files.
+  "StringCoding": "object_mapping", // Simple library for setting object properties of any type using string values. Great for configuration files.
   "StringScore": "search", // StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring.
   "Stripe": "payment", // Stripe is a web-based API for accepting payments online.
-  "STScratchView": "uncategorized", // A UIView which allow a manual and automatic scratching behavior.
-  "STSpriteKit": "uncategorized", // SpriteKit helpers and additions. Parallax Node
+  "STScratchView": "gui", // A UIView which allow a manual and automatic scratching behavior.
+  "STSpriteKit": "gui", // SpriteKit helpers and additions. Parallax Node
   "STSwizzle": "uncategorized", // Several Swizzle methods on a NSObject category.
-  "STTimeSlider": "uncategorized", // A custom component like UISegmentedControl highly customizable.
-  "STTweetLabel": "uncategorized", // A custom UILabel view controller for iOS with certain words tappable like Twitter.
-  "STTwitter": "uncategorized", // A comprehensive Objective-C library for Twitter's REST API 1.1.
-  "STTwitterTimeLine": "uncategorized", // To Fetch recent tweets of specified twitter-handle on iOS7/iOS6/iOS5
-  "Stubbilino": "uncategorized", // Easy stubbing in Objective-C.
+  "STTimeSlider": "gui_slider", // A custom component like UISegmentedControl highly customizable.
+  "STTweetLabel": "gui", // A custom UILabel view controller for iOS with certain words tappable like Twitter.
+  "STTwitter": "twitter_api", // A comprehensive Objective-C library for Twitter's REST API 1.1.
+  "STTwitterTimeLine": "twitter_api", // To Fetch recent tweets of specified twitter-handle on iOS7/iOS6/iOS5
+  "Stubbilino": "mocking", // Easy stubbing in Objective-C.
   "StudyplusSDK": "uncategorized", // Studyplus iOS SDK
   "STWorkflow": "state_machine", // An Objective-C Finite-state machine.
-  "StyledPageControl": "uncategorized", // Customizable PageControl for iOS.
+  "StyledPageControl": "gui_controls", // Customizable PageControl for iOS.
   "StyledTableViewCell-for-iOS": "gui_tableview", // Customize table view cell border and highlight colors.
-  "SubjectiveScript.m": "uncategorized", // Subjective-Script makes Objective-C more scripty!
+  "SubjectiveScript.m": "syntax_shugar", // Subjective-Script makes Objective-C more scripty!
   "sundown": "markdown", // Markdown parser based on the Upskirt library by Natacha Porté. Written in C with a lightweight Objective-C Wrapper.
-  "SupportKit": "uncategorized", // Radialpoint SupportKit instantly embeds your Zendesk Help Center in your iOS app.
-  "SuProgress": "uncategorized", // Supr-Ogress is a super progress bar solution.
+  "SupportKit": "proprietary_api", // Radialpoint SupportKit instantly embeds your Zendesk Help Center in your iOS app.
+  "SuProgress": "gui_progress", // Supr-Ogress is a super progress bar solution.
   "Surikae": "testing", // Surikae exchanges a class or instance method with blocks. It’s helpful for unit testing of Objective-C.
-  "Survey": "uncategorized", // Survey is a library to simplify the process of creating and validating forms. This library is loosely based on CoreData and Django forms.
-  "SVBlurView": "uncategorized", // A simple reimplementation of FXBlurView for iOS 7.
+  "Survey": "validations", // Survey is a library to simplify the process of creating and validating forms. This library is loosely based on CoreData and Django forms.
+  "SVBlurView": "gui", // A simple reimplementation of FXBlurView for iOS 7.
   "SVEApplicationDelegate": "uncategorized", // A service oriented ApplicationDelegate
-  "SVETabBarController": "uncategorized", // A Tab Bar controller where the tabbar hides itself when scrolling inside the selected view.
-  "SVGeocoder": "uncategorized", // Simple Cocoa wrapper for the Google Geocoding Service.
-  "SVGKit": "uncategorized", // Display and interact with SVG Images on iOS, using native rendering (CoreAnimation).
-  "SVHTTPRequest": "uncategorized", // Simple REST client for iOS and Mac.
-  "SVJsonSchemaValidator": "uncategorized", // Simple JSON Validator for Objective-C.
-  "SVProgressHUD": "gui", // A clean and lightweight progress HUD for your iOS app.
+  "SVETabBarController": "tabs", // A Tab Bar controller where the tabbar hides itself when scrolling inside the selected view.
+  "SVGeocoder": "geo_location", // Simple Cocoa wrapper for the Google Geocoding Service.
+  "SVGKit": "images", // Display and interact with SVG Images on iOS, using native rendering (CoreAnimation).
+  "SVHTTPRequest": "http_client", // Simple REST client for iOS and Mac.
+  "SVJsonSchemaValidator": "json", // Simple JSON Validator for Objective-C.
+  "SVProgressHUD": "gui_progress", // A clean and lightweight progress HUD for your iOS app.
   "SVPullToRefresh": "uncategorized", // Give pull-to-refresh to any UIScrollView with 1 line of code.
   "SVPulsingAnnotationView": "uncategorized", // A customizable MKUserLocationView replica for your iOS app.
   "SVSegmentedControl": "uncategorized", // A UISwitch-like segmented control for your iOS app.
