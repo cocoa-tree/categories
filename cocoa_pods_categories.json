@@ -3042,7 +3042,7 @@
   "SDCAlertView": "gui_alert", // SDCAlertView is a UIAlertView clone with added functionality including a contentView property
   "SDCAutoLayout": "auto_layout", // A UIView category that simplifies dealing with Auto Layout
   "SDCloudUserDefaults": "icloud", // Store NSUserDefaults and iCloud data at the same time.
-  "SDColor": "color", // Dead simple convenience categories for UIColor.
+  "SDColor": "colors", // Dead simple convenience categories for UIColor.
   "SDCSegmentedViewController": "gui_segmented", // Custom view controller container that uses a segmented control to switch between view controllers.
   "SDCTextField": "gui_textfield", // A UITextField drop-in replacement with support for setting a maximum length.
   "SDJSONPrettyPrint": "prettyfier", // Produces human-friendly JSON, which you can use for logging or debugging purposes.
@@ -3078,7 +3078,7 @@
   "SevenSwitch": "uncategorized", // iOS7 style drop in replacement for UISwitch.
   "SexyDates": "dates", // NSNumber category that creates dates in a sexy, Rails-like way: `@(3).days.ago`.
   "SFCountdownView": "uncategorized", // Provides a customizable countdown overlay view
-  "SFGaugeView": "cahrts", // Provides a gauge control for ios
+  "SFGaugeView": "charts", // Provides a gauge control for ios
   "SFHFKeychainUtils": "keychain", // SciFiHiFi Utilities for manipulating the keychain.
   "SFNotify": "notifications", // Simple custom user notifications.
   "SFObservers": "uncategorized", // Categories expanding both NSNotificationCenter and KVO to provide auto removal of observers.
@@ -3406,7 +3406,7 @@
   "TDImageColors": "colors", // iOS Library used to detect a number of most used colors in a UIImage.
   "TDNotificationPanel": "uncategorized", // TDNotificationPanel is a drop in class that displays a notification.
   "TDSemiModal": "gui_calendar", // Semi-modal view & DatePicker for IOS
-  "TEAChart": "cahrts", // Simple and intuitive iOS chart library. Contribution graph, clock chart, and bar chart.
+  "TEAChart": "charts", // Simple and intuitive iOS chart library. Contribution graph, clock chart, and bar chart.
   "TEDLocalization": "i18n", // Easy localization of view controllers and views for iOS
   "TenzingCore": "utilities", // Some utilities for iOS.
   "Tesseract": "ocr", // OCR lib for iOS.
