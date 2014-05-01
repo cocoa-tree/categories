@@ -147,7 +147,7 @@
   "ALAssetsLibrary-CustomPhotoAlbum": "uncategorized", // A nice ALAssetsLibrary category for saving images & videos into custom photo album.
   "ALDClock": "uncategorized", // An interactive clock component for use in iOS projects.
   "AlertNinja": "gui_alert", // Invisible UIAlertView and spying.
-  "AlertShortkut": "guit_alert", // A custom Alert and Actionsheet with block implementation.
+  "AlertShortkut": "gui_alert", // A custom Alert and Actionsheet with block implementation.
   "AlgoliaSearch-Client": "uncategorized", // Algolia Search API Client for iOS & OS X.
   "AlgoliaSearchOffline-iOS-SDK": "uncategorized", // iOS framework to add Google-like instant search inside your apps.
   "AlgoliaSearchOffline-OSX-SDK": "uncategorized", // OS X framework to add Google-like instant search inside your apps.
@@ -336,8 +336,8 @@
   "Bark": "uncategorized", // A streamlined issue reporting library for iOS.
   "Base32": "crypto", // RFC 4648 Base32 implementation in Objective-C ARC.
   "Base32hex": "crypto", // An implementation of RFC2938/Base32hex encoder and decoder in Objective-C.
-  "Base64": "crpyto", // RFC 4648 Base64 implementation in Objective-C ARC.
-  "Base64nl": "crpyto", // Base64 is a set of categories that provide methods to encode and decode data as a base-64-encoded string.
+  "Base64": "crypto", // RFC 4648 Base64 implementation in Objective-C ARC.
+  "Base64nl": "crypto", // Base64 is a set of categories that provide methods to encode and decode data as a base-64-encoded string.
   "BaseKit": "uncategorized", // BaseKit is a set of IOS class to make your life easier.
   "BaseModel": "models", // BaseModel provides a base class for building model objects for your iOS or Mac OS projects.
   "Bazaarvoice": "proprietary_api", // Simple iOS SDK to interact with the Bazaarvoice platform API.
@@ -2003,7 +2003,7 @@
   "MBContactPicker": "contacts", // A contact picker that looks like the one in Apple mail for iOS7. This implementation uses a UICollectionView.
   "MBDebugPanel": "debugging", // A painless, configurable, hidden panel to add shortcuts to run code, test features, or whatever you like.
   "MBFaker": "mocking", // Library that generates fake data.
-  "MBHMAC": "crpyto", // HMAC additions for Objective-C NSString class.
+  "MBHMAC": "crypto", // HMAC additions for Objective-C NSString class.
   "MBImageConstants": "uncategorized", // Simple XCode 5 script that generates constants corresponding to image.
   "MBMapSnapshotter": "uncategorized", // Make static images from MapBox without loosing the coordinates
   "MBMvc": "mvc_framework", // MBMvc is a Message Based MVC framework.
@@ -2375,7 +2375,7 @@
   "NSColor-Crayola": "colors", // Crayola colors NSColor category
   "NSColor-Pantone": "colors", // Pantone colors NSColor category
   "NSData+APNSToken": "uncategorized", // Category for NSData that converts device tokens into NSString Objects
-  "NSData+Base64": "crpyto", // Base64 for NSData.
+  "NSData+Base64": "crypto", // Base64 for NSData.
   "NSData+MD5Digest": "crypto", // Add MD5 digest to NSData.
   "NSDate+Calendar": "uncategorized", // NSDate categories to access date components and many more.
   "NSDateComponents-CalendarUnits": "units", // NSDateComponents category for getting and setting date components via NSCalendarUnit values
@@ -3280,7 +3280,7 @@
   "SSFlatDatePicker": "gui_calendar", // An iOS custom date picker in the flat design.
   "SSGentleAlertView": "gui_alert", // This is gentler than UIAlertView and This can be changed the Appearance unlike UIAlertView.
   "SSKeychain": "keychain", // Simple Cocoa wrapper for the keychain that works on Mac and iOS.
-  "SSLunarDate": "date", // This is an iOS Chinese Lunar date framework, which can convert the NSDate to a Lunar date, and Lunar holiday
+  "SSLunarDate": "dates", // This is an iOS Chinese Lunar date framework, which can convert the NSDate to a Lunar date, and Lunar holiday
   "SSOperations": "async", // Handy NSOperationQueue and NSBlockOperation helpers.
   "SSPreferredBrowser": "web_browser", // Quickly present available web browsers, save prefs, and perform common actions.
   "SSPullToRefresh": "gui", // Simple and highly customizable pull to refresh view.
@@ -3319,7 +3319,7 @@
   "Strawberry": "models", // A wonderful iOS and OS X model framework
   "StreamingKit": "audio", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
   "Stretchr": "proprietary_api", // The Cocoa SDK for the Stretchr platform.
-  "STRFTimeFormatter": "date", // NSDateFormatter replacement for machine encoded dates.
+  "STRFTimeFormatter": "dates", // NSDateFormatter replacement for machine encoded dates.
   "StringCoding": "object_mapping", // Simple library for setting object properties of any type using string values. Great for configuration files.
   "StringScore": "search", // StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring.
   "Stripe": "payment", // Stripe is a web-based API for accepting payments online.
@@ -3707,7 +3707,7 @@
   "Unirest": "http_client", // Unirest is a set of lightweight HTTP libraries available in multiple languages.
   "UnitsKit": "units", // Evaluate, Convert and Format Units of Measure.
   "UniversalDetector": "uncategorized", // Wrapper of uchardet for Objective-C.
-  "UNNetPGP": "crpyto", // Objective-C OpenPGP framework built on foundation of NetPGP library
+  "UNNetPGP": "crypto", // Objective-C OpenPGP framework built on foundation of NetPGP library
   "unoffical-twitter-sdk": "twitter_api", // A Unoffical Twitter SDK that give capablities similar to the facebook-ios-sdk.
   "uploadcare-ios": "uncategorized", // iOS library for Uploadcare.
   "upnpx": "networking", // Open Source Mac OS X / iOS Cocoa UPnP Stack.
