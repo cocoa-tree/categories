@@ -294,11 +294,11 @@
   "AutoCompleteSuffixView": "uncategorized", // complete account's suffix automatically when user inputs in UITextField.
   "AutoDescribe": "uncategorized", // Prints human-readable information about an instance.
   "AutoHideKeyboardControllers": "keyboard", // AutoHideKeyboardControllers is a set of UIViewController subclasses which enables the tap background to hide keyboard behavior.
-  "AutoLayoutDance": "layout", // AutoLayoutDance is a small library for debugging AutoLayout ambiguous layouts.
-  "AutoLayoutDSL": "layout", // A straightforward DSL for specifying Cocoa Auto Layout constraints.
-  "AutoLayoutKit": "layout", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
-  "AutoLayoutMacros": "layout", // Macros for making Macros for making Auto Layout more readable.
-  "AutoLayoutShorthand": "layout", // alternative system for creating and adding Cocoa Auto Layout constraints
+  "AutoLayoutDance": "auto_layout", // AutoLayoutDance is a small library for debugging AutoLayout ambiguous layouts.
+  "AutoLayoutDSL": "auto_layout", // A straightforward DSL for specifying Cocoa Auto Layout constraints.
+  "AutoLayoutKit": "auto_layout", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+. Just use ALK to layout your views!
+  "AutoLayoutMacros": "auto_layout", // Macros for making Macros for making Auto Layout more readable.
+  "AutoLayoutShorthand": "auto_layout", // alternative system for creating and adding Cocoa Auto Layout constraints
   "AutoScrollLabel": "scrolling", // A marquee like scrolling UILabel, think iPod track title scrolling. Provides edge fading, speed adjustment, scroll direction, etc.
   "AVAnimator": "uncategorized", // VAnimator is an iOS library that makes it easy to implement non-trivial animated/video content in iOS.
   "AVCaptureMultipeerVideoDataOutput": "video", // An AVFoundation subclass for sending video over multipeer connectivity
@@ -550,7 +550,7 @@
   "ChopeToastView": "uncategorized", // iOS toast view
   "ChromaHash": "crypto", // A port of Matt Thompsons ChromaHash JS secure password field.
   "CHSectionSelectionView": "gui_tableview", // Easy to use and highly customizable View that displays selector controls for (e.g.) UITableView Sections.
-  "CHTCollectionViewWaterfallLayout": "layout", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
+  "CHTCollectionViewWaterfallLayout": "layouts", // The waterfall (i.e., Pinterest-like) layout for UICollectionView.
   "CHTStickerView": "gui", // A movable, resizable, rotatable UIView with one fingle, which is fully customizable!
   "CHTTextView": "gui_textview", // A UITextView subclass which supports placeholder (almost) perfectly in any text and/or font setting.
   "CHTumblrMenu": "gui_menus", // CHTumblrMenu is a Tumblr iOS app like menu view completely created using core animation.
@@ -576,7 +576,7 @@
   "CKUITools": "uncategorized", // A collection of UI Tools I use every day to make my life easier. Hopefully others will find them useful too.
   "ClassMapper": "uncategorized", // A simple obj-c library for converting classes which follow Key-Value Coding (KVC) conventions to other objects.
   "Classy": "uncategorized", // Expressive, flexible, and powerful stylesheets for UIView and friends.
-  "ClassyLiveLayout": "layout", // Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
+  "ClassyLiveLayout": "layouts", // Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
   "CLBlockObservation": "uncategorized", // No hassle Objective-C blocks-based KVO library with automatic removal
   "CLBottomPagination": "uncategorized", // Bottom pagination with rolling circles
   "ClearBlade-iOS-API": "uncategorized", // iOS API libraries for the ClearBlade platform
@@ -643,7 +643,7 @@
   "ConciseKit": "uncategorized", // A set of Objective-C additions and macros that lets you write code more quickly.
   "ConcurrentCollectionOperations": "uncategorized", // Concurrent map and filter on NSArray, NSDictionary, NSSet using GCD.
   "ConnectionManager": "uncategorized", // Easy management for connections in iOS
-  "ConstraintExpressions": "layout", // A DSL to create NSLayoutConstraints in code.
+  "ConstraintExpressions": "layouts", // A DSL to create NSLayoutConstraints in code.
   "ConstraintFormatter": "uncategorized", // A library to unify visual constraints and constraints based on attributes for Auto Layout
   "ConventionalC": "uncategorized", // Cocoapod and static library to provide defaults and convenience methods for terser Objective-C.
   "CoordinateFinder": "geo_location", // Easily get current coordinates (and other location info) with just a few lines of code
@@ -706,11 +706,11 @@
   "CSHashKit": "uncategorized", // A simple class category that implements hash and isEqual: for every Objective-C object.
   "CSJTools": "uncategorized", // 曹盛杰Cocoa工具包
   "cslim": "uncategorized", // An implementation of FitNesse SliM for C and Objective-C
-  "CSLinearLayoutView": "layout", // Linear layout view designed to simplify relative layouts on iOS.
+  "CSLinearLayoutView": "layouts", // Linear layout view designed to simplify relative layouts on iOS.
   "CSNNotificationObserver": "uncategorized", // CSNNotificationObserver is wrapping NSNotification for convenience.
   "CSNotificationView": "uncategorized", // iOS-7-style, semi-translucent notification view with blur.
   "CSSSelectorConverter": "uncategorized", // Objective-C/Cocoa String Tokenizer and Parser toolkit. Supports Grammars.
-  "CSStickyHeaderFlowLayout": "layout", // Parallax and Sticky header done right using UICollectionViewLayout
+  "CSStickyHeaderFlowLayout": "layouts", // Parallax and Sticky header done right using UICollectionViewLayout
   "CSURITemplate": "uncategorized", // Implementation of the URI Template spec.
   "CSV": "csv", // Format data to the comma-separated values format.
   "CsvToSqlite": "csv", // An iOS library to import a CSV file to the SQLite table
@@ -1832,7 +1832,7 @@
   "LAWalkthrough": "uncategorized", // A view controller class for iOS designed to simplify the creation of a walkthrough.
   "LayerSprites": "uncategorized", // Library designed to simplify the use of sprite sheets in UIKit applications without using OpenGL or 3rd-party game libraries.
   "LayerVaultAPI": "uncategorized", // The LayerVaultAPI pod helps you get going quickly with the LayerVault API.
-  "layout": "uncategorized", // ios下快速界面布局工具类
+  "layouts": "uncategorized", // ios下快速界面布局工具类
   "LayoutKit": "uncategorized", // A descriptive way to create NSLayoutConstraints for AutoLayout in iOS 6.0+ and access / modify them on runtime.
   "LazyDispatch": "uncategorized", // Thin API and concept on top of libdispatch (aka Grand Central Dispatch) for Cocoa Objective-C code.
   "LazyProperty": "uncategorized", // One line lazy property definition, with auto triggering, custom selectors
@@ -2787,7 +2787,7 @@
   "Pushwoosh": "notifications", // Push notifications library by Pushwoosh.
   "pushwoosh-ios-arc-sdk": "notifications", // Pushwoosh iOS SDK with ARC support
   "PVAsyncImageView": "images", // A simple NSImageView subclass that let's you download images asynchronously from the web on the Mac with some other useful properties.
-  "PWAlignView": "layout", // Align and arrange collection of views (UIView, UIImageView, UIButton, … ) on different directions.
+  "PWAlignView": "layouts", // Align and arrange collection of views (UIView, UIImageView, UIButton, … ) on different directions.
   "PWLoadMoreTableFooter": "gui_tableview", // A similar control to load more control.
   "PWProgressView": "gui_progress", // Circular progress view overlay
   "PXAlertView": "gui_alert", // A drop-in replacement for UIAlertView that is more customisable and skinnable
@@ -2832,7 +2832,7 @@
   "RCLocationManager": "uncategorized", // Easy Location Manager Framework.
   "RCPopoverView": "gui_popover", // A drop-in class for presenting an unobstrusive UIView that slides in horizontally.
   "RDActionSheet": "uncategorized", // Class to make a easily customisable Action Sheet for iOS.
-  "RDGPUImage": "image", // Versioned fork of GPUImage
+  "RDGPUImage": "images", // Versioned fork of GPUImage
   "RDHCollectionViewGridLayout": "layouts", // Grid layout for UICollectionView.
   "RDHDateAdjustment": "uncategorized", // Categories on NSDate to simplify date adjustment.
   "RDHExpandingPickerViews": "gui_controls", // Inline view that expands to show a UIPickerView/UIDatePickerView.
@@ -3040,7 +3040,7 @@
   "SCStackViewController": "uncategorized", // SCStackViewController is a container controller which allows you to stack other view controllers and build custom transitions between them.
   "Sculptor": "uncategorized", // The AFNetworking serializer for Mantle.
   "SDCAlertView": "gui_alert", // SDCAlertView is a UIAlertView clone with added functionality including a contentView property
-  "SDCAutoLayout": "gui_layout", // A UIView category that simplifies dealing with Auto Layout
+  "SDCAutoLayout": "auto_layout", // A UIView category that simplifies dealing with Auto Layout
   "SDCloudUserDefaults": "icloud", // Store NSUserDefaults and iCloud data at the same time.
   "SDColor": "color", // Dead simple convenience categories for UIColor.
   "SDCSegmentedViewController": "gui_segmented", // Custom view controller container that uses a segmented control to switch between view controllers.
@@ -3177,7 +3177,7 @@
   "SKInnerShadowLayer": "gui", // SKInnerShadowLayer is a CAGradientLayer subclass that adds properties to create an inner shadow on a given layer.
   "skpsmtpmessage": "smtp", // Quick SMTP client code for the iPhone.
   "SKSlideViewController": "gui_slider", // An easy to use slide to navigate view controller for ios 6.0 +
-  "SKUAssert": "test", // Saner, safer assertion handling for your apps
+  "SKUAssert": "testing", // Saner, safer assertion handling for your apps
   "SKUTouchPresenter": "touch", // Highlight touches on screen, useful for iOS demos
   "SkyLab": "ab_test", // Multivariate & A/B Testing for iOS and Mac.
   "Slash": "gui", // A simple, extensible, language for styling attributed strings.
@@ -3268,7 +3268,7 @@
   "SRVPickerButton": "gui_button", // A UIButton that presents a picker view for input.
   "SSAccessibility": "accessibility", // A VoiceOver speech synthesizer and other iOS accessibility helpers.
   "SSApplication": "uncategorized", // A UIApplication subclass to start your app off right.
-  "SSAppURLs": "urls", // Quickly check for and open URLs using iOS app URL schemes.
+  "SSAppURLs": "url", // Quickly check for and open URLs using iOS app URL schemes.
   "SSCache": "caching", // Simple in memory and on disk cache.
   "SSCheckBoxView": "gui_form", // SSCheckBoxView is a check box UI control for iOS apps.
   "SSCollectionViewExchangeController": "uncategorized", // SSCollectionViewExchangeController manages the process of exchanging 2 items in a collection view.
@@ -3670,10 +3670,10 @@
   "UITextSubClass": "gui_textview", // UITextField/UITextView SubClass library.
   "UITextView+PinchZoom": "gui_textview", // Simple pinch-zoom category for UITextView.
   "UITextView+UIControl": "gui_textview", // A UIControl-like API addition to UITextView.
-  "UIView-Autolayout": "gui_layout", // Category on UIView to simplify the creation of common layout constraints.
-  "UIView+AutoLayout": "gui_layout", // The ultimate API for creating Auto Layout constraints -- impressively simple, immensely powerful.
+  "UIView-Autolayout": "auto_layout", // Category on UIView to simplify the creation of common layout constraints.
+  "UIView+AutoLayout": "auto_layout", // The ultimate API for creating Auto Layout constraints -- impressively simple, immensely powerful.
   "UIView+BezierCurve": "uncategorized", // Round individual corners of a UIView.
-  "UIViewCategoryForAutoLayout": "uncategorized", // A UIView Category for implement constraints with VFL(Visual Format Language).
+  "UIViewCategoryForAutoLayout": "auto_layout", // A UIView Category for implement constraints with VFL(Visual Format Language).
   "UIViewController+Controller": "uncategorized", // Small but useful category on UIViewController that allows you to instantiate controller and navigation controller.
   "UIViewController+HUD": "uncategorized", // An easier way to show HUD's from your view controllers.
   "UIViewController-Modal": "uncategorized", // Determine whether UIViewController is presented as modal.
