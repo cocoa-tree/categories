@@ -3398,10 +3398,10 @@
   "TCBlobDownload": "uncategorized", // Download big files competitively in Cocoa
   "TCButton": "gui_button", // A UIButton that given custom assets, functions like iOS 7 style buttons.
   "TCColorTest": "colors", // Try out colors within an iOS App without time-killing trial and error using build and run cycles.
-  "TCLocalizer": "uncategorized", // Easy runtime localisation so you do not have to maintain multiple XIBs.
-  "TCSelectors": "uncategorized", // Selector view for Number, Date.
-  "TCSpinner": "uncategorized", // A UIView subclass containing four circles that animate towards one another.
-  "TDAudioPlayer": "uncategorized", // A library for playing audio from http streams or NSInputStream.
+  "TCLocalizer": "i18n", // Easy runtime localisation so you do not have to maintain multiple XIBs.
+  "TCSelectors": "gui", // Selector view for Number, Date.
+  "TCSpinner": "gui", // A UIView subclass containing four circles that animate towards one another.
+  "TDAudioPlayer": "audio", // A library for playing audio from http streams or NSInputStream.
   "TDBadgedCell": "gui_tableview", // UITableViewCell subclass that adds a "badgeString" property to table view cells.
   "TDImageColors": "colors", // iOS Library used to detect a number of most used colors in a UIImage.
   "TDNotificationPanel": "uncategorized", // TDNotificationPanel is a drop in class that displays a notification.
@@ -3454,16 +3454,16 @@
   "TKImageIpsum": "lorem_ipsum", // Helper class for quick fetching random images with given size from the http://lorempixel.com/ website.
   "TKNavigationController": "navigation", // UIViewController container that shows bottom toolbar.
   "TKRGuard": "testing", // The simple test helper for asynchronous processes.
-  "TKRoundedView": "uncategorized", // Rounded corners without images and much more.
+  "TKRoundedView": "gui", // Rounded corners without images and much more.
   "TKRSpecificTest": "testing", // Run a specific test case by xcodebuild.
   "TKSenTestAsync": "testing", // SenTest category with Asynchronous support.
-  "TLAlertView": "uncategorized", // A simple replacement for UIAlertView with block based completion methods and a 3D dismiss animation.
+  "TLAlertView": "gui_alert", // A simple replacement for UIAlertView with block based completion methods and a 3D dismiss animation.
   "TLIndexPathTools": "uncategorized", // TLIndexPathTools is a small set of classes that can greatly simplify your table and collection views.
-  "TLLayoutTransitioning": "uncategorized", // Components for transitioning between UICollectionView layouts.
-  "TLMotionEffect": "uncategorized", // Good looking apps in only one line of code.
+  "TLLayoutTransitioning": "gui_transitions", // Components for transitioning between UICollectionView layouts.
+  "TLMotionEffect": "gui_animation", // Good looking apps in only one line of code.
   "TLSignals": "notifications", // Observer pattern with compile-time type checking for Objective-C.
-  "TLTiltHighlightView": "uncategorized", // A horizontal gradient which adjusts its appearance based on the positional attitude of an iOS device.
-  "TLTiltSlider": "uncategorized", // A UISlider subclass which adjusts its appearance based on the positional attitude of an iOS device.
+  "TLTiltHighlightView": "gui", // A horizontal gradient which adjusts its appearance based on the positional attitude of an iOS device.
+  "TLTiltSlider": "gui_slider", // A UISlider subclass which adjusts its appearance based on the positional attitude of an iOS device.
   "TMCache": "caching", // Fast parallel object cache for iOS and OS X.
   "TMKDesignCheatSheet": "uncategorized", // Provide resolutions of display, PPI and icon sizes for each devices like iPhone5 and iPhone4/4S
   "TMPTaskCompletionManager": "uncategorized", // for supporting task completion, especially for multiple background tasks.
@@ -3492,39 +3492,39 @@
   "TPWeakProxy": "uncategorized", // An NSProxy for converting strong references into weak ones.
   "Tr8n": "uncategorized", // An integrated powerful and flexible translation framework for iOS.
   "Train": "dependency_injection", // A simple dependency injection framework for objective c, written while traveling in a train.
-  "Transcontinental": "uncategorized", // iOS library to obtain the continent of a CLPlacemark or from a country code in the ISO 3166 format
+  "Transcontinental": "geo_location", // iOS library to obtain the continent of a CLPlacemark or from a country code in the ISO 3166 format
   "Transcript": "testing", // Improves SenTestingKit test output, and provides an API for defining custom reporters.
   "TransformerKit": "value_transformer", // A block-based API for NSValueTransformer, with a growing collection of useful examples.
-  "Transit": "uncategorized", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
+  "Transit": "web_browser", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
   "TransitionKit": "state_machine", // A block-based State Machine API for Objective-C.
-  "TransloaditAPI": "uncategorized", // A simple API to upload files to transloadit.
+  "TransloaditAPI": "proprietary_api", // A simple API to upload files to transloadit.
   "TRAutocompleteView": "gui_autocomplete", // Flexible and highly configurable auto complete view, attachable to any UITextField.
   "TreasureData": "uncategorized", // Treasure Data Client Library for Objective-C.
   "treemapkit": "mapkit", // TreeMap for Cocoa Touch (iPhone/iPod touch/iPad).
-  "TRSDialScrollView": "uncategorized", // TRSDialScrollView is a customizable UIScrollView for use as a dial control.
-  "TRVSEventSource": "uncategorized", // Server-sent events EventSource implementation in ObjC for iOS and OS X using NSURLSession.
-  "TRVSKit": "uncategorized", // A collection of useful APIs for iOS.
+  "TRSDialScrollView": "gui_scroll", // TRSDialScrollView is a customizable UIScrollView for use as a dial control.
+  "TRVSEventSource": "http", // Server-sent events EventSource implementation in ObjC for iOS and OS X using NSURLSession.
+  "TRVSKit": "utilities", // A collection of useful APIs for iOS.
   "TRVSMonitor": "uncategorized", // A synchronization construct with the ability to wait until signalled that a condition has been met.
-  "TRVSNavigationControllerTransition": "uncategorized", // Push/Pop transition for entire UINavigationController views.
-  "TS2MP4": "uncategorized", // TS2MP4 allow you to convert TS files to MP4 files.
-  "TSAssetsPickerController": "uncategorized", // Custom ImagePickerController supports selecting multiple assets and highly customizable.
-  "TSCoreData": "uncategorized", // Core Data convenience.
-  "TSCurrencyTextField": "uncategorized", // A UITextField subclass for inputing currency amounts.
+  "TRVSNavigationControllerTransition": "navigation", // Push/Pop transition for entire UINavigationController views.
+  "TS2MP4": "audio", // TS2MP4 allow you to convert TS files to MP4 files.
+  "TSAssetsPickerController": "images", // Custom ImagePickerController supports selecting multiple assets and highly customizable.
+  "TSCoreData": "core_data", // Core Data convenience.
+  "TSCurrencyTextField": "gui_textfield", // A UITextField subclass for inputing currency amounts.
   "TSLibraryImport": "uncategorized", // Objective-C class for importing files from user's iPod Library in iOS4.
   "TSMessages": "notifications", // Easy to use and customizable messages/notifications for iOS à la Tweetbot.
-  "TSMiniWebBrowser": "uncategorized", // An in-app web browser control for iOS apps.
-  "TSMiniWebBrowser@kylerobson": "uncategorized", // In app browser.
-  "TSNetworking": "uncategorized", // An iOS7+ networking API based on NSURLSession.
-  "TSPopover": "uncategorized", // UIPopover like UI for iPhone
+  "TSMiniWebBrowser": "web_browser", // An in-app web browser control for iOS apps.
+  "TSMiniWebBrowser@kylerobson": "web_browser", // In app browser.
+  "TSNetworking": "networking", // An iOS7+ networking API based on NSURLSession.
+  "TSPopover": "gui_popover", // UIPopover like UI for iPhone
   "TSStringValidator": "uncategorized", // Couple of classes which you can simply use to validate strings in the project.
   "Tsuga": "uncategorized", // Set of helpers for Cedar.
-  "TSUIKit": "uncategorized", // UI components for iOS.
+  "TSUIKit": "gui", // UI components for iOS.
   "TSValidatedTextField": "validations", // Simple and ready to use subclass of UITextField which uses NSRegularExpression to validate text with pattern you set.
-  "TTCounterLabel": "uncategorized", // A custom UILabel that acts a time counter, counting up or down and formatting the string to hours, minutes, seconds and milliseconds.
-  "TTOpenInAppActivity": "uncategorized", // TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController.
-  "TTSwitch": "uncategorized", // Fully customizable switch for iOS using images.
-  "TTTAttributedLabel": "uncategorized", // A drop-in replacement for UILabel that supports attributes, data detectors, links, and more.
-  "TTTLocalizedPluralString": "uncategorized", // NSLocalizedString with a Count Argument.
+  "TTCounterLabel": "gui_label", // A custom UILabel that acts a time counter, counting up or down and formatting the string to hours, minutes, seconds and milliseconds.
+  "TTOpenInAppActivity": "gui_progress", // TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController.
+  "TTSwitch": "gui_switch", // Fully customizable switch for iOS using images.
+  "TTTAttributedLabel": "gui", // A drop-in replacement for UILabel that supports attributes, data detectors, links, and more.
+  "TTTLocalizedPluralString": "i18n", // NSLocalizedString with a Count Argument.
   "TTTRandomizedEnumerator": "uncategorized", // Mix things up with your collection classes with style and class (well, a category, but you get the idea).
   "TULayoutAdditions": "uncategorized", // Shortcuts and helper methods to make iOS Auto Layout dead simple.
   "TULogging": "logging", // Better logging that uses ASL log levels. Based on work by Mike Weller.
@@ -3551,9 +3551,9 @@
   "TWToolBar": "gui_toolbar", // TWToolBar is a widget library for Taskworld mobile app.
   "TWTSideMenuViewController": "gui_menus", // Side Menus for iOS 7.
   "TWTToast": "uncategorized", // Tools and Utilities for Cocoa Development
-  "TwUI": "uncategorized", // A UI framework for Mac based on Core Animation.
-  "TWWidget": "uncategorized", // TWWidget is a widget library for Taskworld mobile app.
-  "TXMainThreadCoreDataHelper": "uncategorized", // It's a simple tool to help you use CoreData in your multithreaded iOS/Mac app CORRECTLY.
+  "TwUI": "gui_animation", // A UI framework for Mac based on Core Animation.
+  "TWWidget": "gui", // TWWidget is a widget library for Taskworld mobile app.
+  "TXMainThreadCoreDataHelper": "core_data", // It's a simple tool to help you use CoreData in your multithreaded iOS/Mac app CORRECTLY.
   "TYMActivityIndicatorView": "uncategorized", // A simple activity indicator view which you can customize with images.
   "TYMProgressBarView": "uncategorized", // A flattened progress bar.
   "TypeForKey": "uncategorized", // A simple set of categories for safer interaction with collection objects.
@@ -3562,63 +3562,63 @@
   "TZShortKit": "uncategorized", // iOS library of shortcuts for long properties
   "UAAppReviewManager": "uncategorized", // UAAppReviewManager is a simple and lightweight App review prompting tool for iOS and Mac App Store apps.
   "UAGithubEngine": "github_api", // Objective-C wrapper for the Github API.
-  "UALogger": "uncategorized", // UALogger is a logging tool for iOS and Mac apps.
-  "UAModalPanel": "uncategorized", // An animated modal panel alternative for iOS.
+  "UALogger": "logging", // UALogger is a logging tool for iOS and Mac apps.
+  "UAModalPanel": "gui_popover", // An animated modal panel alternative for iOS.
   "UAObfuscatedString": "uncategorized", // A simple NSStringCategory to hide sensitive strings from appearing in your binary
   "UbiquityStoreManager": "icloud", // Solving the iCloud for Core Data problem.
   "UCKDeviceInfo": "uncategorized", // Getting device information in iOS.
-  "UDBarTrackballItem": "uncategorized", // Button view which can position text caret and define text selection of a text view in parallel to its touch drag movement.
+  "UDBarTrackballItem": "gui_button", // Button view which can position text caret and define text selection of a text view in parallel to its touch drag movement.
   "UDTableView": "gui_tableview", // UDTableView allowsMultipleSelection backport to pre iOS5.
   "UI7Kit": "uncategorized", // UI7Kit is a GUI toolkit to implement iOS7 look & feel UIKit under iOS5/iOS6. It is also supported that patching UIKit to UI7Kit in runtime.
-  "UIActionSheet-Blocks": "uncategorized", // UIActionSheet+Blocks is a simple Block implementation for UIActionSheet created by Shai Mishali.
-  "UIActionSheet+Blocks": "uncategorized", // Category on UIActionSheet to use inline block callbacks instead of delegate callbacks.
-  "UIActivityIndicator-for-SDWebImage": "uncategorized", // The easiest way to add a UIActivityView to your SDWebImage view.
-  "UIAlertView-Blocks": "uncategorized", // Category for UIAlertView and UIActionSheet which allows you to use blocks rather than implementing a delegate.
-  "UIAlertView+Blocks": "uncategorized", // Category on UIAlertView to use inline block callbacks instead of delegate callbacks.
+  "UIActionSheet-Blocks": "gui_popover", // UIActionSheet+Blocks is a simple Block implementation for UIActionSheet created by Shai Mishali.
+  "UIActionSheet+Blocks": "gui_popover", // Category on UIActionSheet to use inline block callbacks instead of delegate callbacks.
+  "UIActivityIndicator-for-SDWebImage": "gui_progress", // The easiest way to add a UIActivityView to your SDWebImage view.
+  "UIAlertView-Blocks": "gui_alert", // Category for UIAlertView and UIActionSheet which allows you to use blocks rather than implementing a delegate.
+  "UIAlertView+Blocks": "gui_alert", // Category on UIAlertView to use inline block callbacks instead of delegate callbacks.
   "UIBezierPath-Symbol": "uncategorized", // Symbol extension for UIBezierPath class (UIBezierPath category).
   "UIBubbleTableView": "gui_tableview", // Cocoa UI component for chat bubbles with avatars and images support.
-  "UIButton+StatefulBackgroundColor": "uncategorized", // A category on UIButton adding a setBackgroundColor:forState: method.
-  "UICircularSlider": "uncategorized", // An iOS UISlider which displays value in a circle / pie.
+  "UIButton+StatefulBackgroundColor": "gui_button", // A category on UIButton adding a setBackgroundColor:forState: method.
+  "UICircularSlider": "gui_slider", // An iOS UISlider which displays value in a circle / pie.
   "UICKeyChainStore": "keychain", // UICKeyChainStore is a simple wrapper for Keychain on iOS and OS X. Makes using Keychain APIs as easy as NSUserDefaults.
-  "UICollectionViewEmptyState": "uncategorized", // Set-and-forget overlays for empty UICollectionViews.
-  "UIColor+Additions": "uncategorized", // Basic additions to make UIColor more flexible.
-  "UIColor+BlendMode": "uncategorized", // Apply a color using a blend mode to another color.
-  "UIColorCategories": "uncategorized", // Category methods UIColor
-  "UIColor+Categories": "uncategorized", // A collection of useful methods to extend UIColor.
-  "UIColor-ColorWithHexAndAlpha": "uncategorized", // Create UIColor Objects using Hex Values
-  "UIColor-Copic": "uncategorized", // UIColor+Copic category for Copic markers colors. Generated by https://github.com/mihaelamj/uicolor-category-maker.
-  "UIColor-Crayola": "uncategorized", // Crayola colors UIColor category
-  "UIColor-CrayolaCrayons": "uncategorized", // UIColor category for Crayola crayon colors
-  "UIColor-CrossFade": "uncategorized", // UIColor category to cross fade between two UIColors at a specific ratio.
-  "UIColor-Hex": "uncategorized", // Initializes the UIColor using hexadecimal.
-  "UIColor-HexString": "uncategorized", // Easy, Android-compatible hex strings to UIColor.
-  "UIColor-HNExtensions": "uncategorized", // A grab-bag of useful UIColor helpers
+  "UICollectionViewEmptyState": "gui", // Set-and-forget overlays for empty UICollectionViews.
+  "UIColor+Additions": "colors", // Basic additions to make UIColor more flexible.
+  "UIColor+BlendMode": "colors", // Apply a color using a blend mode to another color.
+  "UIColorCategories": "colors", // Category methods UIColor
+  "UIColor+Categories": "colors", // A collection of useful methods to extend UIColor.
+  "UIColor-ColorWithHexAndAlpha": "colors", // Create UIColor Objects using Hex Values
+  "UIColor-Copic": "colors", // UIColor+Copic category for Copic markers colors. Generated by https://github.com/mihaelamj/uicolor-category-maker.
+  "UIColor-Crayola": "colors", // Crayola colors UIColor category
+  "UIColor-CrayolaCrayons": "colors", // UIColor category for Crayola crayon colors
+  "UIColor-CrossFade": "colors", // UIColor category to cross fade between two UIColors at a specific ratio.
+  "UIColor-Hex": "colors", // Initializes the UIColor using hexadecimal.
+  "UIColor-HexString": "colors", // Easy, Android-compatible hex strings to UIColor.
+  "UIColor-HNExtensions": "colors", // A grab-bag of useful UIColor helpers
   "UIColor-HTMLColors": "html", // Read and write HTML/CSS colors, with support for RGB hex triplets, RGB and RGBA, HSL and HSLA and CSS3 named colors.
-  "UIColor+InputMethods": "uncategorized", // UIColor cateories for creating UIColors via different methods.
-  "UIColor+MLPFlatColors": "uncategorized", // A category for UIColor that adds flat UI color methods.
-  "UIColor-Pantone": "uncategorized", // Pantone colors UIColor category
-  "UIColor+PerceivedLuminance": "uncategorized", // Obtain the luminance value of a `UIColor` as interperated by a human eye.
-  "UIColor+RandomColor": "uncategorized", // Generate random UIColors
-  "UIColor-Utilities": "uncategorized", // Helpful utilities for UIColor for iPhone.
-  "uicontrol-blocks": "uncategorized", // This category adds block support block based callbacks for UIControlEvents to UIControl.
+  "UIColor+InputMethods": "colors", // UIColor cateories for creating UIColors via different methods.
+  "UIColor+MLPFlatColors": "colors", // A category for UIColor that adds flat UI color methods.
+  "UIColor-Pantone": "colors", // Pantone colors UIColor category
+  "UIColor+PerceivedLuminance": "colors", // Obtain the luminance value of a `UIColor` as interperated by a human eye.
+  "UIColor+RandomColor": "colors", // Generate random UIColors
+  "UIColor-Utilities": "colors", // Helpful utilities for UIColor for iPhone.
+  "uicontrol-blocks": "gui_controls", // This category adds block support block based callbacks for UIControlEvents to UIControl.
   "UIControl+Notifications": "notifications", // Make your UIControls respond to notifications and blocks instead of the old fashioned target+selector approach
-  "UICountingLabel": "uncategorized", // Adds animated counting support to UILabel.
-  "UICustomizeKit": "uncategorized", // Base UIKit components extended to allow almost any customizations.
-  "UIDeviceAddition": "uncategorized", // Generates a unique identifier based on the mac address of the device in combination with the bundle identifier.
-  "UIDevice+BlurEnabled": "uncategorized", // UIDevice category to check whether blur is enabled.
-  "UIDevice-DisplayName": "uncategorized", // Returns a friendly name for any iOS device.
-  "uidevice-extension": "uncategorized", // Categories that expand on the information provided by UIDevice
-  "UIDevice-Hardware": "uncategorized", // Category on UIDevice to distinguish between platforms and provide human-readable device names e.g. "iPad Mini 2G (Cellular)".
-  "UIDevice+Hardware": "uncategorized", // Category on UIDevice for accessing hardware information
-  "UIDevice-Hardware@arkuana": "uncategorized", // Category on UIDevice to distinguish between platforms and provide human-readable device names e.g. "iPad Mini 2G (Cellular)".
-  "UIDevice+HardwareModel": "uncategorized", // Check iOS hardware model
-  "UIDevice-Helpers": "uncategorized", // UIDevice category. Easy access to device information.
-  "UIDeviceIdentifier": "uncategorized", // UIDeviceHardware is a class which allows querying of the current users device, and returns a human formatted string.
-  "UIFont-DynamicFontControl": "uncategorized", // This category is meant to help with using the Dynamic Text sizes introduced in iOS7
-  "UIFont-Symbolset": "uncategorized", // A collection of Objective-C categories to make using Symbolset icon fonts easier.
-  "UIFontWDCustomLoader": "uncategorized", // An iOS custom font loader
+  "UICountingLabel": "gui_label", // Adds animated counting support to UILabel.
+  "UICustomizeKit": "uikit_extensions", // Base UIKit components extended to allow almost any customizations.
+  "UIDeviceAddition": "uidevice_extensions", // Generates a unique identifier based on the mac address of the device in combination with the bundle identifier.
+  "UIDevice+BlurEnabled": "uidevice_extensions", // UIDevice category to check whether blur is enabled.
+  "UIDevice-DisplayName": "uidevice_extensions", // Returns a friendly name for any iOS device.
+  "uidevice-extension": "uidevice_extensions", // Categories that expand on the information provided by UIDevice
+  "UIDevice-Hardware": "uidevice_extensions", // Category on UIDevice to distinguish between platforms and provide human-readable device names e.g. "iPad Mini 2G (Cellular)".
+  "UIDevice+Hardware": "uidevice_extensions", // Category on UIDevice for accessing hardware information
+  "UIDevice-Hardware@arkuana": "uidevice_extensions", // Category on UIDevice to distinguish between platforms and provide human-readable device names e.g. "iPad Mini 2G (Cellular)".
+  "UIDevice+HardwareModel": "uidevice_extensions", // Check iOS hardware model
+  "UIDevice-Helpers": "uidevice_extensions", // UIDevice category. Easy access to device information.
+  "UIDeviceIdentifier": "uidevice_extensions", // UIDeviceHardware is a class which allows querying of the current users device, and returns a human formatted string.
+  "UIFont-DynamicFontControl": "uifont_extensions", // This category is meant to help with using the Dynamic Text sizes introduced in iOS7
+  "UIFont-Symbolset": "uifont_extensions", // A collection of Objective-C categories to make using Symbolset icon fonts easier.
+  "UIFontWDCustomLoader": "uifont_extensions", // An iOS custom font loader
   "UIForLumberjack": "uncategorized", // iOS UI library to display CocoaLumberjack logs on iOS device
-  "UIGlossyButton": "uncategorized", // Generate system like or other nice button without any image.
+  "UIGlossyButton": "gui_button", // Generate system like or other nice button without any image.
   "UIImage+Additions": "images", // Adding methods to generate dynamically images from colors, adding corner radius, tinting images, etc.
   "UIImage+animatedGif": "images", // Adds animatedGifWithAnimatedGifData methods to UIImage.
   "UIImage-ASMPDF": "images", // A category on UIImage for loading PDFs, inspired by UIImage-PDF.
@@ -3674,24 +3674,24 @@
   "UIView+AutoLayout": "auto_layout", // The ultimate API for creating Auto Layout constraints -- impressively simple, immensely powerful.
   "UIView+BezierCurve": "uncategorized", // Round individual corners of a UIView.
   "UIViewCategoryForAutoLayout": "auto_layout", // A UIView Category for implement constraints with VFL(Visual Format Language).
-  "UIViewController+Controller": "uncategorized", // Small but useful category on UIViewController that allows you to instantiate controller and navigation controller.
-  "UIViewController+HUD": "uncategorized", // An easier way to show HUD's from your view controllers.
-  "UIViewController-Modal": "uncategorized", // Determine whether UIViewController is presented as modal.
-  "UIViewController+Sharing": "uncategorized", // A category on UIViewController for adding Apple's built in sharing options.
-  "UIViewController+Swizzled": "uncategorized", // Used to print the structure of your application as you use it
-  "UIViewDrawRectBlock": "uncategorized", // A category on UIView to create an instance with a block for its drawRect.
-  "UIView+EasingFunctions": "uncategorized", // A category on UIView that allows to use custom easing functions with block-based animations.
-  "UIView+FrameAdditions": "uncategorized", // UIView Frame helper getter/setter category methods.
-  "uiview-frame-helpers": "uncategorized", // Less code to position and resize UIView objects.
-  "UIView+Helpers": "uncategorized", // UIView+Helpers is a collecion of methods that make laying out UIViews easier and readable.
-  "UIView+HierarchicalDrawing": "uncategorized", // Draw UIView hierarchy in any UIGraphicsContext manually, for crisp rendering of PDFs from views in iOS
-  "UIView-I7ShakeAnimation": "uncategorized", // very easy way to shake a UIView.
-  "UIView-JTViewToImage": "uncategorized", // Rendering any UIViews into UIImage in one line
-  "UIView+MDCBlink": "uncategorized", // HTML <blink></blink> for iOS.
-  "UIView+NibLoading": "uncategorized", // Makes writing custom views easier by letting you design their content subviews with Interface Builder
-  "UIViewPlusPosition": "uncategorized", // Position category on UIView.
-  "UIView+Positioning": "uncategorized", // UIView+Positioning provides shorthand methods to defining the frame properties of any UIView based object in an easy fashion.
-  "UIView+TKGeometry": "uncategorized", // Category methods for UIView for easy size, center and origin manipulation.
+  "UIViewController+Controller": "uiviewcontroller_exentsions", // Small but useful category on UIViewController that allows you to instantiate controller and navigation controller.
+  "UIViewController+HUD": "uiviewcontroller_exentsions", // An easier way to show HUD's from your view controllers.
+  "UIViewController-Modal": "uiviewcontroller_exentsions", // Determine whether UIViewController is presented as modal.
+  "UIViewController+Sharing": "uiviewcontroller_exentsions", // A category on UIViewController for adding Apple's built in sharing options.
+  "UIViewController+Swizzled": "uiviewcontroller_exentsions", // Used to print the structure of your application as you use it
+  "UIViewDrawRectBlock": "uiview_extensions", // A category on UIView to create an instance with a block for its drawRect.
+  "UIView+EasingFunctions": "uiview_extensions", // A category on UIView that allows to use custom easing functions with block-based animations.
+  "UIView+FrameAdditions": "uiview_extensions", // UIView Frame helper getter/setter category methods.
+  "uiview-frame-helpers": "uiview_extensions", // Less code to position and resize UIView objects.
+  "UIView+Helpers": "uiview_extensions", // UIView+Helpers is a collecion of methods that make laying out UIViews easier and readable.
+  "UIView+HierarchicalDrawing": "uiview_extensions", // Draw UIView hierarchy in any UIGraphicsContext manually, for crisp rendering of PDFs from views in iOS
+  "UIView-I7ShakeAnimation": "uiview_extensions", // very easy way to shake a UIView.
+  "UIView-JTViewToImage": "uiview_extensions", // Rendering any UIViews into UIImage in one line
+  "UIView+MDCBlink": "uiview_extensions", // HTML <blink></blink> for iOS.
+  "UIView+NibLoading": "uiview_extensions", // Makes writing custom views easier by letting you design their content subviews with Interface Builder
+  "UIViewPlusPosition": "uiview_extensions", // Position category on UIView.
+  "UIView+Positioning": "uiview_extensions", // UIView+Positioning provides shorthand methods to defining the frame properties of any UIView based object in an easy fashion.
+  "UIView+TKGeometry": "uiview_extensions", // Category methods for UIView for easy size, center and origin manipulation.
   "UIWebView-Blocks": "gui_web_view", // UIWebView+Blocks is A simple category that implements blocks into UIWebView.
   "UIWebView-DelegateBlocks": "gui_web_view", // Adds blocks to all UIWebView delegate methods with a category, no subclassing. Also allows the use of delegate methods if no block is set.
   "UIWebViewRemoveShadow": "html", // iOS UIWebView category to remove the top and bottom shadow that Apple automatically adds to every webview.
@@ -3762,14 +3762,14 @@
   "VLBFoundation": "uncategorized", // A library of classes used throughout the codebase of verylargebox.app
   "VLBScrollView": "gui_scroll", // A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
   "VLFramework": "mvc_framework", // VLFramework is a library for a simple and faster MVC approach.
-  "VLMHarlemShake": "uncategorized", // A harlem shake implementation for iOS.
+  "VLMHarlemShake": "gui", // A harlem shake implementation for iOS.
   "vMAT": "uncategorized", // The vMAT library implements a grab-bag of mathematical functions inspired by MATLAB.
-  "VMDInstrumenter": "uncategorized", // A simple Objective-C singleton to instrument, trace, and suppress selectors at runtime.
+  "VMDInstrumenter": "debugging", // A simple Objective-C singleton to instrument, trace, and suppress selectors at runtime.
   "VMTableViewStaticCells": "gui_tableview", // A simple category to use static UITableViewCells without having to use storyboards.
-  "VPPCoreData": "uncategorized", // VPPCoreData is a Core Data wrapper with Active Record support that simplifies the task of managing data with Core Data framework.
+  "VPPCoreData": "core_data", // VPPCoreData is a Core Data wrapper with Active Record support that simplifies the task of managing data with Core Data framework.
   "VPPDropDown": "gui_menus", // VPPDropDown is an iOS library that allows you to create dropdown-like menus in a table view, as seen in old Tweetie.
-  "VPPLocation": "uncategorized", // VPPLocation Library for iOS simplifies the task of retrieving the user location and reverse geocoder info about it.
-  "VPPMap": "uncategorized", // VPPMap library for iOS simplifies the creation and management of a MKMapView.
+  "VPPLocation": "geo_location", // VPPLocation Library for iOS simplifies the task of retrieving the user location and reverse geocoder info about it.
+  "VPPMap": "gui_map_view", // VPPMap library for iOS simplifies the creation and management of a MKMapView.
   "VPPReachability": "uncategorized", // VPPReachability Library for iOS simplifies access to the status of a given hostname.
   "VRGCalendarView": "gui_calendar", // Vurig Calendar.
   "VSDataStore": "uncategorized", // Simple Key-Value Data Store for Objective-C
@@ -3784,30 +3784,30 @@
   "WCAlertView": "uncategorized", // WCAlertView is deliverd from UIAlertView. It's support color customization and blocks.
   "WCFastCell": "gui_tableview", // A faster drop-in replacement for UITableViewCell. Seamless integration with nibs
   "WebContentView": "html", // A simple native interface for rendering rich HTML content using a UIWebView.
-  "WebViewJavascriptBridge": "uncategorized", // An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
-  "WeChatSDK": "uncategorized", // The Official iOS SDK of WeChat from Tencent.
-  "Weibo": "uncategorized", // Sina Weibo iOS SDK.
-  "WeixinActivity": "uncategorized", // An iOS 6 UIActivity subclass implementing uploads to Weixin(Wechat)
-  "WellCached": "uncategorized", // An expiring, thread-safe caching library based on NSCache
-  "WEPopover": "uncategorized", // Generic popover implementation for iOS with same API as the UIPopoverController.
-  "WEPopover@krzd": "uncategorized", // Versioned fork of WEPopover.
-  "WFImagePickerPlus": "uncategorized", // A simple extention to the UIImagePickerController to allow an extra gallery source type.
-  "WhatsAppKit": "uncategorized", // Unofficial wrapper to quickly send messages with WhatsApp for iPhone.
-  "WhirlyGlobe": "uncategorized", // WhirlyGlobe is a self contained 3D earth display view suitable for use in iPhone and iPad applications.
-  "WhirlyGlobe-Headers": "uncategorized", // WhirlyGlobe headers is a self contained 3D earth display view suitable for use in iPhone and iPad applications. (temporary).
+  "WebViewJavascriptBridge": "web_browser", // An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
+  "WeChatSDK": "proprietary_api", // The Official iOS SDK of WeChat from Tencent.
+  "Weibo": "proprietary_api", // Sina Weibo iOS SDK.
+  "WeixinActivity": "proprietary_api", // An iOS 6 UIActivity subclass implementing uploads to Weixin(Wechat)
+  "WellCached": "caching", // An expiring, thread-safe caching library based on NSCache
+  "WEPopover": "gui_popover", // Generic popover implementation for iOS with same API as the UIPopoverController.
+  "WEPopover@krzd": "gui_popover", // Versioned fork of WEPopover.
+  "WFImagePickerPlus": "images", // A simple extention to the UIImagePickerController to allow an extra gallery source type.
+  "WhatsAppKit": "proprietary_api", // Unofficial wrapper to quickly send messages with WhatsApp for iPhone.
+  "WhirlyGlobe": "gui_map_view", // WhirlyGlobe is a self contained 3D earth display view suitable for use in iPhone and iPad applications.
+  "WhirlyGlobe-Headers": "gui_map_view", // WhirlyGlobe headers is a self contained 3D earth display view suitable for use in iPhone and iPad applications. (temporary).
   "Wiggly": "url_routing", // (URL) Routing library. No need to build your urls and extract their data by hand anymore!
-  "WindowsAzureACS-iOS": "uncategorized", // Windows Azure Access Control Service library.
-  "WindowsAzureMobileServices": "uncategorized", // Windows Azure Mobile SDK for iOS.
-  "Wit": "uncategorized", // Wit.AI Official SDK
+  "WindowsAzureACS-iOS": "proprietary_api", // Windows Azure Access Control Service library.
+  "WindowsAzureMobileServices": "proprietary_api", // Windows Azure Mobile SDK for iOS.
+  "Wit": "proprietary_api", // Wit.AI Official SDK
   "witness": "uncategorized", // write uncaught exception to file
   "WJHXCTest": "testing", // WJHXCTest extends XCTest to enable asynchronous testing.
   "WKTParser": "uncategorized", // A library for parsing geometries from Well-Known-Text (WKT).
-  "WKVerticalScrollBar": "uncategorized", // A traditional-style scrollbar for iOS that integrates with existing UIScrollView or UIScrollView subclasses.
-  "WMATweetView": "uncategorized", // UIView subclass that renders tweet text.
-  "WMGaugeView": "uncategorized", // Highly customizable gauge control for iOS.
-  "Wordreference-Controller": "uncategorized", // A helper controller to fetch translations for a given languages ).
+  "WKVerticalScrollBar": "gui_scroll", // A traditional-style scrollbar for iOS that integrates with existing UIScrollView or UIScrollView subclasses.
+  "WMATweetView": "gui", // UIView subclass that renders tweet text.
+  "WMGaugeView": "charts", // Highly customizable gauge control for iOS.
+  "Wordreference-Controller": "i18n", // A helper controller to fetch translations for a given languages ).
   "WorkflowSchema": "uncategorized", // An iOS framework which allows you to define app workflows in XML.
-  "wpxmlrpc": "uncategorized", // Lightweight XML-RPC library.
+  "wpxmlrpc": "rpc", // Lightweight XML-RPC library.
   "WSAssetPickerController": "uncategorized", // Alternative to UIImagePickerController provides the ability to select multiple images.
   "WSAssetPickerController@tonyzonghui": "uncategorized", // This is an alternative to UIImagePickerController that allows multiple selection and pre-selection.
   "WSCoachMarksView": "uncategorized", // iOS drop-in class for interactive coach marks with cutouts to spotlight the app's existing UI.
