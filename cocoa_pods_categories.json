@@ -390,7 +390,7 @@
   "BKEAnimatedGradientView": "gui_transitions", // Easily animate gradient transitions on UIViews.
   "BKECircularProgressView": "gui_progress", // Easily create circular progress views.
   "BkTask": "uncategorized", // An asynchronous workflows library for iOS
-  "BLEKit": "uncategorized", // Low Energy Bluetooth Framework
+  "BLEKit": "bluetooth", // Low Energy Bluetooth Framework
   "BLKFunctional": "uncategorized", // Functional methods for iOS and OSX.
   "BlockAlertsAnd-ActionSheets": "uncategorized", // Beautifully done UIAlertView and UIActionSheet replacements inspired by TweetBot.
   "BlockExtentions": "uncategorized", // Simple block-based extentions.
@@ -1541,12 +1541,12 @@
   "ISMemoryCache": "uncategorized", // NSDictionary-based memory cache.
   "ISMethodSwizzling": "uncategorized", // functions to swizzle instance/class methods.
   "ISNetwork": "uncategorized", // minimal NSURLConnection wrapper (NSOperation-based).
-  "ISO8601DateFormatter": "uncategorized", // A Cocoa NSFormatter subclass to convert dates to and from ISO-8601-formatted strings. Supports calendar, week, and ordinal formats.
-  "ISO8601DateFormatterValueTransformer": "uncategorized", // A small library that integrates ISO8601DateFormatter with RKValueTransformers
+  "ISO8601DateFormatter": "dates", // A Cocoa NSFormatter subclass to convert dates to and from ISO-8601-formatted strings. Supports calendar, week, and ordinal formats.
+  "ISO8601DateFormatterValueTransformer": "dates", // A small library that integrates ISO8601DateFormatter with RKValueTransformers
   "ISOLogger": "uncategorized", // ISOLogger hides the existing log entries for your app. So you can focus on the ones you just added.
-  "ISPageScrollView": "uncategorized", // ISPageScrollView is a UIScrollView subclass optimised for huge number of pages display.
-  "ISRefreshControl": "uncategorized", // iOS4-compatible UIRefreshControl.
-  "IssueKit": "uncategorized", // A drop-in component for creating GitHub issues in your app.
+  "ISPageScrollView": "gui_scroll", // ISPageScrollView is a UIScrollView subclass optimised for huge number of pages display.
+  "ISRefreshControl": "pull_to_refresh", // iOS4-compatible UIRefreshControl.
+  "IssueKit": "github_api", // A drop-in component for creating GitHub issues in your app.
   "ITActionManager": "uncategorized", // Method dispatcher and progress handler.
   "iTellAFriend": "uncategorized", // iTellAFriend is an iOS toolkit for displaying a preconfigued mail composerwith a "Tell a Friend" template in ios apps.
   "iToast": "notifications", // We at Guru software really love toast notifications available on android OS, so we've built a similar feature for the IOS enabled devices.
@@ -1785,8 +1785,8 @@
   "KSError": "uncategorized", // Additions to NSError for easier creation of errors, and querying existing ones.
   "KSExtensibleManagedObject": "uncategorized", // Extends `NSManagedObject` to provide an additional store for non-modelled properties.
   "KSFramework": "uncategorized", // An iOS framework containing helpful classes and categories.
-  "KSGithubStatusAPI": "uncategorized", // A simple Objective-C API controller for status.github.com.
-  "KSInstapaperAPI": "uncategorized", // An Instapaper API controller with the ability to queue URLs when the network is down.
+  "KSGithubStatusAPI": "github_api", // A simple Objective-C API controller for status.github.com.
+  "KSInstapaperAPI": "proprietary_api", // An Instapaper API controller with the ability to queue URLs when the network is down.
   "KSLabel": "uncategorized", // A drop in subclass of NSTextField for programmatically created labels.
   "KSPasswordField": "uncategorized", // An `NSSecureTextField` subclass that cleans up pasted passwords, and provides easy access for a 'Show Password' checkbox.
   "KSPowerAssertion": "uncategorized", // Cocoa wrapper for IOKit's power assertions.
@@ -1856,7 +1856,7 @@
   "LFRoundProgressView": "uncategorized", // round or annular ProgressView, base on DACircularProgress and MBRoundProgressView .
   "LFSAskForReview": "uncategorized", // An iOS class to add a customizable ask for review service.
   "LFSCoreData": "uncategorized", // Core Data Wrapper for building core data transparent to developer.
-  "LGBluetooth": "uncategorized", // Simple, block-based, lightweight library over CoreBluetooth.
+  "LGBluetooth": "bluetooth", // Simple, block-based, lightweight library over CoreBluetooth.
   "LHSTableViewCells": "gui_tableview", // Register any UITableViewCellStyle to your table view without subclassing UITableViewCell on your own.
   "libais": "uncategorized", // C++ decoder for Automatic Identification System for tracking ships and decoding maritime information.
   "LibComponentLogging-Core": "uncategorized", // Logging library which provides log levels, log components, and pluggable logging back-ends.
@@ -2346,7 +2346,7 @@
   "NNNetwork": "uncategorized", // Networking categories, OAuth and read later clients.
   "Nocilla": "mocking", // Stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
   "Node": "uncategorized", // The NODE Obj-C framework allows you to develop iOS and Mac OSX applications using NODE+, a modular sensor system    					made by Variable.
-  "NodeConnectionHelper": "uncategorized", // NodeConnectionHelper speeds up NODE+ development by providing a class that wraps most common CoreBluetooth code.
+  "NodeConnectionHelper": "bluetooth", // NodeConnectionHelper speeds up NODE+ development by providing a class that wraps most common CoreBluetooth code.
   "NoodleKit": "uncategorized", // Collection of Cocoa classes from http://www.noodlesoft.com/blog.
   "NoticeView": "uncategorized", // A TweetBot-like notice component for iOS.
   "notificare-push-lib": "uncategorized", // Notificare Push Library for iOS apps
@@ -2528,40 +2528,40 @@
   "OCDiscount": "markdown", // Discount Markdown Processor for iOS and OS X
   "OCDSpec2": "testing", // Unit Testing for the obsessive compulsive.
   "OCFuntime": "uncategorized", // Objective-c runtime funny wrapper.
-  "OCFWeb": "uncategorized", // A small and imperfect web application framework written in Objective-C.
+  "OCFWeb": "http", // A small and imperfect web application framework written in Objective-C.
   "OCFWebServer": "http_server", // Lightweight, modern and asynchronous HTTP server written in Objective-C.
   "OCHamcrest": "testing", // Hamcrest for Objective-C: Powerful, combinable, extensible matchers for verification.
-  "OCInject": "uncategorized", // Objective-C dependency injection framework
-  "OCInjection": "uncategorized", // Dependency Injection framework for Objective C
+  "OCInject": "dependency_injection", // Objective-C dependency injection framework
+  "OCInjection": "dependency_injection", // Dependency Injection framework for Objective C
   "OCJiraFeedback": "uncategorized", // OCJiraFeedback is a simple library useful for sending user 		   feedback to any Atlassian Jira instance.
   "OCLint-Annotations": "uncategorized", // Drop in annotations to make OCLint more usable.
   "OCLogTemplate": "logging", // A logging framework for Objective-C projects.
   "OCMapper": "object_mapping", // NSDictionary to NSObject Mapper
-  "OCMapView": "uncategorized", // Simple, easy and fast class for clustering in MKMapViews.
+  "OCMapView": "gui_map_view", // Simple, easy and fast class for clustering in MKMapViews.
   "OCMock": "mocking", // OCMock is an Objective-C implementation of mock objects.
   "OCMockito": "mocking", // OCMockito is an Objective-C implementation of Mockito, supporting creation, verification and stubbing of mock objects.
   "OCPrayerTimes": "uncategorized", // Objective-C library for Muslim Prayer Times
-  "OCRSDKClient": "uncategorized", // An AFHTTPClient subclass for interacting with the ABBYY Cloud OCR SDK webservice API for iOS.
-  "OcticonsIOS": "uncategorized", // Add GitHub's Octions to your project
-  "OctoKit": "uncategorized", // GitHub API client for Objective-C.
+  "OCRSDKClient": "proprietary_api", // An AFHTTPClient subclass for interacting with the ABBYY Cloud OCR SDK webservice API for iOS.
+  "OcticonsIOS": "github_api", // Add GitHub's Octions to your project
+  "OctoKit": "github_api", // GitHub API client for Objective-C.
   "OCTotallyLazy": "uncategorized", // Functional extensions to Objective C's collections.
   "OCUDL": "uncategorized", // User defined literals for Objective-C.
   "ODIN": "uncategorized", // ODIN is a number designed to uniquely identify their users’ devices in a convenient and interoperable manner.
-  "ODRefreshControl": "uncategorized", // A pull down to refresh control like the one in Apple's iOS6 Mail App.
-  "OEGFlamingJune": "uncategorized", // Models for REST web services using AFNetworking.
-  "OGActionPopup": "uncategorized", // Tumblr-like fullscreen replacement for selecting an action (like e.g., UIActionSheet)
+  "ODRefreshControl": "pull_to_refresh", // A pull down to refresh control like the one in Apple's iOS6 Mail App.
+  "OEGFlamingJune": "http_client", // Models for REST web services using AFNetworking.
+  "OGActionPopup": "gui_popup", // Tumblr-like fullscreen replacement for selecting an action (like e.g., UIActionSheet)
   "OGCollectionExtensions": "foundation_extension", // Extensions to Foundation collection classes
   "OGCoreDataStack": "core_data", // A multi-threaded Core Data stack. Design goals are ease of use, compile-time checks, and wrappers for some common use cases.
   "OGCryptoHash": "crypto", // Wrapper around CommonCrypto hash functions, MD5, SHA1, SHA224, SHA256, SHA384, and SHA512.
   "OGDebuggingTools": "debugging", // Code snippets for debugging
   "OGExtensions": "apple_api", // UIKit and Foundation extensions
-  "OGImage": "uncategorized", // OGImage provides a simple abstraction for loading images from the network, processing them, and caching them locally.
+  "OGImage": "images", // OGImage provides a simple abstraction for loading images from the network, processing them, and caching them locally.
   "OGImageExtensions": "uncategorized", // UIImage extensions and tools
-  "OHActionSheet": "uncategorized", // UIActionSheet subclass that uses blocks to handle its callback (which make the code much more easier and readable).
-  "OHAlertView": "uncategorized", // UIAlertView subclass that uses blocks to handle its callback (which make the code much more easier and readable).
+  "OHActionSheet": "gui_popup", // UIActionSheet subclass that uses blocks to handle its callback (which make the code much more easier and readable).
+  "OHAlertView": "gui_alert", // UIAlertView subclass that uses blocks to handle its callback (which make the code much more easier and readable).
   "OHAttributedLabel": "uncategorized", // UILabel that supports NSAttributedString.
   "OHAutoNIBi18n": "i18n", // Automate the internationalisation (i18n) of your XIB files without a line of code
-  "OHHTTPStubs": "uncategorized", // Stubbing framework for network requests.
+  "OHHTTPStubs": "mocking", // Stubbing framework for network requests.
   "OHMKit": "uncategorized", // Map service responses to objects in Objective-C.
   "OJFSegmentedProgressView": "uncategorized", // A segmented progress view to easily replace UIProgressView.
   "OKRESTClient": "uncategorized", // An Objective-C client for REST server.
@@ -2873,26 +2873,26 @@
   "RemoteConfig": "uncategorized", // Objective-c library for loading a remote JSON / XML config file with locally defined default values.
   "REPagedScrollView": "uncategorized", // Paged UIScrollView with an embedded UIPageControl.
   "REPhotoCollectionController": "uncategorized", // A simple photo thumbnail viewer for the iOS that groups photos by date.
-  "ReplayRequest": "uncategorized", // Translate your NSURLRequest to a curl request to debug your API calls
-  "RequestQueue": "uncategorized", // RequestQueue is a simple class for managing multiple concurrent asynchronous URL requests in your applications.
-  "RequestUtils": "uncategorized", // RequestUtils is a collection of category methods designed to simplify the process of HTTP request construction and manipulation in Cocoa.
+  "ReplayRequest": "http_client", // Translate your NSURLRequest to a curl request to debug your API calls
+  "RequestQueue": "http_client", // RequestQueue is a simple class for managing multiple concurrent asynchronous URL requests in your applications.
+  "RequestUtils": "http_client", // RequestUtils is a collection of category methods designed to simplify the process of HTTP request construction and manipulation in Cocoa.
   "RESideMenu": "gui_menus", // iOS 7 style side menu.
   "ResourceManager": "uncategorized", // Synchronize your application resources from dropbox to the app and experience dynamic reload on simulator and devices.
-  "RestForIOS": "uncategorized", // A simple, easy-to-use library of static functions for accessing RESTful APIs in iOS
-  "RestKit": "http", // RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.
-  "RestKit-InExtensions": "uncategorized", // Helpers to use RestKit with less code.
-  "RESTMagic": "uncategorized", // RESTMagic is a simple framework for building RESTFul client applications.
-  "RestReaper": "uncategorized", // Asynchronous RESTFul interaction made fast and easy for iOS and Mac OSX
-  "RESwitch": "uncategorized", // Open source alternative to UISwitch, customizable via UIAppearance protocol.
+  "RestForIOS": "http_client", // A simple, easy-to-use library of static functions for accessing RESTful APIs in iOS
+  "RestKit": "http_client", // RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.
+  "RestKit-InExtensions": "http_client", // Helpers to use RestKit with less code.
+  "RESTMagic": "http_client", // RESTMagic is a simple framework for building RESTFul client applications.
+  "RestReaper": "http_client", // Asynchronous RESTFul interaction made fast and easy for iOS and Mac OSX
+  "RESwitch": "gui_switch", // Open source alternative to UISwitch, customizable via UIAppearance protocol.
   "RETableViewManager": "gui_tableview", // Powerful data driven content manager for UITableView.
-  "RETrimControl": "uncategorized", // Audio trim control, similar to the one seen in default iPhone Voice Memos app.
+  "RETrimControl": "audio", // Audio trim control, similar to the one seen in default iPhone Voice Memos app.
   "REValidation": "validations", // Simple Objective-C object validation.
   "REVClusterMap": "uncategorized", // Simple Clustering API for MKMapView.
   "Reveal-iOS-SDK": "uncategorized", // The Reveal SDK for iOS.
   "Review-Request": "uncategorized", // Remind users to rate your iOS app on the AppStore
   "RevMob": "uncategorized", // Official RevMob iOS SDK.
   "RevMobSDK": "uncategorized", // RevMobSDK for showing ads, banners, more games link and many more.
-  "RFduino-library": "uncategorized", // RFduino-library is a few classes to manage & communicate with RFduino boards over BlueTooth 4.0
+  "RFduino-library": "arduino", // RFduino-library is a few classes to manage & communicate with RFduino boards over BlueTooth 4.0
   "RFKeyboardToolbar": "keyboard", // A flexible UIView and UIButton subclass to add customized buttons and toolbars to your UITextFields/UITextViews.
   "RFKeychain": "keychain", // Keychain wrapper for iOS and Mac OS X.
   "RFMarkdownTextView": "markdown", // A UITextView that is supposed to replicate the comment toolbar in iOctocat (http://ioctocat.com) with auto-insert markdown functionality.
@@ -2913,10 +2913,10 @@
   "RITableDataSource": "gui_tableview", // UITableView data source based on NSFetchedResultsController.
   "Rivet": "uncategorized", // Bolt your apps together with dependency injection.
   "rkBLE": "uncategorized", // BLE library for iOS. Absolutely easy to use
-  "RKCLLocationValueTransformer": "uncategorized", // An RKValueTransformer for transforming between NSDictionary and CLLocation representations of a geographical coordinate.
+  "RKCLLocationValueTransformer": "value_transformer", // An RKValueTransformer for transforming between NSDictionary and CLLocation representations of a geographical coordinate.
   "RKKiwiMatchers": "testing", // Provides a rich set of matchers for use in testing RestKit applications with the Kiwi Behavior Driven Development library.
   "RKTabView": "tabs", // Easy applicable toolbar/tabbar component for iOS.
-  "RKValueTransformers": "uncategorized", // A powerful value transformation API extracted from RestKit.
+  "RKValueTransformers": "value_transformer", // A powerful value transformation API extracted from RestKit.
   "RLPageControl": "uncategorized", // Custom UIPageControl implementation using blocks to draw the indicator.
   "RMBlurredView": "uncategorized", // This subclass of NSView can be used to get an iOS 7 like blurred background to mimic a frosted glass effect — on OS X!
   "RMCategories": "uncategorized", // A collection of Objective-C categories to make iOS development easier.
@@ -2982,7 +2982,7 @@
   "RTLabel": "rich_text", // Rich text formatting based on HTML-like markups for iOS.
   "rtmp-wrapper": "uncategorized", // librtmp wrapper library for IOS
   "RTToastMessage": "uncategorized", // Yet another toast messages presenter for iOS with nice animations and customisation options.
-  "RubyCocoaString": "uncategorized", // Ruby string manipulation methods as a category on NSString.
+  "RubyCocoaString": "nsstring_extensions", // Ruby string manipulation methods as a category on NSString.
   "RubySugar": "syntax_shugar", // Ports Ruby syntactic sugar to Objective-C.
   "rump-ios": "uncategorized", // Rump-iOS is Rump client for iOS devices..
   "RunKeeper-iOS": "proprietary_api", // An iOS RunKeeper API module.
@@ -3228,7 +3228,7 @@
   "SOExtendedAttributes": "uncategorized", // SOExtendedAttributes is a category on NSURL for manipulating the extended attributes of a file system object. BSD License.
   "SoloComponents-iOS": "uncategorized", // Self-contained, two-file (.h/.m) iPhone/iPad components that are dead-easy to drop into your projects.
   "sonos-objc": "proprietary_api", // A simple Objective-C API for controlling Sonos Devices.
-  "SORelativeDateTransformer": "uncategorized", // An NSValueTransformer subclass to turn an NSDate into a string expressing its relative age from now.
+  "SORelativeDateTransformer": "value_transformer", // An NSValueTransformer subclass to turn an NSDate into a string expressing its relative age from now.
   "SoundManager": "audio", // SoundManager is a simple class for playing sound and music in iOS or Mac apps.
   "SOZOJulianDateConverter": "uncategorized", // Converts dates in the Julian calendar into NSDates for use in other calendrical systems.
   "SparkInspector": "debugging", // Runtime Debugger for iOS Apps.
@@ -3481,20 +3481,20 @@
   "Touchpose": "uncategorized", // Touchposé is a set of classes for iOS that renders screen touches when a device is connected to a mirrored display.
   "Touchstone": "uncategorized", // Easy defaults for use in debugging and production.
   "TouchXML": "uncategorized", // TouchXML is a lightweight replacement for Cocoa's NSXML* cluster of classes.
-  "TOValueTransition": "uncategorized", // Easy timebased interpolation between two values. Including easings.
+  "TOValueTransition": "gui_transitions", // Easy timebased interpolation between two values. Including easings.
   "TOWebViewController": "uncategorized", // A view controller for iOS that allows users to quickly view web sites without needing to open Safari/Chrome.
   "TownPlan": "uncategorized", // Is a UIView layout helper.
   "TPCircularBuffer": "uncategorized", // A simple, fast circular buffer implementation.
   "TPKeyboardAvoiding": "keyboard", // A drop-in universal solution for moving text fields out of the way of the keyboard in iOS.
-  "TPMapsApp": "uncategorized", // A class to help deal with the variety of mapping apps on iOS.
-  "TPMigrationManager": "uncategorized", // A easy way for CoreData database migration.
-  "TPSegmentedControl": "uncategorized", // UISegmentedControl which is able to detect already selected segment touch.
+  "TPMapsApp": "geo_location", // A class to help deal with the variety of mapping apps on iOS.
+  "TPMigrationManager": "core_data", // A easy way for CoreData database migration.
+  "TPSegmentedControl": "gui_segmented", // UISegmentedControl which is able to detect already selected segment touch.
   "TPWeakProxy": "uncategorized", // An NSProxy for converting strong references into weak ones.
   "Tr8n": "uncategorized", // An integrated powerful and flexible translation framework for iOS.
-  "Train": "uncategorized", // A simple dependency injection framework for objective c, written while traveling in a train.
+  "Train": "dependency_injection", // A simple dependency injection framework for objective c, written while traveling in a train.
   "Transcontinental": "uncategorized", // iOS library to obtain the continent of a CLPlacemark or from a country code in the ISO 3166 format
   "Transcript": "testing", // Improves SenTestingKit test output, and provides an API for defining custom reporters.
-  "TransformerKit": "uncategorized", // A block-based API for NSValueTransformer, with a growing collection of useful examples.
+  "TransformerKit": "value_transformer", // A block-based API for NSValueTransformer, with a growing collection of useful examples.
   "Transit": "uncategorized", // Library to Bridge between JavaScript and Objective-C on iOS, OSX.
   "TransitionKit": "state_machine", // A block-based State Machine API for Objective-C.
   "TransloaditAPI": "uncategorized", // A simple API to upload files to transloadit.
@@ -3519,7 +3519,7 @@
   "TSStringValidator": "uncategorized", // Couple of classes which you can simply use to validate strings in the project.
   "Tsuga": "uncategorized", // Set of helpers for Cedar.
   "TSUIKit": "uncategorized", // UI components for iOS.
-  "TSValidatedTextField": "validation", // Simple and ready to use subclass of UITextField which uses NSRegularExpression to validate text with pattern you set.
+  "TSValidatedTextField": "validations", // Simple and ready to use subclass of UITextField which uses NSRegularExpression to validate text with pattern you set.
   "TTCounterLabel": "uncategorized", // A custom UILabel that acts a time counter, counting up or down and formatting the string to hours, minutes, seconds and milliseconds.
   "TTOpenInAppActivity": "uncategorized", // TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController.
   "TTSwitch": "uncategorized", // Fully customizable switch for iOS using images.
@@ -3561,7 +3561,7 @@
   "Typhoon": "uncategorized", // A dependency injection container for Objective-C. Light-weight, yet flexible and full-featured.
   "TZShortKit": "uncategorized", // iOS library of shortcuts for long properties
   "UAAppReviewManager": "uncategorized", // UAAppReviewManager is a simple and lightweight App review prompting tool for iOS and Mac App Store apps.
-  "UAGithubEngine": "uncategorized", // Objective-C wrapper for the Github API.
+  "UAGithubEngine": "github_api", // Objective-C wrapper for the Github API.
   "UALogger": "uncategorized", // UALogger is a logging tool for iOS and Mac apps.
   "UAModalPanel": "uncategorized", // An animated modal panel alternative for iOS.
   "UAObfuscatedString": "uncategorized", // A simple NSStringCategory to hide sensitive strings from appearing in your binary
@@ -3893,7 +3893,7 @@
   "YLProgressBar": "uncategorized", // The YLProgressBar is an UIProgressView replacement with an highly and fully customizable animated progress bar in pure Core Graphics.
   "YLTapPatternRecognizer": "touch", // UIGestureRecognizer subclass for detecting tap patterns.
   "ym": "uncategorized", // A repo for the (private source) YieldMo iOS SDK framework, to allow integration using CocoaPods.
-  "YmsCoreBluetooth": "uncategorized", // A block-based framework for building Bluetooth 4.0 Low Energy (aka Smart or LE) iOS and OS X applications using the CoreBluetooth API.
+  "YmsCoreBluetooth": "bluetooth", // A block-based framework for building Bluetooth 4.0 Low Energy (aka Smart or LE) iOS and OS X applications using the CoreBluetooth API.
   "YOLOKit": "uncategorized", // A delightful library for enumerating Foundation objects.
   "Yozhik": "uncategorized", // Useful Objective-C categories for iOS projects
   "YQUpdateHelper": "uncategorized", // YQUpdateHelper is an iOS toolkit, it can notify user if there is an new version of your app in app store.
