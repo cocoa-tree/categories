@@ -435,7 +435,7 @@
   "BPXLUUIDHandler": "uuid", // Library to encapsulate all the handling of getting/storing the new UUID.
   "Braille": "uncategorized", // A collection of Objective-C classes and extensions used for finding and handling accessibility elements.
   "Braintree": "payment", // The Braintree API helps businesses accept payments online.
-  "Bravo": "uncategorized", // Objective-C library to simplify the extraction of metadata from JPEG files
+  "Bravo": "images", // Objective-C library to simplify the extraction of metadata from JPEG files
   "BrightCenterSDK": "uncategorized", // SDK to integrate to the Brightcenter backend for educational apps.
   "Brightcove-Player-SDK": "uncategorized", // Brightcove Player SDK for iOS.
   "Brightcove-Player-SDK-IMA": "uncategorized", // IMA plugin for Brightcove Player SDK for iOS.
@@ -809,7 +809,7 @@
   "DerpKit": "uncategorized", // DerpKit is a set of categories and classes that should've been included in Cocoa and Cocoa Touch.
   "DETweetComposeViewController": "uncategorized", // The iOS 4 compatible Tweet Sheet.
   "deviantART-SDK": "uncategorized", // The Objective-C deviantART SDK is a library to allow easy integration with the deviantART API in your apps.
-  "DFJPEGTurbo": "uncategorized", // Objective-C libjpeg-turbo wrapper
+  "DFJPEGTurbo": "images", // Objective-C libjpeg-turbo wrapper
   "DFPickerView": "uncategorized", // A simple picker view with tool bar and blocks.
   "DHAppleReceiptParser": "uncategorized", // Parser for the receipt file available in iOS 7.
   "DHCCounter": "notifications", // Count Events and get notifications when that count changes, per event.
@@ -1638,9 +1638,9 @@
   "JPGeodesy": "uncategorized", // An Objective-C port of the Latitude/longitude spherical geodesy formulae & scripts by Chris Veness.
   "JPImagePickerController": "uncategorized", // A UIImagePickerController clone with custom sources.
   "JPMessageHandler": "uncategorized", // Handles and shows status messages on iOS devices.
-  "JPNG": "uncategorized", // JPNG is a new image format that combines the filesize of JPEG with alpha transparency of PNG.
-  "JPSDisplayLink": "uncategorized", // JPSDisplayLink provides an easy block interface to CADisplayLink-based animations.
-  "JPSImagePickerController": "uncategorized", // A pixel-perfect clone of iOS 7's UIImagePickerController, with a few improvements.
+  "JPNG": "images", // JPNG is a new image format that combines the filesize of JPEG with alpha transparency of PNG.
+  "JPSDisplayLink": "gui_animation", // JPSDisplayLink provides an easy block interface to CADisplayLink-based animations.
+  "JPSImagePickerController": "gui", // A pixel-perfect clone of iOS 7's UIImagePickerController, with a few improvements.
   "JPSThumbnailAnnotation": "mapkit", // A simple mapkit annotation for displaying images and details.
   "JPSVolumeButtonHandler": "uncategorized", // JPSVolumeButtonHandler provides an easy block interface to hardware volume buttons on iOS devices. Perfect for camera apps!
   "JPush": "uncategorized", // JPush SDK for iOS.
@@ -2586,8 +2586,8 @@
   "OpenTokSDK": "video", // The OpenTok iOS SDK lets you use OpenTok video sessions in apps you build for iPad, iPhone, and iPod touch devices.
   "OpenTokSDK-WebRTC": "video", // The OpenTok iOS SDK lets you use OpenTok video sessions in apps you build for iPad, iPhone, and iPod touch devices.
   "OpenUDID": "uncategorized", // Open source initiative for a universal and persistent UDID solution for iOS.
-  "OpenWeatherMapAPI": "uncategorized", // A simple api for getting data from http://openweathermap.org.
-  "OpenXMSDK": "uncategorized", // OpenX SDK for iOS v2.0
+  "OpenWeatherMapAPI": "proprietary_api", // A simple api for getting data from http://openweathermap.org.
+  "OpenXMSDK": "proprietary_api", // OpenX SDK for iOS v2.0
   "OperationPromise": "promises", // NSOperation(NSOperationQueue) dependency manager library.
   "OperationsRunner": "uncategorized", // Lightweight Framework For using NSURLSession
   "OPTableView": "gui_tableview", // UITableView subclass with some useful additions.
@@ -2598,9 +2598,9 @@
   "Ornament": "uncategorized", // Ornament is a set of APIs used to provide visual ornamentation for iOS apps.
   "OROpenSubtitleDownloader": "uncategorized", // An Obj-C API for Searching and Downloading Subtitles from OpenSubtitles.
   "ORSSerialPort": "feeds", // Set of Objective-C classes useful for communicating with external devices through a serial port (most commonly RS-232).
-  "ORStackView": "uncategorized", // An Auto Layout based Stack View.
+  "ORStackView": "auto_layout", // An Auto Layout based Stack View.
   "OSReflectionKit": "uncategorized", // Lightweight object reflection library that allows you to instantiate objects from NSDictionary objects or JSON strings.
-  "OSReflectionKit+CoreData": "uncategorized", // Category that adds Core Data support for OSReflectionKit.
+  "OSReflectionKit+CoreData": "core_data", // Category that adds Core Data support for OSReflectionKit.
   "OTMRWLock": "uncategorized", // Objective-C wrapper around pthread's read-write lock
   "OTMXAttribute": "uncategorized", // Objective-C wrapper around xattr
   "Overcoat": "uncategorized", // Overcoat is an AFNetworking extension that makes it extremely simple for developers to use Mantle model objects with a REST client.
@@ -2608,8 +2608,8 @@
   "Overline-BlocksKit": "uncategorized", // Objective-C utilities and shorthands. version for BlocksKit.
   "OvershareKit": "uncategorized", // A soup-to-nuts sharing library for iOS.
   "OWUProximityManager": "uncategorized", // A simple interface to pair a CBPeripheral and CBCentral via iBeacons.
-  "OZTabBarController": "uncategorized", // Lightweight tab bar controller geared for maximum customizability.
-  "PACScrollView": "uncategorized", // Subclass of UIScrollView to add blurr effect
+  "OZTabBarController": "tabs", // Lightweight tab bar controller geared for maximum customizability.
+  "PACScrollView": "gui_scroll", // Subclass of UIScrollView to add blurr effect
   "Paczkomaty": "uncategorized", // Parcel locker browser and component.
   "PagedFlowView": "uncategorized", // A Paging Enabled Flow View, like screenshots view in iPhone App Store.
   "PanicAR": "uncategorized", // Location-based Augmented Reality Framework for point of interest visualization.
@@ -2617,7 +2617,7 @@
   "PaperFold": "uncategorized", // Paper folding animation for iOS.
   "PaperFoldMenuController": "gui_menus", // A navigation menu on the left of the screen using PaperFold.
   "PAPlaceholder": "uncategorized", // A Passcode View Controller for iOS similar to the one in Settings.app
-  "Parallax": "uncategorized", // iOS library that reproduces the parallax effect of the iOS7 home screen.
+  "Parallax": "gui", // iOS library that reproduces the parallax effect of the iOS7 home screen.
   "ParcelKit": "uncategorized", // ParcelKit integrates Core Data with Dropbox using the Dropbox Datastore API.
   "Parcoa": "uncategorized", // Objective-C Parser Combinators.
   "Parse": "uncategorized", // iOS framework for developing apps using the Parse cloud app platform.
@@ -2626,48 +2626,48 @@
   "ParseModel": "uncategorized", // Hassel-free data models for the Parse iOS SDK.
   "Parse+NSCoding": "uncategorized", // iOS library for serializing Parse objects 
   "Parse-OSX-SDK": "uncategorized", // Parse is a complete technology stack to power your app's backend.
-  "Parse-RACExtensions": "uncategorized", // ReactiveCocoa extensions for Parse.
+  "Parse-RACExtensions": "reactive_programming", // ReactiveCocoa extensions for Parse.
   "Parsimmon": "uncategorized", // Linguistics toolkit for iOS
-  "Parus": "uncategorized", // Parus is a simple chain style auto-layout helper for objective-c.
-  "PassSlot": "uncategorized", // Objective-C Framework (SDK) for easy Passbook integration.
+  "Parus": "auto_layout", // Parus is a simple chain style auto-layout helper for objective-c.
+  "PassSlot": "apple_api", // Objective-C Framework (SDK) for easy Passbook integration.
   "PathCover": "gui_tableview", // PathCover is pull down refresh and a parallax top view with real time blur effect to any UITableView, inspired by Path for iOS.
   "PaymentKit": "payment", // Utility library for creating credit card payment forms.
   "PayMillSDK": "payment", // PAYMILL iOS SDK enables processing of payments for iOS applications. Visit http://www.paymill.com for more information.
   "PayPal-iOS-SDK": "payment", // Accept credit cards and PayPal in your iOS app.
   "PayPalMPL": "payment", // PayPal MPL Payment library for iOS.
-  "PBEmojiLabel": "uncategorized", // UILabel category which allows you to insert Emojis without the need to calculate where to insert some UIImages representing the Emojis.
-  "PBFlatUI": "uncategorized", // Easy-to-use UI for iOS apps.
-  "PBGroupScrollController": "uncategorized", // PBGroupScrollController extends functionality of UICollectionViewController
-  "PBJActivityIndicator": "uncategorized", // iOS component for efficient status bar indication.
-  "PBJNetworkObserver": "uncategorized", // iOS component for monitoring network reachability changes and connection type.
+  "PBEmojiLabel": "gui", // UILabel category which allows you to insert Emojis without the need to calculate where to insert some UIImages representing the Emojis.
+  "PBFlatUI": "gui", // Easy-to-use UI for iOS apps.
+  "PBGroupScrollController": "gui_scroll", // PBGroupScrollController extends functionality of UICollectionViewController
+  "PBJActivityIndicator": "gui_progress", // iOS component for efficient status bar indication.
+  "PBJNetworkObserver": "networking", // iOS component for monitoring network reachability changes and connection type.
   "PBJVideoPlayer": "video", // iOS video player, simple drop in component featuring touch-to-play
   "PBJVision": "camera", // iOS camera engine, supports touch-to-record video and photo capture.
-  "PBLog": "uncategorized", // A small logging engine with support for logging over HTTP using the provided Python Webserver.
+  "PBLog": "logging", // A small logging engine with support for logging over HTTP using the provided Python Webserver.
   "PBPayPalPaymentViewController": "payment", // PayPalPaymentViewController subclass using blocks.
-  "PBWebViewController": "uncategorized", // A light-weight, simple and extendible web browser component for iOS.
-  "pbxproj_structure_check": "uncategorized", // Simple ruby script to check if a Xcode *.pbxproj file objects structure matches a project physical directory structure
+  "PBWebViewController": "gui_web_view", // A light-weight, simple and extendible web browser component for iOS.
+  "pbxproj_structure_check": "xcode", // Simple ruby script to check if a Xcode *.pbxproj file objects structure matches a project physical directory structure
   "PBYouTubeVideoViewController": "video", // A view controller that embeds the YouTube iframe HTML 5 player.
   "PCSFaker": "mocking", // Fake data for your CoreData models.
   "PDCounter": "uncategorized", // Helps keep track of how many times specified events happen in your application.
   "Pdef": "uncategorized", // Pdef Objective-C descriptors, formats and rpc.
   "PDGestureTableView": "gui_tableview", // Great Mailbox-like UITableView subclass.
   "PDKeychainBindingsController": "keychain", // PDKeychainBindingsController is intended to make using the Max OSX and iOS Keychains as easy as NSUserDefaults.
-  "PDKTStickySectionHeadersCollectionViewLayout": "uncategorized", // UICollectionView Layout that makes section headers stick to the top of the collection view, over it's section cells.
-  "PDTiledView": "uncategorized", // Accordion-style table view, with block-based delegation.
+  "PDKTStickySectionHeadersCollectionViewLayout": "gui", // UICollectionView Layout that makes section headers stick to the top of the collection view, over it's section cells.
+  "PDTiledView": "gui_tableview", // Accordion-style table view, with block-based delegation.
   "PDTSimpleCalendar": "gui_calendar", // A simple Calendar / Date Picker with a nice iOS7 design.
   "PDUtils": "uncategorized", // A bunch of little helper classes to make life easier.
   "PeakRisingLabel": "uncategorized", // 动态展示上升的数字，并可以对这个数字进行格式化.
-  "PebbleKit": "uncategorized", // Embed PebbleKit iOS into your app to communicate with Pebble
-  "PeerTalk": "uncategorized", // iOS and OS X Cocoa library for communicating over USB and TCP.
-  "pegged": "uncategorized", // Pegged is a tool for generating Objective-C recursive-decent parsers from Parsing Expression Grammars (PEGs).
+  "PebbleKit": "proprietary_api", // Embed PebbleKit iOS into your app to communicate with Pebble
+  "PeerTalk": "usb", // iOS and OS X Cocoa library for communicating over USB and TCP.
+  "pegged": "parsing_expression_prammars", // Pegged is a tool for generating Objective-C recursive-decent parsers from Parsing Expression Grammars (PEGs).
   "Pensive": "uncategorized", // Modern wrapper for the Objective-C runtime API.
-  "PEPhotoCropEditor": "uncategorized", // Image cropping library for iOS, similar to the Photos.app UI.
+  "PEPhotoCropEditor": "images", // Image cropping library for iOS, similar to the Photos.app UI.
   "PermissiveResearch": "uncategorized", // Permissive Research is a iOS search engine that allows errors in the searched element. 
-  "PersistentModel": "uncategorized", // Easy creation for key-value storage model for iOS and OS X.
-  "PersonaSDK": "uncategorized", // Using Persona in an iOS app.
+  "PersistentModel": "object_mapping", // Easy creation for key-value storage model for iOS and OS X.
+  "PersonaSDK": "proprietary_api", // Using Persona in an iOS app.
   "PFCloud+Cache": "uncategorized", // iOS library for caching cloud function calls in Parse.
-  "PFIncrementalStore": "uncategorized", // Core Data Persistence with Parse, an NSIncrementalStore subclass.
-  "PFTwitterSignOn": "uncategorized", // Single Sign On for Twitter on iOS.
+  "PFIncrementalStore": "core_data", // Core Data Persistence with Parse, an NSIncrementalStore subclass.
+  "PFTwitterSignOn": "twitter_api", // Single Sign On for Twitter on iOS.
   "PgMdAtom": "feeds", // Complete ATOM parser for iOS.
   "PHFArrayComparator": "gui_tableview", // Animated table updates made easy.
   "PHFComposeBarView": "uncategorized", // A precise reconstruction of the compose bar from iOS 7 Messages.app.
@@ -2675,11 +2675,11 @@
   "PHFRefreshControl": "uncategorized", // YAPTR(TM): Yet another pull-to-refresh.
   "PhoenixPlatform-iOS-SDK": "uncategorized", // TSPhoenix is a framework providing access to Tigerspike Phoenix Rest APIs at http://phoenixplatform.com.sg
   "PhoneNumberFormatter": "phone_numbers", // NSFormatter subclass for formatting phone numbers.
-  "PhotoPickerPlus": "uncategorized", // iOS component for picking photos from the iDevice & web using the Chute Platform.
-  "PHSideScrollingImagePicker": "uncategorized", // iOS 7-style Image Picker
+  "PhotoPickerPlus": "images", // iOS component for picking photos from the iDevice & web using the Chute Platform.
+  "PHSideScrollingImagePicker": "gui_scroll", // iOS 7-style Image Picker
   "PhysicalKeyboardNotifications": "keyboard", // Posting notifications on iPhone simulator when physical keyboard is pressed. Useful for debugging
-  "PhysicsDebugger": "uncategorized", // iOS 7 Sprite Kit PhysicsDebugger
-  "PICircularProgressView": "uncategorized", // PICircularProgressView is a subclass of UIView with circular UIProgressView properties and text in this circle representing the progress.
+  "PhysicsDebugger": "debugging", // iOS 7 Sprite Kit PhysicsDebugger
+  "PICircularProgressView": "gui_progress", // PICircularProgressView is a subclass of UIView with circular UIProgressView properties and text in this circle representing the progress.
   "PinEntry": "uncategorized", // iPhone pin entry controller and a custom numpad view.
   "Pinterest-iOS": "uncategorized", // The iOS Pinterest SDK.
   "PINView": "uncategorized", // Gives you a drop-in PIN code entry screen that looks like the entry screen seen in Settings.app.
@@ -2687,97 +2687,97 @@
   "PivotalCoreKit": "uncategorized", // Shared library and test code for iOS projects.
   "PiwikTracker": "uncategorized", // A Piwik tracker written in Objective-C for iOS and OSX apps.
   "Pixate": "uncategorized", // DEPRECATED: Please use 'PixateFreestyle' pod.
-  "PixateFreestyle": "uncategorized", // Style your iOS app with CSS, using 100% native code and no webviews.
+  "PixateFreestyle": "gui", // Style your iOS app with CSS, using 100% native code and no webviews.
   "PJLinkCocoa": "uncategorized", // A Cocoa Library for communicating with projectors and other devices that implement the PJLink protocol.
   "pjsip": "uncategorized", // Open Source SIP, Media and NAT Traversal Library.
-  "PKAnimations": "uncategorized", // A convenient way to run UIKit Animations in sequence and/or parallel using different easing equations.
+  "PKAnimations": "gui_animation", // A convenient way to run UIKit Animations in sequence and/or parallel using different easing equations.
   "PKCS-Universal": "keychain", // Obj-C helper for working with PKCS/RSA, Keychain and CommonCrypto.
-  "PKJSONSocket": "uncategorized", // Simplified socket networking based on CocoaAsynSocket. Enabling direct JSON messaging between devices.
-  "PKRevealController": "uncategorized", // A view controller containers for iOS, enabling you to present multiple controllers on top of one another.
+  "PKJSONSocket": "json", // Simplified socket networking based on CocoaAsynSocket. Enabling direct JSON messaging between devices.
+  "PKRevealController": "gui", // A view controller containers for iOS, enabling you to present multiple controllers on top of one another.
   "PlaceKit": "uncategorized", // Content placeholders, randomized data and other helpers for early dev, testing and proto work.
   "PlayHavenSDK": "uncategorized", // PlayHaven is a real-time mobile game marketing platform to help you take control of the business of your games.
   "Playnomics": "uncategorized", // Playnomics SDK
-  "PLCoreDataUtils": "uncategorized", // A set of helper methods for CoreData
+  "PLCoreDataUtils": "core_data", // A set of helper methods for CoreData
   "PLCrashReporter": "uncategorized", // Reliable, open-source crash reporting for iOS and Mac OS X.
   "PLDatabase": "sql", // A SQL database access library for Objective-C.
   "PlexKit": "uncategorized", // A bunch of often used utility functions/classes.
-  "PLImageManager": "uncategorized", // Image manager/downloader for iOS
+  "PLImageManager": "images", // Image manager/downloader for iOS
   "PlivoSDK": "uncategorized", // Plivo iOS SDK.
   "PLTableViewController": "gui_tableview", // Subclass of UITableViewController to show items of not only NSArray but also NSDictionary.
   "PLVisualAttributeConstraints": "uncategorized", // Custom VFL (Visual Format Language) for creating NSLayoutConstraint's.
   "PLWeakCompatibility": "uncategorized", // Compatibility stubs to enable use of weak references with ARC on older OSes.
   "PMAudioRecorderViewController": "uncategorized", // Drop-in class to record audio note in iOS application and get it back in the app
   "PMCalendar": "gui_calendar", // Yet another calendar component for iOS. Supports presenting as a popover and very flexible UI tuning.
-  "PMEDatePicker": "uncategorized", // DatePicker with configurable date components
+  "PMEDatePicker": "dates", // DatePicker with configurable date components
   "PMParentalGate": "uncategorized", // A drop-in class for iOS applications that allow to add a parental-gate to the app
-  "PMPKVObservation": "uncategorized", // Yet another attempt at making KVO safer and more convenient.
+  "PMPKVObservation": "kvo", // Yet another attempt at making KVO safer and more convenient.
   "PMValidation": "validations", // A modular, extendable text validation library for iOS.
   "PNChart": "uncategorized", // A simple and beautiful chart lib with animation used in Piner for iOS
   "PNDPathCreateWithElements": "uncategorized", // Easily create CoreGraphics paths.
   "PNDUserDefaultsController": "uncategorized", // The missing implementation of NSUserDefaultsController for iOS.
-  "PocketAPI": "uncategorized", // Objective-C SDK for authenticating and making API calls to the Pocket API.
+  "PocketAPI": "proprietary_api", // Objective-C SDK for authenticating and making API calls to the Pocket API.
   "PocketChangeSDK": "uncategorized", // Pocket Change SDK for universal in-app rewards.
   "PocketSocket": "web_sockets", // Objective-C websocket client/server library for building things that work in realtime on iOS and OS X.
-  "PocketSVG": "uncategorized", // An Objective-C class that converts Scalable Vector Graphics into Core Graphics elements.
-  "PodioKit": "uncategorized", // PodioKit is an Objective-C client library for the Podio API.
+  "PocketSVG": "images", // An Objective-C class that converts Scalable Vector Graphics into Core Graphics elements.
+  "PodioKit": "proprietary_api", // PodioKit is an Objective-C client library for the Podio API.
   "PonyDebugger": "debugging", // Remote network and data debugging for your native iOS app using Chrome Developer Tools.
-  "PonyDebuggerLogger": "uncategorized", // A bridge between CocoaLumberjack and PonyDebugger.
-  "PopoverView": "uncategorized", // A simple UIView popover control for iPhone/iPad written with CoreGraphics.
+  "PonyDebuggerLogger": "debugging", // A bridge between CocoaLumberjack and PonyDebugger.
+  "PopoverView": "gui_popover", // A simple UIView popover control for iPhone/iPad written with CoreGraphics.
   "PopperTools": "uncategorized", // A tiny tiny library that makes your Objective-C programming little happy :-)
-  "PopulateKit": "uncategorized", // Randomly-generated contacts for the iOS address book
-  "PopUpLib": "uncategorized", // Allow users to print images on canvas.
-  "Posit": "uncategorized", // An Objective-C expectation framework based on the 'should' terminology.
-  "PostageKit": "uncategorized", // A Mac OSX / iOS API wrapper for the PostageApp transactional mail service.
-  "PosterousObjC": "uncategorized", // ObjectiveC library for Posterous API.
+  "PopulateKit": "address", // Randomly-generated contacts for the iOS address book
+  "PopUpLib": "gui_popup", // Allow users to print images on canvas.
+  "Posit": "testing", // An Objective-C expectation framework based on the 'should' terminology.
+  "PostageKit": "proprietary_api", // A Mac OSX / iOS API wrapper for the PostageApp transactional mail service.
+  "PosterousObjC": "proprietary_api", // ObjectiveC library for Posterous API.
   "POViewFrameBuilder": "uncategorized", // A small library for semantic layout of UIViews.
   "PPiAwesomeButton": "uncategorized", // UIButton category with Flat Design and extra methods to set Title+Icon from FontAwesome font
   "PPiFlatSegmentedControl": "uncategorized", // Flat UISegmentedControl for flat designs.
   "PPImageScrollingTableViewCell": "gui_tableview", // It is a UITableViewCell subclass that can make images scrollable horizontally in TableView
-  "PPiShowtime": "uncategorized", // A library that retrieves Google Showtimes of a given City ( Including tickets URL ).
-  "PPLogger": "uncategorized", // Extending NSLog for more control over the visibility of the log messages across different environments.
+  "PPiShowtime": "gui", // A library that retrieves Google Showtimes of a given City ( Including tickets URL ).
+  "PPLogger": "logging", // Extending NSLog for more control over the visibility of the log messages across different environments.
   "PPpdf417": "uncategorized", // A small and powerful PDF417 scanning library.
-  "PPRevealSideViewController": "uncategorized", // A new container controller to easily push views on side like Path or Facebook.
-  "PPSSignatureView": "uncategorized", // Signature pad
-  "PPTopMostController": "uncategorized", // This protocol aims to simplify the code behind 'which controller/view is on screen'.
+  "PPRevealSideViewController": "gui", // A new container controller to easily push views on side like Path or Facebook.
+  "PPSSignatureView": "signatures", // Signature pad
+  "PPTopMostController": "gui", // This protocol aims to simplify the code behind 'which controller/view is on screen'.
   "PPTopSlideMenu": "gui_menus", // PPTopSLideMenu is a sliding menu that appears from the top of the screen. 
-  "PRAugmentedReality": "uncategorized", // iOS AR Library.
-  "PREBorderView": "uncategorized", // A very simple Objective-C UIView category for specifying single-sided borders.
-  "PrettyKit": "uncategorized", // PrettyKit for iOS is a small set of new widgets and UIKit subclasses that gives you a deeper UIKit customization.
+  "PRAugmentedReality": "augmented_reality", // iOS AR Library.
+  "PREBorderView": "gui", // A very simple Objective-C UIView category for specifying single-sided borders.
+  "PrettyKit": "uikit_extensions", // PrettyKit for iOS is a small set of new widgets and UIKit subclasses that gives you a deeper UIKit customization.
   "PrettyTimestamp": "dates", // An NSDate Category that returns human readable, pretty timestamps between two dates. Now available with localisation.
   "Primus": "uncategorized", // Easily switch between different real-time Objective-C frameworks without any code changes.
   "PrimusEmitter": "uncategorized", // Simple emitter wrapper for primus-objc
-  "ProgressHUD": "uncategorized", // ProgressHUD is a lightweight and easy-to-use HUD for iOS 7. (Objective-C)
+  "ProgressHUD": "gui", // ProgressHUD is a lightweight and easy-to-use HUD for iOS 7. (Objective-C)
   "proj4": "uncategorized", // Proj4 is a catographic projections library.
   "Promises": "promises", // Objective-C implementation of jQuery-ish promises for iOS
   "PromiseZ": "promises", // PromiseZ done right and done small.
-  "protobuf-c": "uncategorized", // C bindings for Google's Protocol Buffers
-  "ProtobufObjC": "uncategorized", // An implementation of Protocol Buffers in Objective C.
-  "ProximityKit": "uncategorized", // Proximity Kit SDK for iOS
-  "PRTween": "uncategorized", // PRTween is a lightweight tweening library built for iOS.
-  "PRXPlayer": "uncategorized", // An iOS audio player
-  "PSAlertView": "uncategorized", // Modern block-based wrappers for UIAlertView and UIActionSheet.
-  "PSAnalogClock": "uncategorized", // A class for making analog style clocks with your own provided images.
-  "PSCollectionView": "uncategorized", // A simple open source implementation of a Pinterest Pinboard for iOS.
+  "protobuf-c": "protocol_buffers", // C bindings for Google's Protocol Buffers
+  "ProtobufObjC": "protocol_buffers", // An implementation of Protocol Buffers in Objective C.
+  "ProximityKit": "proprietary_api", // Proximity Kit SDK for iOS
+  "PRTween": "gui_animation", // PRTween is a lightweight tweening library built for iOS.
+  "PRXPlayer": "audio", // An iOS audio player
+  "PSAlertView": "gui_alert", // Modern block-based wrappers for UIAlertView and UIActionSheet.
+  "PSAnalogClock": "gui_calendar", // A class for making analog style clocks with your own provided images.
+  "PSCollectionView": "gui", // A simple open source implementation of a Pinterest Pinboard for iOS.
   "PSMenuItem": "gui_menus", // A block based UIMenuItem subclass.
-  "PSPDFKit": "uncategorized", // The leading framework for displaying and annotating PDFs in your iOS apps.
-  "PSPushPopPressView": "uncategorized", // Zoom, Rotate, Drag ? everything at the same time. A view-container for direct manipulation, inspired by Our Choice from Push Pop Press.
-  "PSStackedView": "uncategorized", // Open source implementation of Twitter/iPad stacked UI - done right.
-  "PSStoreButton": "uncategorized", // UIButton that is styled like iPhone's AppStore-Button.
-  "PSTCollectionView": "uncategorized", // Open Source, 100% API compatible replacement of UICollectionView for iOS4+.
+  "PSPDFKit": "pdf", // The leading framework for displaying and annotating PDFs in your iOS apps.
+  "PSPushPopPressView": "gui", // Zoom, Rotate, Drag ? everything at the same time. A view-container for direct manipulation, inspired by Our Choice from Push Pop Press.
+  "PSStackedView": "gui_layout", // Open source implementation of Twitter/iPad stacked UI - done right.
+  "PSStoreButton": "gui_button", // UIButton that is styled like iPhone's AppStore-Button.
+  "PSTCollectionView": "gui", // Open Source, 100% API compatible replacement of UICollectionView for iOS4+.
   "PSTDelegateProxy": "delegates", // A simple proxy that forwards optional methods to delegates
   "PSUpdateApp": "uncategorized", // PSUpdateApp is a simple method to notify users that a new version of your iOS app is available.
-  "PTImageAlbumViewController": "uncategorized", // "Image Album" — or "Photo Album" if you like that better — View( Controller) for all crazy iOS developers out there...
+  "PTImageAlbumViewController": "gui", // "Image Album" — or "Photo Album" if you like that better — View( Controller) for all crazy iOS developers out there...
   "PTKTestKit": "testing", // Various classes built to make iOS testing faster, easier, and more effective.
   "PTLDatasource": "uncategorized", // Helpers to lighten your view controllers.
   "PTLURLProtocol": "testing", // A helpful wrapper for testing network requests using NSURLProtocol
   "PTLViewDebugger": "debugging", // Useful tools for debugging your view layouts.
-  "PublicAutomation": "uncategorized", // Wrapper for Apple's internal UIAutomation APIs.
+  "PublicAutomation": "apple_api", // Wrapper for Apple's internal UIAutomation APIs.
   "PublicCodeLibrary": "uncategorized", // Static Library Project containing code to simplify daily development tasks.
   "PubNub": "uncategorized", // The PubNub Real-Time Network. Build real-time apps quickly and scale them globally.
   "pubnub-api": "uncategorized", // PubNub makes Real-time Real Easy with a Simple Communications API.
   "PubSub": "uncategorized", // A minimal syntax block based wrapper around NSNotificaitonCenter.
   "PullToRefresh": "gui_tableview", // A simple iPhone TableViewController for adding pull-to-refresh functionality.
-  "PullToRefreshView": "uncategorized", // A UIView for easily implementing pull-to-refresh functionality in a UIScrollView that doesn't suck.
+  "PullToRefreshView": "pull_to_refresh", // A UIView for easily implementing pull-to-refresh functionality in a UIScrollView that doesn't suck.
   "PulsingHalo": "uncategorized", // iOS Component For Creating A Pulsing Animation Great For Map Annotations And Beacons
   "PunchScrollView": "gui_tableview", // PunchScrollView is a iOS ScrollView framework which works like the UITableView.
   "puremvc": "mvc_framework", // A lightweight framework for creating applications based upon the classic Model-View-Controller design meta-pattern.
@@ -2842,37 +2842,37 @@
   "RDRStickyKeyboardView": "keyboard", // Replication of iMessage's text input behavior on iOS 7
   "RDVCalendarView": "gui_calendar", // Highly customizable calendarView and calendarViewController for iOS
   "RDVKeyboardAvoiding": "keyboard", // Keyboard avoiding scroll view for iOS
-  "RDVTabBarController": "uncategorized", // Highly customizable tabBar and tabBarController for iOS
+  "RDVTabBarController": "tabs", // Highly customizable tabBar and tabBarController for iOS
   "Reachability": "uncategorized", // ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
   "ReactiveCocoa": "reactive_programming", // A framework for composing and transforming streams of values.
   "ReactiveCocoaLayout": "gui_layout", // Reactive layout framework built on top of ReactiveCocoa.
   "ReactiveCoreBluetooth": "bluetooth", // Reactive Extensions for CoreBluetooth.
   "ReactiveCoreData": "core_data", // ReactiveCocoa extensions for CoreData
   "ReactiveNSXMLParser": "xml", // ReactiveCocoa extensions for NSXMLParser: A concise, stream-based API for parsing XML with NSXMLParser.
-  "ReactiveViewModel": "uncategorized", // Model-View-ViewModel, using ReactiveCocoa.
-  "REActivityViewController": "uncategorized", // Open source alternative to UIActivityViewController, highly customizable and compatible with iOS 5.0.
+  "ReactiveViewModel": "gui", // Model-View-ViewModel, using ReactiveCocoa.
+  "REActivityViewController": "gui_progress", // Open source alternative to UIActivityViewController, highly customizable and compatible with iOS 5.0.
   "Rebel": "app_kit", // Rebel is a framework to make AppKit easier to work with.
   "Rebelle": "promises", // Objective-C implementation of Promises/A+ with a nice chainable syntax!
   "RebtelSDK": "uncategorized", // RebtelSDK provides voice calling and instant-messaging.
-  "REComposeViewController": "uncategorized", // Sharing composers for the rest of us.
-  "RECurtainViewController": "uncategorized", // A custom curtain-style transition for UIViewControllers.
+  "REComposeViewController": "gui", // Sharing composers for the rest of us.
+  "RECurtainViewController": "gui", // A custom curtain-style transition for UIViewControllers.
   "RedditKit": "proprietary_api", // An Objective-C wrapper for the reddit API.
   "REDebugClient": "debugging", // Advanced remote Xcode logging in Terminal app.
   "RedGreen": "testing", // RedGreen is an extension library for SenTestKit that makes the test output easier to parse by humans.
-  "ReflectionView": "uncategorized", // A UIView subclass designed to make it easy to create "mirrored floor"-style reflections of views on iOS.
-  "REFormattedNumberField": "uncategorized", // UITextField subclass that allows number input in a predefined format.
-  "REFrostedViewController": "uncategorized", // iOS 7 style blurred view controller that appears on top of your view controller.
+  "ReflectionView": "gui", // A UIView subclass designed to make it easy to create "mirrored floor"-style reflections of views on iOS.
+  "REFormattedNumberField": "gui_textfield", // UITextField subclass that allows number input in a predefined format.
+  "REFrostedViewController": "gui", // iOS 7 style blurred view controller that appears on top of your view controller.
   "regdomlibs": "uncategorized", // Detect registered domains with regdomlibs
   "RegExCategories": "regular_expressions", // Categories on NSRegularExpression that make regular expressions more concise in Objective-C.
   "RegexKitLite": "regular_expressions", // Lightweight Objective-C Regular Expressions using the ICU Library.
-  "REImageSprite": "uncategorized", // CSS-like image sprites for iOS apps.
+  "REImageSprite": "images", // CSS-like image sprites for iOS apps.
   "REKit": "uncategorized", // A collection of NSObject extensions that brings out Blocks latent ability.
-  "Reliant": "uncategorized", // Reliant is a light-weight Dependency Injection (DI) framework for Objective-C, both for OS X and iOS.
+  "Reliant": "dependency_injection", // Reliant is a light-weight Dependency Injection (DI) framework for Objective-C, both for OS X and iOS.
   "REMarkerClusterer": "uncategorized", // REMarkerClusterer creates and manages per-zoom-level clusters for large amounts of markers.
   "REMenu": "gui_menus", // Dropdown menu inspired by Vine.
   "RemoteConfig": "uncategorized", // Objective-c library for loading a remote JSON / XML config file with locally defined default values.
-  "REPagedScrollView": "uncategorized", // Paged UIScrollView with an embedded UIPageControl.
-  "REPhotoCollectionController": "uncategorized", // A simple photo thumbnail viewer for the iOS that groups photos by date.
+  "REPagedScrollView": "gui_scroll", // Paged UIScrollView with an embedded UIPageControl.
+  "REPhotoCollectionController": "images", // A simple photo thumbnail viewer for the iOS that groups photos by date.
   "ReplayRequest": "http_client", // Translate your NSURLRequest to a curl request to debug your API calls
   "RequestQueue": "http_client", // RequestQueue is a simple class for managing multiple concurrent asynchronous URL requests in your applications.
   "RequestUtils": "http_client", // RequestUtils is a collection of category methods designed to simplify the process of HTTP request construction and manipulation in Cocoa.
