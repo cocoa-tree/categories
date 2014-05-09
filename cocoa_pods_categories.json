@@ -6,10 +6,10 @@
   "AAActivityAction": "gui", // Reeder like action sheet.
   "AAImageUtils": "images", // Simple framework to let your application's launch image fade-out to its initial view.
   "AALaunchTransition": "gui_transitions", // Simple framework to let your application's launch image fade-out to its initial view.
-  "AAPullToRefresh": "uncategorized", // All around pull to refresh library.
+  "AAPullToRefresh": "pull_to_refresh", // All around pull to refresh library.
   "AAShareBubbles": "gui_button", // Animated Social share buttons control for iOS
   "ABCalendarPicker": "gui_calendar", // Fully configurable iOS calendar UI component with multiple layouts and smooth animations.
-  "ABContactHelper": "uncategorized", // Objective-C Address Book wrapper.
+  "ABContactHelper": "address", // Objective-C Address Book wrapper.
   "ABCustomUINavigationController": "gui", // Custom UINavigationController. SquaresFlips and Cube effects
   "ABFullScrollViewController": "gui_tableview", // Subclass of ViewController that provide the behaviour of hide the toolbar when user makes scroll in a UITableView.
   "ABGetMe": "apple_api", // ABGetMe implementation for iOS using undocumented APIs (safely).
@@ -36,36 +36,36 @@
   "ActiveRecord": "object_mapping", // A lightweight Active Record implementation for Core Data.
   "ActiveSupportInflector": "inflections", // Easily pluralize and singularize strings in Objective-C.
   "ActiveTouch": "object_mapping", // ActiveRecord implementation for iOS using TouchDB.
-  "ActivitySequencer": "uncategorized", // Allows the easy sequencing of blocks to avoid a spaghetti mess.
+  "ActivitySequencer": "utilities", // Allows the easy sequencing of blocks to avoid a spaghetti mess.
   "ACVRangeSelector": "gui_controls", // A range selector control for iOS, similar to UISlider but with three handles.
-  "AdamSDK": "uncategorized", // Adam iOS SDK with Helper.
+  "AdamSDK": "proprietary_api", // Adam iOS SDK with Helper.
   "ADBBackgroundCells": "gui_tableview", // ADBBackgroundCells allow lazy loading for UITableViewCell objects performing a long time job in background without blocking the UI.
-  "ADBDownloadManager": "uncategorized", // A download manager for iOS. Actually, all that you need to download files without any external library.
+  "ADBDownloadManager": "http", // A download manager for iOS. Actually, all that you need to download files without any external library.
   "ADBIndexedTableView": "gui_tableview", // Indexed UITableView using first letter objects property.
-  "AdBrixSDK": "uncategorized", // AdBrix SDK
-  "ADCExtensions": "uncategorized", // ADCExtensions is a collection of useful categories for Cocoa objects.
+  "AdBrixSDK": "proprietary_api", // AdBrix SDK
+  "ADCExtensions": "language_extensions", // ADCExtensions is a collection of useful categories for Cocoa objects.
   "ADClusterMapView": "gui_controls", // ADClusterMapView is a drop-in subclass of MKMapView that displays and animate clusters of annotations.
   "ADDropDownMenuView": "gui_menus", // ADDropDownMenuView is an iOS navigation drop down style view.
-  "ADFullScreenDetailView": "uncategorized", // A detail view that dynamically sizes based on content. Alternative to UIAlertView to display more information elegantly.
-  "ADiOSUtilities": "uncategorized", // ADiOSUtilities is collection of static libraries with re-useable iOS awesomeness.
-  "Adjust": "uncategorized", // This is the iOS SDK of Adjust. You can read more about it at http://adjust.io.
-  "AdjustIO": "uncategorized", // This is the iOS SDK of AdjustIo. You can read more about it at http://adjust.io.
-  "adlibr": "uncategorized", // adlibr SDK with helper.
-  "AdMobHelper": "uncategorized", // Shortcut function for AdMob.
+  "ADFullScreenDetailView": "gui_window", // A detail view that dynamically sizes based on content. Alternative to UIAlertView to display more information elegantly.
+  "ADiOSUtilities": "utilities", // ADiOSUtilities is collection of static libraries with re-useable iOS awesomeness.
+  "Adjust": "proprietary_api", // This is the iOS SDK of Adjust. You can read more about it at http://adjust.io.
+  "AdjustIO": "proprietary_api", // This is the iOS SDK of AdjustIo. You can read more about it at http://adjust.io.
+  "adlibr": "proprietary_api", // adlibr SDK with helper.
+  "AdMobHelper": "proprietary_api", // Shortcut function for AdMob.
   "AdMobMediationAdapterIAd": "proprietary_api", // AdMob Mediation Adapter for iAd Network.
   "ADNKit": "appnet_api", // Objective-C framework for building App.net applications on iOS and OS X.
   "ADNLogin": "appnet_api", // Easily add support for seamless App.net login via the Passport app.
-  "AdPopcornSDK": "uncategorized", // AdPopcorn SDK
-  "AdPostSDK": "uncategorized", // AdPost iOS SDK with Helper.
+  "AdPopcornSDK": "proprietary_api", // AdPopcorn SDK
+  "AdPostSDK": "proprietary_api", // AdPost iOS SDK with Helper.
   "ADTickerLabel": "uncategorized", // ADTickerLabel An objective-c UIView which provide a mechanism to show numbers with rolling effect, like in counter.
   "ADTransitionController": "gui_transitions", // Drop-in replacement for UINavigationController with custom transition animations.
   "ADURL": "url", // a URL builder class based on node's url module
   "ADVProgressBar": "gui_progress", // Progress Bar Design with Percentage values.
-  "AD-X-SDK": "uncategorized", // AD-X SDK for iOS.
-  "AeroGear": "uncategorized", // Provides a lightweight set of utilities for communication, security, storage and more.
+  "AD-X-SDK": "proprietary_api", // AD-X SDK for iOS.
+  "AeroGear": "utilities", // Provides a lightweight set of utilities for communication, security, storage and more.
   "AeroGear-Crypto": "crypto", // Provides encryption utilities.
-  "AeroGear-OTP": "uncategorized", // Provides an Objective-C One Time Password API.
-  "AeroGear-Push": "uncategorized", // AeroGear UnifiedPush Client Registration SDK.
+  "AeroGear-OTP": "crypto", // Provides an Objective-C One Time Password API.
+  "AeroGear-Push": "proprietary_api", // AeroGear UnifiedPush Client Registration SDK.
   "AFAbstractRESTClient": "http_client", // AFAbstractRESTClient is simple abstract solution to deal with REST webservices using AFNetworking.
   "AFAddressBookManager": "address", // Get contacts from AddressBook by their phone numbers.
   "AFAmazonS3Client": "amazon_api", // AFNetworking Client for the Amazon S3 API.
@@ -88,8 +88,8 @@
   "AFKissXMLRequestOperation": "xml", // An extension for AFNetworking that provides an interface to parse XML using KissXML.
   "AFKissXMLRequestOperation@aceontech": "xml", // An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.
   "AFKissXMLRequestOperation@tonyzonghui": "xml", // An extension for AFNetworking that provides an interface to parse XML using KissXML. Specified AFNetworking version.
-  "AFLinkedInOAuth1Client": "uncategorized", // AFOAuth1Client for LinkedIn.
-  "AFMacros": "uncategorized", // Macros for iOS projects.
+  "AFLinkedInOAuth1Client": "oauth", // AFOAuth1Client for LinkedIn.
+  "AFMacros": "macros", // Macros for iOS projects.
   "AFMobilePayRequestHandler": "payment", // Send and request money via Danske Banks MobilePay app.
   "AFNetworkActivityLogger": "logging", // AFNetworking 2.0 Extension for Network Request Logging
   "AFNetworking": "networking", // A delightful iOS and OS X networking framework.
@@ -101,14 +101,14 @@
   "AFOAuth1Client": "networking", // AFNetworking Extension for OAuth 1.0a Authentication.
   "AFOAuth2Client": "networking", // AFNetworking Extension for OAuth 2 Authentication.
   "AFOAuth2Client@phoenixplatform": "networking", // AFNetworking Extension for OAuth 2 Authentication.
-  "AFProgressiveImageDownload": "uncategorized", // A category on UIView that allows you to progressively download images providing seamless enhancement.
+  "AFProgressiveImageDownload": "gui_images", // A category on UIView that allows you to progressively download images providing seamless enhancement.
   "AFQiitaClient": "proprietary_api", // AFNetworking Client for the Qiita API.
   "AFQiniuClient": "proprietary_api", // AFNetworking Extension for Qiniu(七牛)
   "AFQuickLookView": "networking", // AFNetworking Extension for document previews of remote files.
   "AFRaptureXMLRequestOperation": "xml", // AFRaptureXMLRequestOperation is an extension for AFNetworking that provides an interface to parse XML using RaptureXML.
   "AFRedditAPIClient": "proprietary_api", // AFHTTPClient Subclass for the Reddit Api.
-  "AFRESTfulCoreDataBackgroundQueue": "uncategorized", // AFNetworking based AFHTTPClient conforming to SLRESTfulCoreDataBackgroundQueue.
-  "AFSpritz": "uncategorized", // A complete Spritz SDK for iOS
+  "AFRESTfulCoreDataBackgroundQueue": "core_data", // AFNetworking based AFHTTPClient conforming to SLRESTfulCoreDataBackgroundQueue.
+  "AFSpritz": "proprietary_api", // A complete Spritz SDK for iOS
   "AFStatHatClient": "http", // An AFHTTPClient subclass for reporting to StatHat.
   "AFTumblrAPIClient": "proprietary_api", // AFOAuth1Client for Tumblr.
   "AFUrbanAirshipClient": "proprietary_api", // [Deprecated] An API Client for Registering and Unregistering Devices with Urban Airship.
@@ -119,20 +119,20 @@
   "AGAssert": "testing", // The better alternative to NSAssert.
   "AGAsyncTestHelper": "testing", // Macro for writing unit tests with asynchronous operations.
   "AGBlurTransition": "gui_transitions", // Custom transition delegate for presenting modal views with a blur background in a frame using the new iOS7 custom transitions API.
-  "AGGeometryKit": "uncategorized", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
+  "AGGeometryKit": "geometry", // Quadrilaterals, geometry, math and more to enrich your possibilities with UIKit and CoreAnimation.
   "AGi18n": "i18n", // Easily localize your iOS apps by automatically extracting texts from code and XIB files into a Localizable strings.
-  "AGImageChecker": "uncategorized", // Light library to visually check your app images.
-  "AGImagePickerController": "uncategorized", // AGImagePickerController is a image picker controller that allows you to select multiple photos and can be used for all iOS devices.
-  "AGMedallionView": "uncategorized", // AGMedallionView is a picture view control just like the one that Apple is using at the login screen in Mac OS X Lion.
+  "AGImageChecker": "images", // Light library to visually check your app images.
+  "AGImagePickerController": "gui_images", // AGImagePickerController is a image picker controller that allows you to select multiple photos and can be used for all iOS devices.
+  "AGMedallionView": "gui", // AGMedallionView is a picture view control just like the one that Apple is using at the login screen in Mac OS X Lion.
   "AGPhotoBrowser": "photo_browser", // A customizable photo browser for iOS6 and iOS7 inspired by Facebook.
   "AGWaitForAsyncTestHelper": "testing", // C macro for async operations in unit tests. Example: WAIT_WHILE(!jobDone, limitInSeconds);.
   "AGWindowView": "gui_window", // AGWindowView is a UIView which can be added directly to UIWindow. It handles rotation and frame changes of statusbar for you.
   "AHAlertView": "gui_alert", // `AHAlertView` is a powerful, block-based alternative to UIKit's `UIAlertView`.
   "AHCarousel": "gui_carousel", // for the creation of pod
-  "AHDispatch": "uncategorized", // Queue throttling functionality for GCD
-  "AHEasing": "uncategorized", // A supplemental library of easing functions for C, C++, and Objective-C.
+  "AHDispatch": "grand_central_dispatch", // Queue throttling functionality for GCD
+  "AHEasing": "algorithms", // A supplemental library of easing functions for C, C++, and Objective-C.
   "AIAnimation": "gui_animation", // UIKit animations as first-class citizens -- make animations easier to manipulate.
-  "Airbrake-iOS": "uncategorized", // A Airbrake Notifier for iOS.
+  "Airbrake-iOS": "error_tracking", // A Airbrake Notifier for iOS.
   "AIVerification": "validations", // A framework for testing user inputs and generating error messages.
   "AJNotificationView": "notifications", // Notice component for iOS.
   "AKForm": "gui_form", // A refreshing iOS 7 form framework with the works.
@@ -142,38 +142,38 @@
   "AKSemanticView": "uncategorized", // A UIView category aimed at referencing common attributes a little less robotically.
   "AKTabBarController": "tabs", // AKTabBarController is an adaptive and customizable tab bar for iOS.
   "AKVerbalExpression": "regular_expressions", // Quickly create simple or complicated regular expressions using very intuitive and verbal methods.
-  "ALActionBlocks": "uncategorized", // ALActionBlocks Category on UIControl, UIBarButtonItem, and UIGestureRecognizer to allow use of blocks instead of selectors.
+  "ALActionBlocks": "gui_controls", // ALActionBlocks Category on UIControl, UIBarButtonItem, and UIGestureRecognizer to allow use of blocks instead of selectors.
   "ALAlertBanner": "gui_alert", // A clean and simple alert banner for iPhone and iPad
-  "ALAssetsLibrary-CustomPhotoAlbum": "uncategorized", // A nice ALAssetsLibrary category for saving images & videos into custom photo album.
-  "ALDClock": "uncategorized", // An interactive clock component for use in iOS projects.
+  "ALAssetsLibrary-CustomPhotoAlbum": "photo_browser", // A nice ALAssetsLibrary category for saving images & videos into custom photo album.
+  "ALDClock": "gui_clock", // An interactive clock component for use in iOS projects.
   "AlertNinja": "gui_alert", // Invisible UIAlertView and spying.
   "AlertShortkut": "gui_alert", // A custom Alert and Actionsheet with block implementation.
-  "AlgoliaSearch-Client": "uncategorized", // Algolia Search API Client for iOS & OS X.
-  "AlgoliaSearchOffline-iOS-SDK": "uncategorized", // iOS framework to add Google-like instant search inside your apps.
-  "AlgoliaSearchOffline-OSX-SDK": "uncategorized", // OS X framework to add Google-like instant search inside your apps.
-  "AllAroundPullView": "uncategorized", // 4 direction Pull-To-Refresh feature.
-  "ALMoviePlayerController": "uncategorized", // A drop-in replacement for MPMoviePlayerController that exposes the UI elements and allows for maximum customization.
+  "AlgoliaSearch-Client": "proprietary_api", // Algolia Search API Client for iOS & OS X.
+  "AlgoliaSearchOffline-iOS-SDK": "proprietary_api", // iOS framework to add Google-like instant search inside your apps.
+  "AlgoliaSearchOffline-OSX-SDK": "proprietary_api", // OS X framework to add Google-like instant search inside your apps.
+  "AllAroundPullView": "pull_to_refresh", // 4 direction Pull-To-Refresh feature.
+  "ALMoviePlayerController": "gui_video", // A drop-in replacement for MPMoviePlayerController that exposes the UI elements and allows for maximum customization.
   "AlphabetTable": "gui_tableview", // A UITableView subclass which automatically sorts your data elements into sections keyed by letter.
   "ALPValidator": "validations", // Drop in user input validation for your iOS apps.
   "ALRadial": "gui_menus", // Radial menus for iOS.
-  "ALToastView": "uncategorized", // Android-like toast messages for iOS.
-  "AMAttributedHighlightLabel": "uncategorized", // A UILabel subclass with mention/hashtag/link highlighting.
-  "AmazeKit": "uncategorized", // AmazeKit is a library for rendering beautiful images in your iOS app.
+  "ALToastView": "gui", // Android-like toast messages for iOS.
+  "AMAttributedHighlightLabel": "gui_label", // A UILabel subclass with mention/hashtag/link highlighting.
+  "AmazeKit": "gui_images", // AmazeKit is a library for rendering beautiful images in your iOS app.
   "AmazonSDB": "amazon_api", // iOS and OS X interface to Amazon's SimpleDB web service.
-  "AMBCircularButton": "uncategorized", // UIButton subclass to display circular images
+  "AMBCircularButton": "gui_button", // UIButton subclass to display circular images
   "AMBubbleTableViewController": "gui_tableview", // Simple implementation of a UITableView styled as chat bubbles. It provides different base styles and it's easily customizable.
-  "AMDraggableBlurView": "uncategorized", // Draggable blurred view. This control is inspired by the brilliant work of César Pinto Castillo's AMBlurView
-  "AMFatFractal": "uncategorized", // Extends the FatFractal iOS framework.
-  "AMInfiniteScrollView": "uncategorized", // An automatically scrolling infinite scrollview.
+  "AMDraggableBlurView": "gui", // Draggable blurred view. This control is inspired by the brilliant work of César Pinto Castillo's AMBlurView
+  "AMFatFractal": "framework", // Extends the FatFractal iOS framework.
+  "AMInfiniteScrollView": "gui_scroll", // An automatically scrolling infinite scrollview.
   "AMOptionMenu": "gui_menus", // A popup button/menu that allows selection of multiple options.
-  "AMPAvatarView": "uncategorized", // A simple UIView subclass that shows an UIImage with a shadow in a circle.
+  "AMPAvatarView": "gui_images", // A simple UIView subclass that shows an UIImage with a shadow in a circle.
   "Amplitude-iOS": "analytics", // Amplitude mobile analytics iOS SDK.
-  "AMRatingControl": "uncategorized", // A simple rating control for the iPhone.
-  "AMScrollingNavbar": "uncategorized", // Scrollable UINavigationBar that follows the scrolling of a UIScrollView. Similiar to Chrome for iOS7
+  "AMRatingControl": "gui_rating", // A simple rating control for the iPhone.
+  "AMScrollingNavbar": "navigation", // Scrollable UINavigationBar that follows the scrolling of a UIScrollView. Similiar to Chrome for iOS7
   "AMSlideMenu": "gui_menus", // Ease slide menu, with high customization for ios
-  "AMSlideOutController": "uncategorized", // SlideOut Navigation Controller for iOS. Fully customizable.
-  "AMTagListView": "uncategorized", // UIScrollView subclass that allows to add a list of highly customizable tags.
-  "AMYServer": "uncategorized", // AMY Mocks Your Server - A mock HTTP server for KIF.
+  "AMSlideOutController": "gui_slider", // SlideOut Navigation Controller for iOS. Fully customizable.
+  "AMTagListView": "gui_tags", // UIScrollView subclass that allows to add a list of highly customizable tags.
+  "AMYServer": "mocking", // AMY Mocks Your Server - A mock HTTP server for KIF.
   "Analytics": "analytics", // Segment.io analytics and marketing tools library for iOS.
   "AnalyticsKit": "analytics", // Analytics framework for iOS
   "AnalyticsSDK": "analytics", // A full analytics SDK for all iOS statistics tools. For example, UMeng, 百度统计, Google Analytics.
