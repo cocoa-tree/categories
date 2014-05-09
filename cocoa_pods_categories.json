@@ -177,34 +177,34 @@
   "Analytics": "analytics", // Segment.io analytics and marketing tools library for iOS.
   "AnalyticsKit": "analytics", // Analytics framework for iOS
   "AnalyticsSDK": "analytics", // A full analytics SDK for all iOS statistics tools. For example, UMeng, 百度统计, Google Analytics.
-  "AngleGradientLayer": "uncategorized", // Objective-C angle gradients for iOS.
-  "AnimatedGif": "uncategorized", // Animated GIF library for iPhone. Based on original work by Martin van Spanje.
+  "AngleGradientLayer": "gui", // Objective-C angle gradients for iOS.
+  "AnimatedGif": "gui_images", // Animated GIF library for iPhone. Based on original work by Martin van Spanje.
   "Aniways": "uncategorized", // Beautiful messaging monetization.
-  "Annex": "uncategorized", // A small collection of categories and classes to make Objective-C more comfortable.
+  "Annex": "language_extensions", // A small collection of categories and classes to make Objective-C more comfortable.
   "ANSegmentedControl": "gui_controls", // Reader for Mac like Animation NSSegmentedControl.
-  "Antenna": "uncategorized", // Extensible Remote Logging for iOS.
+  "Antenna": "logging", // Extensible Remote Logging for iOS.
   "AnyJSON": "json", // Encode / Decode JSON by any means possible.
   "AOCUDL": "uncategorized", // AOCUDL - An alternative shorthand syntax to Dustin Bachrach's OCUDL.
   "AOTrayView": "gui_tableview", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
-  "AOTToolkit": "uncategorized", // A collection of helper/utility classes to aid iOS development.
+  "AOTToolkit": "utilities", // A collection of helper/utility classes to aid iOS development.
   "APAddressBook": "address", // Easy access to iOS address book
   "APAsyncDictionary": "uncategorized", // Thread safe wrapper to NSMutableDictionary for asynchronous access by @Alterplay folks.
   "APAutocompleteTextField": "gui_autocomplete", // Autocompletable text field
-  "APAvatarImageView": "uncategorized", // Subclass of UIImageView to create a circle avatar image view with configuration border width and border color
-  "APDropDownNavToolbar": "uncategorized", // Subclass of UINavigationController to drop down toolbar when a bar button item is tapped like in the Messages App in iOS7
-  "APIClient": "uncategorized", // Convention over configuration REST API client
-  "ApigeeiOSSDK": "uncategorized", // Apigee iOS SDK.
+  "APAvatarImageView": "gui_images", // Subclass of UIImageView to create a circle avatar image view with configuration border width and border color
+  "APDropDownNavToolbar": "navigation", // Subclass of UINavigationController to drop down toolbar when a bar button item is tapped like in the Messages App in iOS7
+  "APIClient": "http_client", // Convention over configuration REST API client
+  "ApigeeiOSSDK": "proprietary_api", // Apigee iOS SDK.
   "APLArrayDataSource": "gui_tableview", // UITableViewDataSource for NSArray
-  "APLCollectionViewDataSource": "uncategorized", // APLCollectionViewDataSource is an array based datasource for collection views.
+  "APLCollectionViewDataSource": "gui_collectionview", // APLCollectionViewDataSource is an array based datasource for collection views.
   "APLFacebookProxyActivity": "facebook_api", // A UIActivity for use when Facebook is not activated yet.
   "APLKeyboardControls": "keyboard", // inputAccesoryView above the keyboard with done button and optional previous and next buttons
-  "APLLog": "uncategorized", // Console logger supporting different log levels for different configurations.
-  "APLNavigationController": "uncategorized", // Custom UINavigationController subclass which adds support for automatic show/hide of the navgationBar
-  "APLObject": "uncategorized", // NSObject subclass with automatic debugDescription
-  "APLPageViewControllerDataSource": "uncategorized", // APLPageViewControllerDataSource is an array based data source for UIPageViewController.
+  "APLLog": "logging", // Console logger supporting different log levels for different configurations.
+  "APLNavigationController": "navigation", // Custom UINavigationController subclass which adds support for automatic show/hide of the navgationBar
+  "APLObject": "debugging", // NSObject subclass with automatic debugDescription
+  "APLPageViewControllerDataSource": "gui_pageview", // APLPageViewControllerDataSource is an array based data source for UIPageViewController.
   "APLSlideMenu": "gui_menus", // Sliding Hamburger Menu like the one in the Facebook App
-  "APLTextField": "uncategorized", // Advanced UITextField subclass with the possibility to be connected to a picker
-  "Appacitive-iOS-SDK": "uncategorized", // iOS SDK for the Appacitive platform.
+  "APLTextField": "gui_textfield", // Advanced UITextField subclass with the possibility to be connected to a picker
+  "Appacitive-iOS-SDK": "proprietary_api", // iOS SDK for the Appacitive platform.
   "APPaginalTableView": "gui_tableview", // This is implementation of view allowing navigation between views like in iOS 7 Weather App.
   "APParallaxHeader": "gui_parallax", // Add a parallax header view to your table views with one row of code.
   "Appboy-iOS-SDK": "uncategorized", // This is the Appboy iOS SDK for Mobile Marketing Automation
@@ -258,10 +258,10 @@
   "ASAnyCurlController": "gui_transitions", // iOS Curl transitions from any corner and any direction.
   "ASBanker": "payment", // Simplifies adding In App Purchases to iOS applications.
   "ASCoalescingOperationQueue": "uncategorized", // A dispatch queue where you only ever have one block queued.
-  "ASCollectionViewController": "uncategorized", // A UICollectionViewController subclass that makes working with NSFetchedResultsController, UIMenuController and UIRefreshControl easier.
-  "ASCRefreshControl": "uncategorized", //  ASCRefreshControl is a wrapper for using UIRefreshControl on iOS 5+.
+  "ASCollectionViewController": "gui_collectionview", // A UICollectionViewController subclass that makes working with NSFetchedResultsController, UIMenuController and UIRefreshControl easier.
+  "ASCRefreshControl": "gui_controls", //  ASCRefreshControl is a wrapper for using UIRefreshControl on iOS 5+.
   "ASCScreenBrightnessDetector": "uncategorized", // Easily detects screen brightness changes and provides some useful delegate methods.
-  "ASDepthModal": "uncategorized", // An Objective-C class that adds a sense of depth to your modal popup views.
+  "ASDepthModal": "gui_dialog", // An Objective-C class that adds a sense of depth to your modal popup views.
   "ASFormatterCache": "uncategorized", // An iOS cache that gives easy access to reusable date formatters and auto-update formatters on locale change.
   "Ashton": "uncategorized", // Converts NSAttributedStrings between AppKit, CoreText, UIKit and HTML.
   "ASIHTTPRequest": "http", // Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone.
@@ -269,14 +269,14 @@
   "ASMCropViewController": "uncategorized", // An iOS view controller for cropping images.
   "ASMediaFocusManager": "uncategorized", // Animate your iOS image views to fullscreen on a simple tap.
   "ASPolylineView": "uncategorized", // Drop-in replacement for MKPolylineView with more customisation options.
-  "ASStarRatingView": "uncategorized", // ASStarRatingView is a control to rating with stars, it is simple to use and configurable.
+  "ASStarRatingView": "gui_rating", // ASStarRatingView is a control to rating with stars, it is simple to use and configurable.
   "Asterism": "uncategorized", // Functional helpers for Objective-C.
   "AstroCocoaPackage": "uncategorized", // Various Obj-C and Cocoa tools for astronomical computations, developed and used primarily for iObserve.app.
   "ASValueTrackingSlider": "uncategorized", // A UISlider subclass that displays the slider value in a popUpView
   "Async": "uncategorized", // Set of functions for working with asynchronous functions
-  "AsyncImageDownloader": "uncategorized", // Very simple asynchronous image downloader for iOS and Mac OS.
-  "AsyncImageDownloaderOSX": "uncategorized", // Very simple asynchronous image downloader for iOS and Mac OS.
-  "AsyncImageView": "uncategorized", // AsyncImageView is an extension of UIImageView for loading and displaying images asynchronously on iOS so that they do not lock up the UI.
+  "AsyncImageDownloader": "images", // Very simple asynchronous image downloader for iOS and Mac OS.
+  "AsyncImageDownloaderOSX": "images", // Very simple asynchronous image downloader for iOS and Mac OS.
+  "AsyncImageView": "gui_images", // AsyncImageView is an extension of UIImageView for loading and displaying images asynchronously on iOS so that they do not lock up the UI.
   "AsyncSenTest": "testing", // Asynchronous Test for OCTest (SenTest).
   "AsyncTestSupporter": "testing", // Like GHUnit AsyncTestCase functions.
   "AtkDragAndDrop": "uncategorized", // A drag and drop toolkit for iOS.
@@ -284,9 +284,9 @@
   "ATMHud": "uncategorized", // Library for the creation of HUDs in iPhone applications.
   "ATMHud@dhoerl": "uncategorized", // Full featured and flexible HUD framework.
   "ATValidations": "validations", // ATValidations is a data validation library for several programming languages.
-  "AudioPlayer": "uncategorized", // AudioQueue player for playing multiple music files or looping musics.
-  "Audjustable": "uncategorized", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
-  "AUIAnimatedText": "uncategorized", // A drop-in UILabel replacement that makes almost all properties animatable by using a CATextLayer instead of CALayer.
+  "AudioPlayer": "audio", // AudioQueue player for playing multiple music files or looping musics.
+  "Audjustable": "audio", // A fast and extensible audio streamer for iOS and OSX with support for gapless playback and custom (non-HTTP) sources.
+  "AUIAnimatedText": "gui_label", // A drop-in UILabel replacement that makes almost all properties animatable by using a CATextLayer instead of CALayer.
   "AUISelectiveBordersView": "uncategorized", // Allow specific borders on calayer for uiview elements
   "AURosetteView": "uncategorized", // AURosetteView is a easy-to-use, clean and lightweight share button primary for social platforms.
   "AuthorizeNet": "payment", // Authorize Net payment gateway Library for iOS
@@ -300,29 +300,29 @@
   "AutoLayoutMacros": "auto_layout", // Macros for making Macros for making Auto Layout more readable.
   "AutoLayoutShorthand": "auto_layout", // alternative system for creating and adding Cocoa Auto Layout constraints
   "AutoScrollLabel": "scrolling", // A marquee like scrolling UILabel, think iPod track title scrolling. Provides edge fading, speed adjustment, scroll direction, etc.
-  "AVAnimator": "uncategorized", // VAnimator is an iOS library that makes it easy to implement non-trivial animated/video content in iOS.
+  "AVAnimator": "gui_animation", // VAnimator is an iOS library that makes it easy to implement non-trivial animated/video content in iOS.
   "AVCaptureMultipeerVideoDataOutput": "video", // An AVFoundation subclass for sending video over multipeer connectivity
-  "AVHexColor": "uncategorized", // AVHexColor was inspired by the lack of hexadecimal colour integration of iOS.
+  "AVHexColor": "colors", // AVHexColor was inspired by the lack of hexadecimal colour integration of iOS.
   "AviarySDK": "uncategorized", // Aviary's photo editing SDK for iOS.
   "AVLTree": "uncategorized", // Objective-C implementation of an avl tree.
-  "AVOSCloud": "uncategorized", // AVOS Cloud iOS SDK for mobile backend.
-  "AVOSCloudBeta": "uncategorized", // AVOS Cloud iOS SDK for mobile backend.
-  "AVOSCloudMS": "uncategorized", // AVOS Cloud iOS SDK for mobile backend.
-  "AVOSCloudSNS": "uncategorized", // AVOS Cloud SNS SDK for iOS
-  "AVOSCloudUI": "uncategorized", // AVOS Cloud iOS UI SDK for mobile backend.
-  "AVOSCloudUIBeta": "uncategorized", // AVOS Cloud iOS SDK for mobile backend.
-  "AVTagTextView": "uncategorized", // A category that adds an instragram-like hashtag choosing/listing capability to the UITextView
+  "AVOSCloud": "avos_api", // AVOS Cloud iOS SDK for mobile backend.
+  "AVOSCloudBeta": "avos_api", // AVOS Cloud iOS SDK for mobile backend.
+  "AVOSCloudMS": "avos_api", // AVOS Cloud iOS SDK for mobile backend.
+  "AVOSCloudSNS": "avos_api", // AVOS Cloud SNS SDK for iOS
+  "AVOSCloudUI": "avos_api", // AVOS Cloud iOS UI SDK for mobile backend.
+  "AVOSCloudUIBeta": "avos_api", // AVOS Cloud iOS SDK for mobile backend.
+  "AVTagTextView": "gui_tags", // A category that adds an instragram-like hashtag choosing/listing capability to the UITextView
   "AwesomeMenu": "gui_menus", // Path 2.0 menu using CoreAnimation :).
-  "AWIconSheet": "uncategorized", // iOS 6 share style actionsheet.
+  "AWIconSheet": "gui_dialog", // iOS 6 share style actionsheet.
   "AWSiOSSDK": "amazon_api", // Amazon Web Services SDK for iOS.
   "AWSS3": "amazon_api", // iOS SDK for Amazon S3.
-  "AWVersionAgent": "uncategorized", // Check and notify user that new version is available from Local Notification.
-  "AXRatingView": "uncategorized", // Star mark rating view
+  "AWVersionAgent": "versioning", // Check and notify user that new version is available from Local Notification.
+  "AXRatingView": "gui_rating", // Star mark rating view
   "AXStatusItemPopup": "uncategorized", // NSStatusItem that shows a little NSPopover when clicked.
-  "AYNetworking": "uncategorized", // AYNetworking is a API extension of AFNetworking.
+  "AYNetworking": "networking", // AYNetworking is a API extension of AFNetworking.
   "AZAppearanceKit": "uncategorized", // A series of UI and drawing-related Objective-C components.
   "AZColoredNavigationBar": "navigation", // A UINavigationBar subclass for strong colored navigation bars on iOS 7.
-  "AZDateBuilder": "uncategorized", // Simple NSDate builder library.
+  "AZDateBuilder": "dates", // Simple NSDate builder library.
   "AZSocketIO": "web_sockets", // A socket.io client for objective-c. Cocoapods-friendly. Appledocs. Built of AFNetworking and SocketRocket. Websockets + XHR.
   "AzureSDK-iOS": "uncategorized", // Windows Azure makes it fast and easy to build mobile apps that scale.
   "Backbeam": "proprietary_api", // iOS SDK for backbeam.io.
