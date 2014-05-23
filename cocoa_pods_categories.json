@@ -57,7 +57,7 @@
   "ADNLogin": "appnet_api", // Easily add support for seamless App.net login via the Passport app.
   "AdPopcornSDK": "proprietary_api", // AdPopcorn SDK
   "AdPostSDK": "proprietary_api", // AdPost iOS SDK with Helper.
-  "ADTickerLabel": "uncategorized", // ADTickerLabel An objective-c UIView which provide a mechanism to show numbers with rolling effect, like in counter.
+  "ADTickerLabel": "gui_label", // ADTickerLabel An objective-c UIView which provide a mechanism to show numbers with rolling effect, like in counter.
   "ADTransitionController": "gui_transitions", // Drop-in replacement for UINavigationController with custom transition animations.
   "ADURL": "url", // a URL builder class based on node's url module
   "ADVProgressBar": "gui_progress", // Progress Bar Design with Percentage values.
@@ -80,7 +80,7 @@
   "AFHTTPClientLogger": "http", // A configurable HTTP request logger for AFNetworking.
   "AFHTTPFileUpdateOperation": "http", // AFNetworking extenstion for updating file with HTTP header "If-Modified-Since" and status code 304.
   "AFHTTPRequestOperationLogger": "http", // AFNetworking Extension for HTTP Request Logging.
-  "AFHTTPRequestOperationLogger-VolumeControl": "uncategorized", // Change log level with hardware volume buttons.
+  "AFHTTPRequestOperationLogger-VolumeControl": "gui_control", // Change log level with hardware volume buttons.
   "AFImageDownloader": "images", // Downloads JPEG images asynchronously and decompresses them on a background thread.
   "AFIncrementalStore": "core_data", // Core Data Persistence with AFNetworking, Done Right.
   "AFJSONPRequestOperation": "json", // AFNetworking Extension for the JSONP format.
@@ -139,7 +139,7 @@
   "AKLocationManager": "geo_location", // Simple CLLocationManager subclass with block support and convenience methods.
   "AKNumericFormatter": "gui_textfield", // Formatter for numerical fields and UITextField category to use it easily while editing.
   "AKSegmentedControl": "gui_segmented", // AKSegmentedControl is a fully customizable Segmented Control for iOS.
-  "AKSemanticView": "uncategorized", // A UIView category aimed at referencing common attributes a little less robotically.
+  "AKSemanticView": "gui", // A UIView category aimed at referencing common attributes a little less robotically.
   "AKTabBarController": "tabs", // AKTabBarController is an adaptive and customizable tab bar for iOS.
   "AKVerbalExpression": "regular_expressions", // Quickly create simple or complicated regular expressions using very intuitive and verbal methods.
   "ALActionBlocks": "gui_controls", // ALActionBlocks Category on UIControl, UIBarButtonItem, and UIGestureRecognizer to allow use of blocks instead of selectors.
@@ -188,7 +188,7 @@
   "AOTrayView": "gui_tableview", // A nice tray to show items at the bottom of an iOS view, usually used in combination with a UITableView.
   "AOTToolkit": "utilities", // A collection of helper/utility classes to aid iOS development.
   "APAddressBook": "address", // Easy access to iOS address book
-  "APAsyncDictionary": "uncategorized", // Thread safe wrapper to NSMutableDictionary for asynchronous access by @Alterplay folks.
+  "APAsyncDictionary": "async", // Thread safe wrapper to NSMutableDictionary for asynchronous access by @Alterplay folks.
   "APAutocompleteTextField": "gui_autocomplete", // Autocompletable text field
   "APAvatarImageView": "gui_images", // Subclass of UIImageView to create a circle avatar image view with configuration border width and border color
   "APDropDownNavToolbar": "navigation", // Subclass of UINavigationController to drop down toolbar when a bar button item is tapped like in the Messages App in iOS7
@@ -207,34 +207,34 @@
   "Appacitive-iOS-SDK": "proprietary_api", // iOS SDK for the Appacitive platform.
   "APPaginalTableView": "gui_tableview", // This is implementation of view allowing navigation between views like in iOS 7 Weather App.
   "APParallaxHeader": "gui_parallax", // Add a parallax header view to your table views with one row of code.
-  "Appboy-iOS-SDK": "uncategorized", // This is the Appboy iOS SDK for Mobile Marketing Automation
+  "Appboy-iOS-SDK": "proprietary_api", // This is the Appboy iOS SDK for Mobile Marketing Automation
   "AppBuilder-iOS": "uncategorized", // MidlandCalc includes the common components of Mortgage Calculator.
-  "AppCoreKit": "uncategorized", // AppCoreKit is an application framework designed to improve productivity while creating Apps for iOS.
-  "Apphance-Pre-Production": "uncategorized", // Apphance SDK meant for pre production releases.
-  "Apphance-Production": "uncategorized", // Apphance SDK meant for production releases.
-  "APPhotolibrary": "uncategorized", // Easy access to photo album on iOS
-  "AppInsight": "uncategorized", // AppInsight is a usage tracking and reporting framework.
-  "APPinViewController": "uncategorized", // Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic.
-  "Appirater": "uncategorized", // A utility that reminds your iPhone app's users to review the app.
+  "AppCoreKit": "mvc_framework", // AppCoreKit is an application framework designed to improve productivity while creating Apps for iOS.
+  "Apphance-Pre-Production": "proprietary_api", // Apphance SDK meant for pre production releases.
+  "Apphance-Production": "proprietary_api", // Apphance SDK meant for production releases.
+  "APPhotolibrary": "gui_images", // Easy access to photo album on iOS
+  "AppInsight": "tracking", // AppInsight is a usage tracking and reporting framework.
+  "APPinViewController": "gui", // Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic.
+  "Appirater": "user_feedback", // A utility that reminds your iPhone app's users to review the app.
   "AppkefuSDK": "uncategorized", // AppkefuSDK for iOS
   "AppKitActor": "testing", // AppKitActor is an integration test framework for AppKit applications..
-  "AppleCoreAudioUtilityClasses@thehtb": "uncategorized", // A git mirror of Apple's Core Audio Utility Classes for better versioning and with clang/llvm fixes.
-  "AppleGuice": "uncategorized", // Effortless dependency injection framework for Objective-C
+  "AppleCoreAudioUtilityClasses@thehtb": "audio", // A git mirror of Apple's Core Audio Utility Classes for better versioning and with clang/llvm fixes.
+  "AppleGuice": "dependency_injection", // Effortless dependency injection framework for Objective-C
   "AppPaoPaoSDK": "uncategorized", // AppPaoPao ios sdk.
   "Appsee": "uncategorized", // Appsee SDK for UIKit applications
   "AppseeGL": "uncategorized", // Appsee SDK for OpenGL applications
-  "AppSettings": "uncategorized", // Tool that allows automatic serialization and deserialization of objects to NSDictionary.
+  "AppSettings": "serialization", // Tool that allows automatic serialization and deserialization of objects to NSDictionary.
   "AppsFlyer-SDK": "uncategorized", // The AppsFlyer provides application installation and event tracking functionality.
   "AppSociallySDK": "uncategorized", // Integrate user-acquisition functions into your app.
   "AppStoreOpener": "uncategorized", // Simple function that open iOS app store page with AppID.
   "apptentive-ios": "uncategorized", // Apptentive Customer Communications SDK.
   "Apptimize": "ab_test", // Apptimize Library for AB testing on iOS.
-  "AppVersioning": "uncategorized", // Very simple app's version manager library.
+  "AppVersioning": "versioning", // Very simple app's version manager library.
   "AppXperience": "uncategorized", // AppXperience is an advertising fmk of mobile applications. Learn more at http://appxperience.com.
-  "APSmartStorage": "uncategorized", // A smart storage for network resources by @Alterplay folks. It automatically caches data on disk or in memory. #iosdev
+  "APSmartStorage": "persistence", // A smart storage for network resources by @Alterplay folks. It automatically caches data on disk or in memory. #iosdev
   "APTimeZones": "geo_location", // The easiest way to get NSTimeZone from CLLocation from @Alterplay folks
   "APTokenField": "gui_tokenfield", // A simple, lightweight, yet equally powerful version of Three20's TTPickerTextField.
-  "APUtils": "uncategorized", // Collection of helpful categories and magik one liners for iOS/Mac OS development.
+  "APUtils": "utilities", // Collection of helpful categories and magik one liners for iOS/Mac OS development.
   "apxml": "xml", // XML DOM for iPhone and iPod Touch.
   "AQGridView": "gui_grid", // A grid view for iPhone/iPad, designed to look similar to NSCollectionView.
   "ARAnalytics": "analytics", // Using subspecs you can define your analytics provider with the same API on iOS and OS X.
