@@ -669,7 +669,7 @@
   "CordovaPlugin-vibration": "uncategorized", // Mirror of Apache Cordova Plugin vibration
   "CoreDataTableView": "gui_tableview", // Eliminates boilerplate code involved with an NSFetchedResultsController and a UITableView.
   "CoreDataValidation": "validations", // Validation for Core Data objects
-  "CoreParse": "uncategorized", // A shift/reduce parsing framework for Mac OS X and iOS
+  "CoreParse": "parser", // A shift/reduce parsing framework for Mac OS X and iOS
   "CoreParse@siuying": "uncategorized", // Versioned fork of CoreParse.
   "CorePlot": "uncategorized", // Cocoa plotting framework for Mac OS X and iOS.
   "CoreTextLabel": "uncategorized", // Label to draw NSAttributedString or HTML with custom font and color. textIsTruncated, numberOfLines and lineSpacing is supported.
@@ -679,11 +679,11 @@
   "CounterAgent": "uncategorized", // Simple Count Manager(App's version)
   "Countly": "analytics", // Countly is an innovative, real-time, open source mobile analytics platform.
   "CountryPicker": "gui_map_view", // CountryPicker is a custom UIPickerView subclass that provides an iOS control allowing a user to select a country from a list.
-  "Courier": "uncategorized", // A lightweight network layer built on NSURLSession.
-  "CPAnimationSequence": "uncategorized", // Describe multi-step animation sequences declaratively.
+  "Courier": "http", // A lightweight network layer built on NSURLSession.
+  "CPAnimationSequence": "gui_animation", // Describe multi-step animation sequences declaratively.
   "CPPickerView": "gui_tableview", // A custom, configurable, horizontal version of UIPickerView built to live in a UITableViewCell.
   "CPSlider": "gui_slider", // A drop-in, subclass replacement for UISlider with variable scrubbing speeds.
-  "crackify": "uncategorized", // Easy protection for iOS apps from cracking.
+  "crackify": "security", // Easy protection for iOS apps from cracking.
   "CrashlyticsFramework": "error_tracking", // The most powerful, yet lightest weight crash reporting solution for iOS and Android developers. | Crashlytics
   "CrashlyticsLumberjack": "error_tracking", // A Crashlytics Logging->CocoaLumberjack Bridge.
   "crash-report-assert": "error_tracking", // Custom Assertion with a \"hack\" to throw exceptions when the assertion fails (instead of just aborting).
@@ -707,7 +707,7 @@
   "CSJTools": "uncategorized", // 曹盛杰Cocoa工具包
   "cslim": "uncategorized", // An implementation of FitNesse SliM for C and Objective-C
   "CSLinearLayoutView": "layouts", // Linear layout view designed to simplify relative layouts on iOS.
-  "CSNNotificationObserver": "uncategorized", // CSNNotificationObserver is wrapping NSNotification for convenience.
+  "CSNNotificationObserver": "notifications", // CSNNotificationObserver is wrapping NSNotification for convenience.
   "CSNotificationView": "uncategorized", // iOS-7-style, semi-translucent notification view with blur.
   "CSSSelectorConverter": "uncategorized", // Objective-C/Cocoa String Tokenizer and Parser toolkit. Supports Grammars.
   "CSStickyHeaderFlowLayout": "gui_parallax", // Parallax and Sticky header done right using UICollectionViewLayout
